@@ -1,0 +1,42 @@
+.one_recipe_back_btn
+{
+	background-image: url("images_ipad/back_btn_english.png");
+    background-repeat: no-repeat;
+    height:104px;
+    position: absolute;
+    width: 186px;
+    cursor: pointer;
+    float: left;
+    z-index:4;
+    top: 24px;
+    left:11px;
+    
+}
+.btn_main_1 {
+	cursor: pointer;
+	float: left;
+	background-image: url(images_ipad/photo_btn_eng.png);
+	background-repeat: no-repeat;
+	width: 698px;
+	height: 171px;
+	position: absolute;
+	left: 54px;
+}
+.btn_main_2 {
+	cursor: pointer;
+	background-image: url(images_ipad/foodgrator_btn_eng.png);
+	background-repeat: no-repeat;
+	width: 698px;
+	height: 171px;
+	position: absolute;
+	right: 54px;
+	}
+.upload_app {
+    background-image: url("images_ipad/upload_pic_eng.png");
+    background-repeat: no-repeat;
+    height: 1536px;
+    width: 2048px;
+    position:absolute;
+    z-index:6;
+    display:none;
+}
