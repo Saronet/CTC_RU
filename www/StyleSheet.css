@@ -209,15 +209,7 @@ a{
 }
 
 .Up_banner_background {
-    /*background-image: url("images/up_bammer_background.png");
-    background-repeat: no-repeat;
-    height: 126px;
-    position: relative;
-    top: -31px;
-    width: 640px;
-    z-index: 13;*/
-    height: 65px;
-    /*top: 16px;*/
+    height: 55px;
     position: relative;
     width: 100%;
     z-index: 6;
@@ -383,7 +375,7 @@ z-index: 20;
     top: -7px;
     z-index:2;
     width: 100%;
-    height: 415px;
+    height: 300px;
     /*overflow-y: hidden;*/
 }
 .middel_main_ul{
@@ -525,17 +517,20 @@ top: 10px;
     bottom: 0;  
     margin: auto 0;
 }
+.Gesture_btn_main, .Gesture_btn,.search_btn, .info_btn_main{
+background-size: auto 70%;
+background-position-y: 50%;
+width: 40px;
+height: 55px;
+}
 .Gesture_btn_main
 {
     background-image: url("images/Gesture_btn.jpg");
     background-repeat: no-repeat;
-    background-size: auto 100%;
     cursor: pointer;
-    height: 55px;
     position: absolute;
     right: 77px;
     /*top: 24px;*/
-    width: 58px;
     z-index: 4;
     top: 0;
     bottom: 0;
@@ -589,10 +584,10 @@ border-top-right-radius: 20px;
 {outline: none;}
 .white_background {
     background-color: White;
-    height: 134px;
+    height: 100px;
     opacity: 0.7;
     position: absolute;
-    top: 281px;
+    top: 200px;
     width: 100%;
 }
 
@@ -658,7 +653,7 @@ width: 188px;
     background-color: white;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 94%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -732,10 +727,7 @@ background-position-y: 28%;
     height: 611px;
     position: absolute;
     top: 61px;
-    width: 94%;
-    right: 0;
-left: 0;
-margin: auto;
+    width: 100%;
 }
 .foodgrator_instructions
 {
@@ -927,7 +919,7 @@ white-space: nowrap;
 	margin-left: 187px;/*SARA*/
 	
 	position: absolute;
-	top: 60px;
+	top: 4.5em;
 	width: 64%;/*SARA*/
 	/*height: 46px;
      overflow: hidden;*/
@@ -1004,7 +996,7 @@ font-size: 2em;
     display: block;
     float: left;
     height: 29px;
-    left: 31px;
+    left: 16px;
     position: relative;
     width: 29px;
     
@@ -1278,13 +1270,14 @@ position: relative;
 text-align: center;
 width: 86%;
 padding: 7%;
-font-size: 1.2em;
+font-size: 1em;
 }
 .recipes_icon_text
 {
-    color: #4D555F;
+    color: #cc0000;
 font-family: georgia;
 font-size: 1.5em;
+    padding-bottom: 10px;
     
 }
 .one_recipe_pic
@@ -1378,14 +1371,12 @@ text-align: center;
 {
 	background-image: url("images/info_btn.jpg");
     background-repeat: no-repeat;
-    background-size: auto 100%;
     cursor: pointer;
     float: left;
     height: 55px;
     right: 7px;
     position: absolute;
     /*top: 31px;*/
-    width: 58px;
     z-index: 4;
     top: 0;
     bottom: 0;
@@ -2056,7 +2047,7 @@ width: 96%;
 }
 .all_categories
 {
-	height: 678px;
+	height: 1884px;
 	margin: auto;
 overflow-x: hidden;
 position: relative;
@@ -2077,7 +2068,7 @@ top: -20px;
 {
 	
     height: 218px;
-    margin-bottom: -43px;
+    margin-bottom: -60px;
     width: 100%;
     z-index: 3;
     -webkit-transform: translate3d(0, 0, 0);
