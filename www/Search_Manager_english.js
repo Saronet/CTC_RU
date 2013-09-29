@@ -7,10 +7,10 @@ function searchMan() {
         $("#search_text_box").val("");
         $('.search_text_background').show();
         if(isIpad()) {
-            $('.Gesture_btn').css({ "background-position": "-101px 50%" });
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" });
         }
         else {
-            $('.Gesture_btn').css({ "background-position": "-58px 50%" }); //iphone
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //iphone
         }
 
 

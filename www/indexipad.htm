@@ -6,7 +6,8 @@
     <meta name = "format-detection" content = "telephone=no"/>
     <meta name="viewport" content="user-scalable=no, width=device-width;" />
     <script type="text/javascript" id="myJSONPCall" src=""></script>
-    <link type="text/css" rel="Stylesheet" href="StyleSheetipad.css" /> 
+    <link type="text/css" rel="Stylesheet" href="StyleSheet.css" /> 
+    <!--<link type="text/css" rel="Stylesheet" href="StyleSheetipad.css" />--> 
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="jquery.mobile-1.1.1.min.js"></script>
     <script type="text/javascript" src="swipe.js"></script>
@@ -104,9 +105,8 @@
                 <div class="home_page  page">
                      <div class="Up_banner_background">
                         <div id="search" class="search_btn" ></div>
-                          <div id="backFromSearch" class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:none"></div><!--onclick="gotoMain()" -->
-                        <span class="title_up_main_all"><span class="title_up_main_first">Домашний.</span>
-                        <span class="title_up_main">Рецепты</span></span>
+                          <div id="backFromSearch" class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:none">< Back</div><!--onclick="gotoMain()" -->
+                        <span class="title_up_one_recipe"><span class="text_bold">CTC.</span>Рецепты</span>
                         <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                         <div class="info_btn_main" ontouchend="open_about_page()" ></div>
                    </div>
@@ -151,7 +151,7 @@
                 <div class="recipres_page page">
                     <div class="Up_banner_background">
                      <div class="search_btn" onclick="open_search()"></div>
-                     <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('categories')" style="display:block"></div>
+                     <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('categories')" style="display:block">< Back</div>
                      <span class="title_up_recipes">Рецепты</span>
                       <div class="Gesture_btn" ontouchend="gestureMan_.showPage()"></div>
                   </div>
@@ -228,7 +228,7 @@
                         <span class="addToShoppingOk" ontouchend="shoppingMan_.closeWindow()"><span class="timer_finish_OK">OK</span></span>
                     </div>-->
                     <div class="Up_banner_background">
-                     <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('recipesList')"></div><!--goback_recipes_page()-->
+                     <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('recipesList')">< Back</div><!--goback_recipes_page()-->
                      <span class="title_up_one_recipe">Рецепт<!--Appetite--></span>
                      <div class="Gesture_btn" ontouchend="gestureMan_.showPage()"></div>
                    </div>
@@ -341,7 +341,7 @@
                 <div class="favorite_page page">
                     <div class="Up_banner_background">
                       <div  class="search_btn" style="display:none"></div>
-                      <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block"></div>
+                      <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block">< Back</div>
                       <span class="title_up_one_recipe">Избранное</span>
                      <div class="Gesture_btn" ontouchend="gestureMan_.showPage()"></div>
                    </div>
@@ -384,7 +384,7 @@
                                        <div class="delete_recipe_btn" style="display:none;"><img class="delete_recipe_position" alt="" src="images/delete_recipe_btn.png" /></div>
                                   </li>-->
                              </ul>
-                                <sapn class="recipes_text_down"></sapn>
+                                <span class="recipes_text_down"></span>
                                
                         </div>
                         
@@ -396,29 +396,38 @@
                 </div>
                 <div class="tools_page page">
                     <div class="Up_banner_background">
-                     <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" ></div>
+                     <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" >< Back</div>
                      <span class="title_up_one_recipe">Инструменты</span>
                      <div class="Gesture_btn" ></div>
                    </div>
                     <div class="tools_middel">
-                        <div class="tools_clock" ontouchstart="timerMan_.orange_font(this)" ontouchend="timerMan_.showPage()">
+                        <div id="tools_middel_element_clock" class="tools_middel_element"><!--SARA-->
+                        <div class="tools_clock"  ontouchend="timerMan_.showPage()">  <!--ontouchstart="timerMan_.orange_font(this)"-->
                             <div class="tools_text">Таймер</div>
                              <div id="counterTimerWrap" class="tools_counter_timer">
                                 <span id="counterTimer" class="tools_counter_num">7</span>
                             </div> 
                         </div>
-                        <div class="tools_Shopping_cart" ontouchstart="timerMan_.orange_font(this)" ontouchend="shoppingMan_.start()"><!--goto_shopping_page() -->
+                        </div>
+                        <div id="tools_middel_element_shopping" class="tools_middel_element"> 
+                        <div class="tools_Shopping_cart"  ontouchend="shoppingMan_.start()"><!--goto_shopping_page() -->  <!--ontouchstart="timerMan_.orange_font(this)"-->
                             <div class="tools_text"> Список покупок</div>
                             <div id="counterShoppingWrap" class="tools_counter_Shopping_cart">
                                 <span id="counterShopping" class="tools_counter_num">2</span>
                             </div>
                         </div>
-                        <div class="tools_term_list" ontouchstart="timerMan_.orange_font(this)" ontouchend="termsMan_.showPage()">
+                        </div>
+                        <div id="tools_middel_element_tools" class="tools_middel_element">
+                        <div class="tools_term_list"  ontouchend="termsMan_.showPage()">  <!--ontouchstart="timerMan_.orange_font(this)"-->
                             <div id="term_text" class="tools_text" >Каталог терминов</div>
                         </div>
-                        <div class="tools_camera" ontouchstart="timerMan_.orange_font(this)" ontouchend="shareMan_.showPage()">
+                        </div>
+                        <div id="tools_middel_element_camera" class="tools_middel_element">
+                        <div class="tools_camera"  ontouchend="shareMan_.showPage()">   <!--ontouchstart="timerMan_.orange_font(this)"-->
                             <div class="tools_text" >Поделиться блюдом</div>
                         </div>
+                        </div>
+                        <div class="tools_middel_element_footer">
                         <div class="tools_two_btn_down_position">
                             <a href="" class="tools_share">
                                 <div class="tools_share_text">Поделиться с друзьями</div>
@@ -427,13 +436,13 @@
                                 <div class="tools_share_text">www.domashniy.ru</div>
                             </a>
                         </div>
-                    
+                        </div>
                     </div>
                     <!--<span class="tools_peper_pic"></span>-->
                 </div>
                 <div class="timer_page page">
                     <div class="Up_banner_background">
-                     <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" ></div><!--onclick="backto_toolspage()" -->
+                     <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" >< Back</div><!--onclick="backto_toolspage()" -->
                      <span class="title_up_one_recipe">Таймер</span>
                      <div class="Gesture_btn" style="background-position:0px" ></div>
                     <!-- <div class="info_btn"></div>-->
@@ -494,7 +503,7 @@
                 </div>
                 <div class="foodgrator_page page">
                    <div class="Up_banner_background">
-                     <div class="one_recipe_back_btn"   ontouchend="NavigationMan_.goBack('')" ></div>
+                     <div class="one_recipe_back_btn"   ontouchend="NavigationMan_.goBack('')" >< Back</div>
                      <span class="title_up_one_recipe">Рецептор</span>
                      <div class="Gesture_btn" ></div>
                    </div> 
@@ -590,7 +599,7 @@
                 <div class="categories_page page">
                     <div class="Up_banner_background">
                         <div  class="search_btn" style="display:none"></div>
-                        <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('')"  style="display:block"></div><!--onclick="mainMan_.gotoMain()"-->
+                        <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('')"  style="display:block">< Back</div><!--onclick="mainMan_.gotoMain()"-->
                         <span class="title_up_main_categories">Рецепты<!--Category--></span>
                         <div class="Gesture_btn" ontouchend="gestureMan_.showPage()"></div>
                    </div>
@@ -603,12 +612,12 @@
                         <ul id="allCategoriesList">
                            
                         </ul>
-                            <sapn class="categories_text_down"></span>
+                            <span class="categories_text_down"></span>
                     </div>
                 </div> 
                 <div class="Terminology_page page">
                     <div class="Up_banner_background">
-                        <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('')"></div> <!--onclick="backto_toolspage()"-->
+                        <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('')">< Back</div> <!--onclick="backto_toolspage()"-->
                         <span class="title_up_one_recipe">Каталог терминов</span>
                         <div class="Gesture_btn" ></div>
                    </div>
@@ -646,7 +655,7 @@
                 </div>
                 <div class="Terminology_singel_page page">
                       <div class="Up_banner_background">
-                     <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('terms')"  ></div><!--onclick="goback_terminology_page()"-->
+                     <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('terms')"  >< Back</div><!--onclick="goback_terminology_page()"-->
                      <span class="title_up_one_recipe">Каталог терминов</span>
                      <div class="Gesture_btn" ></div>
                    </div> 
@@ -677,7 +686,7 @@
                 </div>
                 <div class="shopping_page page">
                    <div class="Up_banner_background">
-                     <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')"  ></div><!--onclick="backto_toolspage()"-->
+                     <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')"  >< Back</div><!--onclick="backto_toolspage()"-->
                      <span class="title_up_one_recipe">Список покупок</span>
                      <div class="Gesture_btn" ></div>
                    </div> 
@@ -739,7 +748,7 @@
                 </div>
                 <div class="Gesture_page page">
                       <div class="Up_banner_background">
-                        <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div>
+                        <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')">< Back</div>
                         <span class="title_up_one_recipe">Gesture</span>
                         <div class="Gesture_btn" ></div>
                    </div>
@@ -823,7 +832,7 @@
                 </div>
                 <div class="share_page page">
                        <div class="Up_banner_background">
-                     <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" ></div>
+                     <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" >< Back</div>
                      <span class="title_up_one_recipe">Поделиться блюдом</span>
                      <div class="Gesture_btn" ></div>
                    </div> 
@@ -831,12 +840,12 @@
                         <span class="second_nav_text">Что у Вас на столе?</span>
                     </div>
                        <div class="share_position">
-                    <div class="share_up_description">Загрузить фото и показать друзьям</div>
+                    <div class="share_up_description">Загрузить фото</div>
                    <div class="two_btn_share_position">
-                       <img class="share_btn" id="browseBtn" alt="" src="images_ipad/share_browse_btn_1.png"  />
-                       <img class="share_btn" id="takeAPicBtn" alt="" src="images_ipad/share_take_pic_btn_1.png" />
-                       <img class="share_browse_pic_position" alt="" src="images_ipad/share_browse_pic.png" />
-                       <img class="share_take_pic_position" alt="" src="images_ipad/share_take_pic_pic.png" />
+                       <!--<img class="share_btn" id="browseBtn" alt="" src="images_ipad/share_browse_btn_1.png"  />-->
+                       <div class="share_btn" id="takeAPicBtn" ></div>
+                       <!--<img class="share_browse_pic_position" alt="" src="images_ipad/share_browse_pic.png" />
+                       <img class="share_take_pic_position" alt="" src="images_ipad/share_take_pic_pic.png" />-->
                    </div>
                     <div class="share_down_description">Сделать новый снимок или выбрать из фотогалереи</div>
                     </div>
@@ -860,11 +869,10 @@
                 </div>
                 <div class="about_us_page  page">
                     <div class="Up_banner_background">
-                        <div class="one_recipe_back_btn"   ontouchend="NavigationMan_.goBack('main')"></div>
-                        <span class="title_up_one_recipe">Домашний.<span class="text_bold">Рецепты</span></span>
-                        <div class="Gesture_btn" style="background-position: -103px 50%"></div>
+                        <div class="one_recipe_back_btn"   ontouchend="NavigationMan_.goBack('main')">< Back</div>
+                        <span class="title_up_one_recipe">Домашний</span>
+                        <div class="Gesture_btn" style="background-position: -59px 50%"></div>
                     </div>
-                    <div class="about_pic"></div>
                     <div class="about_all_text">
                    <!--<div class="about_text_position">
                         <span class="about_text_title">Имя программиста</span>
@@ -872,21 +880,34 @@
                         <span class="about_text">Borris yashlenski<br>Jan Bardutski<br>Michael Yanis<br>Borris yashlenski<br>Jan Bardutski<br>Michael Yanis<br></span>
                     </div>  -->
                    <div class="about_text_position">                  
-                        <span class="about_text_title">Приложение разработано 
-Компанией Screenz для
-Телеканала «Домашний»<br /><br />
-Технология управления жестами разработана компанией eyeSight</span>
-                        <div class="about_decoration"><img alt="" src="images_ipad/decoration_about.png" /></div>
+                        <span class="about_text_title">Приложение разработано</span> <br/>
+                        <span class="about_text_credits">
+                            Borris Yashlenski<br/>
+                            Borris Yashlenski<br/>
+                            Borris Yashlenski<br/>
+                            Borris Yashlenski<br/>
+                            Borris Yashlenski<br/>
+                            Borris Yashlenski<br/>
+                            Borris Yashlenski<br/>
+                        </span> 
+                    </div>
+                    <div class="about_text_position">                  
+                        <span class="about_text_title">Приложение разработано</span> <br/>
+                        <span class="about_text_credits">
+                            Borris Yashlenski<br/>
+                            Borris Yashlenski<br/>
+                            Borris Yashlenski<br/>
+                        </span> 
                     </div>
                     <div class="about_two_logos">
-                        <img class="reshat_logo" alt="" src="images_ipad/reshat_logo.png" />
-                        <span class="about_line"></span>
-                        <img class="screenz_logo" alt="" src="images_ipad/logo_screenz_new.png" />
+                        <div class="reshat_logo"  ></div>
+                        <div class="screenz_logo" ></div>
                     </div>
-                    <div class="about_decoration_2"><img alt="" src="images_ipad/decoration_about.png" /></div>
                     <span class="about_text">App 2.1<br /></span>
-                    <!--<span class="about_text_red">Контакты <span class="text_red_about">(эл. почта)</span><br /></span>-->
                    <span class="about_text_red">Контакты </span><span class="text_red_about">(эл. почта)</span><br />
+                    <span class="about_text_copyright">Copyright 1989-2013</span><br />
+                    <span class="about_text_copyright_red">CTC media</span><br />
+                    <span class="about_text_copyright">Bce ???????</span><br /><br />
                    </div>
                     
                     
@@ -894,7 +915,7 @@
                 <div class="search_page page">
                      <div class="Up_banner_background">
                       <div  class="search_btn" style="display:none"></div>
-                      <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block"></div>
+                      <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block">< Back</div>
                       <span class="title_up_one_recipe">Избранное</span>
                      <div class="Gesture_btn" ></div>
                    </div>
@@ -935,48 +956,48 @@
         <div class="down_menu_background">
                  <div class="position"> 
                  <div id="favorite_icon" class="icon" ontouchstart="favoriteMan_.start_touch(event)"  ontouchend="favoriteMan_.showPage()"><!--onclick="favorite()"-->
-                    <div class="img_icon_posotion"><img alt="" src="images_ipad/star_icon.png" /></div>
+                    <div class="img_icon_posotion"></div>
                    <!-- <div class="text_icon_position">Favorite</div>-->
                     <div class="text_icon_position">избранное</div>
                  </div>
                  <div id="favorite_icon_hover" class="icon_hover" >
-                    <div class="img_icon_posotion"><img  alt="" src="images_ipad/star_icon_hover.png" /></div>
+                    <div class="img_icon_posotion"></div>
                     <!--<div class="text_icon_position_hover">Favorite</div>-->
                     <div class="text_icon_position_hover">избранное</div>
                  </div>
                  <div id="recipes_icon" class="icon" ontouchstart="CategoriesRecipeListMan_.categories_start_touch(event)" ontouchend="CategoriesRecipeListMan_.categories_page()">
-                    <div class="img_icon_posotion"><img  alt="" src="images_ipad/recipes_icon.png" /></div>
+                    <div class="img_icon_posotion"></div>
                     <!--<div class="text_icon_position">Recipes</div>-->
                     <div class="text_icon_position">рецепты</div>
                  </div>
                  <div id="recipes_icon_hover" class="icon_hover"  >
-                    <div class="img_icon_posotion"><img  alt="" src="images_ipad/recipes_icon_hover.png" /></div>
+                    <div class="img_icon_posotion"></div>
                     <div class="text_icon_position_hover">рецепты</div>
                    <!-- <div class="text_icon_position_hover">Recipes</div>-->
                  </div>
                  <div id="main_icon" class="icon_main" ontouchend="mainMan_.gotoMain()">
                  
-                    <div class="img_icon_posotion"><img  alt="" src="images_ipad/main_icon_2.png" /></div>
+                    <div class="img_icon_posotion"></div>
                     <div class="text_main_icon_position">главная</div>
                     <div class="main_text_background"></div>
                  </div>
                  <div id="foodgrator_icon" class="icon" ontouchstart="foodgrMan_.start_touch(event)" ontouchend="foodgrMan_.start()">
-                    <div class="img_icon_posotion"><img  alt="" src="images_ipad/foodgrator_icon.png" /></div>
+                    <div class="img_icon_posotion"></div>
                     <!--<div class="text_icon_position">Refriginator</div>-->
                     <div class="text_icon_position">рецептор</div>
                  </div>
                  <div id="foodgrator_icon_hover" class="icon_hover"  >
-                    <div class="img_icon_posotion"><img  alt="" src="images_ipad/foodgrator_icon_hover.png" /></div>
+                    <div class="img_icon_posotion"></div>
                     <!--<div class="text_icon_position_hover">Refriginator</div>-->
                     <div class="text_icon_position_hover">рецептор</div>
                  </div>
                  <div id="tools_icon" class="icon" ontouchstart="toolsMan_.start_touch(event)" ontouchend="toolsMan_.start()" >
-                   <div class="img_icon_posotion"> <img  alt="" src="images_ipad/tools_icon.png" /></div>
+                   <div class="img_icon_posotion"> </div>
                    <!-- <div class="text_icon_position_tools">Tools</div>-->
-                     <div class="text_icon_position_tools">инструменты</div>
+                     <div class="text_icon_position">инструменты</div>
                  </div>
                   <div id="tools_icon_hover" class="icon_hover" >
-                    <div class="img_icon_posotion"><img  alt="" src="images_ipad/tools_icon_hover.png" /></div>
+                    <div class="img_icon_posotion"></div>
                     <!--<div class="text_icon_position_hover_tools">Tools</div>-->
                      <div class="text_icon_position_hover_tools">инструменты</div>
                  </div>

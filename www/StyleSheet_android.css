@@ -302,13 +302,13 @@ width: 50px;
 }
 
 .icon_touch_start {
-    background-image: url("images_android/onclick_hover_background.png");
+    /*background-image: url("images_android/onclick_hover_background.png");
     background-repeat: no-repeat;
     float: left;
     height: 89px;
     width:138px;
     position:relative;
-    border-radius: 5px;
+    border-radius: 5px;*/
 }
 .text_icon_position_hover {
     font-family: PlumbReg;

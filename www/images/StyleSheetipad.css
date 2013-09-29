@@ -678,6 +678,7 @@ display:none;
 	bottom: 68px;
 	left: 32%;
 	position: absolute;
+    display: none;
 }
 .coffe_stain {
     position: absolute;
@@ -923,9 +924,9 @@ display:none;
 }
 .decoration_recipes
 {
-	bottom: 64px;
+	/*bottom: 64px;
 	left: 32%;
-	position: absolute;
+	position: absolute;*/
 }
 .recipes_footer_search
 {

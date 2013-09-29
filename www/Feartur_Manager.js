@@ -127,7 +127,7 @@ function FeatureMan () {
 
             $(".middel_main_ul1").append("<div id=feature" + val.posts[i].id + " class=\"midddel_main_pic_item feature\" ontouchmove=\"featureMan_.was_swipe(this)\" onclick=\"featureMan_.goto_one_recipe(this)\"></div>");
             $("#feature" + val.posts[i].id).append("<img src=\"" + small_imag + "\" />");
-            $("#feature" + val.posts[i].id).append("<div class=\"white_background\"><div id=\"whiteFeat\" class=\"title_pic_white\">" + val.posts[i].custom_fields["wpcf-recipe_name"] + "</div><span id=\"timeFeat\" class=\"time_pic_white\"><span id=\"titleFeat\" class=\"title_pic_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " минут</span> </span></div>")
+            $("#feature" + val.posts[i].id).append("<div class=\"white_background\"><div id=\"whiteFeat\" class=\"title_pic_white\">" + val.posts[i].custom_fields["wpcf-recipe_name"] + "</div><span id=\"timeFeat\" class=\"time_pic_white\"></span><span class=\"title_pic_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " минут </span></div>")
             //$("#feature" + val.posts[i].id).append("<div class=\"white_background\"><div id=\"whiteFeat\" class=\"title_pic_white\">" + val.posts[i].custom_fields["wpcf-recipe_name"] + "</div><span id=\"timeFeat\" class=\"time_pic_white\"><span id=\"titleFeat\" class=\"title_pic_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " Minute</span> </span></div>")//for english
             $("#dots").append("<li ></li>");
 

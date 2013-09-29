@@ -7,13 +7,13 @@ tools_Manager = function() {
             e.preventDefault();
         }
         catch(e){}
-        $("#tools_icon").addClass("icon_touch_start");
+       // $("#tools_icon").addClass("icon_touch_start");
        
 
     }
 
     this.start = function() {
-        $("#tools_icon").removeClass("icon_touch_start");
+      //  $("#tools_icon").removeClass("icon_touch_start");
 
         this.setShoppingCounter();
         this.setTimersCounter();

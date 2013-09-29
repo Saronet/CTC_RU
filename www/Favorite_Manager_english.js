@@ -4,12 +4,12 @@ favorite_Manager = function() {
 
     this.start_touch = function(e) {
 		e.preventDefault();
-        $("#favorite_icon").addClass("icon_touch_start");
+    //    $("#favorite_icon").addClass("icon_touch_start");
     }
     
     this.showPage = function() {
 		
-        $("#favorite_icon").removeClass("icon_touch_start");
+      //  $("#favorite_icon").removeClass("icon_touch_start");
         var tempFavoriteList;
         try {
             var tempFavoriteList = localStorage.getItem('favoriteCTCList');
@@ -79,7 +79,7 @@ favorite_Manager = function() {
                                             //"<span class=\"favorite_close_btn\"></span> " +
                                             //"<span class=\"recipes_footer_text\">Remove</span>" +
 
-                                       " </div>" + image +
+                                       " </div>" + //image +
                                        "</div>" +
                     // "<div class=\"delete_recipe_btn\" style=\"display:none;\"><img class=\"delete_recipe_position\"  id=\"favoriteDelete" + recipe.id + "\" alt=\"\" src=" + deleteImage + " ontouchend=\"favoriteMan_.deleteFavorite(this)\" /></div>" +
                                  " </li>");

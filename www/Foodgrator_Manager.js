@@ -9,12 +9,12 @@ function FoodgrMan () {
         e.preventDefault();
         }
         catch(e){}
-         $("#foodgrator_icon").addClass("icon_touch_start");
+       //  $("#foodgrator_icon").addClass("icon_touch_start");
          
      }
     this.start = function() {
         //input text
-        $("#foodgrator_icon").removeClass("icon_touch_start");
+      //  $("#foodgrator_icon").removeClass("icon_touch_start");
         NavigationMan_.navigate(NavigationMan_.pagePosition, "foodgerator");
 
 
@@ -137,7 +137,7 @@ function FoodgrMan () {
                                      "<div class=\"recipes_footer\">" +
                                      "<span class=\"clock_icon_recipes\"> </span>" +
                                      "<span class=\"recipes_footer_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " мин. </span>" +
-                                     "<span class=\"recipes_line\">|</span>" +
+                                     //"<span class=\"recipes_line\">|</span>" +
                                      "<span class=\"fire_icon_recipes\"></span>" +
                                      "<span class=\"recipes_footer_text\"> сложно</span>" +
                                      //"<span class=\"recipes_line\">|</span> " +

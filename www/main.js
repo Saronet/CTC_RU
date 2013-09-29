@@ -111,26 +111,26 @@ function getRecipeNumberById( id,type)
 		list_regular();  
         var obj = "#"+$(liHover).attr("id");
         $(liHover).addClass("recipes_hover");
-        $(obj+" .recipes_second_title").css({"color":"#ffffff"});
+        //$(obj+" .recipes_second_title").css({"color":"#ffffff"});
         if(isIpad()){
-            $(obj+" .clock_icon_recipes").css({"background-position":"-41px 50%"});
-            $(obj+" .fire_icon_recipes").css({"background-position":"-40px 50%"});
-            $(obj+" .star_icon_recipes").css({"background-position":"-40px 50%"});
-            $(obj+" .favorite_close_btn").css({"background-position":"-42px 50%"});
-            $(obj + " .recipes_look_inside_btn").css({ "background-position": "-28px 50%" });
+            //$(obj+" .clock_icon_recipes").css({"background-position":"-41px 50%"});
+            //$(obj+" .fire_icon_recipes").css({"background-position":"-40px 50%"});
+            //$(obj+" .star_icon_recipes").css({"background-position":"-40px 50%"});
+            //$(obj+" .favorite_close_btn").css({"background-position":"-42px 50%"});
+            //$(obj + " .recipes_look_inside_btn").css({ "background-position": "-28px 50%" });
         }
         else{
-            $(obj+" .clock_icon_recipes").css({"background-position":"-19px 50%"}); 
-            $(obj+" .fire_icon_recipes").css({"background-position":"-16px 50%"}); 
-            $(obj+" .star_icon_recipes").css({"background-position":"-17px 50%"});  
-            $(obj+" .favorite_close_btn").css({"background-position":"-20px 50%"});
-            $(obj+" .recipes_look_inside_btn").css({"background-position":"-11px 50%"});
+            //$(obj+" .clock_icon_recipes").css({"background-position":"-19px 50%"}); 
+            //$(obj+" .fire_icon_recipes").css({"background-position":"-16px 50%"}); 
+            //$(obj+" .star_icon_recipes").css({"background-position":"-17px 50%"});  
+            //$(obj+" .favorite_close_btn").css({"background-position":"-20px 50%"});
+            //$(obj+" .recipes_look_inside_btn").css({"background-position":"-11px 50%"});
         }
         
       
-        $(obj+" .recipes_footer_text").css({"color":"#ffffff"});
-        $(obj+" .recipes_line").css({"color":"#ffffff"});
-        $(obj+" .recipes_first_title").css({"text-shadow":"1px 0px #ffffff"});
+        //$(obj+" .recipes_footer_text").css({"color":"#ffffff"});
+        //$(obj+" .recipes_line").css({"color":"#ffffff"});
+        //$(obj+" .recipes_first_title").css({"text-shadow":"1px 0px #ffffff"});
         
         
       }

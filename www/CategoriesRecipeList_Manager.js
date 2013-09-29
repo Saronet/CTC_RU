@@ -5,13 +5,13 @@
         e.preventDefault();
         }
         catch (e){}
-         $("#recipes_icon").addClass("icon_touch_start");
+         //$("#recipes_icon").addClass("icon_touch_start");
          
      }
 
      this.categories_page = function() {
 		 hideLoading();
-         $("#recipes_icon").removeClass("icon_touch_start");
+         //$("#recipes_icon").removeClass("icon_touch_start");
 
          NavigationMan_.navigate("main", "categories");
 

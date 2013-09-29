@@ -82,14 +82,14 @@ function NavigationMan() {
         gestureMan_.gestureStart("LR");
         $('.text_main_icon_position').css({ "color": "white" });
         $('.main_text_background').show();
-        $('#recipes_icon').show();
-        $('#recipes_icon_hover').hide();
-        $('#favorite_icon').show();
-        $('#favorite_icon_hover').hide();
-        $('#foodgrator_icon_hover').hide();
-        $('#foodgrator_icon').show();
-        $('#tools_icon_hover').hide();
-        $('#tools_icon').show();
+        //$('#recipes_icon').show();
+        //$('#recipes_icon_hover').hide();
+        //$('#favorite_icon').show();
+        //$('#favorite_icon_hover').hide();
+        //$('#foodgrator_icon_hover').hide();
+        //$('#foodgrator_icon').show();
+        //$('#tools_icon_hover').hide();
+        //$('#tools_icon').show();
         $('#search').show();
         $('#backFromSearch').hide();
         $('.home_page').show();
@@ -114,25 +114,25 @@ function NavigationMan() {
         $(".page").hide();
         gestureMan_.gestureStart("UD");
         //$('.one_recipe_page').hide();
-        $('.text_main_icon_position').css({ "color": "#540A24" });
-        $('#recipes_icon').hide();
+        $('.text_main_icon_position').css({ "color": "#ffffff" });
+        //$('#recipes_icon').hide();
         $('.main_text_background').hide();
-        $('#recipes_icon_hover').show();
-        $('#favorite_icon').show();
-        $('#favorite_icon_hover').hide();
+        //$('#recipes_icon_hover').show();
+        //$('#favorite_icon').show();
+        //$('#favorite_icon_hover').hide();
         
         switch(browser){
             case "isGt2": 
-                $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android      
+               // $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android      //SARA
             break;
             case "isGt3": 
-                $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android  
+               // $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android  
             break;
             case "ipad": 
-                $('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad 
+               // $('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad 
             break;
             case "iphone": 
-                $('#recipes_icon_hover').css({ "margin-left": "9px" });//- iphone    
+               // $('#recipes_icon_hover').css({ "margin-left": "9px" });//- iphone    
             break;
         }
         /*if(isIpad()) {
@@ -146,10 +146,10 @@ function NavigationMan() {
             $('#recipes_icon_hover').css({ "margin-left": "2px" }); //-android
         }*/
         
-        $('#foodgrator_icon_hover').hide();
-        $('#foodgrator_icon').show();
-        $('#tools_icon_hover').hide();
-        $('#tools_icon').show();
+        //$('#foodgrator_icon_hover').hide();
+        //$('#foodgrator_icon').show();
+        //$('#tools_icon_hover').hide();
+        //$('#tools_icon').show();
 
         $('.search_text_background').hide();
         $('.search_text').hide();
@@ -184,25 +184,25 @@ function NavigationMan() {
                 //alert();
             }
         });
-        $('.text_main_icon_position').css({ "color": "#540A24" });
-        $('#recipes_icon').hide();
+        $('.text_main_icon_position').css({ "color": "#ffffff" });
+        //$('#recipes_icon').hide();
         $('.main_text_background').hide();
-        $('#recipes_icon_hover').show();
-        $('#favorite_icon').show();
-        $('#favorite_icon_hover').hide();
+        //$('#recipes_icon_hover').show();
+        //$('#favorite_icon').show();
+        //$('#favorite_icon_hover').hide();
 
         switch(browser) {
             case "isGt2":
-                $('#recipes_icon_hover').css({ "margin-left": "2px" }); //- android      
+                //$('#recipes_icon_hover').css({ "margin-left": "2px" }); //- android      
                 break;
             case "isGt3":
-                $('#recipes_icon_hover').css({ "margin-left": "2px" }); //- android  
+                //$('#recipes_icon_hover').css({ "margin-left": "2px" }); //- android  
                 break;
             case "ipad":
-                $('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad 
+                //$('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad 
                 break;
             case "iphone":
-                $('#recipes_icon_hover').css({ "margin-left": "9px" }); //- iphone    
+                //$('#recipes_icon_hover').css({ "margin-left": "9px" }); //- iphone    
                 break;
         }
 
@@ -218,10 +218,10 @@ function NavigationMan() {
         $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android
         }   
         */
-        $('#foodgrator_icon_hover').hide();
-        $('#foodgrator_icon').show();
-        $('#tools_icon_hover').hide();
-        $('#tools_icon').show();
+        //$('#foodgrator_icon_hover').hide();
+        //$('#foodgrator_icon').show();
+        //$('#tools_icon_hover').hide();
+        //$('#tools_icon').show();
         $('.recipres_page').show();
 
         $('.search_text_background').hide();
@@ -247,25 +247,25 @@ function NavigationMan() {
         $(".page").hide();
         gestureMan_.gestureStart("LR");
         $('.one_recipe_page').show();
-        $('.text_main_icon_position').css({ "color": "#540A24" });
-        $('#recipes_icon').hide();
+        $('.text_main_icon_position').css({ "color": "#ffffff" });
+        //$('#recipes_icon').hide();
         $('.main_text_background').hide();
-        $('#recipes_icon_hover').show();
-        $('#favorite_icon').show();
-        $('#favorite_icon_hover').hide();
+        //$('#recipes_icon_hover').show();
+        //$('#favorite_icon').show();
+        //$('#favorite_icon_hover').hide();
         
         switch(browser){
             case "isGt2": 
-                $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android      
+                //$('#recipes_icon_hover').css({ "margin-left": "2px" });//- android      
             break;
             case "isGt3": 
-                $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android  
+                //$('#recipes_icon_hover').css({ "margin-left": "2px" });//- android  
             break;
             case "ipad": 
-                $('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad 
+                //$('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad 
             break;
             case "iphone": 
-                $('#recipes_icon_hover').css({ "margin-left": "9px" });//- iphone    
+                //$('#recipes_icon_hover').css({ "margin-left": "9px" });//- iphone    
             break;
         }
         
@@ -280,10 +280,10 @@ function NavigationMan() {
         {
              $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android
         } */
-        $('#foodgrator_icon_hover').hide();
-        $('#foodgrator_icon').show();
-        $('#tools_icon_hover').hide();
-        $('#tools_icon').show();
+        //$('#foodgrator_icon_hover').hide();
+        //$('#foodgrator_icon').show();
+        //$('#tools_icon_hover').hide();
+        //$('#tools_icon').show();
         
         $('.search_text_background').hide();
         $('.search_text').hide();
@@ -328,25 +328,25 @@ function NavigationMan() {
     }
 
     this.showToolsPage = function() {
-        $('.tools_text').css({"color":"#CFCFCF"});
+        //$('.tools_text').css({"color":"#CFCFCF"});
         $(".page").hide();
-        $('#tools_icon_hover').show();
-        $('#tools_icon').hide();
-        $('.text_main_icon_position').css({ "color": "#540A24" });
+        //$('#tools_icon_hover').show();
+        //$('#tools_icon').hide();
+        $('.text_main_icon_position').css({ "color": "#ffffff" });
         $('.main_text_background').hide();
         
         switch(browser){
             case "isGt2": 
-                $('#tools_icon_hover').css({ "margin-left": "2px" });//- android      
+                //$('#tools_icon_hover').css({ "margin-left": "2px" });//- android      
             break;
             case "isGt3": 
-                $('#tools_icon_hover').css({ "margin-left": "2px" });//- android  
+                //$('#tools_icon_hover').css({ "margin-left": "2px" });//- android  
             break;
             case "ipad": 
-                $('#tools_icon_hover').css({ "margin-left": "112px" }); //-ipad 
+                //$('#tools_icon_hover').css({ "margin-left": "112px" }); //-ipad 
             break;
             case "iphone": 
-                $('#tools_icon_hover').css({ "margin-left": "9px" });//- iphone    
+                //$('#tools_icon_hover').css({ "margin-left": "9px" });//- iphone    
             break;
         }
         
@@ -361,19 +361,19 @@ function NavigationMan() {
         }
         //
 */
-        $('#foodgrator_icon_hover').hide();
-        $('#recipes_icon_hover').hide();
-        $('#recipes_icon').show();
-        $('#foodgrator_icon').show();
-        $('#favorite_icon_hover').hide();
-        $('#favorite_icon').show();
+        //$('#foodgrator_icon_hover').hide();
+        //$('#recipes_icon_hover').hide();
+        //$('#recipes_icon').show();
+        //$('#foodgrator_icon').show();
+        //$('#favorite_icon_hover').hide();
+        //$('#favorite_icon').show();
         //$('.favorite_page').hide();
         $('.tools_page').show();
         if(isIpad()) {
-            $('.Gesture_btn').css({ "background-position": "-103px 50%" }); //ipad
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //ipad
         }
         else{
-            $('.Gesture_btn').css({"background-position":"-60px 50%"}); //iphone
+            $('.Gesture_btn').css({"background-position":"-59px 50%"}); //iphone
         }
         
         
@@ -397,24 +397,24 @@ function NavigationMan() {
                                             //alert();
                                             }
                                             });
-        $('#favorite_icon_hover').show();
-        $('#favorite_icon').hide();
+        //$('#favorite_icon_hover').show();
+        //$('#favorite_icon').hide();
         $('.main_text_background').hide();
-        $('#recipes_icon').show();
-        $('#recipes_icon_hover').hide();
+        //$('#recipes_icon').show();
+        //$('#recipes_icon_hover').hide();
         
         switch(browser){
             case "isGt2": 
-                $('#favorite_icon_hover').css({ "margin-left": "2px" });//- android      
+                //$('#favorite_icon_hover').css({ "margin-left": "2px" });//- android      
             break;
             case "isGt3": 
-                $('#favorite_icon_hover').css({ "margin-left": "2px" });//- android  
+                //$('#favorite_icon_hover').css({ "margin-left": "2px" });//- android  
             break;
             case "ipad": 
-                $('#favorite_icon_hover').css({ "margin-left": "112px" }); //-ipad 
+                //$('#favorite_icon_hover').css({ "margin-left": "112px" }); //-ipad 
             break;
             case "iphone": 
-                $('#favorite_icon_hover').css({ "margin-left": "9px" });//- iphone    
+                //$('#favorite_icon_hover').css({ "margin-left": "9px" });//- iphone    
             break;
         }
         
@@ -430,11 +430,11 @@ function NavigationMan() {
          $('#favorite_icon_hover').css({ "margin-left": "2px" });//-android
         }
         */
-        $('.text_main_icon_position').css({ "color": "#540A24" });
-        $('#foodgrator_icon_hover').hide();
-        $('#foodgrator_icon').show();
-        $('#tools_icon_hover').hide();
-        $('#tools_icon').show();
+        $('.text_main_icon_position').css({ "color": "#ffffff" });
+        //$('#foodgrator_icon_hover').hide();
+        //$('#foodgrator_icon').show();
+        //$('#tools_icon_hover').hide();
+        //$('#tools_icon').show();
         $('.favorite_page').show();
         
         $('.search_text_background').hide();
@@ -460,26 +460,26 @@ function NavigationMan() {
     this.showFoodgeratorPage = function() {
         $(".page").hide();
 
-        $('#favorite_icon').show();
-        $('#foodgrator_icon_hover').show();
-        $('#foodgrator_icon').hide();
-        $('#favorite_icon_hover').hide();
-        $('#recipes_icon_hover').hide();
-        $('.text_main_icon_position').css({ "color": "#540A24" });
+        //$('#favorite_icon').show();
+        //$('#foodgrator_icon_hover').show();
+        //$('#foodgrator_icon').hide();
+        //$('#favorite_icon_hover').hide();
+        //$('#recipes_icon_hover').hide();
+        $('.text_main_icon_position').css({ "color": "#ffffff" });
         $('.main_text_background').hide();
         
         switch(browser){
             case "isGt2": 
-                $('#foodgrator_icon_hover').css({ "margin-left": "2px" });//- android      
+                //$('#foodgrator_icon_hover').css({ "margin-left": "2px" });//- android      
             break;
             case "isGt3": 
-                $('#foodgrator_icon_hover').css({ "margin-left": "2px" });//- android  
+                //$('#foodgrator_icon_hover').css({ "margin-left": "2px" });//- android  
             break;
             case "ipad": 
-                $('#foodgrator_icon_hover').css({ "margin-left": "112px" }); //-ipad 
+                //$('#foodgrator_icon_hover').css({ "margin-left": "112px" }); //-ipad 
             break;
             case "iphone": 
-                $('#foodgrator_icon_hover').css({ "margin-left": "9px" });//- iphone    
+                //$('#foodgrator_icon_hover').css({ "margin-left": "9px" });//- iphone    
             break;
         }
         
@@ -494,18 +494,18 @@ function NavigationMan() {
             $('#foodgrator_icon_hover').css({ "margin-left": "2px" });//android
         }*/
         
-        $('#recipes_icon').show();
-        $('#tools_icon_hover').hide();
-        $('#tools_icon').show();
+        //$('#recipes_icon').show();
+        //$('#tools_icon_hover').hide();
+        //$('#tools_icon').show();
         $('.foodgrator_page').show();
         $('.foodgrator_text_background').hide();
         $('.recipes_list_Results').hide();
         $('.food_list').show();
         if(isIpad()) {
-            $('.Gesture_btn').css({ "background-position": "-103px 50%" }); //ipad
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //ipad//SARA
         }
         else{
-            $('.Gesture_btn').css({"background-position":"-60px 50%"}); //iphone
+            $('.Gesture_btn').css({"background-position":"-59px 50%"}); //iphone
         }
         this.backPosition = this.pagePosition;
         this.pagePosition = "foodgerator";
@@ -520,7 +520,7 @@ this.showFoodgeratorListPage = function()
         $('.food_list').hide();
         $('.foodgrator_text_background').hide();
         if(isIpad()) {
-            $('.Gesture_btn').css({ "background-position": "-103px 50%" }); //ipad
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //ipad
         }
         else{
             $('.Gesture_btn').css({"background-position":"-59px 50%"}); //iphone
@@ -545,10 +545,10 @@ this.showTimerPage = function() {
     $('.timer_middel').hide();
     // $('.categories_page').hide();
     if(isIpad()) {
-        $('.Gesture_btn').css({ "background-position": "-103px 50%" }); //ipad
+        $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //ipad
     }
     else{
-        $('.Gesture_btn').css({"background-position":"-60px 50%"}); //iphone
+        $('.Gesture_btn').css({"background-position":"-59px 50%"}); //iphone
     }
     $(".timer_list").show();
     this.backPosition = this.pagePosition;
@@ -639,8 +639,8 @@ this.showTimerPage = function() {
 
     this.showSearchPage = function() {
         $(".page").hide();
-        $("#recipes_icon_hover").hide();
-        $("#recipes_icon").show();
+        //$("#recipes_icon_hover").hide();
+        //$("#recipes_icon").show();
         $('.search_page').show();
         $(".search_text_background").show();
 
@@ -657,10 +657,10 @@ this.showTimerPage = function() {
         this.pagePosition = "about";
         
         if(isIpad()) {
-            $('.Gesture_btn').css({ "background-position": "-103px 50%" }); //ipad
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //ipad
         }
         else{
-            $('.Gesture_btn').css({"background-position":"-60px 50%"}); //iphone
+            $('.Gesture_btn').css({"background-position":"-59px 50%"}); //iphone
         }
     }
 

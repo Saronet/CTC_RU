@@ -7,10 +7,10 @@ function searchMan() {
         $("#search_text_box").val("");
         $('.search_text_background').show();
         if(isIpad()) {
-            $('.Gesture_btn').css({ "background-position": "-101px 50%" });
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" });
         }
         else {
-            $('.Gesture_btn').css({ "background-position": "-60px 50%" }); //iphone
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //iphone
         }
 
 
@@ -58,7 +58,6 @@ function searchMan() {
 		
 		$("#search_text_searchpage_3").keypress(function(e) {
             if(e.keyCode == 13) {
-				alert("enter3");			
 				searchMan_.createSearchList($(".search_page input.search_text").val());// add id
 			}
 		})
@@ -119,18 +118,22 @@ function searchMan() {
                                           "<div class=\"inside_information\">" +
                                              "<span class=\"recipes_first_title\">" + val.posts[i].custom_fields["wpcf-recipe_name"] + "</span>" +
                                              "<span class=\"recipes_second_title\">" + val.posts[i].custom_fields["wpcf-short_describtion"] + "</span>" +
-                                             "<span class=\"recipes_look_inside_btn\" ></span>" +
+                                             "<span class=\"recipes_look_inside_btn\" >\></span>" +
                                              "<div class=\"recipes_footer_search\">" +
-                                                "<span class=\"clock_icon_recipes\"> </span>" +
-                //                                            "<span class=\"recipes_footer_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " мин. </span>" +
-                                                "<span class=\"recipes_footer_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " Min. </span>" +
-                                                "<span class=\"recipes_line\">|</span>" +
-                                                "<span class=\"fire_icon_recipes\"></span>" +
-                                                "<span class=\"recipes_footer_text\"> сложно</span>" +
+                                                "<div class=\"clock_side_footer\">" +
+                                                    "<span class=\"clock_icon_recipes\"> </span>" +
+                    //                                            "<span class=\"recipes_footer_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " мин. </span>" +
+                                                    "<span class=\"recipes_footer_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " Min. </span>" +
+                                                "</div>" +
+                                                //"<span class=\"recipes_line\">|</span>" +
+                                                "<div class=\"fire_side_footer\">" +
+                                                    "<span class=\"fire_icon_recipes\"></span>" +
+                                                    "<span class=\"recipes_footer_text\"> сложно</span>" +
+                                                "</div>" +
                                                 "<span class=\"recipes_line\">|</span> " +
                                                 "<div  class=\"searchFavoriteBtnOuter\" id=\"searchFavoriteF" + id + "\" onclick=\"searchMan_.addToFavorite(this)\"><span class=\"star_icon_recipes\" ></span> " +
                                                 "<span class=\"recipes_footer_text\"> в избранное </span></div>" +
-                                           " </div>" + image +
+                                           " </div>" + //image +
                                            "</div>" +
                                      " </li>");
 

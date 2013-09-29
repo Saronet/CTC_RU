@@ -7,12 +7,12 @@ favorite_Manager = function() {
             e.preventDefault();
         }
         catch(ex) { }
-        $("#favorite_icon").addClass("icon_touch_start");
+       // $("#favorite_icon").addClass("icon_touch_start");
     }
 
     this.showPage = function() {
         hideLoading();
-        $("#favorite_icon").removeClass("icon_touch_start");
+       // $("#favorite_icon").removeClass("icon_touch_start");
         var tempFavoriteList;
         try {
             var tempFavoriteList = localStorage.getItem('favoriteCTCList');
@@ -71,18 +71,18 @@ favorite_Manager = function() {
                                      "<div class=\"inside_information\">" +
                                      "<span class=\"recipes_first_title\">" + recipe.custom_fields["wpcf-recipe_name"] + "</span>" +
                                      "<span class=\"recipes_second_title\">" + recipe.custom_fields["wpcf-short_describtion"] + "</span>" +
-                                     "<span class=\"recipes_look_inside_btn\" ></span>" +
+                                     "<span class=\"recipes_look_inside_btn\" >\></span>" +
                                      "<div class=\"recipes_footer\">" +
                                      "<span class=\"clock_icon_recipes\"> </span>" +
                                      "<span class=\"recipes_footer_text\">" + recipe.custom_fields["wpcf-total_time"] + " мин. </span>" +
                     //"<span class=\"recipes_footer_text\">" + recipe.custom_fields["wpcf-total_time"] + " Min. </span>" + //for english
-                                     "<span class=\"recipes_line\">|</span>" +
+                                     //"<span class=\"recipes_line\">|</span>" +
                                      "<span class=\"fire_icon_recipes\"></span>" +
                                      "<span class=\"recipes_footer_text\"> сложно</span>" +
                                      //"<span class=\"recipes_line\">|</span> " +
                                      //"<span class=\"favorite_close_btn\"></span> " +
                                      //"<span class=\"recipes_footer_text\">удалить</span>" +
-                                     " </div>" + image +
+                                     " </div>" + //image +
                                      "</div>" +
                     // "<div class=\"delete_recipe_btn\" style=\"display:none;\"><img class=\"delete_recipe_position\"  id=\"favoriteDelete" + recipe.id + "\" alt=\"\" src=" + deleteImage + " ontouchend=\"favoriteMan_.deleteFavorite(this)\" /></div>" +
                                      " </li>");
