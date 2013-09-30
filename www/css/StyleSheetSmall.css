@@ -1,2 +1,76 @@
+#main_icon
+{
+    background-size: 71% 50%;
+}
+
+#favorite_icon
+{
+    background-size: 34% 50%;
+background-position: 50% 36%;
+}
+
+#recipes_icon
+{
+    background-size: 31%;
+background-position: 50% 35%;
+}
+#foodgrator_icon
+{
+    background-size: 48%;
+}
+
+#tools_icon
+{
+background-image: url(../images_ipad/tools_icon.jpg);
+background-size: 38%;
+background-position: 50% 32%;
+}
+/*#recipes_icon, #favorite_icon, #main_icon, #foodgrator_icon, #tools_icon {
+background-repeat: no-repeat;
+background-size: auto 69%;
+background-position-x: 50%;
+background-position-y: 28%;
+}
+.icon {
+background-color: transparent;
+cursor: pointer;
+float: left;
+height: 89px;
+letter-spacing: 1px;
+margin-left: 9px;
+width: 20%;
+height: 100%;
+position: relative;
+border: 1px solid red;
+}*/
+* {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+}
+user agent stylesheetdiv {
+display: block;
+}
+Inherited from body.ui-mobile-viewport.ui-overlay-c
 body {
+font-family: 'georgia';
+}
+
+
+
+/*******main page*****/
+.App_posotion{
+    height: 959px;
+}
+
+.btn_main_1, .btn_main_2{
+    border-radius: 6px;
+}
+.midddel_main_pic
+{height: 485px}
+.midddel_main_pic_item img
+{
+    height: 100%;
+}
+.white_background {
+height: 135px;
 }

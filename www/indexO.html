@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+    <script>
+        function browserIs() {
+               var ua = navigator.userAgent.toLowerCase();
+               var isGt = ua.indexOf("gt-") > -1;
+               if (isGt) {
+                   return "isGt";
+               }
+            //   var isGt3 = ua.indexOf("gt-i9300") > -1;
+            //   if (isGt3) {
+            //       return "isGt3";
+            //   }
+               var isIpad = ua.indexOf("ipad") > -1;
+               if (isIpad) {
+                   return "ipad";
+              }
+               var isIphone = ua.indexOf("iphone") > -1;
+               if (isIphone) {
+                   return "iphone";
+               }
+            return "ipad";
+        }
+
+        switch (browserIs()) {
+            //case "isGt2":    
+            //  window.location = window.location.href.replace("index.html", "indexandroid_gt2.htm");    
+            //  break;    
+            //case "isGt3":    
+            //  window.location = window.location.href.replace("index.html", "indexandroid_gt3.htm");    
+            //  break;    
+            //case "ipad":    
+            //  window.location = window.location.href.replace("index.html", "indexipad.htm");    
+            //  break;    
+            //case "iphone":    
+            //  window.location = window.location.href.replace("index.html", "indexiphone.html");    
+            //  break;    
+            case "isGt":
+                window.location = window.location.href.replace("index.html", "indexandroid.htm");
+                break;
+            case "ipad":
+                window.location = window.location.href.replace("index.html", "indexipad.htm");
+                break;
+            case "iphone":
+                window.location = window.location.href.replace("index.html", "indexipad.htm");
+                break;
+        }       
+    </script>
+
+    </body>
+</html>
