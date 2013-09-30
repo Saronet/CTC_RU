@@ -367,6 +367,7 @@ z-index: 20;
 .position {
     /* padding: 1% 0 0 0; */      position: absolute;  width: 100%;
     height: 100%;
+    border-top: 1px solid #cc0000;
 }
 .main_text_background {
     /*background-image: url("images/main_text_background.png");

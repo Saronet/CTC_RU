@@ -74,14 +74,18 @@ height: 38px;
 .info_btn_main {
 height: 31px;
 width: 43px;
-
+float: right;
+position: relative;
+top: 2px;
 }
 
 .Gesture_btn_main {
-    height: 31px;
-    width: 32px;
-    right: 55px;
-
+  height: 31px;
+width: 42px;
+float: right;
+position: relative;
+top: 3px;
+right: 0;
 }
 
 .title_up_one_recipe {
@@ -130,7 +134,6 @@ display: block;
     height: 135px;
 }*/
 
-
 /******categories list********/
 .all_categories ul li {
 height: 120px;
@@ -155,4 +158,12 @@ font-size: 23px;
 left: 0px;
 top: -58px;
 margin-left: 15px;
+}
+
+.title_up_main_categories {
+font-size: 1.5em;
+width: 186px;
+display: block;
+overflow: hidden;
+left: 69px;
 }
