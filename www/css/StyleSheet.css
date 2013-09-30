@@ -2,10 +2,10 @@
     -webkit-touch-callout: none;
     -webkit-user-select: none;
 }
-html{
-     width: 100%;
-    height: 100%;
-    overflow: hidden;
+html, body {
+width: 100%;
+height: 100%;
+overflow: hidden;
 }
 body
 {
@@ -407,7 +407,8 @@ z-index: 20;
 }
 .midddel_main_pic_item img
 {
-    width: 100%; height: 300px; cursor: pointer;
+    width: 100%; 
+    height: 44%; cursor: pointer;
 }
 .dots_position {
     position: relative;
@@ -472,7 +473,7 @@ margin: 0 4%;
 .search_btn {
     background-image: url("../images/search_btn.jpg");
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: auto 70%;
     cursor: pointer;
     float: left;
     height: 55px;
@@ -597,17 +598,18 @@ border-top-right-radius: 20px;
 {outline: none;}
 .white_background {
     background-color: White;
-    height: 134px;
+    height: 33%;
     opacity: 0.7;
     position: absolute;
-    top: 281px;
+    top: 67%;
     width: 100%;
 }
 
 .title_pic_white {
     color: #090A0B;
 	float: left;
-	font-size: 2em;
+	
+    font-size: 1.5em;
 	left: 18px;
 	position: relative;
 	display: block;
@@ -623,20 +625,28 @@ border-top-right-radius: 20px;
 .time_pic_white {
     background-image: url("../images/clock_icon.png");
 background-position: left center;
-background-repeat: no-repeat;
-top: 66px;
-height: 30px;
+
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    top: 57%;
+
+    height: 1em;
 position: absolute;
-width: 30px;
+
+    width: 1em;
 }
 .title_pic_text {
     color: #4D555F;
-font-size: 28px;
+
+    font-size: 1em;
 height: 30px;
 position: relative;
-left: 40px;
-top: 66px;
+
+    left: 1.2em;
+
 width: 188px;
+    top: 55%;
 }
 .home_page {
 }
@@ -712,7 +722,7 @@ margin: auto;
 }
 #recipes_icon, #favorite_icon, #main_icon, #foodgrator_icon, #tools_icon {
 background-repeat: no-repeat;
-background-size: auto 69%;
+background-size: auto 56%;
 background-position-x: 50%;
 background-position-y: 28%;
 }
@@ -2202,7 +2212,7 @@ width: 48%;
 .btn_main_2 {
     cursor: pointer;
 right :0;
-background-image: url(../images/foodgrator_btn.jpg);
+background-image: url(../images/foodgrator_btn.png);
 background-repeat: no-repeat;
 background-size: auto 50%;
 background-position-y: 50%;
