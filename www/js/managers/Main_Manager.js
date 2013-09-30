@@ -38,11 +38,11 @@ function MainMan () {
             callback: function(e, pos) {
                 $("#dots li").each(function(i) {
                     if(i != pos) {
-                        $(this).css({ "background-position": "" });
+                    //    $(this).css({ "background-position": "" });
                         //$(this).attr("src", image + "/point_empty.png");
                     } else {
                         //$(this).attr("src", image + "/point_full.png");
-                        $(this).css({ "background-position": background_pos });
+                    //    $(this).css({ "background-position": background_pos });
                     }
 
                 });	
