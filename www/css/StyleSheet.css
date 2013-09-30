@@ -10,6 +10,7 @@ overflow: hidden;
 body
 {
     font-family:'georgia';
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -272,7 +273,7 @@ position: absolute;
      z-index: 20;*/
     background-color: #fcbf14;
 bottom: 0px;
-height: 85px;
+height: 78px;
 position: fixed;
 width: 100%;
 z-index: 20;
@@ -731,6 +732,9 @@ background-size: auto 50%;
 background-position-x: 50%;
 background-position-y: 28%;
 }
+#main_icon{
+background-size: auto 45%;
+}
 #recipes_icon {
     background-image: url(../images_ipad/recipes_icon.jpg);
 }
@@ -932,7 +936,7 @@ color: #484F57;
 font-family: georgia;
 font-size: 1.3em;
 font-weight: bold;
-/*position: absolute;*/
+position: absolute;
 top: 0.5em;
 display: block;
 text-overflow: ellipsis;
@@ -945,7 +949,7 @@ width: 450px;
 	/*float: left;*/
 	font-family: PlumbReg;
 	font-size: 1.2em;
-	/*position: absolute;*/
+	position: absolute;
 	top: 3.2em;
 	/*height: 46px;
      overflow: hidden;*/
@@ -1019,7 +1023,7 @@ font-size: 2em;
     display: block;
     float: left;
     height: 29px;
-    left: 31px;
+    left: 10%;
     position: relative;
     width: 29px;
     
@@ -1054,7 +1058,7 @@ font-size: 2em;
     display: block;
     float: left;
     height: 29px;
-    left:34px;
+    left:20%;
     position: relative;
     top: -4px;
     width: 25px;
@@ -1080,7 +1084,7 @@ font-size: 2em;
     display: block;
     float: left;
     height: 34px;
-    left: 71px;
+    left: 40%;
     position: relative;
     top: -7px;
     width: 30px;
@@ -1260,10 +1264,10 @@ width: 100%;
 cursor: pointer;
 font-family: georgia;
 font-size: 1em;
+vertical-align: middle;
 line-height: 2em;
 position: relative;
 text-align: center;
-top: 0.5em;
 }
 .one_recipe_middle
 {
@@ -1291,8 +1295,10 @@ width: 33%;
 position: relative;
 text-align: center;
 width: 86%;
+height: 2em;
 padding: 7%;
 font-size: 1.2em;
+color: #4d555f;
 }
 .recipes_icon_text
 {
@@ -1315,6 +1321,7 @@ width: 86%;
 #imgRecipePage {
 width: 100%;
 height: 100%;
+padding-top: 10px;
 }
 .one_term_pic{
     
@@ -1344,7 +1351,7 @@ z-index: 4;
 	position: relative;
 	z-index: 9;
 	display: block;
-	width: 503px;
+	width: 90%;
 	/*height: 88px;*/
 	text-align: left;
 	left: 7PX;
@@ -1365,7 +1372,6 @@ top: 150px;
 {
 position: relative;
 width: 80%;
-height: 3em;
 z-index: 4;
 right: 0;
 left: 0;
@@ -2266,10 +2272,10 @@ background-repeat: no-repeat;
 border-radius: 20px;
 color: #fff;
 cursor: pointer;
-height: 73px;
+height: 4em;
 margin: auto;
 position: relative;
-top: 10px;
+top: 2em;
 width: 90%;
 left: 0;
 right: 0;
@@ -2285,7 +2291,7 @@ width: 100%;
 {
 	position: relative;
 background-color: #fff;
-top: 17px;
+top: 3em;
 width: 94%;
 left: 0;
 right: 0;
@@ -2294,7 +2300,7 @@ margin: auto;
 .recipes_background_what_to_do
 {
 	position: relative;
-top: 10px;
+top: 3em;
 width: 94%;
 left: 0;
 right: 0;
@@ -2430,7 +2436,7 @@ margin: auto;
 .one_recipe_page_description_recipe
 {
 	position:relative;
-	top:20px;
+	top:10px;
 }
 .food_name_what_u_need_list_div
 {
@@ -2542,11 +2548,11 @@ margin: auto;
 {
 	border-color: transparent;
     font-size: 26px;
-    height: 24px;
+    height: 2em;
     left: 7px;
     position: relative;
     top: 3px;
-    width: 508px;
+    width: 100%;
     -webkit-user-select:auto;
     font-family: Conv_PlumbMed;
 }
@@ -2612,14 +2618,14 @@ width: 80%;
 
 .term_text_background
 {
-	background-color: #FFFFFF;
-    border: 1px solid gray;
-    border-radius: 11px 11px 11px 11px;
-    height: 45px;
-    left: 20px;
-    position: relative;
-    top: 15px;
-    width: 560px;
+background-color: #FFFFFF;
+border: 1px solid gray;
+border-radius: 11px;
+height: 2.5em;
+left: 1em;
+position: relative;
+top: 1em;
+width: 100%;
 }
 
 .background_sigel_term
@@ -2764,8 +2770,11 @@ width: 80%;
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
-    width: 587px;
     -webkit-overflow-scrolling:touch;
+    width: 94%;
+left: 0;
+right: 0;
+margin: auto;
 }
 .shopping_middel_window
 {
