@@ -28,7 +28,7 @@ function FeatureMan () {
             break;
             case "isGt3": background_pos = "-26px 50%";
             break;
-            case "ipad": background_pos = "-38px 50%";
+            case "ipad": background_pos = "-17px 50%";
             break;
             case "iphone": background_pos = "-17px 50%";
             break;
@@ -99,7 +99,7 @@ function FeatureMan () {
                 dotWidth = 40;
                 break;
             case "ipad":
-                background_pos = "-38px 50%";
+                background_pos = "-17px 50%";
                 dotWidth = 43;
                 break;
             case "iphone":
