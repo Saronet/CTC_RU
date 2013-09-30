@@ -1,11 +1,12 @@
 #main_icon
 {
     background-size: 71% 50%;
+    background-position: 50% 41%;
 }
 
 #favorite_icon
 {
-    background-size: 34% 50%;
+    background-size: 38% 59%;
 background-position: 50% 36%;
 }
 
@@ -55,8 +56,58 @@ body {
 font-family: 'georgia';
 }
 
+.down_menu_background {
 
+height: 37px;
 
+}
+.Up_banner_background {
+height: 38px;
+}
+.search_btn {
+     height: 27px;
+    left: 15px;
+     width: 28px;5
+  }
+
+.info_btn_main {
+height: 31px;
+width: 43px;
+
+}
+
+.Gesture_btn_main {
+    height: 31px;
+    width: 32px;
+    right: 55px;
+
+}
+
+.title_up_one_recipe {
+color: #cc0000;
+float: left;
+font-size: 1.1em;
+position: relative;
+text-align: center;
+width: 130px;
+z-index: 3;
+top: 8px;
+left: 96px;
+display: block;
+overflow: hidden;
+margin: auto;
+}
+
+.text_icon_position {
+font-family: Conv_PlumbMed;
+font-size: 7px;
+letter-spacing: 0.2px;
+bottom: 19%;
+text-align: center;
+text-transform: uppercase;
+position: relative;
+display: block;
+}
 /*******main page*****/
 .App_posotion{
     height: 959px;
@@ -66,11 +117,14 @@ font-family: 'georgia';
     border-radius: 6px;
 }
 .midddel_main_pic
-{height: 485px}
+{
+    height: 485px
+    
+}
 .midddel_main_pic_item img
 {
     height: 100%;
 }
 .white_background {
-height: 135px;
+    height: 135px;
 }
