@@ -17,7 +17,7 @@ background-position: 50% 35%;
 }
 #foodgrator_icon
 {
-    background-size: 48%;
+    background-size: 55%;
 }
 
 #tools_icon
@@ -58,7 +58,7 @@ font-family: 'georgia';
 
 .down_menu_background {
 
-height: 37px;
+height: 40px;
 
 }
 .Up_banner_background {
@@ -67,7 +67,8 @@ height: 38px;
 .search_btn {
      height: 27px;
     left: 15px;
-     width: 28px;5
+     width: 28px;
+     background-size: auto 97%;
   }
 
 .info_btn_main {
@@ -98,22 +99,22 @@ overflow: hidden;
 margin: auto;
 }
 
-.text_icon_position {
+.text_main_icon_position,.text_icon_position {
 font-family: Conv_PlumbMed;
 font-size: 7px;
 letter-spacing: 0.2px;
-bottom: 19%;
+bottom: 10%;
 text-align: center;
 text-transform: uppercase;
 position: relative;
 display: block;
 }
 /*******main page*****/
-.App_posotion{
+/*.App_posotion{
     height: 959px;
-}
+}*/
 
-.btn_main_1, .btn_main_2{
+/*.btn_main_1, .btn_main_2{
     border-radius: 6px;
 }
 .midddel_main_pic
@@ -127,4 +128,31 @@ display: block;
 }
 .white_background {
     height: 135px;
+}*/
+
+
+/******categories list********/
+.all_categories ul li {
+height: 120px;
+}
+
+.cat_pic {
+height: 122px;
+}
+
+
+.cat_pic img {
+height: auto;
+}
+.cat_white_back {
+height: 29px;
+top: -29px;
+width: 100%;
+}
+
+.cat_name {
+font-size: 23px;
+left: 0px;
+top: -58px;
+margin-left: 15px;
 }
