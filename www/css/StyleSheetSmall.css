@@ -167,3 +167,86 @@ display: block;
 overflow: hidden;
 left: 69px;
 }
+
+
+/*****recipe page******/
+.title_up_main_first, .title_up_main_all, .title_up_recipes, .title_up_one_recipe{
+    font-size: 1.5em;
+width: 186px;
+display: block;
+overflow: hidden;
+left: 69px;
+}
+
+.recipes_middel_pic_recipres_page, recipes_middel_pic_search, .recipes_middel_pic_favorite{
+    top: 0px;
+}
+.recipes_list ul{
+    padding-top: 0px;
+}
+
+.recipes_small_pic_border {
+width: 4.5em;
+height: 4.5em;
+margin: 0;
+
+float: left;
+}
+
+.inside_information {
+display: block;
+height: 74px;
+width: 186px;
+float: left;
+margin-left: 10px;
+position: relative;
+
+font-size: 1em;
+}
+.recipes_first_title{
+    font-size: 1em;
+}
+.recipes_second_title {
+color: #727A85;
+
+font-family: PlumbReg;
+font-size: 0.8em;
+
+width: 152px;
+display: block;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+margin-top: 3px;
+}
+
+.recipes_list ul li, .recipes_list_search ul li {
+    height: 84px;
+width: 268px;
+margin: auto;
+}
+.recipes_footer_text {
+
+font-size: 0.8em;
+margin-left: 3px;
+}
+
+.recipes_look_inside_btn {
+right: 6px;
+top: 32px;
+position: absolute;
+}
+
+.btn_background_down {
+width: 246px;
+height: 35px;
+background-size: 100% 100%;
+margin: auto;
+line-height: 31px;
+}
+
+.recipes_text_down {
+font-size: 14px;
+height: 36px;
+margin-top: 16px;
+}
