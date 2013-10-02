@@ -1,3 +1,12 @@
+@font-face {
+	font-family: 'Conv_CTC_Splash_Rounded';
+	src: url('fonts/CTC_Splash_Rounded.eot');
+	src: local('☺'), url('fonts/CTC_Splash_Rounded.woff') format('woff'), url('fonts/CTC_Splash_Rounded.ttf') format('truetype'), url('fonts/CTC_Splash_Rounded.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 * {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -6,10 +15,11 @@ html, body {
 width: 100%;
 height: 100%;
 overflow: hidden;
+
 }
 body
 {
-    font-family:'georgia';
+   font-family: Conv_CTC_Splash_Rounded;
     font-size: 16px;
     margin: 0px;
     padding: 0px;
@@ -19,95 +29,6 @@ body
     width: 100%;
     height: 100%;
     overflow: hidden;
-}
-@font-face {
-	font-family: 'Conv_PlumbBol';
-	src: url('fonts/PlumbBol.eot');
-	src: local('☺'), url('fonts/PlumbBol.woff') format('woff'), url('fonts/PlumbBol.ttf') format('truetype'), url('fonts/PlumbBol.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Conv_georgiaz';
-	src: url('fonts/georgiaz.eot');
-	src: local('☺'), url('fonts/georgiaz.woff') format('woff'), url('fonts/georgiaz.ttf') format('truetype'), url('fonts/georgiaz.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Conv_PlumbConBla';
-	src: url('fonts/PlumbConBla.eot');
-	src: local('☺'), url('fonts/PlumbConBla.woff') format('woff'), url('fonts/PlumbConBla.ttf') format('truetype'), url('fonts/PlumbConBla.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Conv_PlumbConBol';
-	src: url('fonts/PlumbConBol.eot');
-	src: local('☺'), url('fonts/PlumbConBol.woff') format('woff'), url('fonts/PlumbConBol.ttf') format('truetype'), url('fonts/PlumbConBol.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Conv_PlumbConMed';
-	src: url('fonts/PlumbConMed.eot');
-	src: local('☺'), url('fonts/PlumbConMed.woff') format('woff'), url('fonts/PlumbConMed.ttf') format('truetype'), url('fonts/PlumbConMed.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Conv_PlumbConLig';
-	src: url('fonts/PlumbConLig.eot');
-	src: local('☺'), url('fonts/PlumbConLig.woff') format('woff'), url('fonts/PlumbConLig.ttf') format('truetype'), url('fonts/PlumbConLig.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Conv_PlumbConReg';
-	src: url('fonts/PlumbConReg.eot');
-	src: local('☺'), url('fonts/PlumbConReg.woff') format('woff'), url('fonts/PlumbConReg.ttf') format('truetype'), url('fonts/PlumbConReg.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Conv_PlumbLig';
-	src: url('fonts/PlumbLig.eot');
-	src: local('☺'), url('fonts/PlumbLig.woff') format('woff'), url('fonts/PlumbLig.ttf') format('truetype'), url('fonts/PlumbLig.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Conv_PlumbMed';
-	src: url('fonts/PlumbMed.eot');
-	src: local('☺'), url('fonts/PlumbMed.woff') format('woff'), url('fonts/PlumbMed.ttf') format('truetype'), url('fonts/PlumbMed.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Conv_PlumbReg';
-	src: url('fonts/PlumbReg.eot');
-	src: local('☺'), url('fonts/PlumbReg.woff') format('woff'), url('fonts/PlumbReg.ttf') format('truetype'), url('fonts/PlumbReg.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-    font-family: "Conv_PlumbBla";
-    font-style: normal;
-    font-weight: normal;
-    src: local("☺"), url("fonts/PlumbBla.woff") format("woff"), url("fonts/PlumbBla.ttf") format("truetype"), url("fonts/PlumbBla.svg") format("svg");
-}
-
-@font-face {
-	font-family: 'Conv_PlumbThi';
-	src: url('fonts/PlumbThi.eot');
-	src: local('☺'), url('fonts/PlumbThi.woff') format('woff'), url('fonts/PlumbThi.ttf') format('truetype'), url('fonts/PlumbThi.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
 }
 
 a{
@@ -155,7 +76,6 @@ a{
 {
 	bottom: 184px;
     color: #FFFFFF;
-    font-family: Arial;
     font-size: 28px;
     left: 112px;
     position: absolute;
@@ -307,7 +227,6 @@ z-index: 20;
 }
 .text_icon_position, .text_main_icon_position {
     color: #cc0000;
-	font-family: Conv_PlumbMed;
 	font-size: 14px;
 	letter-spacing: 0.2px;
 	
@@ -319,7 +238,6 @@ z-index: 20;
     display: block;
 }
 .text_icon_position_tools {
-    font-family: Conv_PlumbMed;
     font-size: 14px;
     letter-spacing: 0.2px;
     margin-top: -1px;
@@ -454,7 +372,7 @@ margin: auto;
     height: 3%;
 width: 92%;
 
-    top: 1%;
+    top: 2%;
 margin: 0 4%;
 }
 .btn_main_1 {
@@ -494,7 +412,6 @@ margin: auto 0;
 .title_up_main {
     color: #cc0000;
 float: left;
-font-family: georgia;
 font-size: 2em;
 position: relative;
 text-align: center;
@@ -595,7 +512,6 @@ border-top-right-radius: 20px;
     width: 90%;
     display:none;
     -webkit-user-select:auto;
-    font-family: Conv_PlumbMed;
     
     
 }
@@ -788,7 +704,6 @@ margin: auto;
 {
 	display: block;
 	color: #484F57;
-	font-family: Conv_georgiaz;
 	font-size: 24px;
 	text-align: center;
 	width: 280px;
@@ -800,7 +715,6 @@ margin: auto;
 	
 	display: block;
 	color: #484F57;
-	font-family: Conv_georgiaz;
 	font-size: 24px;
 	text-align: center;
 	width: 380px;
@@ -933,10 +847,9 @@ padding: 0;
 }
 .recipes_first_title {
 color: #484F57;
-font-family: georgia;
 font-size: 1.3em;
 font-weight: bold;
-position: absolute;
+position: relative;
 top: 0.5em;
 display: block;
 text-overflow: ellipsis;
@@ -947,17 +860,16 @@ width: 450px;
 .recipes_second_title {
     color: #727A85;
 	/*float: left;*/
-	font-family: PlumbReg;
 	font-size: 1.2em;
-	position: absolute;
+	/*position: absolute;
 	top: 3.2em;
-	/*height: 46px;
+	height: 46px;
      overflow: hidden;*/
 	display: block;
 }
 
 .recipes_first_title, .recipes_second_title, .recipes_footer{
-	width: 427px;
+	width: 100%;
 }
 .recipes_look_inside_btn
 {
@@ -982,7 +894,7 @@ font-size: 2em;
 .recipes_footer
 {
 	position: absolute;
-    top: 6.6em;
+   bottom: 0;
 }
 .recipes_line {
     display: none;
@@ -991,7 +903,6 @@ font-size: 2em;
 {
 	color: #4D555F;
     float: left;
-    font-family: georgia;
     font-size: 1em;
     margin-left: 5px;
     margin-right: 6px;
@@ -1109,7 +1020,6 @@ font-size: 2em;
 {
 	color: white;
 	float: left;
-	font-family: georgia;
 	font-size: 26px;
 	font-style: italic;
 	position: relative;
@@ -1122,8 +1032,9 @@ font-size: 2em;
 }
 .btn_background_down
 {
-	background-image: url('../images/button_backgroung.png');
-	background-repeat: no-repeat;
+    background-color: #CC0000;
+border-radius: 20px;
+		background-repeat: no-repeat;
 	width: 80%;
 	height: 73px;
 	position: relative;
@@ -1134,7 +1045,6 @@ font-size: 2em;
 {
     color: #727A85;
     float: left;
-    font-family: georgia;
     font-size: 19px;
     font-style: italic;
     position: relative;
@@ -1262,7 +1172,6 @@ width: 100%;
 }
 .one_recipe_text_bar_left, .one_recipe_text_bar_middel, .one_recipe_text_bar_right{
 cursor: pointer;
-font-family: georgia;
 font-size: 1em;
 vertical-align: middle;
 line-height: 2em;
@@ -1303,7 +1212,6 @@ color: #4d555f;
 .recipes_icon_text
 {
     color: #4D555F;
-font-family: georgia;
 font-size: 1.5em;
     
 }
@@ -1337,9 +1245,9 @@ padding-top: 10px;
 height: 33%;
 left: 0;
 opacity: 0.8;
-position: relative;
+position: absolute;
 text-align: center;
-top: -33%;
+
 width: 100%;
 z-index: 4;
 }
@@ -1932,7 +1840,6 @@ width: 96%;
     position: relative;
     top: 3px;
     width: 505px;
-    font-family: Conv_PlumbMed;
 }
 .food_name
 {
@@ -2243,7 +2150,6 @@ width: 48%;
 .tools_counter_num
 {
 	color: white;
-	font-family: ariel;
 	font-size: 23px;
 	font-weight: bold;
 	line-height: 41px;
@@ -2367,7 +2273,6 @@ margin: auto;
 .food_name_what_u_need_list
 {
 	color: #484F57;
-    font-family: georgia;
     font-size: 26px;
     font-style: italic;
     font-weight: bold;
@@ -2378,7 +2283,6 @@ margin: auto;
 .amount_need
 {
 	color: #484F57;
-    font-family: georgia;
     font-size: 23px;
     position: absolute;
     right: 17px;
@@ -2416,7 +2320,6 @@ margin: auto;
 .what_to_do_title
 {
 	color: #4D555F;
-    font-family: georgia;
     font-size: 40px;
     left: 21px;
     position: relative;
@@ -2425,7 +2328,6 @@ margin: auto;
 .what_to_do_text
 {
 	color: #4D555F;
-    font-family: georgia;
     font-size: 21px;
     left: 19px;
     position: relative;
@@ -2554,7 +2456,6 @@ margin: auto;
     top: 3px;
     width: 100%;
     -webkit-user-select:auto;
-    font-family: Conv_PlumbMed;
 }
 .term_list
 {
@@ -2728,7 +2629,6 @@ width: 100%;
 	position: relative;
 	top: 3px;
 	width: 507px;
-	font-family: Conv_PlumbMed;
 }
 .white_term
 {
@@ -2745,7 +2645,6 @@ width: 100%;
 .one_recipe_text_discription_term
 {
 	color: #4D555F;
-    font-family: georgia;
     font-size: 21px;
     left: 46px;
     position: relative;
@@ -2755,7 +2654,6 @@ width: 100%;
 .one_recipe_text_pic_term
 {
 	color: #4D555F;
-	font-family: georgia;
 	font-size: 40px;
 	margin-left: 9px;
 	position: relative;
@@ -2822,14 +2720,12 @@ margin: auto;
     left: 17px;
     position: relative;
     top: 10px;
-    font-family:Georgia;
     font-weight:bold;
     font-style:italic;
 }
 .text_explanation_gesture
 {
 	color: #7B838D;
-    font-family: georgia;
     font-size: 19px;
     font-style: italic;
     left: 17px;
@@ -2874,7 +2770,6 @@ margin: auto;
 .singel_gesture_text
 {
 	color: #7B838D;
-    font-family: georgia;
     font-size: 19px;
     height: 140px;
     left: -5px;
@@ -2893,7 +2788,6 @@ margin: auto;
 	color: #f28a00;
     font-size: 24px;
     font-weight: bold;
-    font-family: georgia;
     
 }
 .decoration_under_gesture
@@ -2905,7 +2799,6 @@ margin: auto;
 .gesture_name
 {
 	color: #787D83;
-    font-family: georgia;
     font-size: 23px;
     font-style: italic;
     left: 43px;
@@ -2970,7 +2863,6 @@ margin: auto;
     position: relative;
     text-align: center;
     top: 68px;
-    font-family:'georgia';
 }
 .mail_btn_send
 {
@@ -3170,7 +3062,6 @@ color: #484F57;
 }
 .about_text_title
 {
-	font-family: sans-serif;
 font-size: 1.5em;
 font-weight: bold;
 position: relative;
@@ -3178,7 +3069,6 @@ color: #484F57;
 line-height: 2em;
 }
 .about_text_credits{
-    font-family: sans-serif;
 font-size: 1em;
 position: relative;
 }
@@ -3189,7 +3079,6 @@ position: relative;
 .about_text
 {
     color: #484F57;
-    font-family: georgia;
     font-size: 1.5em;
     padding-left: 10%;
     line-height: 2em;
@@ -3234,7 +3123,6 @@ height: 100px;/*SARA*/
 .about_text_red
 {
 	color: #cc0000;
-    font-family: georgia;
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: underline;
@@ -3331,7 +3219,6 @@ height: 100px;/*SARA*/
 	font-size: 39px;
 	margin-left: 23px;
 	position: relative;
-	font-family: Conv_PlumbConReg;
 	display: block;
 	width: 169px;
     line-height: 90px;
@@ -3343,7 +3230,6 @@ height: 100px;/*SARA*/
 	float: left;
 	font-size: 39px;
 	position: relative;
-	font-family: Conv_PlumbConReg;
 	margin-right: 21px;
 }
 .timer_recet_btn

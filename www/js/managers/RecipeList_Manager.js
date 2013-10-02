@@ -149,6 +149,7 @@
           if(small_imag == "") { small_imag = "images/default_pic.jpg"; }
           
           var itemHtml = "<li  id=\"recipeGoToR" + id + "\" ontouchstart=\"list_hover(this)\" >" +
+                              "<div class=\"category-title\"></div>"+
                               "<div class=\"recipes_small_pic_border\"><img class=\"recipes_small_pic\" alt=\"\" src=\"" + small_imag + "\" /></div>" +
                               "<div class=\"inside_information\">" +
                                   "<span class=\"recipes_first_title\">" + $(line).attr("custom_fields")["wpcf-recipe_name"][0] + "</span>" +
@@ -159,7 +160,6 @@
                                               "<span class=\"recipes_footer_text\"> " + $(line).attr("custom_fields")["wpcf-total_time"][0] + " мин. </span>" +
                                     // "<span class=\"recipes_footer_text\"> " + $(line).attr("custom_fields")["wpcf-total_time"][0] + " Min. </span>" +
                                     "<span class=\"recipes_line\">|</span>" +
-                                    "<span class=\"fire_icon_recipes\"></span>" +
                                     "<span class=\"recipes_footer_text\"> " + $(line).attr("custom_fields")["wpcf-complexity_level"][0] + "</span>" +
                                     //"<span class=\"recipes_line\">|</span> " +
                                     //"<div  class=\"favoriteBtnOuter\" onclick=\"recipesListMan_.addToFavorite(this)\" id=\"favoriteR" + id + "\"><span class=\"star_icon_recipes\"></span> " +
