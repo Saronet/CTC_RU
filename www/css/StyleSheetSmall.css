@@ -310,7 +310,7 @@ background-color: #fff;
 height: 100%;
 margin: auto;
 }
-* 
+
 
 .one_recipe_bar_left {
 border-radius: 3px 0 0 3px;
@@ -446,4 +446,20 @@ line-height: 0.5em;
 
 .about_text_position {
 padding: 1% 10%;
+}
+
+
+/*******tools page*****/
+.tools_middel {
+height: 59%;
+margin: 12% auto;
+}
+
+.tools_middel_element:hover {
+border-radius: 7px;
+}
+
+.tools_clock, .tools_Shopping_cart, .tools_term_list, .tools_camera
+{
+    background-size: 66%;
 }

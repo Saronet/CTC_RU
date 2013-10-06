@@ -1423,9 +1423,9 @@ width: 100%;
     z-index:4;
 }
 .tools_middel_element, .tools_middel_element_footer{
-    height: 17%;
-margin: 2%;
-width: 96%;
+   height: 17%;
+margin: auto;
+width: 89%;
 }
 .tools_middel_element:hover{
     background-color: #fcbf14;
