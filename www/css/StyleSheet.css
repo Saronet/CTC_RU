@@ -3301,7 +3301,7 @@ height: 100px;/*SARA*/
 }
 .start_pop_page
 {
-	display:none;
+	display:none !important;
 	position: absolute;
     z-index:10;
 }
