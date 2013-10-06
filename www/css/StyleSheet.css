@@ -647,24 +647,31 @@ background-repeat: no-repeat;
 background-size: auto 50%;
 background-position-x: 50%;
 background-position-y: 28%;
+
+width: 16%;
+margin-left: 3%;
+}
+.main_menu_icon_hover{
+    border-radius: 7px;
+background-color: white;
 }
 #main_icon{
 background-size: auto 45%;
 }
 #recipes_icon {
-    background-image: url(../images_ipad/recipes_icon.jpg);
+    background-image: url(../images_ipad/recipes_icon.png);
 }
 #favorite_icon {
-    background-image: url(../images_ipad/star_icon.jpg);
+    background-image: url(../images_ipad/star_icon.png);
 }
 #main_icon {
     background-image: url(../images_ipad/main_icon_2.png);
 }
 #foodgrator_icon {
-    background-image: url(../images_ipad/foodgrator_icon.jpg);
+    background-image: url(../images_ipad/foodgrator_icon.png);
 }
 #tools_icon {
-    background-image: url(../images_ipad/tools_icon.jpg);
+    background-image: url(../images_ipad/tools_icon.png);
 }
 .inside_information
 {
@@ -806,6 +813,9 @@ padding: 0;
     background-color: #fcbf14;
     
 }
+
+
+
 /*.recipes_list_search ul li {
     height: 183px;
     width: 589px;
@@ -909,6 +919,11 @@ font-size: 2em;
     position: relative;
     width: 27%
 }
+.recipes_hover .favoriteBtnOuter .recipes_footer_text{
+    background-position: 110% 50%
+}
+
+
 .clock_side_footer, .fire_side_footer{
     width: 33%;
     float: left;
@@ -985,6 +1000,7 @@ font-size: 2em;
     display:block;
     float:left;
     cursor:pointer;
+    
 }
 .star_icon_recipes_one
 {
@@ -1209,11 +1225,11 @@ padding: 7%;
 font-size: 1.2em;
 color: #4d555f;
 }
-.recipes_icon_text
-{
-    color: #4D555F;
-font-size: 1.5em;
-    
+.recipes_icon_text {
+color: #cc0000;
+font-size: 1.2em;
+margin-left: 4px;
+   
 }
 .one_recipe_pic
 {
@@ -1254,7 +1270,6 @@ z-index: 4;
 .one_recipe_text_pic
 {
 	color: #4D555F;
-	font-family: georgia;
 	font-size: 36px;
 	position: relative;
 	z-index: 9;
@@ -1267,7 +1282,6 @@ z-index: 4;
 .one_recipe_text_discription
 {
 	color: #4D555F;
-font-family: georgia;
 font-size: 1.5em;
 position: relative;
 width: 80%;
@@ -2229,14 +2243,14 @@ margin: auto;
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
-    width: 603px;
+    width: 100%;
     -webkit-overflow-scrolling:touch;
 }
 .one_recipe_middle_what_u_need_list
 {
 	position:relative;
 	top:5px;
-	left:-15px;
+	/*left:-15px;*/
     -webkit-overflow-scrolling:touch;
 }
 .cover_delete
@@ -2251,14 +2265,15 @@ margin: auto;
 }
 .one_recipe_middle_what_u_need_list ul
 {
+    padding-left: 0px;
 }
 .one_recipe_middle_what_u_need_list ul li
 {
 	border-bottom: 1px solid #c8c8c9;
-    line-height: 43px;
+    /*line-height: 43px;*/
     list-style-type: none;
     position:relative;
-    margin-bottom:9px;
+   padding-bottom: 15px;
     -webkit-transform: translate3d(0, 0, 0);
 }
 .recipes_header_pic_what_u_need {
@@ -2342,7 +2357,7 @@ margin: auto;
 }
 .food_name_what_u_need_list_div
 {
-    width: 451px;
+    /*width: 451px;*/
 }
 /*.recipes_middel_pic_favorite
 {
@@ -2723,6 +2738,14 @@ margin: auto;
     font-weight:bold;
     font-style:italic;
 }
+.middel_pic_gesture {
+background-image: url("../images/textWithAlotOfHands.png");
+width: 90%;
+height: 90%;
+background-repeat: no-repeat;
+margin: auto;
+}
+
 .text_explanation_gesture
 {
 	color: #7B838D;

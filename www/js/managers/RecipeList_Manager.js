@@ -162,8 +162,8 @@
                                     "<span class=\"recipes_line\">|</span>" +
                                     "<span class=\"recipes_footer_text\"> " + $(line).attr("custom_fields")["wpcf-complexity_level"][0] + "</span>" +
                                     //"<span class=\"recipes_line\">|</span> " +
-                                    //"<div  class=\"favoriteBtnOuter\" onclick=\"recipesListMan_.addToFavorite(this)\" id=\"favoriteR" + id + "\"><span class=\"star_icon_recipes\"></span> " +
-                                    //"<span class=\"recipes_footer_text\"> в избранное </span></div>" +
+                                    "<div  class=\"favoriteBtnOuter\" onclick=\"recipesListMan_.addToFavorite(this)\" id=\"favoriteR" + id + "\"><span class=\"star_icon_recipes\"></span> " +
+                                    "<span class=\"recipes_footer_text\"> в избранное </span></div>" +
 
                               "</div>" + //image +
                              "</div>" +

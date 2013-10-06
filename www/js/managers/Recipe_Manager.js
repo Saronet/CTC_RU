@@ -124,7 +124,7 @@ function RecipeMan () {
             if(this != "") {
                 $("#one_recipe_what_u_need_list").append(" <li>" +
                                             "<div class=\"food_name_what_u_need_list_div\"><span class=\"food_name_what_u_need_list\">" + this + "</span></div>" +
-                //"<span class=\"amount_need\">" + singleLine[1] + "</span>" +
+                "<span class=\"amount_need\"></span>" +
                                             "</li>");
                 recipeMan_.whatUNeedList[i] = this; // singleLine[0] + " " + singleLine[1];
             }

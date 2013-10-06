@@ -80,16 +80,11 @@ function NavigationMan() {
     this.showMainPage = function() {
         $(".page").hide();
         gestureMan_.gestureStart("LR");
-        $('.text_main_icon_position').css({ "color": "white" });
+       // $('.text_main_icon_position').css({ "color": "white" });
         $('.main_text_background').show();
-        //$('#recipes_icon').show();
-        //$('#recipes_icon_hover').hide();
-        //$('#favorite_icon').show();
-        //$('#favorite_icon_hover').hide();
-        //$('#foodgrator_icon_hover').hide();
-        //$('#foodgrator_icon').show();
-        //$('#tools_icon_hover').hide();
-        //$('#tools_icon').show();
+       $('.main_menu_icon_hover').removeClass('main_menu_icon_hover');
+       $(".text_main_icon_position").addClass('main_menu_icon_hover');
+
         $('#search').show();
         $('#backFromSearch').hide();
         $('.home_page').show();
@@ -114,10 +109,11 @@ function NavigationMan() {
         $(".page").hide();
         gestureMan_.gestureStart("UD");
         //$('.one_recipe_page').hide();
-        $('.text_main_icon_position').css({ "color": "#ffffff" });
-        //$('#recipes_icon').hide();
+       // $('.text_main_icon_position').css({ "color": "#ffffff" });
+        $('.main_menu_icon_hover').removeClass('main_menu_icon_hover');
+        $('#recipes_icon').addClass('main_menu_icon_hover');
         $('.main_text_background').hide();
-        //$('#recipes_icon_hover').show();
+        
         //$('#favorite_icon').show();
         //$('#favorite_icon_hover').hide();
         
@@ -184,12 +180,14 @@ function NavigationMan() {
                 //alert();
             }
         });
-        $('.text_main_icon_position').css({ "color": "#ffffff" });
+       // $('.text_main_icon_position').css({ "color": "#ffffff" });
         //$('#recipes_icon').hide();
         $('.main_text_background').hide();
         //$('#recipes_icon_hover').show();
         //$('#favorite_icon').show();
         //$('#favorite_icon_hover').hide();
+
+       
 
         switch(browser) {
             case "isGt2":
@@ -247,7 +245,7 @@ function NavigationMan() {
         $(".page").hide();
         gestureMan_.gestureStart("LR");
         $('.one_recipe_page').show();
-        $('.text_main_icon_position').css({ "color": "#ffffff" });
+        //$('.text_main_icon_position').css({ "color": "#ffffff" });
         //$('#recipes_icon').hide();
         $('.main_text_background').hide();
         //$('#recipes_icon_hover').show();
@@ -330,9 +328,7 @@ function NavigationMan() {
     this.showToolsPage = function() {
         //$('.tools_text').css({"color":"#CFCFCF"});
         $(".page").hide();
-        //$('#tools_icon_hover').show();
-        //$('#tools_icon').hide();
-        $('.text_main_icon_position').css({ "color": "#ffffff" });
+        //$('.text_main_icon_position').css({ "color": "#ffffff" });
         $('.main_text_background').hide();
         
         switch(browser){
@@ -361,13 +357,12 @@ function NavigationMan() {
         }
         //
 */
-        //$('#foodgrator_icon_hover').hide();
-        //$('#recipes_icon_hover').hide();
-        //$('#recipes_icon').show();
-        //$('#foodgrator_icon').show();
-        //$('#favorite_icon_hover').hide();
-        //$('#favorite_icon').show();
-        //$('.favorite_page').hide();
+
+        $('.main_menu_icon_hover').removeClass('main_menu_icon_hover');
+        $('#tools_icon').addClass('main_menu_icon_hover');
+        $('#tools_icon').show();
+
+
         $('.tools_page').show();
         if(isIpad()) {
             $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //ipad
@@ -397,12 +392,11 @@ function NavigationMan() {
                                             //alert();
                                             }
                                             });
-        //$('#favorite_icon_hover').show();
-        //$('#favorite_icon').hide();
-        $('.main_text_background').hide();
-        //$('#recipes_icon').show();
-        //$('#recipes_icon_hover').hide();
-        
+       
+        $('.main_menu_icon_hover').removeClass('main_menu_icon_hover');
+        $('#favorite_icon').addClass('main_menu_icon_hover');
+        $('#favorite_icon').show();
+
         switch(browser){
             case "isGt2": 
                 //$('#favorite_icon_hover').css({ "margin-left": "2px" });//- android      
@@ -430,7 +424,7 @@ function NavigationMan() {
          $('#favorite_icon_hover').css({ "margin-left": "2px" });//-android
         }
         */
-        $('.text_main_icon_position').css({ "color": "#ffffff" });
+        //$('.text_main_icon_position').css({ "color": "#ffffff" });
         //$('#foodgrator_icon_hover').hide();
         //$('#foodgrator_icon').show();
         //$('#tools_icon_hover').hide();
@@ -460,12 +454,11 @@ function NavigationMan() {
     this.showFoodgeratorPage = function() {
         $(".page").hide();
 
-        //$('#favorite_icon').show();
-        //$('#foodgrator_icon_hover').show();
-        //$('#foodgrator_icon').hide();
-        //$('#favorite_icon_hover').hide();
-        //$('#recipes_icon_hover').hide();
-        $('.text_main_icon_position').css({ "color": "#ffffff" });
+        $('.main_menu_icon_hover').removeClass('main_menu_icon_hover');
+        $('#foodgrator_icon').addClass('main_menu_icon_hover');
+        $('#foodgrator_icon').show();
+
+        //$('.text_main_icon_position').css({ "color": "#ffffff" });
         $('.main_text_background').hide();
         
         switch(browser){
@@ -483,20 +476,7 @@ function NavigationMan() {
             break;
         }
         
-        /*if(isIpad()) {
-            $('#foodgrator_icon_hover').css({ "margin-left": "112px" });//ipad
-        }
-        else{
-            $('#foodgrator_icon_hover').css({ "margin-left": "9px" });//-iphone
-        }
-        if(isAndroid)
-        {
-            $('#foodgrator_icon_hover').css({ "margin-left": "2px" });//android
-        }*/
-        
-        //$('#recipes_icon').show();
-        //$('#tools_icon_hover').hide();
-        //$('#tools_icon').show();
+       
         $('.foodgrator_page').show();
         $('.foodgrator_text_background').hide();
         $('.recipes_list_Results').hide();
