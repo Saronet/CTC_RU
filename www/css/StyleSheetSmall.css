@@ -337,6 +337,9 @@ height: 12px;
     border-radius: 6px;
 }
 
+.one_recipe_small_up_icons {
+width: 100%;
+}
 
 /******recipe page*****/
 .recipes_middel_pic {
@@ -371,7 +374,7 @@ border: 1px solid #4d555f;
 
 .one_recipe_small_up_icons {
 
-height: 50px;
+height: 35px;
 }
 
 #videoRecipePage {
@@ -382,9 +385,13 @@ height: auto;
 #imgRecipePage {
 width: 100%;
 height: auto;
+padding-top: 0;
+margin: 0;
+position: relative;
+top: -16px;
 }
 .one_recipe_middle {
-    height: 272px;
+    height: 126px;
     
 }
 
@@ -395,6 +402,7 @@ bottom: 0;
 }
 .one_recipe_page_description_recipe {
     height: 215px;
+    top: 0;
 }
 .one_recipe_pic {
     height: auto;
@@ -447,11 +455,11 @@ background-position: 0px 7px;
 
 
 .small_icons_title {
-font-size: 0.9em;
+font-size: 0.7em;
 }
 #totalTimeRecipePage
 {
-    margin-left: 11px;
+    margin-left: 13px;
 }
 .star_icon_recipes
 {
@@ -467,6 +475,15 @@ background-position: 0px  29%;
 .recipes_hover .favoriteBtnOuter .star_icon_recipes
 {
     background-position: -9px 24%;
+}
+
+.recipes_icon_text {
+font-size: 0.7em;
+}
+
+.small_icons_title {
+
+padding: 9%;
 }
 /*********gesture page********/
 .middel_pic_gesture {

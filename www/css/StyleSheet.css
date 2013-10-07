@@ -305,6 +305,15 @@ z-index: 20;
 	text-transform: uppercase;*/
     
 }
+
+.text_main_icon_position.main_menu_icon_hover {
+
+text-align: center;
+text-transform: uppercase;
+position: relative;
+display: block;
+color: #cc0000;
+}
 .midddel_main_pic {
     /*box-shadow: 0 7px 11px #954C10;*/
     position: relative;
@@ -1265,6 +1274,11 @@ text-align: center;
 
 width: 100%;
 z-index: 4;
+
+
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
 }
 .one_recipe_text_pic
 {
@@ -2139,7 +2153,7 @@ width: 48%;
 .btn_main_2 {
     cursor: pointer;
 right :0;
-background-image: url(../images/foodgrator_btn.png);
+background-image: url(../images_ipad/foodgrator_icon_hover.png);
 background-repeat: no-repeat;
 background-size: auto 50%;
 background-position-y: 50%;
