@@ -4,24 +4,24 @@ body{
 
 #main_icon
 {
-    background-size: 71% 50%;
+    background-size: 50% 45%;
     background-position: 50% 41%;
 }
 
 #favorite_icon
-{background-size: 66% 59%;
-background-position: 50% 25%;
+{background-size: 50% 45%;
+background-position: 50% 30%;
 }
 
 #recipes_icon
 {
-    background-size: 55% 53%;
-background-position: 50% 26%;
+    background-size: 40% 40%;
+background-position: 45% 38%;
 }
 #foodgrator_icon
 {
-    background-size: 62% 50%;
-background-position: 50% 27%;
+    background-size: 65% 40%;
+background-position: 50% 38%;
 }
 
 #tools_icon
@@ -29,8 +29,8 @@ background-position: 50% 27%;
 /*background-size: 38%;
 background-position: 50% 32%;*/
 
-background-size: 38% 47%;
-background-position: 50% 25%;
+background-size: 38% 45%;
+background-position: 60% 38%;
 }
 /*#recipes_icon, #favorite_icon, #main_icon, #foodgrator_icon, #tools_icon {
 background-repeat: no-repeat;
@@ -112,7 +112,7 @@ margin: auto;
 
 .text_main_icon_position,.text_icon_position {
 
-font-size: 7px;
+font-size: 5px;
 letter-spacing: 0.2px;
 bottom: 10%;
 text-align: center;
@@ -147,6 +147,30 @@ display: block;
 {
     height: 100%;
 }*/
+#btn_txt_1 {
+    font-size: 8px;
+    letter-spacing: 0.2px;
+    bottom: 10%;
+    text-align: center;
+    position: relative;
+    display: block;
+    background-position: 50% 30%;
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+#btn_txt_2 {
+    font-size: 8px;
+    letter-spacing: 0.2px;
+    bottom: 10%;
+    text-align: center;
+    position: relative;
+    display: block;
+    background-position: 50% 30%;
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 6%;
+}
 .white_background {
     height: 80px;
 }
@@ -168,6 +192,7 @@ height: 28%;
 /******categories list********/
 .all_categories ul li {
 height: 120px;
+margin-bottom: -45px;
 }
 
 .cat_pic {
@@ -230,8 +255,8 @@ margin: auto;
 }
 
 .recipes_small_pic_border {
-width: 4.5em;
-height: 4.5em;
+width: 3em;
+height: 3em;
 margin: 0;
 
 float: left;
@@ -239,10 +264,10 @@ float: left;
 
 .inside_information {
 display: block;
-height: 43px;
-width: 100px;
+height: 30px;
+width: 135px;
 float: left;
-margin-left: 10px;
+margin-left: 3px;
 position: relative;
 font-size: 0.9em;
 }
@@ -257,7 +282,7 @@ color: #727A85;
 
 font-size: 0.85em;
 
-width: 152px;
+width: 100%;
 display: block;
 text-overflow: ellipsis;
 overflow: hidden;
@@ -266,21 +291,22 @@ margin-top: 3px;
 }
 
 .recipes_list ul li, .recipes_list_search ul li {
-height: 53px;
-width: 277px;
-padding-right: 3px;
+height: 32px;
+width: 100%;
+padding-right: 1px;
+padding-left: 4px;
 }
 .recipes_footer_text {
 font-size: 0.8em;
-margin-left: 3px;
-width: 17%;
+margin-left: 2px;
+width: 20%;
 margin-top: 3px;
-margin-right: 3px;
+margin-right: 2px;
 }
 
 .recipes_look_inside_btn {
-right: -4px;
-top: 32px;
+right: -10px;
+top: 12px;
 position: absolute;
 font-size: 1em;
 }
@@ -435,15 +461,21 @@ background-position: 0px  29%;
 }
 
 .favoriteBtnOuter .recipes_footer_text{
-    width: 24%;
+    width: 33%;
+    margin-right:0px;
 }
-
+.recipes_hover .favoriteBtnOuter .star_icon_recipes
+{
+    background-position: -9px 24%;
+}
 /*********gesture page********/
 .middel_pic_gesture {
 background-size: 100%;
 }
 
-
+.background_term{
+    top: 40px;
+}
 
 /*********info page*********/
 .about_all_text {
@@ -475,4 +507,24 @@ border-radius: 7px;
 .tools_clock, .tools_Shopping_cart, .tools_term_list, .tools_camera
 {
     background-size: 66%;
+}
+
+
+/*******favorite page*******/
+.favorite_category_background {
+    position: relative;
+top: 0em;
+font-size: 0.7em;
+padding-bottom: 0.5em;
+
+}
+
+#recipes_list_favorite .recipes_footer {
+    bottom: 0;
+}
+
+#recipes_list_favorite li{
+        
+    height: 50px;
+    margin-bottom: 0 !important;
 }

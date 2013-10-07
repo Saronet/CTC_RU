@@ -77,7 +77,7 @@ favorite_Manager = function() {
                                      "<span class=\"recipes_footer_text\">" + recipe.custom_fields["wpcf-total_time"] + " мин. </span>" +
                     //"<span class=\"recipes_footer_text\">" + recipe.custom_fields["wpcf-total_time"] + " Min. </span>" + //for english
                                      //"<span class=\"recipes_line\">|</span>" +
-                                     "<span class=\"fire_icon_recipes\"></span>" +
+                                     
                                      "<span class=\"recipes_footer_text\"> сложно</span>" +
                                      //"<span class=\"recipes_line\">|</span> " +
                                      //"<span class=\"favorite_close_btn\"></span> " +

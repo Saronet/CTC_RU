@@ -149,7 +149,7 @@
           if(small_imag == "") { small_imag = "images/default_pic.jpg"; }
           
           var itemHtml = "<li  id=\"recipeGoToR" + id + "\" ontouchstart=\"list_hover(this)\" >" +
-                              "<div class=\"category-title\"></div>"+
+                              //"<div class=\"category-title\"></div>"+
                               "<div class=\"recipes_small_pic_border\"><img class=\"recipes_small_pic\" alt=\"\" src=\"" + small_imag + "\" /></div>" +
                               "<div class=\"inside_information\">" +
                                   "<span class=\"recipes_first_title\">" + $(line).attr("custom_fields")["wpcf-recipe_name"][0] + "</span>" +
