@@ -160,7 +160,8 @@ display: block;
 #btn_txt_1 {
     font-size: 8px;
     letter-spacing: 0.2px;
-    bottom: 10%;
+    bottom: 0;
+    top: 0;
     text-align: center;
     position: relative;
     display: block;
@@ -172,7 +173,8 @@ display: block;
 #btn_txt_2 {
     font-size: 8px;
     letter-spacing: 0.2px;
-    bottom: 10%;
+    bottom: 0;
+    top: 0;
     text-align: center;
     position: relative;
     display: block;
@@ -185,18 +187,26 @@ display: block;
     height: 80px;
 }
 .dots_position ul li {
-    background-image: url('../images/point_all_small.png');
-    width: 12px;
-height: 12px;
+    background-image: url('../images/point_all.png');
+width: 7px;
+height: 7px;
 margin-left: 3px;
+background-size: 198%;
 
+}
+.white_background {
+bottom: 0;
 }
 .title_pic_white {
 font-size: 2.2em;
 }
 
 .midddel_main_pic_item img {
-height: 28%;
+height: 128px;
+}
+
+.main_btn_position {
+height: 4%;
 }
 
 /******categories list********/
@@ -343,6 +353,9 @@ width: 10px;
 height: 12px;
 }
 
+.dots_position{
+    top: 0;
+}
 .recipes_small_pic {
     border-radius: 6px;
 }

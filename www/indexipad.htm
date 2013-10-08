@@ -7,7 +7,7 @@
     <meta name="viewport" content="user-scalable=no, width=device-width;" />
     <script type="text/javascript" id="myJSONPCall" src=""></script>
     <link type="text/css" rel="Stylesheet" href="css/StyleSheet.css" /> 
-    <link rel="stylesheet" media="(max-height: 799px)" href="css/small.css" />
+     <!--<link type="text/css" rel="Stylesheet" href="StyleSheetipad.css" />--> 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.mobile-1.1.1.min.js"></script>
     <script type="text/javascript" src="js/swipe.js"></script>
@@ -107,8 +107,9 @@
                         <div id="search" class="search_btn" ></div>
                           <div id="backFromSearch" class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:none">< Back</div><!--onclick="gotoMain()" -->
                         <span class="title_up_one_recipe"><span class="text_bold">CTC.</span>Рецепты</span>
-                        <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                         <div class="info_btn_main" ontouchend="open_about_page()" ></div>
+                          <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                       
                    </div>
                      <div class="search_text_background">
                          <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" onclick="searchMan_.open_search_page()"/>
@@ -141,8 +142,12 @@
                          </ul>
                       </div>
                      <div class="main_btn_position">
-                      <span class="btn_main_1" ontouchend="shareMan_.showPage()"></span>
-                       <span class="btn_main_2" ontouchend="foodgrMan_.start()"></span>
+                      <span class="btn_main_1" ontouchend="shareMan_.showPage()">
+                        <div id="btn_txt_1">Поделиться </div>  
+                      </span>
+                       <span class="btn_main_2" ontouchend="foodgrMan_.start()">
+                        <div id="btn_txt_2">Что вы едите?</div>
+                       </span>
                          <!--<span class="btn_main_1"></span>
                          <span class="btn_main_2"></span>-->
                 </div>  
@@ -153,7 +158,7 @@
                      <div class="search_btn" onclick="open_search()"></div>
                      <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('categories')" style="display:block">< Back</div>
                      <span class="title_up_recipes">Рецепты</span>
-                      <div class="Gesture_btn" ontouchend="gestureMan_.showPage()"></div>
+                      <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                   </div>
                     <div class="search_text_background">
                          <input id="search_text_searchpage" type="text" class="search_text"/>
@@ -230,7 +235,7 @@
                     <div class="Up_banner_background">
                      <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('recipesList')">< Back</div><!--goback_recipes_page()-->
                      <span class="title_up_one_recipe">Рецепт<!--Appetite--></span>
-                     <div class="Gesture_btn" ontouchend="gestureMan_.showPage()"></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div>
                     <div class="second_nav_background">
                         <span class="second_nav_text" id="second_nav"><!--Spaghetti and MeatballsКатегория > рецепт--></span>
@@ -253,7 +258,7 @@
                                                <span class="recipes_icon_text" id="totalTimeRecipePage"> 15 min. </span></div>
                                             <div  class="small_icons_recipe">   
                                                     <span class="small_icons_title"><!--Cooking time-->сложность приготовления</span>   
-                                                    <span class="fire_icon_recipes_one"></span>
+                                                    
                                                     <span class="recipes_icon_text" id="levelRecipPage">2 hrs</span>
                                             </div>
                                             <div  class="small_icons_recipe">  
@@ -286,7 +291,7 @@
                         <div class="recipes_footer_pic"></div>
                 </div>
                     <div class="recipes_background_what_u_need ">
-                         <div id="add_to_cart_btn" class="add_to_cart_btn" onclick="recipeMan_.addToShoppingList();"></div>
+                         <div id="add_to_cart_btn" class="add_to_cart_btn" onclick="recipeMan_.addToShoppingList();">Добавитьт ингредиенты в корзину</div>
                         <div class="recipes_header_pic_what_u_need"></div>
                         <div class="recipes_middel_pic_what_u_need">
                             <div class="recipes_middel_window_what_u_need">
@@ -343,7 +348,7 @@
                       <div  class="search_btn" style="display:none"></div>
                       <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block">< Back</div>
                       <span class="title_up_one_recipe">Избранное</span>
-                     <div class="Gesture_btn" ontouchend="gestureMan_.showPage()"></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div>
                    <!-- <div class="search_text_background">
                          <img class="search_btn_icon" src="images/search_btn_icon.png" />
@@ -398,7 +403,7 @@
                     <div class="Up_banner_background">
                      <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" >< Back</div>
                      <span class="title_up_one_recipe">Инструменты</span>
-                     <div class="Gesture_btn" ></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div>
                     <div class="tools_middel">
                         <div id="tools_middel_element_clock" class="tools_middel_element"><!--SARA-->
@@ -444,7 +449,7 @@
                     <div class="Up_banner_background">
                      <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" >< Back</div><!--onclick="backto_toolspage()" -->
                      <span class="title_up_one_recipe">Таймер</span>
-                     <div class="Gesture_btn" style="background-position:0px" ></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                     <!-- <div class="info_btn"></div>-->
                    </div>
                    <div class="timer_list">
@@ -505,7 +510,7 @@
                    <div class="Up_banner_background">
                      <div class="one_recipe_back_btn"   ontouchend="NavigationMan_.goBack('')" >< Back</div>
                      <span class="title_up_one_recipe">Рецептор</span>
-                     <div class="Gesture_btn" ></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div> 
                    <div class="second_nav_background_papers">
                         <span class="second_nav_text">Категория</span>
@@ -601,7 +606,7 @@
                         <div  class="search_btn" style="display:none"></div>
                         <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('')"  style="display:block">< Back</div><!--onclick="mainMan_.gotoMain()"-->
                         <span class="title_up_main_categories">Рецепты<!--Category--></span>
-                        <div class="Gesture_btn" ontouchend="gestureMan_.showPage()"></div>
+                        <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div>
                     <div class="search_text_background">
                          <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" />
@@ -619,7 +624,7 @@
                     <div class="Up_banner_background">
                         <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('')">< Back</div> <!--onclick="backto_toolspage()"-->
                         <span class="title_up_one_recipe">Каталог терминов</span>
-                        <div class="Gesture_btn" ></div>
+                        <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div>
                     <div class="background_term">
                         <div class="recipes_header_pic"></div>
@@ -657,7 +662,7 @@
                       <div class="Up_banner_background">
                      <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('terms')"  >< Back</div><!--onclick="goback_terminology_page()"-->
                      <span class="title_up_one_recipe">Каталог терминов</span>
-                     <div class="Gesture_btn" ></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div> 
                    <div class="second_nav_background_papers">
                         <span class="second_nav_text">term name</span>
@@ -688,7 +693,7 @@
                    <div class="Up_banner_background">
                      <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')"  >< Back</div><!--onclick="backto_toolspage()"-->
                      <span class="title_up_one_recipe">Список покупок</span>
-                     <div class="Gesture_btn" ></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div> 
                    <div class="second_nav_background_papers">
                         <span class="second_nav_text">Категория</span>
@@ -750,81 +755,12 @@
                       <div class="Up_banner_background">
                         <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')">< Back</div>
                         <span class="title_up_one_recipe">Gesture</span>
-                        <div class="Gesture_btn" ></div>
+                        <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div>
                       <div class="background_term">
                         <div class="recipes_header_pic"></div>
-                        <div class="middel_pic_term">
-                          <div class="gesture_middel_window">
-                            <img class="coffe_stain" alt="" src="images_ipad/coffe_stain.png" />
-                            <span class="title_gesture">Что такое управление жестами?</span><br />
-                            <div class="text_explanation_gesture">Это технология, позволяющая пользователям взаимодействовать со своим устройством с помощью простых и привычных жестов, не прикасаясь к экрану.
-                            Фронтальная камера устройства распознает движение руки и приложение воспроизводит то действие, которое вам необходимо. Каждой команде характерен свой жест.</div>
-                            <div class="gesture_list">
-                                <ul>
-                                    <li id="gestureUp">
-                                        <div class="gesture_titel_background"><span class="gesture_name">Вверх</span></div>
-                                        <div>
-                                            <img class="gesture_pic" alt="" src="images_ipad/Gesture_up_pic.png" />
-                                            <div class="singel_gesture_text"><span class="text_bold">Вверх</span><br />
-                                            проведите рукой над экраном снизу вверх.Экран прокрутиться наверх</div>
-                                        </div>
-                                        <div class="decoration_under_gesture"><img  alt="" src="images_ipad/decoration_recipes.png" /> </div>
-                                    </li>
-                                    <li id="gestureSelect">
-                                        <div class="gesture_titel_background"><span class="gesture_name">Выбор</span></div>
-                                        <div>
-                                            <img class="gesture_pic" alt="" src="images_ipad/Gesture_select_pic.png" />
-                                            <div class="singel_gesture_text"><span class="text_bold">Выбор</span><br /> задержите ладонь над передним объективом камеры
-Необходимый элемент будет выбран</div>
-                                        </div>
-                                        <div class="decoration_under_gesture"><img  alt="" src="images_ipad/decoration_recipes.png" /> </div>
-                                    </li>
-                                    <li id="gestureRight">
-                                        <div class="gesture_titel_background"><span class="gesture_name">Вправо</span></div>
-                                        <div>
-                                            <img class="gesture_pic" alt="" src="images_ipad/Gesture_right_pic.png" />
-                                            <div class="singel_gesture_text"><span class="text_bold">Вправо</span><br /> проведите рукой над экраном справа налево.
-Вы пролистнете вправо<br /></div>
-                                            </div>
-                                       
-                                        <div class="decoration_under_gesture"><img  alt="" src="images_ipad/decoration_recipes.png" /> </div>
-                                    </li>
-                                    <li id="gestureLeft">
-                                        <div class="gesture_titel_background"><span class="gesture_name">Влево</span></div>
-                                        <div>
-                                            <img class="gesture_pic" alt="" src="images_ipad/Gesture_left_pic.png" />
-                                            <div class="singel_gesture_text">
-                                                <span class="text_bold">Влево</span><br /> проведите рукой над экраном слева направо.
-Вы пролистнете влево<br />
-                                            </div>
-                                        </div>
-                                        <div class="decoration_under_gesture"><img  alt="" src="images_ipad/decoration_recipes.png" /> </div>
-                                    </li>
-                                    <li id="gestureDown">
-                                        <div class="gesture_titel_background"><span class="gesture_name">Вниз</span></div>
-                                        <div>
-                                            <img class="gesture_pic" alt="" src="images_ipad/Gesture_down_pic.png" />
-                                            <div class="singel_gesture_text">
-                                                <span class="text_bold">Вниз</span><br />проведите рукой над экраном сверху вниз.
-Экран прокрутиться вниз<br />
-                                            </div>
-                                        </div>
-                                        <div class="decoration_under_gesture"><img  alt="" src="images_ipad/decoration_recipes.png" /> </div>
-                                    </li>
-                                    <li id="gestureWave">
-                                        <div class="gesture_titel_background"><span class="gesture_name">Wave Gesture</span></div>
-                                        <div>
-                                            <img class="gesture_pic" alt="" src="images_ipad/Gesture_wave_pic.png" />
-                                            <div class="singel_gesture_text">
-                                                <span class="text_bold">function</span><br />whats going to happen<br />
-                                            </div>
-                                        </div>
-                                        <div class="decoration_under_gesture"><img  alt="" src="images_ipad/decoration_recipes.png" /> </div>
-                                    </li>
-                                </ul>
-                            </div>
-                          </div>
+                        <div class="middel_pic_gesture">
+                         
                         </div>
                        <div class="recipes_footer_pic"></div>
                      </div>
@@ -834,7 +770,7 @@
                        <div class="Up_banner_background">
                      <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" >< Back</div>
                      <span class="title_up_one_recipe">Поделиться блюдом</span>
-                     <div class="Gesture_btn" ></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div> 
                        <div class="second_nav_background_papers">
                         <span class="second_nav_text">Что у Вас на столе?</span>
@@ -871,7 +807,7 @@
                     <div class="Up_banner_background">
                         <div class="one_recipe_back_btn"   ontouchend="NavigationMan_.goBack('main')">< Back</div>
                         <span class="title_up_one_recipe">Домашний</span>
-                        <div class="Gesture_btn" style="background-position: -59px 50%"></div>
+                        <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                     </div>
                     <div class="about_all_text">
                    <!--<div class="about_text_position">
@@ -917,7 +853,7 @@
                       <div  class="search_btn" style="display:none"></div>
                       <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block">< Back</div>
                       <span class="title_up_one_recipe">Избранное</span>
-                     <div class="Gesture_btn" ></div>
+                     <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
                    </div>
                      <div class="search_text_background">
                          <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" />
