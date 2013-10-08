@@ -78,6 +78,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 
 .Up_banner_background {
     height: 20px;
+border-bottom: 1px solid #cc0000;
 }
 
 .search_btn {
@@ -227,12 +228,12 @@ margin-right: 5px
 }
 /******categories list********/
 .all_categories ul li {
-    height: 120px;
-    margin-bottom: -45px;
+height: 120px;
+margin-bottom: -53px;
 }
 
 .cat_pic {
-    height: 56%;
+height: 52%;
 }
 
 
@@ -241,10 +242,10 @@ margin-right: 5px
 }
 
 .cat_white_back {
-    height: 29px;
-    top: 56%;
-    width: 100%;
-    position: absolute;
+height: 29px;
+top: 57%;
+width: 100%;
+position: absolute;
 }
 
 .cat_name {
@@ -472,24 +473,24 @@ left: 69px;*/
 }
 
 .add_to_cart_btn {
-    border-radius: 6px;
-    top: 1em;
-    background-image: url("../images/add_to_cart_btn.png");
-    background-size: auto 50%;
-    background-position: 4% 50%;
-    background-color: #cc0000;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    height: 3em;
-    margin: auto;
-    position: relative;
-    top: 1em;
-    width: 90%;
-    left: 0;
-    right: 0;
-    margin: auto;
+border-radius: 6px;
+top: 1em;
+background-image: url("../images/add_to_cart_btn.png");
+background-size: auto 50%;
+background-position: 4% 50%;
+background-color: #cc0000;
+background-repeat: no-repeat;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+height: 3em;
+margin: auto;
+position: relative;
+top: 1em;
+width: 90%;
+left: 0;
+right: 0;
+margin: auto;
 }
 
 #add_to_cart_txt {
@@ -546,41 +547,46 @@ left: 69px;*/
     width: 100%;
 }
 
-.recipes_background_what_to_do {
+.recipes_middel_window{
+    height: 171px;
+}
+.recipes_background_what_to_do{
     top: 1em;
+    height: 17.5em;
 }
 
 #recipePage_what_to_do_title {
     left: 0;
     width: 100%;
-    font-size: 15px;
+    font-size: 1.3em;
 }
 
 #recipePage_what_to_do_text {
-    font-size: 14px;
+    font-size: 1.1em;
     top: 1em;
 }
 
 #recipePage_what_to_do_text ul {
-    width: 100%;
-    padding-left: 15%;
+    width: 95%;
+    padding-left: 5%;
     font-size: 13px;
 }
 
 #recipePage_what_to_do_text ol {
-    padding-left: 15%;
+    width: 95%;
+    padding-left: 5%;
 }
 
 #recipePage_what_to_do_text ul li {
     width: 100%;
     padding-left: 0%;
-    font-size: 13px;
+    font-size: 9px;
 }
 
 #recipePage_what_to_do_text ol li {
     font-size: 15px;
     padding-left: 0%;
-    font-size: 13px;
+    font-size: 9px;
 }
 
 .what_to_do_text {
