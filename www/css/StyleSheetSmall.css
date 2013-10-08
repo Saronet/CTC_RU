@@ -73,37 +73,36 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 }
 
 .down_menu_background {
-    /*height: 40px;*/
     height: 30px;
 }
 
 .Up_banner_background {
-height: 20px;
+    height: 38px;
 }
 
 .search_btn {
-     height: 19px;
-     left: 8px;
-     width: 19px;
-     background-size: auto 60%;
-  }
+    height: 27px;
+    left: 15px;
+    width: 28px;
+    background-size: auto 97%;
+}
 
 .info_btn_main {
-height: 15px;
-width: 19px;
-float: right;
-position: relative;
-top: -7px;
-right: 8px;
+    height: 81%;
+    width: 10%;
+    float: right;
+    position: relative;
+    top: -10px;
+    right: 1%;
 }
 
 .Gesture_btn_main {
-height: 15px;
-width: 19px;
-float: right;
-position: relative;
-top: -7px;
-right: 6px;
+    height: 81%;
+    width: 10%;
+    float: right;
+    position: relative;
+    top: -8px;
+    right: 2%;
 }
 
 .title_up_one_recipe {
@@ -162,8 +161,7 @@ left: 96px;*/
 #btn_txt_1 {
     font-size: 8px;
     letter-spacing: 0.2px;
-    bottom: 0;
-    top: 0;
+    bottom: 10%;
     text-align: center;
     position: relative;
     display: block;
@@ -176,8 +174,7 @@ left: 96px;*/
 #btn_txt_2 {
     font-size: 8px;
     letter-spacing: 0.2px;
-    bottom: 0;
-    top: 0;
+    bottom: 10%;
     text-align: center;
     position: relative;
     display: block;
@@ -192,28 +189,18 @@ left: 96px;*/
 }
 
 .dots_position ul li {
-    background-image: url('../images/point_all.png');
-width: 7px;
-height: 7px;
-margin-left: 3px;
-background-size: 198%;
+    background-image: url('../images/point_all_small.png');
+    width: 12px;
+    height: 12px;
+    margin-left: 3px;
+}
 
-.dots_position ul {
-padding-left: 0px;
-}
-.white_background {
-bottom: 0;
-}
 .title_pic_white {
     font-size: 2.2em;
 }
 
 .midddel_main_pic_item img {
-height: 128px;
-}
-
-.main_btn_position {
-height: 4%;
+    height: 28%;
 }
 
 /******categories list********/
@@ -259,9 +246,14 @@ left: 69px;*/
     margin-bottom: 10px;
 }
 
+.second_nav_background {
+    height: 2.8em;
+    font-size: 0.8em;
+}
+
 /*****recipe page******/
 .title_up_main_first, .title_up_main_all, .title_up_recipes, .title_up_one_recipe, .title_up_main_categories {
-font-size: 1em;
+    font-size: 1.5em;
     width: 46%;
     display: block;
     overflow: hidden;
@@ -361,9 +353,6 @@ font-size: 1em;
     height: 12px;
 }
 
-.dots_position{
-    top: 0;
-}
 .recipes_small_pic {
     border-radius: 6px;
 }
@@ -397,6 +386,7 @@ font-size: 1em;
 
 .one_recipe_text_bar_left, .one_recipe_text_bar_middel, .one_recipe_text_bar_right {
     font-size: 0.8em;
+    line-height: 1.6em;
 }
 
 .one_recipe_bar_left, .one_recipe_bar_middel, .one_recipe_bar_right {
@@ -450,7 +440,7 @@ font-size: 1em;
 }
 
 .bar_one_recipe_position {
-    height: 16px;
+    height: 13px;
 }
 
 .one_recipe_text_discription {
