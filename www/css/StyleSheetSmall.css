@@ -148,6 +148,7 @@ display: block;
 
 .btn_main_1, .btn_main_2{
     border-radius: 3px;
+    background-position-x: 15%;
 }/*
 .midddel_main_pic
 {
@@ -213,6 +214,22 @@ height: 128px;
 height: 4%;
 }
 
+.search_text_background {
+height: 20px;
+top: 10px;
+margin-bottom: 28px;
+width: 90%;
+border-radius: 3px;
+}
+.search_btn_icon {
+  width: 21px;
+height: auto;
+clear: both;
+float: right;
+top: -3px;
+position: relative;
+margin-right: 5px
+}
 /******categories list********/
 .all_categories ul li {
 height: 120px;
