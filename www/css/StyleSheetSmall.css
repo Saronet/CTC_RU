@@ -1,5 +1,6 @@
 body{
     font-size: 0.6em;
+    width: 100%;
 }
 
 #main_icon
@@ -54,6 +55,15 @@ border: 1px solid red;
 -webkit-touch-callout: none;
 -webkit-user-select: none;
 }
+
+.recipes_background_what_u_need{
+    top: 1em;
+}
+
+.recipes_middel_pic_what_u_need {
+    top: 1em;
+}
+
 user agent stylesheetdiv {
 display: block;
 }
@@ -430,12 +440,36 @@ margin-top: 0.7em;
 
 .add_to_cart_btn {
 border-radius: 6px;
+top: 1em;
+background-image: url("../images/add_to_cart_btn.png");
+background-size: auto 50%;
+background-position: 4% 50%;
+background-color: #cc0000;
+background-repeat: no-repeat;
+border-radius: 20px;
+color: #fff;
+cursor: pointer;
+height: 3em;
+margin: auto;
+position: relative;
+top: 1em;
+width: 90%;
+left: 0;
+right: 0;
+margin: auto;
+}
+
+#add_to_cart_txt{
+    font-size: 0.8em;
+    margin-left: 3.5em;
+    line-height: 3.3em;
 }
 
 .food_name_what_u_need_list {
 
-font-size: 15px;
+font-size: 11px;
 font-weight: bold;
+top: 0em;
 }
 
 .clock_icon_recipes_one
@@ -475,6 +509,52 @@ background-position: 0px  29%;
 .recipes_hover .favoriteBtnOuter .star_icon_recipes
 {
     background-position: -9px 24%;
+}
+
+.one_recipe_page_what_to_do{
+    width: 100%;
+}
+
+.recipes_background_what_to_do{
+    top: 1em;
+}
+
+#recipePage_what_to_do_title{
+    left:  0;
+    width: 100%;
+    font-size: 15px;
+}
+
+#recipePage_what_to_do_text{
+    font-size: 14px;
+    top: 1em;
+}
+
+#recipePage_what_to_do_text ul{
+    width: 100%;
+    padding-left: 15%;
+    font-size: 13px;
+}
+
+#recipePage_what_to_do_text ol{
+    padding-left: 15%;
+}
+
+#recipePage_what_to_do_text ul li{
+    width: 100%;
+    padding-left: 0%;
+    font-size: 13px;
+}
+
+#recipePage_what_to_do_text ol li{
+    font-size: 15px;
+    padding-left: 0%;
+    font-size: 13px;
+}
+
+.what_to_do_text{
+    left: 0;
+    width:  100%;
 }
 
 .recipes_icon_text {
