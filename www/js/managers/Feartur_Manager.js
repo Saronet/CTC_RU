@@ -104,7 +104,7 @@ function FeatureMan () {
                 break;
             case "iphone":
                 background_pos = "-7px 50%";
-                dotWidth = 22;
+                dotWidth = 10;
                 break;
         }
         var inIpad = isIpad();
