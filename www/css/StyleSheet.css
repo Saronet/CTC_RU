@@ -1291,6 +1291,7 @@ white-space: nowrap;
 	/*height: 88px;*/
 	text-align: left;
 	left: 7PX;
+    white-space: normal;
 }
 .one_recipe_text_discription
 {
