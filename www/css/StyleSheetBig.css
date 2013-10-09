@@ -1,6 +1,9 @@
 /* CSS Document */
 
 /*recipes list*/
+.recipes_middel_window_recipres_page{
+	height:790px;
+}
 .recipes_list ul li, .recipes_list_search ul li,.recipes_small_pic_border {
 	float: left;
 }
@@ -60,6 +63,9 @@ top:1em;
 	height:50%;
 }
 /*=================================singel recipes==========================*/
+.recipes_middel_pic{
+	height:770px;
+}
 .clock_icon_recipes_one {
 background-size: 58px 27px;
 left: 17%;
@@ -74,10 +80,21 @@ background-size: 60px 30px;
 .one_recipe_pic {
 clear:both;
 }
-/*===================home page==========================*/
-.midddel_main_pic{
-	height:700px;
+/*===================categoris page==========================*/
+.all_categories{
+	height:880px;
 }
-.middel_main_ul1{
-	height:100%;
+/*====================.search_text=========================*/
+#search_text_box {
+	width: 80%;
+	height: 1.7em;
+	line-height: 1em;
+}
+#search_text_searchpage_3 {
+	width: 80%;
+	height: 1em;
+	line-height: 1em;
+}
+.recipes_middel_window_favorite{
+	height:780px;
 }
