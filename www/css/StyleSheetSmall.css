@@ -411,11 +411,47 @@ left: 69px;*/
     width: 100%;
 }
 
-/******recipe page*****/
+/*******share pic page- partial***************/
+
+.share_position {
+    margin-top: 8%;
+    padding-top: 24px;
+}
+
 .second_nav_background {
     height: 3.1em;
     font-size: 0.8em;
 }
+
+.second_nav_background_papers {
+    height: 20px;
+}
+
+.second_nav_text {
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+.share_up_description, .share_down_description {
+    font-size: 1.1em;
+}
+
+.share_down_description {
+    margin-top: 48px;
+    padding-bottom: 30px;
+}
+
+.share_btn {
+    height: 19px;
+    border-radius: 4px;
+    line-height: 1em;
+}
+
+#takeAPicBtn {
+}
+
+/******recipe page*****/
 
 .recipes_footer {
     top: 20px;
