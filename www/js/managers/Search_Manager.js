@@ -28,7 +28,7 @@ function searchMan() {
                 }
             else
             {
-                 $(".search_text").css("font-size", "27px");
+               //  $(".search_text").css("font-size", "27px");
             }
     }
 
@@ -195,7 +195,7 @@ function searchMan() {
              }
             else
             {
-                 $(".search_text").css("font-size", "23px");
+                // $(".search_text").css("font-size", "23px");
             }
         }
     }

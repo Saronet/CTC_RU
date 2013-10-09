@@ -1,0 +1,76 @@
+/* CSS Document */
+
+/*recipes list*/
+.recipes_list ul li, .recipes_list_search ul li,.recipes_small_pic_border {
+	float: left;
+}
+.recipes_footer {
+position: relative;
+}
+.recipes_first_title{
+	top:0;
+	float:left;
+}
+.recipes_second_title {
+	max-height: 65px;
+	width:95%;
+}
+.inside_information{
+	height:5.5em;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+.recipes_look_inside_btn{
+	right:0px;
+	width:3%;
+}
+.recipes_footer{
+	position: absolute;
+	top: 6.8em;
+}
+#loadMoreRecipes {
+top:1em;
+}
+.btn_background_down{
+	margin:0 auto;
+}
+.clock_icon_recipes{
+	width:1em;
+	height:1em;
+	background-size:2em 1em;
+	margin-top:2px;
+}
+.star_icon_recipes{
+	width:1.1em;
+	height:1.5em;
+	background-size:2em 1em;
+	margin-top:-2px;
+}
+.recipes_footer_text{
+	height:1em;
+	line-height:1.5em;
+	width:16%;
+}
+/*=================.middel_pic_gesture---heand=====================*/
+.middel_pic_gesture{
+	background-color:#fff;
+	background-size:100% 100%;
+}
+.background_term{
+	height:50%;
+}
+/*=================================singel recipes==========================*/
+.clock_icon_recipes_one {
+background-size: 58px 27px;
+left: 17%;
+top: -5px;
+}
+.star_icon_recipes_one {
+background-size: 60px 30px;
+}
+.one_recipe_small_up_icons{
+	position:absolute;
+}
+.one_recipe_pic {
+top: 2em;
+}
