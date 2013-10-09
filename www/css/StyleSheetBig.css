@@ -160,7 +160,7 @@
 
 
 .Up_banner_background {
-    height: 120px;
+    height: 80px;
     border-bottom: 1px solid #cc0000;
 }
 
@@ -266,15 +266,18 @@
 
 .search_btn {
     height: 5em;
+    background-size: auto 57%;
+    left: 18px;
 }
 
 .info_btn_main {
     height: 4em;
+    right: 18px;
 }
 
 .Gesture_btn_main {
     height: 4em;
-    right: 4em;
+    right: 92px;
 }
 
 .dots_position ul li {
