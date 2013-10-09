@@ -863,6 +863,9 @@ padding-right: 7%;
     bottom: 0;
     margin: auto 0;
 }
+.one_recipe_back_btn.hover{
+	    background-position: 0px 45%;
+}
 
 .one_recipe_back_btn.hover{
     background-position: 1px 45%;

@@ -3,6 +3,8 @@
                 var x = 5;
             }
     function JsonMan () {
+		
+		
     
    //this.domain = "http://localhost:11610/?json=";
     //this.domain = "http://cambium.co.il/ctc/?json=";

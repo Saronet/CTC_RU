@@ -73,6 +73,7 @@ top: -5px;
 }
 .star_icon_recipes_one {
 background-size: 60px 30px;
+width: 33px;
 }
 .one_recipe_small_up_icons{
 	position:relative;
@@ -83,6 +84,7 @@ clear:both;
 /*===================categoris page==========================*/
 .all_categories{
 	height:880px;
+	overflow-x:hidden;
 }
 /*====================.search_text=========================*/
 #search_text_box {
@@ -97,4 +99,25 @@ clear:both;
 }
 .recipes_middel_window_favorite{
 	height:780px;
+}
+/*------------------------------genaeral=========================*/
+.one_recipe_back_btn{
+    background-image: url("../images/back-button-sprite.png");
+    background-size: auto 67%;
+    background-position: 100% 0;
+    cursor: pointer;
+    height: 2em;
+    position: absolute;
+    right: 3.1em;
+    top: 24px;
+    width: 100px;
+    z-index: 4;
+    top: 1.4em;
+    bottom: 0;
+    margin: auto 0;
+	display:none;
+    background-repeat: no-repeat;
+}
+.one_recipe_back_btn.hover{
+	    background-position: 0 0;
 }
