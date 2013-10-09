@@ -17,8 +17,8 @@ position: relative;
 }
 .inside_information{
 	height:5.5em;
-	overflow-y:scroll;
-	overflow-x:hidden;
+	line-height:1.35em;
+	overflow:hidden;
 }
 .recipes_look_inside_btn{
 	right:0px;
@@ -69,8 +69,15 @@ top: -5px;
 background-size: 60px 30px;
 }
 .one_recipe_small_up_icons{
-	position:absolute;
+	position:relative;
 }
 .one_recipe_pic {
-top: 2em;
+clear:both;
+}
+/*===================home page==========================*/
+.midddel_main_pic{
+	height:700px;
+}
+.middel_main_ul1{
+	height:100%;
 }
