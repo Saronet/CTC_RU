@@ -88,6 +88,7 @@
 
 .star_icon_recipes_one {
     background-size: 60px 30px;
+    width: 33px;
 }
 
 .one_recipe_small_up_icons {
@@ -100,6 +101,7 @@
 /*===================categoris page==========================*/
 .all_categories {
     height: 880px;
+    overflow-x: hidden;
 }
 /*====================.search_text=========================*/
 #search_text_box {
@@ -116,6 +118,30 @@
 
 .recipes_middel_window_favorite {
     height: 780px;
+}
+/*------------------------------genaeral=========================*/
+.one_recipe_back_btn {
+    background-image: url("../images/back-button-sprite.png");
+    background-size: auto 67%;
+    background-position: 100% 0;
+    cursor: pointer;
+    height: 2em;
+    position: absolute;
+    right: 3.1em;
+    top: 24px;
+    width: 100px;
+    z-index: 4;
+    top: 1.4em;
+    bottom: 0;
+    margin: auto 0;
+    /*display:none;*/
+    background-repeat: no-repeat;
+}
+
+.one_recipe_back_btn.hover {
+    background-position: 0 0;
+}
+
 }
 
 .middel_main_ul1 {
@@ -145,4 +171,110 @@
     text-align: center;
     z-index: 3;
     margin: auto;
+}
+
+.midddel_main_pic_item img {
+    height: 100%;
+}
+
+.main_btn_position {
+    height: 3.5%;
+    top: 4.5%;
+}
+
+.btn_main_2 {
+    cursor: pointer;
+    right: 0;
+    background-image: url(../images_ipad/foodgrator_icon_hover.png);
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position-y: 50%;
+    position: absolute;
+    background-position-x: 13%;
+    background-color: #cc0000;
+    border-radius: 8px;
+    height: 100%;
+    width: 48%;
+}
+
+.btn_main_1 {
+    cursor: pointer;
+    left: 0;
+    background-image: url(../images/photo_btn.png);
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position-y: 50%;
+    position: absolute;
+    background-position-x: 13%;
+    background-color: #cc0000;
+    border-radius: 8px;
+    height: 100%;
+    width: 48%;
+}
+
+#btn_txt_1 {
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    position: relative;
+    display: block;
+    background-position: 50% 30%;
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+#btn_txt_2 {
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    position: relative;
+    display: block;
+    background-position: 50% 30%;
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+.title_pic_white {
+    font-size: 3.3em;
+    left: 20px;
+    top: 15px;
+}
+
+.title_pic_text {
+    font-size: 1.9em;
+}
+
+.time_pic_white {
+    top: 53%;
+    height: 2em;
+    width: 2em;
+}
+
+.search_text_background {
+    margin: auto;
+}
+
+.search_btn {
+    height: 5em;
+}
+
+.info_btn_main {
+    height: 4em;
+}
+
+.Gesture_btn_main {
+    height: 4em;
+    right: 4em;
+}
+
+.dots_position ul li {
+    width: 20px;
+    height: 20px;
+    background-size: 200% 100%;
 }

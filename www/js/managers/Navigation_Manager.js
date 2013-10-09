@@ -649,6 +649,7 @@ this.showTimerPage = function() {
         e.cancelBubble = true;
         if(e.stopPropagation) e.stopPropagation();*/
         //alert(0);
+		
         this.navigate("back", this.navigationArray[this.navigationArrayIndex - 1]);
 
 

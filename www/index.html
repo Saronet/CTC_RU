@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>CTC-iphone</title>
+        <title>CTC-new</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="format-detection" content="telephone=no" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -765,7 +765,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div>
                             <span class="title_up_one_recipe">Gesture</span>
-                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <div class="Gesture_btn_main no_Gesture" ontouchend="gestureMan_.showPage()"></div>
                         </div>
                         <div class="background_term">
                             <div class="recipes_header_pic"></div>
@@ -780,7 +780,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div>
                             <span class="title_up_one_recipe">Поделиться блюдом</span>
-                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <div class="Gesture_btn_main no_Gesture" ontouchend="gestureMan_.showPage()"></div>
                         </div>
                         <div class="second_nav_background_papers">
                             <span class="second_nav_text">Что у Вас на столе?</span>
@@ -823,7 +823,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('main')"></div>
                             <span class="title_up_one_recipe">Домашний</span>
-                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <div class="Gesture_btn_main no_Gesture" ontouchend="gestureMan_.showPage()"></div>
                         </div>
                         <div class="about_all_text">
                                                             <!--<div class="about_text_position">
@@ -869,7 +869,7 @@
                             <div class="search_btn" style="display:none"></div>
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block"></div>
                             <span class="title_up_one_recipe">Избранное</span>
-                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <div class="Gesture_btn_main no_Gesture" ontouchend="gestureMan_.showPage()"></div>
                         </div>
                         <div class="search_text_background">
                             <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" />
@@ -961,6 +961,17 @@
         </div>
 
         <script type="text/javascript" src="js/JScript.js"></script>
+		
+		<script>
+		$(document).ready(function(e) {
+			$('.one_recipe_back_btn').on('touchstart',this,function(){
+				$(this).addClass('hover')
+			});
+			$('.one_recipe_back_btn').on('touchend',this,function(){
+				$('.one_recipe_back_btn').removeClass('hover');
+			});
+		});
+		</script>
     </body>
 
 </html>
