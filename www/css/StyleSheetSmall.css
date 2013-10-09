@@ -190,7 +190,7 @@ left: 96px;*/
 }
 
 .white_background {
-    height: 80px;
+    height: 43px;
 }
 
 .dots_position ul li {
@@ -239,6 +239,14 @@ left: 96px;*/
     top: -3px;
     position: relative;
     margin-right: 5px;
+}
+
+.search_text{
+    height: 16px;
+top: 1px;
+line-height: 0.5em;
+font-size: 1em;
+width: 80%;
 }
 /******categories list********/
 .all_categories ul li {
