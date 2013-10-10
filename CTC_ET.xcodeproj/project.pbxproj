@@ -383,6 +383,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = ABYN6C4927;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CTC_ET" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -542,6 +547,8 @@
 				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -574,6 +581,7 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = CTC_ET;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -585,8 +593,8 @@
 				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: THE BOX LTD.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE BOX LTD.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTC_ET/CTC_ET-Prefix.pch";
@@ -617,7 +625,7 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = CTC_ET;
-				PROVISIONING_PROFILE = "90788496-3C2E-47FF-B767-2FCC121CA5EF";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90788496-3C2E-47FF-B767-2FCC121CA5EF";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
