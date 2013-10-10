@@ -490,6 +490,7 @@ left: 69px;*/
 
 .recipes_middel_pic {
     height: 100%;
+    top: -1px;
 }
 
 .recipes_background_main {
@@ -620,7 +621,7 @@ padding-right: 7%;
 .food_name_what_u_need_list {
     font-size: 9px;
     font-weight: bold;
-    top: 0.7em;
+    top: 0.9em;
     left: 0;
 }
 
