@@ -683,12 +683,12 @@ padding-right: 7%;
 }
 
 .recipes_middel_window {
-    height: 171px;
+    height: 187px;
 }
 
 .recipes_background_what_to_do {
     top: 1em;
-    height: 17.5em;
+    height: 19.5em;
 }
 
 #recipePage_what_to_do_title {
@@ -699,7 +699,7 @@ padding-right: 7%;
 
 #recipePage_what_to_do_text {
     font-size: 1.1em;
-    top: 1em;
+    top: -4px;
 }
 
 #recipePage_what_to_do_text strong{
