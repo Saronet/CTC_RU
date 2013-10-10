@@ -450,13 +450,14 @@ margin: auto;
     left: 26%;
 }
 .add_to_cart_btn {
-text-align: center;
-font-size: 21px;
-height: 57px;
-border-radius: 11px;
-padding-top: 4px;
-padding-bottom: 2px;
-line-height: 53px;
+    text-align: center;
+    font-size: 21px;
+    height: 57px;
+    border-radius: 11px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    line-height: 53px;
+}
 .recipes_middel_pic_what_u_need {
     top: 49px;
 }

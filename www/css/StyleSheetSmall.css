@@ -150,15 +150,17 @@ left: 96px;*/
     display: block;
     margin-top: 0;
 }
-
 .text_main_icon_position.main_menu_icon_hover {
-    letter-spacing: 0.2px;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    display: block;
-    width: 80%;
-    margin: auto;
+letter-spacing: 0.2px;
+text-align: center;
+text-transform: uppercase;
+position: relative;
+display: block;
+width: 80%;
+margin: auto;
+font-size: 5px;
+line-height: 7px;
+bottom: 9%;
 }
 /*******main page*****/
 .App_posotion {
@@ -357,29 +359,29 @@ left: 69px;*/
     width: 100%;
 }
 
-.recipes_list ul li{
+.recipes_list ul li {
     width: 100%;
 }
 
 .recipes_small_pic_border {
-    width: 3em;
-    height: 3em;
+    width: 6em;
+    height: 6em;
     margin: 0;
     float: left;
 }
 
 .inside_information {
     display: block;
-    height: 30px;
-    width: 135px;
+    height: 60px;
+    width: 220px;
     float: left;
-    margin-left: 3px;
+    margin-left: 5px;
     position: relative;
-    font-size: 0.9em;
+    font-size: 1.15em;
 }
 
 .recipes_first_title {
-    font-size: 1em;
+    font-size: 1.2em;
     top: 0;
     width: 95%;
     display: block;
@@ -387,22 +389,24 @@ left: 69px;*/
 
 .recipes_second_title {
     color: #727A85;
-    font-size: 0.85em;
+    font-size: 1em;
     width: 95%;
     display: block;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
-    margin-top: 3px;
+    /*white-space: nowrap;*/
+    margin-top: 6px;
+    max-height: 22px;
 }
 
 .recipes_list ul li, .recipes_list_search ul li {
-    height: 32px;
+    height: 67px;
     width: 100%;
     padding-right: 1px;
     padding-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
-
 .recipes_list_search ul li {
     padding-bottom: 12px;
 }
@@ -527,11 +531,9 @@ left: 69px;*/
 
 
 /******recipe page*****/
-
 .recipes_footer {
-    top: 20px;
+    bottom: 0px;
 }
-
 
 .recipes_middel_pic {
     height: 100%;
@@ -914,11 +916,12 @@ border-top: 0.5px #838993 solid;
 }
 
 #recipes_list_favorite li {
-    height: 50px;
+    /*height: 50px;*/
     margin-bottom: 0 !important;
+    padding-bottom: 15px;
 }
 
-.one_recipe_back_btn{
+.one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
     background-repeat: no-repeat;
     background-size: auto 36%;
@@ -934,21 +937,24 @@ border-top: 0.5px #838993 solid;
     bottom: 0;
     margin: auto 0;
 }
-.one_recipe_back_btn.hover{
-	    background-position: 0px 45%;
+
+.one_recipe_back_btn.hover {
+    background-position: 0px 45%;
 }
 
-.one_recipe_back_btn.hover{
+.one_recipe_back_btn.hover {
     background-position: 1px 45%;
     width: 50px;
 }
 
 /*******unplaced************/
 .finish_background {
-  width: 78%;
-left: 34px;
-top: 148px;
+    width: 29%;
+    left: 5px;
+    top: -115px;
 }
+
+
 
 .addToShoppingText {
 color: white;
