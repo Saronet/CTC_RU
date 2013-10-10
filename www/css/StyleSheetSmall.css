@@ -683,18 +683,19 @@ padding-right: 7%;
 }
 
 .recipes_middel_window {
-    height: 187px;
+    height: 371px;
 }
 
 .recipes_background_what_to_do {
     top: 1em;
-    height: 19.5em;
+    height: 39em;
 }
 
 #recipePage_what_to_do_title {
     left: 0;
     width: 100%;
     font-size: 1.3em;
+    height: 22px;
 }
 
 #recipePage_what_to_do_text {
@@ -768,55 +769,55 @@ padding-right: 7%;
 }
 
 .about_two_logos {
-    height: 31px;
+    height: 66px;
 }
 
 .about_text_red {
-    line-height: 0.5em;
-    font-size: 10px;
+    line-height: 2.5em;
+    font-size: 15px;
     letter-spacing: 0em;
     top: -3px;
     position: relative;
 }
 
 .about_text_position {
-    padding: 3% 10%;
+    padding: 8% 10%;
 }
 
 .about_text_title{
     line-height: 1em;
-    font-size: 1em;
-    top: -3px;
+    font-size: 14px;
+    top: -11px;
     letter-spacing: 0em;
 }
 
 .about_text_credits{
     line-height: 1.1em;
-    font-size: 7px;
-    bottom: 1px;
+    font-size: 11px;
+    bottom: 0px;
     letter-spacing: 0em;
 }
 
 .reshat_logo{
-    top: 0.7em;
-    background-size: 50px;
+    top: 17px;
+    background-size: 90px;
     left: 0em;
-    width: 50px;
+    width: 102px;
 }
 
 .screenz_logo{
-    top: 0.7em;
-    background-size: 60px;
+    top: 17px;
+    background-size: 100px;
     right: 0em;
-    width: 60px;
+    width: 112px;
 }
 
 .about_text{
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .text_red_about{
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 0em;
     text-decoration: underline;
     top: -3px;
@@ -824,14 +825,14 @@ padding-right: 7%;
 }
 
 .about_text_copyright{
-    font-size: 7px;
+    font-size: 12px;
     top: -6px;
     position: relative;
 }
 
 .about_text_copyright_red{
-    font-size: 7px;
-    top: -17px;
+    font-size: 10px;
+    top: -13px;
     position: relative;
 }
 /*******tools page*****/
