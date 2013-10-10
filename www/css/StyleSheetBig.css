@@ -31,8 +31,9 @@
 }
 
 .recipes_look_inside_btn {
-    right: 0px;
+    right: 15px;
     width: 3%;
+    top: 93px;
 }
 
 .recipes_footer {
@@ -70,7 +71,8 @@
 /*=================.middel_pic_gesture---heand=====================*/
 .middel_pic_gesture {
     background-color: #fff;
-    background-size: 100% 100%;
+background-size: 100% 100%;
+height: 94%;
 }
 
 .background_term {
@@ -123,6 +125,13 @@
 .all_categories {
     height: 880px;
     overflow-x: hidden;
+}
+.all_categories ul li {
+    height: 156px;
+}
+
+.categories_text_down{
+    height: 58px;
 }
 /*====================.search_text=========================*/
 #search_text_box {
@@ -206,21 +215,21 @@
 /*------------------------------genaeral=========================*/
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
-    background-size: auto 67%;
-    background-position: 100% 0;
-    cursor: pointer;
-    height: 2em;
-    position: absolute;
-    right: 3.1em;
-    top: 24px;
-    width: 100px;
-    z-index: 4;
-    top: 1.4em;
-    bottom: 0;
-    margin: auto 0;
-    background-repeat: no-repeat;
+background-size: auto 67%;
+background-position: 100% 0;
+cursor: pointer;
+height: 3em;
+position: absolute;
+right: 3.1em;
+width: 158px;
+z-index: 4;
+top: 1.1em;
+bottom: 0;
+margin: auto 0;
+display: none;
+background-repeat: no-repeat;
 }
-
+  
 .one_recipe_page.page .one_recipe_back_btn {
     display: block;
 }
@@ -233,6 +242,10 @@
 .middel_main_ul1 {
     height: 100%;
 }
+.text_main_icon_position.main_menu_icon_hover{
+    width: 82%;
+margin: auto;
+}
 
 /*********share page*************/
 .share_btn_text {
@@ -242,7 +255,7 @@
 
 
 .Up_banner_background {
-    height: 120px;
+    height: 80px;
     border-bottom: 1px solid #cc0000;
 }
 
@@ -350,15 +363,18 @@
 
 .search_btn {
     height: 5em;
+    background-size: auto 57%;
+    left: 18px;
 }
 
 .info_btn_main {
     height: 4em;
+    right: 18px;
 }
 
 .Gesture_btn_main {
     height: 4em;
-    right: 4em;
+    right: 92px;
 }
 
 .dots_position ul li {
@@ -369,7 +385,9 @@
 
 
 
-
+.Gesture_btn_main.no_Gesture{
+	background-image:url("../images/handWithX.png");
+}
 /**********recipes list page*********/
 .recipes_list ul {
     width: 100%;
@@ -462,7 +480,7 @@
     width: 80px;
     height: 80px;
 }
-
-.favorite_delete_icon img {
-    width: 100%;
+.favorite_delete_icon img{
+	width:100%;
 }
+/*-----*/
