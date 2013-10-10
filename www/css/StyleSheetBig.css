@@ -31,9 +31,8 @@
 }
 
 .recipes_look_inside_btn {
-    right: 15px;
+    right: 0px;
     width: 3%;
-    top: 93px;
 }
 
 .recipes_footer {
@@ -77,12 +76,21 @@
 .background_term {
     height: 50%;
 }
+.recipes_middel_pic_favorite {
+height: 792px;
+}
 /*=================================singel recipes==========================*/
 .recipes_middel_pic {
-    height: 770px;
+    height: 750px;
     top: -33px;
 }
-
+.recipes_background_what_to_do .recipes_middel_pic {
+	height: 720px;
+	overflow: auto;
+}
+.one_recipe_page_what_to_do,.recipes_middel_window{
+	overflow:visible;
+}
 .clock_icon_recipes_one {
     background-size: 58px 27px;
     left: 17%;
@@ -112,13 +120,6 @@
     height: 880px;
     overflow-x: hidden;
 }
-.all_categories ul li {
-    height: 156px;
-}
-
-.categories_text_down{
-    height: 58px;
-}
 /*====================.search_text=========================*/
 #search_text_box {
     width: 80%;
@@ -135,7 +136,7 @@
 }
 
 .recipes_middel_window_favorite {
-    height: 100%;
+    height: 780px;
 }
 .recipes_background_search{
     position: relative;
@@ -148,36 +149,84 @@
     border-top: 1px #838993 solid;
     top: 48px;
 }
+
+.timer_all_background_black{
+    height: 1050px;
+    opacity: 0.72;
+    position: absolute;
+    top: -226px;
+    width: 800px;
+    z-index: 21;
+}
+
+.addToShopping{
+    position: absolute;
+    width: 641px;
+    z-index: 22;
+    top: 218px;
+}
+
+.finish_background {
+    left: 66px;
+    position: absolute;
+    top: -15px;
+    cursor: pointer;
+    width: 100%;
+    z-index: 21;
+}
+
+.addToShoppingText {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    top: 37px;
+    width: 60%;
+    left: 28%;
+    z-index: 21;
+}
+
+.shopping_ok_border {
+    background-image: url("../images/timer_border_ok.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 77px;
+    left: 40%;
+    margin: auto;
+    position: absolute;
+    top: 211px;
+    width: 243px;
+    z-index: 21;
+}
 /*------------------------------genaeral=========================*/
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
-background-size: auto 67%;
-background-position: 100% 0;
-cursor: pointer;
-height: 3em;
-position: absolute;
-right: 3.1em;
-width: 158px;
-z-index: 4;
-top: 1.1em;
-bottom: 0;
-margin: auto 0;
-display: none;
-background-repeat: no-repeat;
-}
+    background-size: auto 67%;
+    background-position: 100% 0;
+    cursor: pointer;
+    height: 2em;
+    position: absolute;
+    right: 3.1em;
+    top: 24px;
+    width: 100px;
+    z-index: 4;
+    top: 1.4em;
+    bottom: 0;
+    margin: auto 0;
 
+    background-repeat: no-repeat;
+}
+.one_recipe_page.page  .one_recipe_back_btn{
+	display:block;
+}
 .one_recipe_back_btn.hover {
     background-position: 0 0;
 }
 
-
+}
 
 .middel_main_ul1 {
     height: 100%;
-}
-.text_main_icon_position.main_menu_icon_hover{
-    width: 82%;
-margin: auto;
 }
 
 /*********share page*************/
@@ -188,7 +237,7 @@ margin: auto;
 
 
 .Up_banner_background {
-    height: 80px;
+    height: 120px;
     border-bottom: 1px solid #cc0000;
 }
 
@@ -296,18 +345,15 @@ margin: auto;
 
 .search_btn {
     height: 5em;
-    background-size: auto 57%;
-    left: 18px;
 }
 
 .info_btn_main {
     height: 4em;
-    right: 18px;
 }
 
 .Gesture_btn_main {
     height: 4em;
-    right: 92px;
+    right: 4em;
 }
 
 .dots_position ul li {
@@ -393,4 +439,20 @@ line-height: 1px;
 /********gesture page*********/
 .background_term{
     top: 80px;
+}
+
+.recipes_background_what_u_need {
+height: 721px;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+
+/*--delite--*/
+.favorite_delete_icon {
+width: 80px;
+height: 80px;
+}
+.favorite_delete_icon img{
+	width:100%;
 }
