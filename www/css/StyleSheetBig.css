@@ -31,9 +31,8 @@
 }
 
 .recipes_look_inside_btn {
-    right: 15px;
+    right: 0px;
     width: 3%;
-    top: 93px;
 }
 
 .recipes_footer {
@@ -121,13 +120,6 @@ height: 792px;
     height: 880px;
     overflow-x: hidden;
 }
-.all_categories ul li {
-    height: 156px;
-}
-
-.categories_text_down{
-    height: 58px;
-}
 /*====================.search_text=========================*/
 #search_text_box {
     width: 80%;
@@ -144,7 +136,7 @@ height: 792px;
 }
 
 .recipes_middel_window_favorite {
-    height: 100%;
+    height: 780px;
 }
 .recipes_background_search{
     position: relative;
@@ -209,19 +201,20 @@ height: 792px;
 /*------------------------------genaeral=========================*/
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
-background-size: auto 67%;
-background-position: 102% 0;
-cursor: pointer;
-height: 3em;
-position: absolute;
-right: 3.1em;
-width: 158px;
-z-index: 4;
-top: 1.1em;
-bottom: 0;
-margin: auto 0;
-display: none;
-background-repeat: no-repeat;
+    background-size: auto 67%;
+    background-position: 100% 0;
+    cursor: pointer;
+    height: 2em;
+    position: absolute;
+    right: 3.1em;
+    top: 24px;
+    width: 100px;
+    z-index: 4;
+    top: 1.4em;
+    bottom: 0;
+    margin: auto 0;
+
+    background-repeat: no-repeat;
 }
 .one_recipe_page.page  .one_recipe_back_btn{
 	display:block;
@@ -230,14 +223,10 @@ background-repeat: no-repeat;
     background-position: 0 0;
 }
 
-
+}
 
 .middel_main_ul1 {
     height: 100%;
-}
-.text_main_icon_position.main_menu_icon_hover{
-    width: 82%;
-margin: auto;
 }
 
 /*********share page*************/
@@ -248,7 +237,7 @@ margin: auto;
 
 
 .Up_banner_background {
-    height: 80px;
+    height: 120px;
     border-bottom: 1px solid #cc0000;
 }
 
@@ -356,18 +345,15 @@ margin: auto;
 
 .search_btn {
     height: 5em;
-    background-size: auto 57%;
-    left: 18px;
 }
 
 .info_btn_main {
     height: 4em;
-    right: 18px;
 }
 
 .Gesture_btn_main {
     height: 4em;
-    right: 92px;
+    right: 4em;
 }
 
 .dots_position ul li {
