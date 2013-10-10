@@ -628,19 +628,18 @@ this.showTimerPage = function() {
         this.pagePosition = "search";
 
     }
-    this.showAboutPage = function()
-    {
+    this.showAboutPage = function() {
         $('.about_us_page').show();
         $('.home_page').hide();
-
+        $(".about_us_page .one_recipe_back_btn").show();
         this.backPosition = this.pagePosition;
         this.pagePosition = "about";
-        
+
         if(isIpad()) {
             $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //ipad
         }
-        else{
-            $('.Gesture_btn').css({"background-position":"-59px 50%"}); //iphone
+        else {
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //iphone
         }
     }
 
