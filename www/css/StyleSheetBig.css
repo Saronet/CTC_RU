@@ -71,7 +71,8 @@
 /*=================.middel_pic_gesture---heand=====================*/
 .middel_pic_gesture {
     background-color: #fff;
-    background-size: 100% 100%;
+background-size: 100% 100%;
+height: 94%;
 }
 
 .background_term {
@@ -144,7 +145,7 @@ height: 792px;
 }
 
 .recipes_middel_window_favorite {
-    height: 100%;
+    height: 780px;
 }
 .recipes_background_search{
     position: relative;
@@ -210,7 +211,7 @@ height: 792px;
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
 background-size: auto 67%;
-background-position: 102% 0;
+background-position: 100% 0;
 cursor: pointer;
 height: 3em;
 position: absolute;
@@ -223,6 +224,9 @@ margin: auto 0;
 display: none;
 background-repeat: no-repeat;
 }
+
+    background-repeat: no-repeat;
+}
 .one_recipe_page.page  .one_recipe_back_btn{
 	display:block;
 }
@@ -230,7 +234,7 @@ background-repeat: no-repeat;
     background-position: 0 0;
 }
 
-
+}
 
 .middel_main_ul1 {
     height: 100%;
@@ -378,7 +382,9 @@ margin: auto;
 
 
 
-
+.Gesture_btn_main.no_Gesture{
+	background-image:url("../images/handWithX.png");
+}
 /**********recipes list page*********/
 .recipes_list ul {
     width: 100%;
