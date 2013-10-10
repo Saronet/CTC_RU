@@ -160,7 +160,8 @@ left: 96px;*/
 /*******main page*****/
 .App_posotion {
     height: 45em;
-    width: 100%;s
+    width: 100%;
+    
 }
 
 .btn_main_1, .btn_main_2 {
@@ -491,7 +492,7 @@ left: 69px;*/
 .share_btn_text {
     font-size: 12px;
     line-height: 19px;
-
+}
 #takeAPicBtn {
     height: 35px;
     top: 30px;
@@ -606,28 +607,28 @@ border-top: 0.5px #838993 solid;
 }
 
 .add_to_cart_btn {
-border-radius: 6px;
-top: 1em;
-background-image: url("../images/add_to_cart_btn.png");
-background-size: auto 70%;
-background-position: 8% 50%;
-background-color: #cc0000;
-background-repeat: no-repeat;
-border-radius: 5px;
-color: #fff;
-cursor: pointer;
-height: 3em;
-margin: auto;
-position: relative;
-top: 1em;
-width: 82%;
-left: 0;
-right: 0;
-margin: auto;
-font-size: 7px;
-text-align: right;
-margin-top: -5.5px;
-padding-right: 7%; 
+    border-radius: 6px;
+    top: 1em;
+    background-image: url("../images/add_to_cart_btn.png");
+    background-size: auto 70%;
+    background-position: 8% 50%;
+    background-color: #cc0000;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    height: 3em;
+    margin: auto;
+    position: relative;
+    top: 1em;
+    width: 82%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 7px;
+    text-align: center;
+    margin-top: -5.5px;
+    padding-right: 7%;
 }
 
 #add_to_cart_txt {
@@ -889,7 +890,7 @@ padding-right: 7%;
     background-image: url("../images/back-button-sprite.png");
     background-repeat: no-repeat;
     background-size: auto 36%;
-    background-position: -55px 45%;
+    background-position: -53px 45%;
     cursor: pointer;
     height: 3em;
     position: absolute;
@@ -913,13 +914,56 @@ padding-right: 7%;
 /*******unplaced************/
 .finish_background {
     width: 29%;
-    left: 5px;
+     left: 34px;
     top: -115px;
+}
+
+.addToShoppingText {
+color: white;
+font-size: 19px;
+position: absolute;
+text-align: center;
+top: 160px;
+width: 60%;
+left: 20%;
+}
+
+.shopping_ok_border {
+background-image: url("../images/timer_border_ok.png");
+background-repeat: no-repeat;
+cursor: pointer;
+height: 38px;
+left: 33%;
+margin: auto;
+position: absolute;
+top: 235px;
+width: 34%;
+background-size: 100% 100%;
+}
+
+.timer_finish_OK {
+font-size: 22px;
+left: 35%;
+line-height: 41px;
+}
+
+.favorite_recipe_name {
+    font-size: 1.8em;
+    line-height: 0.8em;
 }
 .midddel_main_pic{
 	top:-13px;
 	height: 52%;
 }
 .middel_main_ul1 {
+height: 100%;
+}
+
+
+.addToShopping {
+position: absolute;
+width: 100%;
+z-index: 10;
+top: 0;
 height: 100%;
 }
