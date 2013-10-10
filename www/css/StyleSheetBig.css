@@ -225,15 +225,11 @@ display: none;
 background-repeat: no-repeat;
 }
 
-    background-repeat: no-repeat;
-}
 .one_recipe_page.page  .one_recipe_back_btn{
 	display:block;
 }
 .one_recipe_back_btn.hover {
     background-position: 0 0;
-}
-
 }
 
 .middel_main_ul1 {
