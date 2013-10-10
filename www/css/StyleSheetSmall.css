@@ -157,7 +157,8 @@ left: 96px;*/
 }
 /*******main page*****/
 .App_posotion {
-    height: 480px;
+    height: 300px;
+    width: 100%;
 }
 
 .btn_main_1, .btn_main_2 {
