@@ -437,16 +437,14 @@ height: 150px;
 .clock_icon_recipes_one{
     left: 26%;
 }
-.add_to_cart_btn
-{
-    text-align: center;
-font-size: 20px;
+.add_to_cart_btn {
+text-align: center;
+font-size: 21px;
 height: 57px;
 border-radius: 11px;
 padding-top: 4px;
 padding-bottom: 2px;
-line-height: 1px;
-
+line-height: 53px;
 }
 
 .recipes_middel_pic_what_u_need{top: 49px}
