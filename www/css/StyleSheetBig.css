@@ -382,7 +382,9 @@ margin: auto;
 
 
 
-
+.Gesture_btn_main.no_Gesture{
+	background-image:url("../images/handWithX.png");
+}
 /**********recipes list page*********/
 .recipes_list ul {
     width: 100%;
