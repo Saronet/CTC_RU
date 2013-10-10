@@ -234,10 +234,12 @@ background-repeat: no-repeat;
     display: block;
 }
 
+.one_recipe_page.page  .one_recipe_back_btn{
+	display:block;
+}
 .one_recipe_back_btn.hover {
     background-position: 0 0;
 }
-
 
 .middel_main_ul1 {
     height: 100%;
