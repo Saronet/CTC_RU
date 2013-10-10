@@ -447,8 +447,9 @@ left: 69px;*/
 /*******share pic page- partial***************/
 
 .share_position {
-    margin-top: 8%;
-    padding-top: 24px;
+    margin-top: 1%;
+    padding-top: 22px;
+    top: 10px;
 }
 
 .second_nav_background {
@@ -458,33 +459,41 @@ left: 69px;*/
 }
 
 .second_nav_background_papers {
-    height: 20px;
+    height: 34px;
 }
 
 .second_nav_text {
     margin: auto;
     text-align: center;
-    font-size: 1em;
+    font-size: 17px;
     width: 100%;
  
 }
 
 .share_up_description, .share_down_description {
-    font-size: 1.1em;
+    font-size: 17px;
 }
 
 .share_down_description {
     margin-top: 48px;
     padding-bottom: 30px;
+    line-height: 100px;
 }
 
 .share_btn {
-    height: 19px;
+    height: 35px;
     border-radius: 4px;
     line-height: 1em;
 }
 
+.share_btn_text {
+    font-size: 12px;
+    line-height: 19px;
+
 #takeAPicBtn {
+    height: 35px;
+    top: 30px;
+    border-radius: 5px;
 }
 
 
