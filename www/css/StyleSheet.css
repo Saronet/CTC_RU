@@ -2781,8 +2781,8 @@ a {
 
 .middel_pic_gesture {
     background-image: url("../images/textWithAlotOfHands.png");
-    width: 90%;
-    height: 90%;
+   width: 100%;
+height: 100%;
     background-repeat: no-repeat;
     margin: auto;
 }
