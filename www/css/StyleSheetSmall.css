@@ -159,7 +159,6 @@ left: 96px;*/
 .App_posotion {
     height: 45em;
     width: 100%;
-    s;
 }
 
 .btn_main_1, .btn_main_2 {
@@ -248,13 +247,13 @@ left: 96px;*/
 
 .main_btn_position {
     height: 7%;
-    top: 5%;
+    top: 12%;
 }
 
 .search_text_background {
     height: 20px;
     top: 10px;
-    margin-bottom: 28px;
+    margin-bottom: 15px;
     width: 90%;
     border-radius: 3px;
     position: relative;
@@ -398,12 +397,32 @@ left: 69px;*/
     padding-bottom: 0px;
 }
 
+.recipes_list_search ul li {
+    padding-bottom: 12px;
+}
+
 .recipes_footer_text {
     font-size: 0.8em;
     margin-left: 2px;
     width: 20%;
     margin-top: 3px;
     margin-right: 2px;
+}
+
+.search_page .recipes_footer_text {
+    width: 70%;
+}
+
+
+.fire_icon_recipes {
+    background-size: 200% 100%;
+    width: 14px;
+    height: 16px;
+    top: -2px;
+}
+
+.searchFavoriteBtnOuter .recipes_footer_text {
+    width: 25%;
 }
 
 .recipes_look_inside_btn {
@@ -493,6 +512,7 @@ left: 69px;*/
 .share_btn_text {
     font-size: 12px;
     line-height: 19px;
+}
 
 #takeAPicBtn {
     height: 35px;
@@ -679,7 +699,7 @@ left: 69px;*/
     height: 10px;
 }
 
-}
+
 
 .favorite_delete_icon {
     margin-top: 5px;
@@ -927,10 +947,28 @@ left: 69px;*/
     font-size: 1.8em;
     line-height: 0.8em;
 }
-.midddel_main_pic{
-	top:-13px;
-	height: 52%;
+
+.midddel_main_pic {
+    top: -13px;
+    height: 52%;
 }
+
 .middel_main_ul1 {
-height: 100%;
+    height: 100%;
+}
+
+.recipes_footer_search {
+    max-height: 17px;
+    overflow: hidden;
+}
+
+ire_icon_recipes {
+    width: 11px;
+    height: 14px;
+    background-size: 200% 100%;
+    top: -1px;
+}
+
+.clock_side_footer {
+    width: 25%;
 }
