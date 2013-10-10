@@ -81,15 +81,15 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 }
 
 .Up_banner_background {
-height: 3em;
-border-bottom: 1px solid #cc0000;
+    height: 3em;
+    border-bottom: 1px solid #cc0000;
 }
 
-.second_nav_background{
+.second_nav_background {
     height: 2.5em;
 }
 
-.second_nav_text{
+.second_nav_text {
     font-size: 1em;
 }
 
@@ -101,24 +101,24 @@ border-bottom: 1px solid #cc0000;
 }
 
 .info_btn_main {
-height: 27px;
-width: 24px;
-float: right;
-position: relative;
-top: -15px;
-right: 8px;
+    height: 27px;
+    width: 24px;
+    float: right;
+    position: relative;
+    top: -15px;
+    right: 8px;
 }
 
 .Gesture_btn_main {
-height: 27px;
-width: 24px;
-float: right;
-position: relative;
-top: -15px;
-right: 12px;
+    height: 27px;
+    width: 24px;
+    float: right;
+    position: relative;
+    top: -15px;
+    right: 12px;
 }
 
-.Gesture_btn_main.no_Gesture{
+.Gesture_btn_main.no_Gesture {
     background-image: url("../images/handWithX.png");
     background-size: auto 78%;
     background-position: 56% 67%;
@@ -150,17 +150,18 @@ left: 96px;*/
     display: block;
     margin-top: 0;
 }
+
 .text_main_icon_position.main_menu_icon_hover {
-letter-spacing: 0.2px;
-text-align: center;
-text-transform: uppercase;
-position: relative;
-display: block;
-width: 80%;
-margin: auto;
-font-size: 5px;
-line-height: 7px;
-bottom: 9%;
+    letter-spacing: 0.2px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-size: 5px;
+    line-height: 7px;
+    bottom: 9%;
 }
 /*******main page*****/
 .App_posotion {
@@ -173,11 +174,11 @@ bottom: 9%;
     background-position-x: 15%;
 }
 
-.title_pic_text{
+.title_pic_text {
     left: 5px;
 }
 
-.time_pic_white{
+.time_pic_white {
     top: 54%;
     left: 13%;
 }
@@ -229,10 +230,6 @@ bottom: 9%;
 .dots_position ul li {
     background-image: url('../images/point_all.png');
     width: 7px;
-
-
-
-
     height: 7px;
     margin-left: 3px;
     background-size: 200%;
@@ -264,7 +261,7 @@ bottom: 9%;
 .search_text_background {
     height: 20px;
     top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     width: 90%;
     border-radius: 3px;
     position: relative;
@@ -407,6 +404,7 @@ left: 69px;*/
     padding-top: 10px;
     padding-bottom: 0px;
 }
+
 .recipes_list_search ul li {
     padding-bottom: 12px;
 }
@@ -421,6 +419,10 @@ left: 69px;*/
 
 .search_page .recipes_footer_text {
     width: 70%;
+}
+
+.search_page .search_text_background {
+    margin-bottom: 15px;
 }
 
 
@@ -460,9 +462,10 @@ left: 69px;*/
 
 .clock_icon_recipes {
     background-position: 0px 50%;
-    background-size: 20px 9px;
-    width: 10px;
-    height: 12px;
+    background-size: 200% 100%;
+    width: 11px;
+    height: 11px;
+    top: 2px;
 }
 
 .dots_position {
@@ -500,7 +503,6 @@ left: 69px;*/
     text-align: center;
     font-size: 17px;
     width: 100%;
- 
 }
 
 .share_up_description, .share_down_description {
@@ -523,6 +525,7 @@ left: 69px;*/
     font-size: 12px;
     line-height: 19px;
 }
+
 #takeAPicBtn {
     height: 35px;
     top: 30px;
@@ -541,12 +544,11 @@ left: 69px;*/
 }
 
 .recipes_background_main {
-   height: 63%;
+    height: 63%;
     margin: auto;
     top: 6px;
     width: 100%;
-border-top: 0.5px #838993 solid;
-  
+    border-top: 0.5px #838993 solid;
 }
 
 .one_recipe_bar_left {
@@ -754,16 +756,16 @@ border-top: 0.5px #838993 solid;
     top: -4px;
 }
 
-#recipePage_what_to_do_text strong{
+#recipePage_what_to_do_text strong {
     font-size: 11px;
-    top: 5px
+    top: 5px;
 }
 
-#recipePage_what_to_do_text ul{
+#recipePage_what_to_do_text ul {
     margin-top: 5px;
 }
 
-#recipePage_what_to_do_text h2{
+#recipePage_what_to_do_text h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 11px;
@@ -837,39 +839,39 @@ border-top: 0.5px #838993 solid;
     padding: 6% 10%;
 }
 
-.about_text_title{
+.about_text_title {
     line-height: 1em;
     font-size: 14px;
     top: -11px;
     letter-spacing: 0em;
 }
 
-.about_text_credits{
+.about_text_credits {
     line-height: 1.1em;
     font-size: 11px;
     bottom: 0px;
     letter-spacing: 0em;
 }
 
-.reshat_logo{
+.reshat_logo {
     top: 17px;
     background-size: 90px;
     left: 0em;
     width: 102px;
 }
 
-.screenz_logo{
+.screenz_logo {
     top: 17px;
     background-size: 100px;
     right: 0em;
     width: 112px;
 }
 
-.about_text{
+.about_text {
     font-size: 13px;
 }
 
-.text_red_about{
+.text_red_about {
     font-size: 15px;
     letter-spacing: 0em;
     text-decoration: underline;
@@ -877,13 +879,13 @@ border-top: 0.5px #838993 solid;
     position: relative;
 }
 
-.about_text_copyright{
+.about_text_copyright {
     font-size: 12px;
     top: -6px;
     position: relative;
 }
 
-.about_text_copyright_red{
+.about_text_copyright_red {
     font-size: 10px;
     top: -13px;
     position: relative;
@@ -957,32 +959,32 @@ border-top: 0.5px #838993 solid;
 
 
 .addToShoppingText {
-color: white;
-font-size: 19px;
-position: absolute;
-text-align: center;
-top: 160px;
-width: 60%;
-left: 20%;
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    width: 60%;
+    left: 20%;
 }
 
 .shopping_ok_border {
-background-image: url("../images/timer_border_ok.png");
-background-repeat: no-repeat;
-cursor: pointer;
-height: 38px;
-left: 33%;
-margin: auto;
-position: absolute;
-top: 235px;
-width: 34%;
-background-size: 100% 100%;
+    background-image: url("../images/timer_border_ok.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 38px;
+    left: 33%;
+    margin: auto;
+    position: absolute;
+    top: 235px;
+    width: 34%;
+    background-size: 100% 100%;
 }
 
 .timer_finish_OK {
-font-size: 22px;
-left: 35%;
-line-height: 41px;
+    font-size: 22px;
+    left: 35%;
+    line-height: 41px;
 }
 
 .favorite_recipe_name {
@@ -998,49 +1000,54 @@ line-height: 41px;
 .middel_main_ul1 {
     height: 100%;
 }
-.star_icon_recipes_one{
-    background-size: 33px 14px;
 
+.star_icon_recipes_one {
+    background-size: 33px 14px;
     left: 37%;
     width: 17px;
     height: 15px;
     top: 0;
 }
-.clock_icon_recipes_one{
-    background-size: 31px 14px;
 
+.clock_icon_recipes_one {
+    background-size: 31px 14px;
     left: 19%;
     width: 16px;
     height: 15px;
     background-position: right 0;
 }
-.recipes_middel_pic{
-	height:350px;
-	overflow-x: hidden;
-	overflow-y: auto;
+
+.recipes_middel_pic {
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+
 .one_recipe_text_pic {
-font-size: 3em;
+    font-size: 3em;
 }
-.one_recipe_pic{
-	clear:both;
-	height:auto;
+
+.one_recipe_pic {
+    clear: both;
+    height: auto;
 }
-.recipes_middel_window_what_u_need{
-	overflow:visible;
+
+.recipes_middel_window_what_u_need {
+    overflow: visible;
 }
-.one_recipe_text_discription{
-	position: relative;
-	top: 0;
+
+.one_recipe_text_discription {
+    position: relative;
+    top: 0;
 }
 
 
 .addToShopping {
-position: absolute;
-width: 100%;
-z-index: 10;
-top: 0;
-height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    height: 100%;
 }
 
 /*---*/
