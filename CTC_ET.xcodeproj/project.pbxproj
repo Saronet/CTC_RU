@@ -626,7 +626,7 @@
 				);
 				PRODUCT_NAME = CTC_ET;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90788496-3C2E-47FF-B767-2FCC121CA5EF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "678EC628-A08D-4207-AC82-9C070BA2E3B2";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -635,7 +635,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer: David Salzer (94C8GL23Q7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Salzer (44WTK38D3J)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
@@ -658,7 +658,7 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				PROVISIONING_PROFILE = "7540E3F0-7237-4160-81B4-8175080D7A2A";
+				PROVISIONING_PROFILE = "678EC628-A08D-4207-AC82-9C070BA2E3B2";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -670,8 +670,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: THE BOX LTD.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE BOX LTD.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Salzer (44WTK38D3J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
@@ -694,8 +694,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				PROVISIONING_PROFILE = "A62C7082-441F-41B7-AAD2-7AD8959F6D4E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A62C7082-441F-41B7-AAD2-7AD8959F6D4E";
+				PROVISIONING_PROFILE = "678EC628-A08D-4207-AC82-9C070BA2E3B2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "678EC628-A08D-4207-AC82-9C070BA2E3B2";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
