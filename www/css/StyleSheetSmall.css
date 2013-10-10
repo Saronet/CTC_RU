@@ -172,7 +172,7 @@ left: 96px;*/
 
 .time_pic_white{
     top: 54%;
-    left: 143px;
+    left: 13%;
 }
 /*
 .midddel_main_pic
@@ -242,7 +242,7 @@ left: 96px;*/
 
 
 .midddel_main_pic_item img {
-    height: 50%;
+    height: 55%;
 }
 
 .main_btn_position {
@@ -906,4 +906,8 @@ padding-right: 7%;
 }
 .midddel_main_pic{
 	top:-13px;
+	height: 52%;
+}
+.middel_main_ul1 {
+height: 100%;
 }
