@@ -245,6 +245,8 @@ function NavigationMan() {
         $(".page").hide();
         gestureMan_.gestureStart("LR");
         $('.one_recipe_page').show();
+        $('.one_recipe_page .one_recipe_back_btn').show();
+        
         //$('.text_main_icon_position').css({ "color": "#ffffff" });
         //$('#recipes_icon').hide();
         $('.main_text_background').hide();
@@ -577,6 +579,7 @@ this.showTimerPage = function() {
 
         $('.Gesture_page').show();
         // $('.home_page').hide();
+          $(".Gesture_page .one_recipe_back_btn").show();
 
         this.backPosition = this.pagePosition;
         this.pagePosition = "gesture";
@@ -623,6 +626,7 @@ this.showTimerPage = function() {
         //$("#recipes_icon").show();
         $('.search_page').show();
         $(".search_text_background").show();
+         
 
         this.backPosition = this.pagePosition;
         this.pagePosition = "search";
