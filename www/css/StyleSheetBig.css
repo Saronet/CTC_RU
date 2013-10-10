@@ -77,12 +77,21 @@
 .background_term {
     height: 50%;
 }
+.recipes_middel_pic_favorite {
+height: 792px;
+}
 /*=================================singel recipes==========================*/
 .recipes_middel_pic {
-    height: 770px;
+    height: 750px;
     top: -33px;
 }
-
+.recipes_background_what_to_do .recipes_middel_pic {
+	height: 720px;
+	overflow: auto;
+}
+.one_recipe_page_what_to_do,.recipes_middel_window{
+	overflow:visible;
+}
 .clock_icon_recipes_one {
     background-size: 58px 27px;
     left: 17%;
@@ -201,7 +210,7 @@
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
 background-size: auto 67%;
-background-position: 100% 0;
+background-position: 102% 0;
 cursor: pointer;
 height: 3em;
 position: absolute;
@@ -214,7 +223,9 @@ margin: auto 0;
 display: none;
 background-repeat: no-repeat;
 }
-
+.one_recipe_page.page  .one_recipe_back_btn{
+	display:block;
+}
 .one_recipe_back_btn.hover {
     background-position: 0 0;
 }
@@ -442,4 +453,20 @@ line-height: 1px;
 /********gesture page*********/
 .background_term{
     top: 80px;
+}
+
+.recipes_background_what_u_need {
+height: 721px;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+
+/*--delite--*/
+.favorite_delete_icon {
+width: 80px;
+height: 80px;
+}
+.favorite_delete_icon img{
+	width:100%;
 }
