@@ -1259,3 +1259,40 @@ ire_icon_recipes {
     height: 80px;
     margin-bottom: 0px;
 }
+
+
+.foodgrator_arrow_plus {
+    width: 60px;
+    height: 52px;
+    top: -55px;
+    margin-left: 32px;
+}
+
+.foodgrator_arrow {
+    width: 65px;
+    height: 55px;
+    top: -53px;
+    margin-right: -6px;
+}
+
+.foodgrator_smile {
+    height: 46px;
+    width: 77px;
+    top: 83px;
+    float: left;
+    margin-left: 29px;
+}
+
+.foodgrator_instruction_text_left {
+    font-size: 11px;
+    width: 129px;
+    margin-top: 75px;
+    margin-left: -22px;
+}
+
+.foodgrator_instruction_text_down {
+    font-size: 11px;
+    width: 158px;
+    margin-top: 53px;
+    margin-left: -44px;
+}
