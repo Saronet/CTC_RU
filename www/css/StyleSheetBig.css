@@ -508,3 +508,69 @@ width: 100%;
 	width:100%;
 }
 /*-----*/
+
+/*****tools page******/
+.tools_middel {
+    background-color: #FFFFFF;
+    height: 33%;
+    position: absolute;
+    width: 94%;
+    right: 0;
+    left: 0;
+    margin: 2% auto;
+    top: 155px;
+}
+
+.tools_middel_element, .tools_middel_element_footer {
+    height: 18%;
+    margin: auto;
+    width: 89%;
+    top: 27px;
+    position: relative;
+}
+
+.tools_clock, .tools_Shopping_cart, .tools_term_list, .tools_camera {
+    height: 60%;
+    background-size: 65px;
+    left: 8%;
+    width: 15%;
+    top: 25%;
+}
+
+.tools_text {
+    color: #4d555f;
+    font-family: Conv_PlumbBol;
+    font-size: 2.5em;
+    left: 98px;
+    line-height: 53px;
+    position: relative;
+    width: 432px;
+}
+
+.tools_middel_element_footer{
+    top: 55px;
+    position: relative;
+    width: 100%
+}
+
+.tools_share, .tools_website {
+    width: 40%;
+    background-position-x: 0;
+    background-position-y: 4px;
+    background-size: 25px;
+    float: left;
+    left: 20px;
+    top: 8px;
+}
+
+.tools_share_text {
+    color: #CFCFCF;
+    font-family: PlumbMed;
+    font-size: 23px;
+    left: 29px;
+    line-height: 2em;
+    position: relative;
+    width: 229px;
+}
+
+
