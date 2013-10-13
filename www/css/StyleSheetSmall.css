@@ -893,7 +893,7 @@ left: 69px;*/
 }
 /*******tools page*****/
 .tools_middel {
-    height: 65%;
+    height: 63%;
     margin: 12% auto;
 }
 
@@ -902,12 +902,14 @@ left: 69px;*/
 }
 
 .tools_clock, .tools_Shopping_cart, .tools_term_list, .tools_camera {
-    background-size: 66%;
+    background-size: 70%;
+    background-position-y: 1px;
+    height: 31px;
+    top: 2px;
 }
 
 .tools_text {
     color: #4d555f;
-    font-family: Conv_PlumbBol;
     font-size: 2em;
     left: 45px;
     line-height: 27px;
@@ -916,42 +918,45 @@ left: 69px;*/
 }
 
 .tools_middel_element, .tools_middel_element_footer {
-    height: 19%;
+    height: 12%;
     margin: auto;
     width: 89%;
     position: relative;
-    top: 10px;
+    top: -1px;
+    margin-top: 18px;
+    margin-bottom: 18px; 
 }
 
 .tools_middel_element_footer {
     border-top: 1px solid #4d555f;
     width: 100%;
-    top: 22px;
+    top: 0px;
 }
 
 .tools_website {
     top: 1px;
     width: 40%;
     background-size: 10px;
-    background-position-y: 3px;
-    background-position-x: 4px;
+    background-position-y: 8px;
+    background-position-x: 9px;
     float: left;
     position: relative;
     left: 11px;
 }
 
 .tools_share_text {
-    color: #CFCFCF;
+    color: #4D555F;
     font-family: PlumbMed;
     font-size: 1em;
-    left: 16px;
-    line-height: 2em;
+    left: 20px;
+    line-height: 3em;
     position: relative;
     width: 134px;
 }
 
 .tools_share{
     background-size: 10px;
+    background-position-x: 7px;
 }
 
 

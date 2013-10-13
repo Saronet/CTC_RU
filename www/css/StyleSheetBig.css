@@ -498,33 +498,34 @@ margin: auto;
 }
 
 .tools_middel_element, .tools_middel_element_footer {
-    height: 18%;
+    height: 12%;
     margin: auto;
     width: 89%;
-    top: 27px;
+    top: -1px;
     position: relative;
+    margin-top: 42px;
+    margin-bottom: 40px;
 }
 
 .tools_clock, .tools_Shopping_cart, .tools_term_list, .tools_camera {
-    height: 60%;
+    height: 92%;
     background-size: 65px;
     left: 8%;
     width: 15%;
-    top: 25%;
+    top: 11%;
 }
 
 .tools_text {
     color: #4d555f;
-    font-family: Conv_PlumbBol;
     font-size: 2.5em;
     left: 98px;
-    line-height: 53px;
+    line-height: 65px;
     position: relative;
     width: 432px;
 }
 
 .tools_middel_element_footer{
-    top: 55px;
+    top: 0px;
     position: relative;
     width: 100%
 }
@@ -540,7 +541,7 @@ margin: auto;
 }
 
 .tools_share_text {
-    color: #CFCFCF;
+    color: #4D555F;
     font-family: PlumbMed;
     font-size: 23px;
     left: 29px;
