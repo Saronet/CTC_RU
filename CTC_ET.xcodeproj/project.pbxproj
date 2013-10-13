@@ -547,7 +547,7 @@
 				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: THE BOX LTD. (ABYN6C4927)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -593,8 +593,8 @@
 				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: THE BOX LTD. (ABYN6C4927)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE BOX LTD. (ABYN6C4927)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTC_ET/CTC_ET-Prefix.pch";
@@ -626,7 +626,7 @@
 				);
 				PRODUCT_NAME = CTC_ET;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "678EC628-A08D-4207-AC82-9C070BA2E3B2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0F762D66-DC33-4802-9EC3-19B3095CDA6C";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -658,7 +658,7 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				PROVISIONING_PROFILE = "678EC628-A08D-4207-AC82-9C070BA2E3B2";
+				PROVISIONING_PROFILE = "0F762D66-DC33-4802-9EC3-19B3095CDA6C";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -670,8 +670,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer: David Salzer (44WTK38D3J)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: THE BOX LTD. (ABYN6C4927)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE BOX LTD. (ABYN6C4927)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
@@ -694,8 +694,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				PROVISIONING_PROFILE = "678EC628-A08D-4207-AC82-9C070BA2E3B2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "678EC628-A08D-4207-AC82-9C070BA2E3B2";
+				PROVISIONING_PROFILE = "0F762D66-DC33-4802-9EC3-19B3095CDA6C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0F762D66-DC33-4802-9EC3-19B3095CDA6C";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";

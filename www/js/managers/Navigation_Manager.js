@@ -551,12 +551,12 @@ this.showTimerPage = function() {
         $(".facebookDialog").hide();
 
         $('.share_page').show();
-
+        $('.share_page').show();
         $('.share_specific_pic').hide();
         // $('.about_us_page').hide();
-        $(".share_position").show();
+        $(".share_page .one_recipe_back_btn").show();
         
-        this.backPosition = this.pagePosition;
+        this.backPosition = /Users/davidsalzer/Downloads/CTC__Appetite_App.mobileprovisionthis.pagePosition;
         this.pagePosition = "share";
     }
 
