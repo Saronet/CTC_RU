@@ -740,14 +740,15 @@ a {
 }
 
 .foodgrator_arrow_plus {
-    background-image: url('../images/foodgrator_arrow_plus.png');
+    background-image: url('../images/foodgerator-inst1.png');
+    background-size: 50% 50%;
     background-repeat: no-repeat;
     position: relative;
     float: left;
     width: 109px;
     height: 98px;
-    top: 65px;
-    margin-left: 95px;
+    top: -64px;
+    margin-left: 34px;
 }
 
 .foodgrator_instruction_text_left {
@@ -771,7 +772,8 @@ a {
 }
 
 .foodgrator_smile {
-    background-image: url('../images/foodgrator_smile.png');
+    background-image: url('../images/foodgerator-inst3.png');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90px;
     width: 80px;
@@ -784,14 +786,15 @@ a {
 }
 
 .foodgrator_arrow {
-    background-image: url('../images/foodgrator_arrow_food.png');
+    background-image: url('../images/foodgerator-inst2.png');
+    background-size: 43% 56%;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     float: right;
-    width: 139px;
+    width: 157px;
     height: 93px;
-    top: 65px;
-    margin-right: 95px;
+    top: -160px;
+    margin-right: 21px;
 }
 
 .recipes_background_foodgrator {
