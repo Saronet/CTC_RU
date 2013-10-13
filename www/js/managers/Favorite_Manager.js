@@ -7,12 +7,12 @@ favorite_Manager = function() {
             e.preventDefault();
         }
         catch(ex) { }
-       // $("#favorite_icon").addClass("icon_touch_start");
+        // $("#favorite_icon").addClass("icon_touch_start");
     }
 
     this.showPage = function() {
         hideLoading();
-       // $("#favorite_icon").removeClass("icon_touch_start");
+        // $("#favorite_icon").removeClass("icon_touch_start");
         var tempFavoriteList;
         try {
             var tempFavoriteList = localStorage.getItem('favoriteCTCList');
@@ -76,12 +76,12 @@ favorite_Manager = function() {
                                      "<span class=\"clock_icon_recipes\"> </span>" +
                                      "<span class=\"recipes_footer_text\">" + recipe.custom_fields["wpcf-total_time"] + " мин. </span>" +
                     //"<span class=\"recipes_footer_text\">" + recipe.custom_fields["wpcf-total_time"] + " Min. </span>" + //for english
-                                     //"<span class=\"recipes_line\">|</span>" +
-                                     
+                    //"<span class=\"recipes_line\">|</span>" +
+
                                      "<span class=\"recipes_footer_text\"> сложно</span>" +
-                                     //"<span class=\"recipes_line\">|</span> " +
-                                     //"<span class=\"favorite_close_btn\"></span> " +
-                                     //"<span class=\"recipes_footer_text\">удалить</span>" +
+                    //"<span class=\"recipes_line\">|</span> " +
+                    //"<span class=\"favorite_close_btn\"></span> " +
+                    //"<span class=\"recipes_footer_text\">удалить</span>" +
                                      " </div>" + //image +
                                      "</div>" +
                     // "<div class=\"delete_recipe_btn\" style=\"display:none;\"><img class=\"delete_recipe_position\"  id=\"favoriteDelete" + recipe.id + "\" alt=\"\" src=" + deleteImage + " ontouchend=\"favoriteMan_.deleteFavorite(this)\" /></div>" +
@@ -100,8 +100,7 @@ favorite_Manager = function() {
                     //$("#favorite" + recipe.id).data("id", recipe.id);
                     //$("#favoriteDelete" + recipe.id).data("id", recipe.id);
                     var category = recipe.categories[0].slug;
-                    if (category == "feature")
-                    {
+                    if(category == "feature") {
                         category = recipe.categories[1].slug;
                     }
                     $("#recipeGoToFA" + recipe.id).data("id", recipe.id);
@@ -148,6 +147,7 @@ favorite_Manager = function() {
         var myObj = "#recipeGoToFA" + id;
         $(myObj).data("swipe", true);
         list_hover($(myObj));
+           $(myObj).addClass("delete");
         switch(browser) {
             case "isGt2":
                 $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 63px");
@@ -166,23 +166,26 @@ favorite_Manager = function() {
                 $(myObj + ' .cover_delete').css("width", "80%");
                 break;
             case "ipad":
-                $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 171px");
-                $(myObj + ' .recipes_first_title').css("margin-left", "541px");
-                $(myObj + ' .recipes_first_title').css("width", "779px");
+               // $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 171px");
+              ///  $(myObj + ' .recipes_first_title').css("margin-left", "541px");
+              //  $(myObj + ' .recipes_first_title').css("width", "779px");
                 /*$(myObj + ' .recipes_second_title').css("margin-left", "541px");*/
-                $(myObj + ' .decoration_recipes_favorite').css("left", "42%");
-                $(myObj + ' .recipes_second_title').css("display", "none");
-                $(myObj + ' .cover_delete').css("left", "145px");
-                $(myObj + ' .cover_delete').css("width", "90%");
+             //   $(myObj + ' .decoration_recipes_favorite').css("left", "42%");
+             //   $(myObj + ' .recipes_second_title').css("display", "none");
+             //   $(myObj + ' .cover_delete').css("left", "145px");
+            //    $(myObj + ' .cover_delete').css("width", "90%");
                 break;
             case "iphone":
-                $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 71px");
-                $(myObj + ' .recipes_first_title').css("margin-left", "231px");
-                $(myObj + ' .recipes_first_title').css("width", "287px");
+                // $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 32px");
+                //$(myObj + ' .recipes_first_title').css("margin-left", "231px");
+                // $(myObj + ' .recipes_first_title').css("width", "287px");
                 /*$(myObj + ' .recipes_second_title').css("margin-left", "231px");*/
-                $(myObj + ' .recipes_second_title').css("display", "none");
-                $(myObj + ' .cover_delete').css("left", "63px");
-                $(myObj + ' .cover_delete').css("width", "90%");
+                //$(myObj + ' .recipes_second_title').css("display", "none");
+                // $(myObj + ' .cover_delete').css("left", "63px");
+                //  $(myObj + ' .cover_delete').css("width", "90%");
+
+
+             
                 break;
         }
 
@@ -349,16 +352,16 @@ favorite_Manager = function() {
             if($(this).css("display") == "block") {
                 myObj = "#" + $(this).parent().attr("id");
                 if(isIpad()) {
-                    $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 23px");
-                    $(myObj + ' .recipes_first_title').css("margin-left", "380px");
-                    $(myObj + ' .recipes_second_title').css("margin-left", "378px");
-                    $(myObj + ' .decoration_recipes_favorite').css("left", "32%");
+                 //   $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 23px");
+                //    $(myObj + ' .recipes_first_title').css("margin-left", "380px");
+                 //   $(myObj + ' .recipes_second_title').css("margin-left", "378px");
+               //     $(myObj + ' .decoration_recipes_favorite').css("left", "32%");
                 } else {
-                    $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 23px");
-                    $(myObj + ' .recipes_first_title').css("margin-left", "188px");
-                    $(myObj + ' .recipes_second_title').css("margin-left", "187px");
+                    // $(myObj + ' .recipes_small_pic_border').css("margin", "0 0 0 23px");
+                    //  $(myObj + ' .recipes_first_title').css("margin-left", "188px");
+                    //  $(myObj + ' .recipes_second_title').css("margin-left", "187px");
                 }
-
+                $(myObj).removeClass("delete");
                 $(myObj + ' .favorite_delete_icon').hide();
                 $(myObj + ' .recipes_footer').show();
             }
