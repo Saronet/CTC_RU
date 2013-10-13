@@ -242,7 +242,7 @@ top: 53px;
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
 background-size: auto 67%;
-background-position: 100% 0;
+background-position: 102% 0;
 cursor: pointer;
 height: 3em;
 position: absolute;
@@ -275,6 +275,12 @@ background-repeat: no-repeat;
 margin: auto;
 }
 
+.midddel_main_pic {
+top:34px;
+}
+.dots_position{
+    top: 50px;
+}
 /*********share page*************/
 .share_btn_text {
     font-size: 32px;
