@@ -51,7 +51,7 @@
 
 .clock_icon_recipes {
     width: 1em;
-    height: 1em;
+    height: 1.1em;
     background-size: 2em 1em;
     margin-top: 2px;
 }
@@ -114,12 +114,18 @@ height: 94%;
 
 .one_recipe_pic {
     clear: both;
+    height: 433px;;
 }
 
 #videoRecipePage {
     display: none;
     width: 100%;
     height: 100%;
+}
+
+
+.one_recipe_text_discription {
+top: 53px;
 }
 /*===================categoris page==========================*/
 .all_categories {
@@ -216,7 +222,7 @@ height: 94%;
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
 background-size: auto 67%;
-background-position: 100% 0;
+background-position: 102% 0;
 cursor: pointer;
 height: 3em;
 position: absolute;
@@ -249,6 +255,12 @@ background-repeat: no-repeat;
 margin: auto;
 }
 
+.midddel_main_pic {
+top:34px;
+}
+.dots_position{
+    top: 50px;
+}
 /*********share page*************/
 .share_btn_text {
     font-size: 32px;
@@ -484,3 +496,72 @@ margin: auto;
 	width:100%;
 }
 /*-----*/
+
+/*****tools page******/
+.tools_middel {
+    background-color: #FFFFFF;
+    height: 33%;
+    position: absolute;
+    width: 94%;
+    right: 0;
+    left: 0;
+    margin: 2% auto;
+    top: 155px;
+}
+
+.tools_middel_element, .tools_middel_element_footer {
+    height: 12%;
+    margin: auto;
+    width: 89%;
+    top: -1px;
+    position: relative;
+    margin-top: 42px;
+    margin-bottom: 40px;
+}
+
+.tools_clock, .tools_Shopping_cart, .tools_term_list, .tools_camera {
+    height: 92%;
+    background-size: 65px;
+    left: 8%;
+    width: 15%;
+    top: 11%;
+}
+
+.tools_text {
+    color: #4d555f;
+    font-size: 2.5em;
+    left: 98px;
+    line-height: 65px;
+    position: relative;
+    width: 432px;
+}
+
+.tools_middel_element_footer{
+    top: 0px;
+    position: relative;
+    width: 100%
+}
+
+.tools_share, .tools_website {
+    width: 40%;
+    background-position-x: 0;
+    background-position-y: 4px;
+    background-size: 25px;
+    float: left;
+    left: 20px;
+    top: 8px;
+}
+
+.tools_share_text {
+    color: #4D555F;
+    font-family: PlumbMed;
+    font-size: 23px;
+    left: 29px;
+    line-height: 2em;
+    position: relative;
+    width: 229px;
+}
+
+.tools_clock{
+    background-size: 60px;
+}
