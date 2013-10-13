@@ -33,28 +33,12 @@
 .recipes_look_inside_btn {
     right: 15px;
     width: 3%;
-    top: 47%;
+    top: 93px;
 }
 
 .recipes_footer {
     position: absolute;
     top: 6.8em;
-}
-
-
-.delete .inside_information
-{
-    width: 58%;
-}
-.delete  .recipes_small_pic_border{
-    margin: 0 0 0 94px
-}
-.delete .cover_delete{
-    left: 63px;
-    width: 90%;
-}
-.delete .recipes_second_title{
-    display: none;
 }
 
 #loadMoreRecipes {
@@ -67,7 +51,7 @@
 
 .clock_icon_recipes {
     width: 1em;
-    height: 1em;
+    height: 1.1em;
     background-size: 2em 1em;
     margin-top: 2px;
 }
@@ -100,16 +84,13 @@ height: 94%;
 }
 /*=================================singel recipes==========================*/
 .recipes_middel_pic {
-    height: 100%;
+    height: 750px;
     top: -33px;
 }
 
 .recipes_background_what_to_do .recipes_middel_pic {
     height: 720px;
     overflow: auto;
-}
-.one_recipe_middle {
-top: 24px;
 }
 
 .one_recipe_page_what_to_do, .recipes_middel_window {
@@ -133,13 +114,18 @@ top: 24px;
 
 .one_recipe_pic {
     clear: both;
+    height: 433px;;
 }
 
 #videoRecipePage {
     display: none;
     width: 100%;
     height: 100%;
-    padding-top: 16px;
+}
+
+
+.one_recipe_text_discription {
+top: 53px;
 }
 /*===================categoris page==========================*/
 .all_categories {
@@ -236,7 +222,7 @@ top: 24px;
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
 background-size: auto 67%;
-background-position: 100% 0;
+background-position: 102% 0;
 cursor: pointer;
 height: 3em;
 position: absolute;
@@ -269,6 +255,12 @@ background-repeat: no-repeat;
 margin: auto;
 }
 
+.midddel_main_pic {
+top:34px;
+}
+.dots_position{
+    top: 50px;
+}
 /*********share page*************/
 .share_btn_text {
     font-size: 32px;
@@ -416,8 +408,8 @@ margin: auto;
 }
 
 .recipes_list ul li {
-   padding: 2%;
-width: 96%;
+    padding: 1.5em;
+    width: 93%;
 }
 
 .recipes_small_pic_border {
@@ -430,13 +422,11 @@ width: 96%;
     margin-left: 24px;
     height: 9em;
     width: 71%;
-    position: relative;
 }
 
 .recipes_footer {
-   height: 20px;
-top: 7.8em;
-width: 100%;
+    height: 20px;
+    top: 9.8em;
 }
 
 .recipes_small_pic {
@@ -494,7 +484,6 @@ width: 100%;
     height: 721px;
     overflow-x: hidden;
     overflow-y: scroll;
-    top: 1em;
 }
 
 
@@ -502,7 +491,6 @@ width: 100%;
 .favorite_delete_icon {
     width: 80px;
     height: 80px;
-    margin-top: 39px;
 }
 .favorite_delete_icon img{
 	width:100%;
