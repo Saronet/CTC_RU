@@ -941,7 +941,7 @@ left: 69px;*/
     position: relative;
     top: -1px;
     margin-top: 18px;
-    margin-bottom: 18px; 
+    margin-bottom: 18px;
 }
 
 .tools_middel_element_footer {
@@ -1163,7 +1163,7 @@ ire_icon_recipes {
     border-radius: 6px;
     top: 1.2em;
     background-size: auto 70%;
-    background-position: 12% 50%;
+    background-position: 11% 50%;
     background-color: #cc0000;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -1199,11 +1199,9 @@ ire_icon_recipes {
     height: 471px;
     top: 148px;
     width: 100%;
-
 }
 
 .foodgrator_instructions {
-    display: none;
 }
 
 .foodgrator_text_background {
@@ -1251,7 +1249,13 @@ ire_icon_recipes {
     font-size: 14px;
     text-align: left;
 }
+
 .recipes_list_Results {
-margin: auto;
-position: relative;
+    margin: auto;
+    position: relative;
+}
+
+.recipes_list_Results ul li {
+    height: 80px;
+    margin-bottom: 0px;
 }

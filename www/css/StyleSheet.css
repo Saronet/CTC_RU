@@ -31,6 +31,15 @@ body {
     overflow: hidden;
 }
 
+ul {
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -830,7 +839,7 @@ a {
     padding: 0;
 }
 
-.recipes_list_search ul {
+.recipes_list_search ul, .recipes_list_Results ul {
     list-style-type: none;
     min-height: 183px;
     -webkit-padding-start: 0px;
@@ -842,7 +851,7 @@ a {
     list-style-type: none;
 }
 
-.recipes_list ul li, .recipes_list_search ul li {
+.recipes_list ul li, .recipes_list_search ul li, .recipes_list_Results ul li {
     height: 100%;
     width: 100%;
     position: relative;
