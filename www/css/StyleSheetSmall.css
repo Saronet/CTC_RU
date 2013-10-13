@@ -60,7 +60,7 @@ border: 1px solid red;
     top: 0.4em;
     overflow-x: hidden;
     overflow-y: auto;
-    height: 330px;
+    height: 100%;
 }
 
 .recipes_middel_pic_what_u_need {
@@ -81,7 +81,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 }
 
 .Up_banner_background {
-    height: 3em;
+    height: 4em;
     border-bottom: 1px solid #cc0000;
 }
 
@@ -396,13 +396,28 @@ left: 69px;*/
     max-height: 22px;
 }
 
+
+.delete .inside_information
+{
+    width: 179px;
+}
+.delete  .recipes_small_pic_border{
+    margin: 0 0 0 32px
+}
+.delete .cover_delete{
+    left: 63px;
+    width: 90%;
+}
+.delete .recipes_second_title{
+    display: none;
+}
 .recipes_list ul li, .recipes_list_search ul li {
-    height: 67px;
-    width: 100%;
-    padding-right: 1px;
-    padding-left: 4px;
-    padding-top: 10px;
-    padding-bottom: 0px;
+ height: 67px;
+width: 99%;
+padding-right: 0;
+padding-left: 1%;
+padding-top: 10px;
+padding-bottom: 0px;
 }
 
 .recipes_list_search ul li {
@@ -438,10 +453,11 @@ left: 69px;*/
 }
 
 .recipes_look_inside_btn {
-    right: -13px;
+ right: 1px;
     top: 10px;
     position: absolute;
     font-size: 1.5em;
+    width: 9px;
 }
 
 .btn_background_down {
@@ -544,11 +560,11 @@ left: 69px;*/
 }
 
 .recipes_background_main {
-    height: 63%;
+    height: 100%;
     margin: auto;
     top: 6px;
     width: 100%;
-    border-top: 0.5px #838993 solid;
+    border-top: 1px #838993 solid;
 }
 
 .one_recipe_bar_left {
@@ -562,7 +578,7 @@ left: 69px;*/
 }
 
 .one_recipe_text_bar_left, .one_recipe_text_bar_middel, .one_recipe_text_bar_right {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .one_recipe_bar_left, .one_recipe_bar_middel, .one_recipe_bar_right {
@@ -574,15 +590,14 @@ left: 69px;*/
 }
 
 .one_recipe_small_up_icons {
-    height: 70px;
+    height: 56px;
     float: left;
 }
 
 #videoRecipePage {
-    width: 100%;
-    height: 110%;
-    top: -12px;
-    position: relative;
+  width: 100%;
+height: 100%;
+position: relative;
 }
 
 #imgRecipePage {
@@ -596,11 +611,11 @@ left: 69px;*/
 }
 
 .one_recipe_middle {
-    height: 320px;
+ 
 }
 
 .one_recipe_white {
-    height: 40px;
+    height: 52px;
     font-size: 0.6em;
     bottom: 0;
 }
@@ -621,17 +636,17 @@ left: 69px;*/
 
 .one_recipe_text_pic {
     font-size: 14px;
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
 .bar_one_recipe_position {
-    height: 13px;
+    height: 16px;
     z-index: 4;
 }
 
 .one_recipe_text_discription {
     /*top: -55px;*/
-    font-size: 0.8em;
+    font-size:1em;
     width: 88%;
     position: absolute;
     top: 162px;
@@ -639,7 +654,6 @@ left: 69px;*/
 
 .add_to_cart_btn {
     border-radius: 6px;
-    top: 1.2em;
     background-image: url("../images/add_to_cart_btn.png");
     background-size: auto 70%;
     background-position: 8% 50%;
@@ -651,7 +665,7 @@ left: 69px;*/
     height: 3em;
     margin: auto;
     position: relative;
-    top: 1em;
+    top: 2em;
     width: 82%;
     left: 0;
     right: 0;
@@ -697,7 +711,7 @@ left: 69px;*/
 
 
 .small_icons_title {
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 #totalTimeRecipePage {
@@ -713,7 +727,7 @@ left: 69px;*/
 
 
 .favorite_delete_icon {
-    margin-top: 5px;
+    margin-top: 17px;
     margin-left: 4px;
 }
 
@@ -801,7 +815,7 @@ left: 69px;*/
 }
 
 .recipes_icon_text {
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 .small_icons_title {
@@ -1020,15 +1034,15 @@ background-size: 100% 100%;
 }
 
 .clock_icon_recipes_one {
-    background-size: 31px 14px;
-    left: 19%;
-    width: 16px;
-    height: 15px;
-    background-position: right 0;
+   background-size: 200% 100%;
+left: 28%;
+width: 12px;
+height: 11px;
+background-position: right 0;
 }
 
 .recipes_middel_pic {
-    height: 350px;
+    height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -1039,7 +1053,7 @@ background-size: 100% 100%;
 
 .one_recipe_pic {
     clear: both;
-    height: auto;
+    height: 203px;
 }
 
 .recipes_middel_window_what_u_need {
@@ -1048,7 +1062,7 @@ background-size: 100% 100%;
 
 .one_recipe_text_discription {
     position: relative;
-    top: 0;
+    top: 12px;
 }
 
 
