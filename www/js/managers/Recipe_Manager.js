@@ -169,13 +169,16 @@ function RecipeMan () {
 
                 video_playbtn = "<div id=\"video_playbtn_andro\" class=\"video_playbtn\" ontouchstart=\"recipeMan_.playVideo()\";></div>";
                 $("#imgRecipePage").hide();
+              
                 $(".one_recipe_pic").prepend(video_playbtn + "<video id=\"videoRecipePage\" width=\"" + width + "\" height=\"" + height + "\" controls=\"controls\" poster=\"" + small_imag + "\"><source src=\"" + src + "\" type=\"video/mp4\"></video>");
-
+                $("#videoRecipePage").show();
             }
             else if(browser != "isGt3" && browser != "isGt2") {
                 src = currentRecipeDetails["wpcf-video"][0];
                 $("#imgRecipePage").hide();
+               
                 $(".one_recipe_pic").prepend(video_playbtn + "<video id=\"videoRecipePage\" width=\"" + width + "\" height=\"" + height + "\" controls=\"controls\" poster=\"" + small_imag + "\"><source src=\"" + src + "\" type=\"video/mp4\"></video>");
+                 $("#videoRecipePage").show();
             }
             else {
                 src = currentRecipeDetails["wpcf-video"][0];
