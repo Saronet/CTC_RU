@@ -30,7 +30,7 @@ function FeatureMan () {
             break;
             case "ipad": background_pos = "-20.5px 1px";
             break;
-            case "iphone": background_pos = "-7px 50%";
+            case "iphone": background_pos = "-9px 50%";
             break;
         }
         /*var background_pos = "-26px 50%"
@@ -103,8 +103,8 @@ function FeatureMan () {
                 dotWidth = 43;
                 break;
             case "iphone":
-                background_pos = "-7px 50%";
-                dotWidth = 10;
+                background_pos = "-9px 50%";
+                dotWidth = 12;
                 break;
         }
         var inIpad = isIpad();

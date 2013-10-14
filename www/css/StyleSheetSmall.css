@@ -64,7 +64,7 @@ border: 1px solid red;
 }
 
 .recipes_middel_pic_what_u_need {
-    top: 0em;
+    top: 2em;
 }
 
 user agent stylesheetdiv {
@@ -81,7 +81,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 }
 
 .Up_banner_background {
-    height: 4em;
+    height: 4.2em;
     border-bottom: 1px solid #cc0000;
 }
 
@@ -105,7 +105,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -15px;
+    top: -9px;
     right: 8px;
 }
 
@@ -114,7 +114,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -15px;
+    top: -9px;
     right: 12px;
 }
 
@@ -228,11 +228,11 @@ left: 96px;*/
 }
 
 .dots_position ul li {
-    background-image: url('../images/point_all.png');
-    width: 7px;
-    height: 7px;
-    margin-left: 3px;
-    background-size: 200%;
+   background-image: url('../images/point_all.png');
+width: 9px;
+height: 9px;
+margin-left: 3px;
+background-size: 200% 100%;
 }
 
 
@@ -255,7 +255,7 @@ left: 96px;*/
 
 .main_btn_position {
     height: 7%;
-    top: 12%;
+    top: 10%;
 }
 
 .search_text_background {
@@ -348,9 +348,9 @@ left: 69px;*/
 }
 
 .recipes_middel_pic_recipres_page, recipes_middel_pic_search, .recipes_middel_pic_favorite {
-    top: 0px;
+    
+     top: 9px;
 }
-
 .recipes_list ul {
     padding-top: 0px;
     width: 100%;
@@ -361,8 +361,8 @@ left: 69px;*/
 }
 
 .recipes_small_pic_border {
-    width: 6em;
-    height: 6em;
+    width: 7em;
+    height: 7em;
     margin: 0;
     float: left;
 }
@@ -370,7 +370,7 @@ left: 69px;*/
 .inside_information {
     display: block;
     height: 60px;
-    width: 220px;
+    width: 216px;
     float: left;
     margin-left: 5px;
     position: relative;
@@ -415,11 +415,11 @@ left: 69px;*/
 }
 
 .recipes_list ul li, .recipes_list_search ul li {
-    height: 67px;
+    height: 75px;
     width: 99%;
     padding-right: 0;
     padding-left: 1%;
-    padding-top: 10px;
+    padding-top: 8px;
     padding-bottom: 0px;
 }
 
@@ -488,7 +488,7 @@ left: 69px;*/
 }
 
 .dots_position {
-    top: 2.5em;
+    top: 3.5em;
 }
 
 .recipes_small_pic {
@@ -581,7 +581,8 @@ left: 69px;*/
 }
 
 .one_recipe_text_bar_left, .one_recipe_text_bar_middel, .one_recipe_text_bar_right {
-    font-size: 0.9em;
+    font-size: 1.2em;
+    line-height: 1.8em;
 }
 
 .one_recipe_bar_left, .one_recipe_bar_middel, .one_recipe_bar_right {
@@ -643,7 +644,7 @@ left: 69px;*/
 }
 
 .bar_one_recipe_position {
-    height: 16px;
+    height: 19px;
     z-index: 4;
 }
 
@@ -656,28 +657,26 @@ left: 69px;*/
 }
 
 .add_to_cart_btn {
-    border-radius: 6px;
-    background-image: url("../images/add_to_cart_btn.png");
-    background-size: auto 70%;
-    background-position: 8% 50%;
-    background-color: #cc0000;
-    background-repeat: no-repeat;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    height: 3em;
-    margin: auto;
-    position: relative;
-    top: 2em;
-    width: 82%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    font-size: 7px;
-    text-align: center;
-    margin-top: -5.5px;
-    padding-right: 7%;
-    line-height: 21px;
+   border-radius: 6px;
+background-image: url("../images/add_to_cart_btn.png");
+background-size: auto 70%;
+background-position: 4% 50%;
+background-color: #cc0000;
+background-repeat: no-repeat;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+height: 2em;
+margin: auto;
+position: relative;
+top: 2em;
+width: 89%;
+left: 0;
+right: 0;
+font-size: 12px;
+text-align: center;
+margin-top: -5.5px;
+line-height: 26px;
 }
 
 #add_to_cart_txt {
@@ -687,7 +686,7 @@ left: 69px;*/
 }
 
 .food_name_what_u_need_list {
-    font-size: 9px;
+    font-size: 12px;
     font-weight: bold;
     top: 0.9em;
     left: 0;
@@ -803,13 +802,12 @@ left: 69px;*/
 #recipePage_what_to_do_text ul li {
     width: 100%;
     padding-left: 0%;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 #recipePage_what_to_do_text ol li {
-    font-size: 15px;
-    padding-left: 0%;
-    font-size: 9px;
+     padding-left: 0%;
+    font-size: 12px;
 }
 
 .what_to_do_text {
@@ -1074,7 +1072,7 @@ left: 69px;*/
 }
 
 .midddel_main_pic {
-    top: 13px;
+    top: 21px;
     height: 52%;
 }
 

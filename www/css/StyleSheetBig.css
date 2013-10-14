@@ -654,3 +654,96 @@
     width: 91px;
     font-size: 20px;
 }
+
+.foodgrator_arrow_plus {
+    width: 125px;
+    height: 125px;
+    top: 47px;
+    margin-left: 84px;
+    background-size: 100% 100%;
+}
+
+.foodgrator_arrow {
+    width: 130px;
+    height: 125px;
+    top: 54px;
+    margin-right: 150px;
+}
+
+.foodgrator_smile {
+    height: 100px;
+    width: 170px;
+    top: 337px;
+    float: left;
+    margin-left: 129px;
+}
+
+.foodgrator_instruction_text_left {
+    font-size: 23px;
+    width: 256px;
+    margin-top: 140px;
+    margin-left: -14px;
+}
+
+.foodgrator_instruction_text_right {
+    display: block;
+    color: #484F57;
+    font-size: 24px;
+    text-align: left;
+    width: 288px;
+    margin-top: 130px;
+    margin-left: -21px;
+}
+
+.foodgrator_instruction_text_down {
+    font-size: 24px;
+    width: 296px;
+    margin-top: 80px;
+    margin-left: -86px;
+}
+
+#one {
+    position: absolute;
+    top: 141px;
+    left: -32px;
+    font-size: 22px;
+    color: #484F57;
+}
+
+#two {
+    position: absolute;
+    top: 131px;
+    left: -44px;
+    font-size: 22px;
+    color: #484F57;
+}
+
+#three {
+    position: absolute;
+    top: 83px;
+    left: -110px;
+    font-size: 23px;
+    color: #484F57;
+}
+
+#text_bottom {
+    color: red;
+    font-size: 36px;
+    line-height: 10px;
+    width: 359px;
+    left: -120px;
+    top: 170px;
+    position: absolute;
+}
+/******************share facebook**************/
+
+.share_facebook_btn {
+}
+
+.share_specific_pic {
+    top: 0px;
+}
+
+.share_spcific_pic {
+    height: 430px;
+}
