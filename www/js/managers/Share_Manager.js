@@ -1,51 +1,50 @@
-function shareMan () {
-  
-    this.initShare=function(){
+function shareMan() {
+
+    this.initShare = function () {
         try {
-            jsonMan_.get_share("ipad", "shareMan_.initShareCB");           
-        return sswsd;
+            jsonMan_.get_share("ipad", "shareMan_.initShareCB");
+            return sswsd;
         }
-        catch(ex) {
+        catch (ex) {
             return "";
         }
     }
 
-    this.initShareCB = function(val) {
+    this.initShareCB = function (val) {
 
         try {
             var body = "";
             var subject = "";
-            $(val["posts"]).each(function() {
-                if($(this).attr("slug") == browser.toLowerCase()) {
-                                
+            $(val["posts"]).each(function () {
+                if ($(this).attr("slug") == browser.toLowerCase()) {
+
                     body = $('<div/>').html($(this).attr("excerpt")).text();
                     subject = $(this).attr("custom_fields")["wpcf-subject"][0];
-                    subject += "<br/>"+$(this).attr("custom_fields")["wpcf-link"][0];
+                    subject += "<br/>" + $(this).attr("custom_fields")["wpcf-link"][0];
                 }
             });
 
             var mailToShare = "mailto:?Subject=" + subject + "&body=%0D%0A" + body;
             $(".tools_share").attr("href", mailToShare);
         }
-        catch(e) { }
+        catch (e) { }
     }
 
-    this.showPage = function() {
+    this.showPage = function () {
         NavigationMan_.navigate("tools", "share");
 
         $(".share_position").show();
 
-        $('#TextArea_share').click(function() {
-                                   $(".share_specific_pic").animate({"top":"-450px"}, 500);
+        $('#TextArea_share').click(function () {
+            $(".share_specific_pic").animate({ "top": "-450px" }, 500);
         })
-        
-        $('#TextArea_share').blur(function()
-                                  {
-                                  $(".share_specific_pic").animate({"top":"-59px"}, 500);
-                                  });
+
+        $('#TextArea_share').blur(function () {
+            $(".share_specific_pic").animate({ "top": "-59px" }, 500);
+        });
     }
 
-  $("#browseBtn").click(function() {
+    $("#browseBtn").click(function () {
 
                         navigator.camera.getPicture(shareMan_.onSuccess, shareMan_.onFail, { quality: 50,
                                                     destinationType: Camera.DestinationType.DATA_URL,
@@ -79,16 +78,16 @@ function shareMan () {
               NavigationMan_.navigate("", "browse");
               hideLoading();
 
-          }
-      });
+            }
+        });
 
-  }
-    
-    this.onFail=function(message) {
+    }
+
+    this.onFail = function (message) {
         //alert('Failed because: ' + message);
     }
 
-    $(".share_facebook_btn").click(function() {
+    $(".share_facebook_btn").click(function () {
         //$(".Up_banner_background").hide();
         //$(".second_nav_background_papers").hide();
         //$(".share_position").hide();
@@ -96,7 +95,7 @@ function shareMan () {
         //$(".facebookDialog").show();
 
         // First lets check to see if we have a user or not
-        if(!localStorage.getItem("fbToken")) {
+        if (!localStorage.getItem("fbToken")) {
             /*$("#facebook_loginArea").show();
             $("#facebook_status").hide();
 
@@ -116,9 +115,9 @@ function shareMan () {
 
     });
 
-    
 
-    this.done=function(){
+
+    this.done = function () {
         //$(".Up_banner_background").show();
         //$(".second_nav_background_papers").show();
         //$(".share_position").show();
@@ -128,19 +127,19 @@ function shareMan () {
         $('.share_position').show();
     };
 
-    
-    this.createPost=function(){
+
+    this.createPost = function () {
         // Define our message!
 
         var msg = $("#TextArea_share").val();
-        if((msg == undefined)||(msg == "")){msg="This is my message";}
+        if ((msg == undefined) || (msg == "")) { msg = "This is my message"; }
         $("#TextArea_share").val("");
-    
+
         // Define the part of the Graph you want to use.
         var _fbType = 'feed';
-    
-    // This example will post to a users wall with an image, link, description, text, caption and name.
-    // You can change
+
+        // This example will post to a users wall with an image, link, description, text, caption and name.
+        // You can change
         var params = {};
         params['message'] = msg;
         params['name'] = 'Домашний.Рецепты — приложение без прикосновения к экрану';
@@ -148,9 +147,9 @@ function shareMan () {
         params['link'] = "http://www.domashniy.ru/article/eda/";
         params['picture'] = $('.share_img').attr("src");
         params['caption'] = 'Привет, Друзья ';
-    
+
         // When you're ready send you request off to be processed!
-        facebookMan_.post(_fbType,params);	
+        facebookMan_.post(_fbType, params);
     };
-  
-  }
+
+}
