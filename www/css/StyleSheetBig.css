@@ -588,7 +588,7 @@
 }
 
 .recipes_middel_pic_foodgrator {
-    top: 145px;
+    
     height: 675px;
 }
 
@@ -639,6 +639,7 @@
     height: 60px;
     top: -39px;
     position: relative;
+    margin-bottom: 0px;
 }
 
 .foodgrator_page .inside_information {
