@@ -142,7 +142,7 @@ function FoodgrMan () {
                                      "<div class=\"inside_information\">" +
                                      "<span class=\"recipes_first_title\">" + val.posts[i].custom_fields["wpcf-recipe_name"] + "</span>" +
                                      "<span class=\"recipes_second_title\">" + val.posts[i].custom_fields["wpcf-short_describtion"] + "</span>" +
-                                     "<span class=\"recipes_look_inside_btn\" ></span>" +
+                                     "<span class=\"recipes_look_inside_btn\" >></span>" +
                                      "<div class=\"recipes_footer\">" +
                                      "<span class=\"clock_icon_recipes\"> </span>" +
                                      "<span class=\"recipes_footer_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " мин. </span>" +
