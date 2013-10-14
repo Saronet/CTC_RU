@@ -765,7 +765,17 @@ a {
     display: block;
     color: #484F57;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
+    width: 280px;
+    margin-top: 135px;
+    margin-left: -81px;
+}
+
+.foodgrator_instruction_text_right{
+    display: block;
+    color: #484F57;
+    font-size: 24px;
+    text-align: left;
     width: 280px;
     margin-top: 135px;
     margin-left: -81px;
@@ -775,7 +785,7 @@ a {
     display: block;
     color: #484F57;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     width: 380px;
     margin-top: 100px;
     margin-left: -133px;
@@ -783,7 +793,7 @@ a {
 
 .foodgrator_smile {
     background-image: url('../images/foodgerator-inst3.png');
-    background-size: 100% 100%;
+    background-size: 50% 60%;
     background-repeat: no-repeat;
     height: 90px;
     width: 130px;
@@ -793,7 +803,6 @@ a {
     top: 366px;
     float: left;
     margin-left: 74px;
-    background-size: 100% 100%;
 }
 
 .foodgrator_arrow {
@@ -817,6 +826,33 @@ a {
     /*top: 173px;*/
     width: 100%;
     display: none;
+}
+
+#one{
+    position: absolute;
+    top: 76px;
+    left: -21px;
+    color: #484F57; 
+}
+
+#two{
+    position: absolute;
+    top: 76px;
+    left: -21px;
+    color: #484F57;
+}
+
+#three{
+    position: absolute;
+    top: 76px;
+    left: -21px;
+    color: #484F57;
+}
+
+#text_bottom{
+    color: red;
+    font-size: 16px;
+    line-height: 10px;
 }
 
 .recipes_list {
@@ -2165,7 +2201,7 @@ a {
     text-align: center;
     top: -54px;
     line-height: 16px;
-    display: block;
+    display: none;
     cursor: pointer;
     position: absolute;
     left: 226px;
@@ -3648,7 +3684,7 @@ a {
     line-height: 1em;
     font-size: 1.4em;
     width: 80%;
-    display: inherit;
+    display: block !important;
     overflow: hidden;
 }
 

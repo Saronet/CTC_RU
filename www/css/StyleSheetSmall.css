@@ -1272,7 +1272,7 @@ ire_icon_recipes {
     width: 65px;
     height: 55px;
     top: -53px;
-    margin-right: -6px;
+    margin-right: 10px;
 }
 
 .foodgrator_smile {
@@ -1280,19 +1280,61 @@ ire_icon_recipes {
     width: 77px;
     top: 83px;
     float: left;
-    margin-left: 29px;
+    margin-left: 44px;
 }
 
 .foodgrator_instruction_text_left {
     font-size: 11px;
     width: 129px;
-    margin-top: 75px;
-    margin-left: -22px;
+    margin-top: 69px;
+    margin-left: -14px;
+}
+
+.foodgrator_instruction_text_right{
+    display: block;
+    color: #484F57;
+    font-size: 11px;
+    text-align: left;
+    width: 118px;
+    margin-top: 67px;
+    margin-left: -11px;
 }
 
 .foodgrator_instruction_text_down {
     font-size: 11px;
     width: 158px;
-    margin-top: 53px;
-    margin-left: -44px;
+    margin-top: 40px;
+    margin-left: -37px;
 }
+
+#one{
+    position: absolute;
+    top: 69px;
+    left: -21px;
+    color: #484F57; 
+}
+
+#two{
+    position: absolute;
+    top: 68px;
+    left: -21px;
+    color: #484F57;
+}
+
+#three{
+    position: absolute;
+    top: 41px;
+    left: -47px;
+    color: #484F57;
+}
+
+#text_bottom{
+    color: red;
+    font-size: 16px;
+    line-height: 10px;
+    width: 157px;
+    left: -55px;
+    top: 73px;
+    position: absolute;
+}
+
