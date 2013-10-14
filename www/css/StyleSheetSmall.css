@@ -66,10 +66,8 @@ border: 1px solid red;
 }
 
 .recipes_middel_pic_what_u_need {
-<<<<<<< HEAD
+
    overflow:auto;
-=======
->>>>>>> refs/remotes/origin/master
 }
 
 user agent stylesheetdiv {
@@ -1195,12 +1193,8 @@ overflow-y: scroll;
 }
 
 .one_recipe_middle_what_u_need_list {
-<<<<<<< HEAD
-top: 0;
-height:100%;
-=======
     top: 0;
->>>>>>> refs/remotes/origin/master
+height:100%;
 }
 
 .one_recipe_text_discription {

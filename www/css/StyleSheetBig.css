@@ -115,16 +115,15 @@
 }
 
 .one_recipe_page_what_to_do, .recipes_middel_window {
-<<<<<<< HEAD
+
   overflow-x: hidden;
   overflow-y: scroll;
   height:766px;
 /*overflow-y: auto;*/
-=======
+
     overflow-x: hidden;
     overflow-y: auto;
     /*overflow-y: auto;*/
->>>>>>> refs/remotes/origin/master
 }
 
 .one_recipe_page_what_to_do{
@@ -191,7 +190,6 @@
     height: 40px;
 }
 
-}
 
 .recipes_middel_window_favorite {
     height: 780px;
@@ -540,6 +538,7 @@
 .one_recipe_middle_what_u_need_list{
 height :100%;
 }
+
 
 .second_nav_text {
     font-size: 30px;
