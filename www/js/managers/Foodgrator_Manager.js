@@ -39,7 +39,9 @@ function FoodgrMan () {
         $("#Text_search_foodgrator").keypress(function(e) {
             if(e.keyCode == 13) {
                 if($("#Text_search_foodgrator").val() != "") {
-                    $("#food_list").append("<li>"+"<div class=\"cover_delete\" ></div>"+"<div class=\"food_name_div\"><span class=\"food_name\">" + $("#Text_search_foodgrator").val() + "</span></div>" +
+                    $(".recipes_list_Results").hide();
+                    $("#food_listWrap").show();
+                    $("#food_list").append("<li>" + "<div class=\"cover_delete\" ></div>" + "<div class=\"food_name_div\"><span class=\"food_name\">" + $("#Text_search_foodgrator").val() + "</span></div>" +
                 "<span class=\"delete_btn_foodgator\" ontouchend=\"foodgrMan_.deleteLine(this)\">Удалить</span></li>");
                     // wordsToSearch = wordsToSearch + "&" + $("#Text_search_foodgrator").val();
                     wordsToSearch[wordsToSearch.length] = $("#Text_search_foodgrator").val();
@@ -55,19 +57,19 @@ function FoodgrMan () {
         });
 
 
-        
+
 
         //get recipes
         $("#ResultBtnFood").bind('touchend', function() {
             foodgrMan_.clearResultsListPage();
-          
+
             foodgrMan_.createListByWords(wordsToSearch);
 
             NavigationMan_.navigate("", "foodgeratorList")
 
         });
 
-        $(".food_list").click(function(){
+        $(".food_list").click(function() {
             //removeTextBoxFocus
             $("#Text_search_foodgrator").blur();
         });
@@ -88,6 +90,8 @@ function FoodgrMan () {
         try {
             showLoading();
             to_search = "";
+            //take the word in the text box
+             words[wordsToSearch.length] = $("#Text_search_foodgrator").val();
             //var wordsList;
             for(var i = 0; i < words.length; i++) {
                 to_search += "&slug=" + words[i];
@@ -107,30 +111,30 @@ function FoodgrMan () {
         // jsonToArrayFoodgerator(val);
         //only if we have results
         if(val.count > 0) {
-        $($(val).attr("posts")).each(function(i) {
+            $($(val).attr("posts")).each(function(i) {
 
-            //set category title
-            var categoryToDisplay = val.posts[i].categories[0].title;
-            if(categoryToDisplay == "feature") {
-                try {
-                    categoryToDisplay = val.posts[i].categories[1].title;
-                }
-                catch(ex) { }
+                //set category title
+                var categoryToDisplay = val.posts[i].categories[0].title;
                 if(categoryToDisplay == "feature") {
-                    categoryToDisplay = "";
+                    try {
+                        categoryToDisplay = val.posts[i].categories[1].title;
+                    }
+                    catch(ex) { }
+                    if(categoryToDisplay == "feature") {
+                        categoryToDisplay = "";
+                    }
                 }
-            }
-            //check if there is a picture
-            var small_imag = val.posts[i].custom_fields["wpcf-image"];
-            if(small_imag == "") { small_imag = "images/default_pic.jpg"; }
+                //check if there is a picture
+                var small_imag = val.posts[i].custom_fields["wpcf-image"];
+                if(small_imag == "") { small_imag = "images/default_pic.jpg"; }
 
-            var id = val.posts[i].id;
-            $("#recipes_list_Results").append("<li id=\"recipeGoToF" + id + "\" ontouchstart=\"list_hover(this)\" ontouchend=\"list_regular()\">" +
-                                     
+                var id = val.posts[i].id;
+                $("#recipes_list_Results").append("<li id=\"recipeGoToF" + id + "\" ontouchstart=\"list_hover(this)\" ontouchend=\"list_regular()\">" +
+
                                      "<div class=\"favorite_category_background\">" +
                                      "<span class=\"favorite_recipe_name\">" + categoryToDisplay + "</span>" +
                                      "</div>" +
-//                                   "<img class=\"recipes_small_pic_position\" alt=\"\" src=\"" +small_imag +"\" />" +
+                //                                   "<img class=\"recipes_small_pic_position\" alt=\"\" src=\"" +small_imag +"\" />" +
                                      "<div class=\"recipes_small_pic_border\"><img class=\"recipes_small_pic\" alt=\"\" src=\"" + small_imag + "\" /></div>" +
                                      "<div class=\"inside_information\">" +
                                      "<span class=\"recipes_first_title\">" + val.posts[i].custom_fields["wpcf-recipe_name"] + "</span>" +
@@ -139,76 +143,79 @@ function FoodgrMan () {
                                      "<div class=\"recipes_footer\">" +
                                      "<span class=\"clock_icon_recipes\"> </span>" +
                                      "<span class=\"recipes_footer_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " мин. </span>" +
-                                     //"<span class=\"recipes_line\">|</span>" +
+                //"<span class=\"recipes_line\">|</span>" +
                                      "<span class=\"fire_icon_recipes\"></span>" +
                                      "<span class=\"recipes_footer_text\"> сложно</span>" +
-                                     //"<span class=\"recipes_line\">|</span> " +
-                                     //"<div  class=\"foodFavoriteBtnOuter\" id=\"favoriteF" + id + "\" onclick=\"foodgrMan_.addToFavorite(this)\"><span class=\"star_icon_recipes\" ></span> " +
-                                     //"<span class=\"recipes_footer_text\"> в избранное </span></div>" +
+                //"<span class=\"recipes_line\">|</span> " +
+                //"<div  class=\"foodFavoriteBtnOuter\" id=\"favoriteF" + id + "\" onclick=\"foodgrMan_.addToFavorite(this)\"><span class=\"star_icon_recipes\" ></span> " +
+                //"<span class=\"recipes_footer_text\"> в избранное </span></div>" +
                                      " </div>" +
                                      "</div>" +
                                      " </li>");
-                                 
-        
-                    
-            /*var secondTitle = val.posts[i].custom_fields["wpcf-short_describtion"];
-            if(secondTitle.toString().length > 100) {
+
+
+
+                /*var secondTitle = val.posts[i].custom_fields["wpcf-short_describtion"];
+                if(secondTitle.toString().length > 100) {
                 secondTitle = secondTitle.toString().substring(0, 100) + "...";
 
-            }
-            $(".recipes_second_title").text(secondTitle);*/
+                }
+                $(".recipes_second_title").text(secondTitle);*/
 
-            if(isIpad()) {
-                checkHtml($("#recipeGoToF" + id + " .recipes_first_title"), 129);
-                checkHtml($("#recipeGoToF" + id + " .recipes_second_title"), 104);
-            }
-            else {
-                checkHtml($("#recipeGoToF" + id + " .recipes_first_title"), 66);
-                checkHtml($("#recipeGoToF" + id + " .recipes_second_title"), 49);
-            }
-
-            $("#recipeGoToF" + id).data("id", id);
-            $("#recipeGoToF" + id).data("category", val.posts[i].categories[0].slug);
-            $("#favoriteF" + id).data("id", id);
-            $("#favoriteF" + id).data("recipeObj", val.posts[i]);
-            
-
-            $("#recipeGoToF" + id).bind('touchmove', function() {
-                $("#recipeGoToF" + id).data("move", true)
-
-
-            });
-
-            $("#recipeGoToF" + id).bind('click', function() {
-                console.log("click");
-                 $('.Gesture_btn').css({"background-position":"0px"});
-                //alert(json);
-                if(!$("#recipeGoToF" + id).data("move")) {
-                    // goto_one_recipe(this);
-                    recipeMan_.showRecipePage($(this));
+                if(isIpad()) {
+                    checkHtml($("#recipeGoToF" + id + " .recipes_first_title"), 129);
+                    checkHtml($("#recipeGoToF" + id + " .recipes_second_title"), 104);
                 }
                 else {
-                    $("#recipeGoToF" + id).data("move", false)
+                    checkHtml($("#recipeGoToF" + id + " .recipes_first_title"), 66);
+                    checkHtml($("#recipeGoToF" + id + " .recipes_second_title"), 49);
+                }
+
+                $("#recipeGoToF" + id).data("id", id);
+                $("#recipeGoToF" + id).data("category", val.posts[i].categories[0].slug);
+                $("#favoriteF" + id).data("id", id);
+                $("#favoriteF" + id).data("recipeObj", val.posts[i]);
+
+
+                $("#recipeGoToF" + id).bind('touchmove', function() {
+                    $("#recipeGoToF" + id).data("move", true)
+
+
+                });
+
+                $("#recipeGoToF" + id).bind('click', function() {
+                    console.log("click");
+                    $('.Gesture_btn').css({ "background-position": "0px" });
+                    //alert(json);
+                    if(!$("#recipeGoToF" + id).data("move")) {
+                        // goto_one_recipe(this);
+                        recipeMan_.showRecipePage($(this));
+                    }
+                    else {
+                        $("#recipeGoToF" + id).data("move", false)
+                    }
+                });
+
+                if(favoriteMan_.isInFavorite(id)) {
+                    $("#recipeGoToF" + id + " .foodFavoriteBtnOuter").hide();
+                }
+                else {
+                    $("#recipeGoToF" + id + " .foodFavoriteBtnOuter").show();
                 }
             });
-
-            if(favoriteMan_.isInFavorite(id)) {
-                $("#recipeGoToF" + id + " .foodFavoriteBtnOuter").hide();
-            }
-            else {
-                $("#recipeGoToF" + id + " .foodFavoriteBtnOuter").show();
-            }
-        });
-        $(".food_list").hide();
-        $(".recipes_list_Results").show();
-        
+            $(".food_list").hide();
+            $(".recipes_list_Results").show();
+            //clean the search box
+            $("#Text_search_foodgrator").val("");
         }
-        
-         //show a message
-         else {$('.message_no_Results').css({"display":"block"});
-          $('.foodgrator_text_background').show();}
-  
-         hideLoading();
+
+        //show a message
+        else {
+            $('.message_no_Results').css({ "display": "block" });
+            $('.foodgrator_text_background').show();
+        }
+
+        hideLoading();
     }
     
     this.clearResultsListPage = function()
@@ -224,7 +231,7 @@ function FoodgrMan () {
         $(".cover_delete").hide();
 
         $(btnClicked).parents("li").slideToggle("fast").remove();
-        var filedToDeleteFromLine = $(btnClicked).parents("li").children(".food_name").text();
+        var filedToDeleteFromLine = $(btnClicked).parents("li").children(".food_name_div").children("span").text();
 
         //delete
         $(wordsToSearch).each(function(i) {
