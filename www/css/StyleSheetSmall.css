@@ -370,7 +370,7 @@ left: 69px;*/
 
 .inside_information {
     display: block;
-    height: 60px;
+    height: 66px;
     width: 216px;
     float: left;
     margin-left: 5px;
@@ -416,7 +416,7 @@ left: 69px;*/
 }
 
 .recipes_list ul li, .recipes_list_search ul li {
-    height: 75px;
+    height: 78px;
     width: 99%;
     padding-right: 0;
     padding-left: 1%;
@@ -1317,7 +1317,7 @@ ire_icon_recipes {
 }
 
 .recipes_list_Results ul li {
-    height: 80px;
+    height: 87px;
     margin-bottom: 0px;
 }
 
