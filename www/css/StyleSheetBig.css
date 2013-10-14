@@ -51,7 +51,7 @@
 
 .clock_icon_recipes {
     width: 1em;
-    height: 1em;
+    height: 1.1em;
     background-size: 2em 1em;
     margin-top: 2px;
 }
@@ -71,8 +71,8 @@
 /*=================.middel_pic_gesture---heand=====================*/
 .middel_pic_gesture {
     background-color: #fff;
-background-size: 100% 100%;
-height: 94%;
+    background-size: 100% 100%;
+    height: 94%;
 }
 
 .background_term {
@@ -114,6 +114,8 @@ height: 94%;
 
 .one_recipe_pic {
     clear: both;
+    height: 433px;
+    ;
 }
 
 #videoRecipePage {
@@ -121,16 +123,22 @@ height: 94%;
     width: 100%;
     height: 100%;
 }
+
+
+.one_recipe_text_discription {
+    top: 53px;
+}
 /*===================categoris page==========================*/
 .all_categories {
     height: 880px;
     overflow-x: hidden;
 }
+
 .all_categories ul li {
     height: 156px;
 }
 
-.categories_text_down{
+.categories_text_down {
     height: 58px;
 }
 /*====================.search_text=========================*/
@@ -215,28 +223,29 @@ height: 94%;
 /*------------------------------genaeral=========================*/
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
-background-size: auto 67%;
-background-position: 102% 0;
-cursor: pointer;
-height: 3em;
-position: absolute;
-right: 3.1em;
-width: 158px;
-z-index: 4;
-top: 1.1em;
-bottom: 0;
-margin: auto 0;
-display: none;
-background-repeat: no-repeat;
+    background-size: auto 67%;
+    background-position: 102% 0;
+    cursor: pointer;
+    height: 3em;
+    position: absolute;
+    right: 3.1em;
+    width: 158px;
+    z-index: 4;
+    top: 1.1em;
+    bottom: 0;
+    margin: auto 0;
+    display: none;
+    background-repeat: no-repeat;
 }
-  
+
 .one_recipe_page.page .one_recipe_back_btn {
     display: block;
 }
 
-.one_recipe_page.page  .one_recipe_back_btn{
-	display:block;
+.one_recipe_page.page .one_recipe_back_btn {
+    display: block;
 }
+
 .one_recipe_back_btn.hover {
     background-position: 0 0;
 }
@@ -244,11 +253,19 @@ background-repeat: no-repeat;
 .middel_main_ul1 {
     height: 100%;
 }
-.text_main_icon_position.main_menu_icon_hover{
+
+.text_main_icon_position.main_menu_icon_hover {
     width: 82%;
-margin: auto;
+    margin: auto;
 }
 
+.midddel_main_pic {
+    top: 34px;
+}
+
+.dots_position {
+    top: 50px;
+}
 /*********share page*************/
 .share_btn_text {
     font-size: 32px;
@@ -387,8 +404,8 @@ margin: auto;
 
 
 
-.Gesture_btn_main.no_Gesture{
-	background-image:url("../images/handWithX.png");
+.Gesture_btn_main.no_Gesture {
+    background-image: url("../images/handWithX.png");
 }
 /**********recipes list page*********/
 .recipes_list ul {
@@ -449,6 +466,7 @@ margin: auto;
 .clock_icon_recipes_one {
     left: 26%;
 }
+
 .add_to_cart_btn {
     text-align: center;
     font-size: 21px;
@@ -458,6 +476,7 @@ margin: auto;
     padding-bottom: 2px;
     line-height: 53px;
 }
+
 .recipes_middel_pic_what_u_need {
     top: 49px;
 }
@@ -480,7 +499,161 @@ margin: auto;
     width: 80px;
     height: 80px;
 }
-.favorite_delete_icon img{
-	width:100%;
+
+.favorite_delete_icon img {
+    width: 100%;
 }
 /*-----*/
+
+/*****tools page******/
+.tools_middel {
+    background-color: #FFFFFF;
+    height: 33%;
+    position: absolute;
+    width: 94%;
+    right: 0;
+    left: 0;
+    margin: 2% auto;
+    top: 155px;
+}
+
+.tools_middel_element, .tools_middel_element_footer {
+    height: 12%;
+    margin: auto;
+    width: 89%;
+    top: -1px;
+    position: relative;
+    margin-top: 42px;
+    margin-bottom: 40px;
+}
+
+.tools_clock, .tools_Shopping_cart, .tools_term_list, .tools_camera {
+    height: 92%;
+    background-size: 65px;
+    left: 8%;
+    width: 15%;
+    top: 11%;
+}
+
+.tools_text {
+    color: #4d555f;
+    font-size: 2.5em;
+    left: 98px;
+    line-height: 65px;
+    position: relative;
+    width: 432px;
+}
+
+.tools_middel_element_footer {
+    top: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.tools_share, .tools_website {
+    width: 40%;
+    background-position-x: 0;
+    background-position-y: 4px;
+    background-size: 25px;
+    float: left;
+    left: 20px;
+    top: 8px;
+}
+
+.tools_share_text {
+    color: #4D555F;
+    font-family: PlumbMed;
+    font-size: 23px;
+    left: 29px;
+    line-height: 2em;
+    position: relative;
+    width: 229px;
+}
+
+.tools_clock {
+    background-size: 60px;
+}
+
+
+/***********food gerator***********************/
+.foodgerator_buttons {
+    height: 2em;
+    font-size: 22px;
+    line-height: 45px;
+    top: -20px;
+    background-position: 9% 50%;
+}
+
+.foodgrator_page .second_nav_background_papers {
+    height: 130px;
+}
+
+.recipes_middel_pic_foodgrator {
+    top: 145px;
+    height: 675px;
+}
+
+.food_list {
+    margin: 0px 0 0 0px;
+}
+
+.food_name {
+    font-size: 28px;
+    top: 48px;
+}
+
+.foodgrator_text_background {
+    height: 60px;
+    border-radius: 15px;
+}
+
+.recipes_middel_window_foodgrator {
+    width: 800px;
+    height: 663px;
+}
+
+
+.recipes_list_Results ul li {
+    height: 200px;
+}
+
+.food_list ul li {
+    width: 700px;
+    left: 0px;
+    height: 22px;
+}
+
+.message_no_Results {
+    font-size: 35px;
+}
+
+#Text_search_foodgrator {
+    top: -37px;
+    line-height: 1.8em;
+    font-size: 1.8em;
+    height: 45px;
+    text-indent: 10px;
+}
+
+.foodgrator_text_background .search_btn_icon {
+    width: 76px;
+    height: 60px;
+    top: -39px;
+    position: relative;
+}
+
+.foodgrator_page .inside_information {
+    float: right;
+    width: 70%;
+}
+
+.delete_btn_foodgator {
+    top: 17px;
+    line-height: 30px;
+    left: 600px;
+    bottom: -55px;
+    z-index: 600;
+    height: 30px;
+    width: 91px;
+    font-size: 20px;
+}

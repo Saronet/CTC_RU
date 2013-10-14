@@ -434,7 +434,7 @@ function NavigationMan() {
         $('.favorite_page').show();
         
         $('.search_text_background').hide();
-        $('.recipes_list ul li').css({ "margin-bottom": "60px" });
+       // $('.recipes_list ul li').css({ "margin-bottom": "60px" });
        
         $('.Gesture_btn').css({ "background-position": "0" });
        
@@ -551,12 +551,13 @@ this.showTimerPage = function() {
         $(".facebookDialog").hide();
 
         $('.share_page').show();
-        $('.share_page').show();
+          $('.share_page .one_recipe_back_btn').show();
+
         $('.share_specific_pic').hide();
         // $('.about_us_page').hide();
-        $(".share_page .one_recipe_back_btn").show();
+        $(".share_position").show();
         
-        this.backPosition = /Users/davidsalzer/Downloads/CTC__Appetite_App.mobileprovisionthis.pagePosition;
+        this.backPosition = this.pagePosition;
         this.pagePosition = "share";
     }
 
