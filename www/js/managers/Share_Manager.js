@@ -30,17 +30,19 @@ function shareMan() {
         catch (e) { }
     }
 
-    this.showPage = function () {
+    this.showPage = function() {
         NavigationMan_.navigate("tools", "share");
 
         $(".share_position").show();
 
-        $('#TextArea_share').click(function () {
-            $(".share_specific_pic").animate({ "top": "-450px" }, 500);
+        $('#TextArea_share').focus(function() {
+            //  $(".share_specific_pic").animate({ "top": "-50%" }, 500);
+            $(".share_specific_pic").addClass("up");
         })
 
-        $('#TextArea_share').blur(function () {
-            $(".share_specific_pic").animate({ "top": "-59px" }, 500);
+        $('#TextArea_share').blur(function() {
+           // $(".share_specific_pic").animate({ "top": "-59px" }, 500);
+           $(".share_specific_pic").removeClass("up");
         });
     }
 
