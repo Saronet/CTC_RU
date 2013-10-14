@@ -10,7 +10,6 @@
 * {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-
 }
 
 html, body {
@@ -30,6 +29,15 @@ body {
     height: 100%;
     overflow: hidden;
 }
+
+ul {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
 
 a {
     text-decoration: none;
@@ -749,7 +757,9 @@ a {
     height: 98px;
     top: -64px;
     margin-left: 34px;
+    background-size: 100% 100%;
 }
+
 
 .foodgrator_instruction_text_left {
     display: block;
@@ -776,13 +786,14 @@ a {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90px;
-    width: 80px;
+    width: 130px;
     margin: auto;
     position: relative;
     display: block;
     top: 366px;
     float: left;
     margin-left: 74px;
+    background-size: 100% 100%;
 }
 
 .foodgrator_arrow {
@@ -791,10 +802,12 @@ a {
     background-repeat: no-repeat;
     position: absolute;
     float: right;
-    width: 157px;
+    width: 115px;
     height: 93px;
     top: -160px;
     margin-right: 21px;
+    background-size: 100% 100%;
+    right: 60px;
 }
 
 .recipes_background_foodgrator {
@@ -833,7 +846,7 @@ a {
     padding: 0;
 }
 
-.recipes_list_search ul {
+.recipes_list_search ul, .recipes_list_Results ul {
     list-style-type: none;
     min-height: 183px;
     -webkit-padding-start: 0px;
@@ -845,7 +858,7 @@ a {
     list-style-type: none;
 }
 
-.recipes_list ul li, .recipes_list_search ul li {
+.recipes_list ul li, .recipes_list_search ul li, .recipes_list_Results ul li {
     height: 100%;
     width: 100%;
     position: relative;
@@ -1122,7 +1135,7 @@ a {
     /*height: 542px;*/
     overflow-x: hidden;
     overflow-y: auto;
-   position: relative;
+    position: relative;
     width: 94%;
     -webkit-overflow-scrolling: touch;
     margin: auto;
@@ -1398,13 +1411,13 @@ a {
 }
 
 .favorite_category_background {
-   height: 2.3em;
-position: relative;
-width: 100%;
-z-index: 5;
-text-overflow: ellipsis;
-overflow: hidden;
-white-space: nowrap;
+    height: 2.3em;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .recipes_small_pic_position {
@@ -2144,12 +2157,21 @@ white-space: nowrap;
 }
 
 .delete_btn_foodgator {
+    background-color: #cc0000;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    top: -19px;
+    line-height: 16px;
+    display: block;
     cursor: pointer;
     position: absolute;
-    right: 4px;
-    bottom: 2px;
-    display: none;
-    z-index: 6;
+    left: 226px;
+    bottom: -55px;
+    z-index: 600;
+    height: 15px;
+    width: 52px;
 }
 
 .delete_recipe_btn {
@@ -2269,7 +2291,7 @@ white-space: nowrap;
     border-top: 1px #838993 solid;
 }
 
-.what_u_need_wrap{
+.what_u_need_wrap {
     width: 94%;
     margin: auto;
     height: 100%;
@@ -2277,13 +2299,13 @@ white-space: nowrap;
 }
 
 .recipes_background_what_to_do {
-  position: relative;
-top: 3em;
-width: 100%;
-left: 0;
-right: 0;
-margin: auto;
-border-top: 1px #838993 solid;
+    position: relative;
+    top: 3em;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-top: 1px #838993 solid;
 }
 
 .recipes_middel_pic_what_u_need {
@@ -2796,8 +2818,8 @@ border-top: 1px #838993 solid;
 
 .middel_pic_gesture {
     background-image: url("../images/textWithAlotOfHands.png");
-   width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     margin: auto;
 }
@@ -3549,11 +3571,128 @@ height: 100%;
 }
 
 
-/************food grator*********/
+
+/****************foodgerator******************/
+
+.foodgrator_page .second_nav_background_papers {
+    height: 66px;
+}
+
+.two_btn_foodgrator_position {
+    top: -32px;
+}
+
+.foodgerator_buttons {
+    border-radius: 6px;
+    top: 1.2em;
+    background-size: auto 70%;
+    background-position: 11% 50%;
+    background-color: #cc0000;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    height: 2.5em;
+    margin: auto;
+    position: relative;
+    top: 1em;
+    width: 42%;
+    margin: auto;
+    font-size: 9px;
+    text-align: center;
+    margin-top: -5.5px;
+    padding-right: 2%;
+    line-height: 21px;
+    display: block;
+    text-indent: 25px;
+}
+
+.foodgrator_btn_left {
+    float: left;
+    margin-left: 5%;
+}
+
+.foodgrator_btn_right {
+    float: right;
+    margin-right: 5%;
+}
+
+.recipes_background_foodgrator {
+    float: right;
+    height: 471px;
+    top: 148px;
+    width: 100%;
+}
+
+.foodgrator_instructions {
+}
+
+.foodgrator_text_background {
+    height: 27px;
+    top: 10px;
+    margin-bottom: 30px;
+    width: 93%;
+    border-radius: 6px;
+    position: relative;
+    left: 0px;
+}
+
+.foodgrator_text_background .search_btn_icon {
+    width: 28px;
+}
+
+#Text_search_foodgrator {
+    height: 21px;
+    top: -14px;
+    line-height: 1em;
+    font-size: 1.4em;
+    width: 80%;
+    display: inherit;
+    overflow: hidden;
+}
+
+.food_list {
+    margin: -15px 0 0 -26px;
+}
+
+#food_list {
+    -webkit-padding-start: 30px;
+}
+
+.food_name {
+    font-size: 13px;
+    top: 23px;
+    line-height: 6px;
+    display: block;
+    width: 207px;
+}
+
+
+.message_no_Results {
+    text-indent: 4px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.recipes_list_Results {
+    margin: auto;
+    position: relative;
+}
+
+.recipes_list_Results ul li {
+    height: 100px;
+    margin-bottom: 0px;
+}
+
 .foodgrator_btn_left {
     background-image: url("../images/foodgerator-add.png");
 }
 
 .foodgrator_btn_right {
     background-image: url("../images/foodgerator-search.png");
+}
+
+.second_nav_text {
+    font-size: 2.5em;
+    line-height: 1.5em;
 }

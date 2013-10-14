@@ -40,7 +40,7 @@ function FoodgrMan () {
             if(e.keyCode == 13) {
                 if($("#Text_search_foodgrator").val() != "") {
                     $("#food_list").append("<li>"+"<div class=\"cover_delete\" ></div>"+"<div class=\"food_name_div\"><span class=\"food_name\">" + $("#Text_search_foodgrator").val() + "</span></div>" +
-                "<span class=\"delete_btn_foodgator\" ontouchend=\"foodgrMan_.deleteLine(this)\"><img alt=\"\" src=\"" + deleteImage + "\" /></span></li>");
+                "<span class=\"delete_btn_foodgator\" ontouchend=\"foodgrMan_.deleteLine(this)\">Удалить</span></li>");
                     // wordsToSearch = wordsToSearch + "&" + $("#Text_search_foodgrator").val();
                     wordsToSearch[wordsToSearch.length] = $("#Text_search_foodgrator").val();
                     $("#Text_search_foodgrator").val("");
@@ -60,6 +60,7 @@ function FoodgrMan () {
         //get recipes
         $("#ResultBtnFood").bind('touchend', function() {
             foodgrMan_.clearResultsListPage();
+          
             foodgrMan_.createListByWords(wordsToSearch);
 
             NavigationMan_.navigate("", "foodgeratorList")
@@ -77,6 +78,7 @@ function FoodgrMan () {
         $(".foodgrator_instructions").hide();
         $('.foodgrator_text_background').show();
         $(".recipes_background_foodgrator").show();
+
         $(".recipes_list_Results").hide();
         $(".food_list").show();
         $("#Text_search_foodgrator").focus();
@@ -203,7 +205,9 @@ function FoodgrMan () {
         }
         
          //show a message
-         else {$('.message_no_Results').css({"display":"block"});}
+         else {$('.message_no_Results').css({"display":"block"});
+          $('.foodgrator_text_background').show();}
+  
          hideLoading();
     }
     
