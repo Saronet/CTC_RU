@@ -24,7 +24,7 @@ function searchMan() {
         $(".search_text").val("");
 		if(isIpad())
              {
-                $(".search_text").css("font-size", "25px");
+                $(".search_text").css("font-size", "23px");
                 }
             else
             {
@@ -191,7 +191,7 @@ function searchMan() {
             $(".search_page .search_text").val("Извините, по вашему запросу ничего не найдено");
              if(isIpad())
              {
-                $(".search_text").css("font-size", "25px");
+                $(".search_text").css("font-size", "23px");
              }
             else
             {
