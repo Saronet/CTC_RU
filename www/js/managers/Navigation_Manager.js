@@ -494,25 +494,26 @@ function NavigationMan() {
         this.subMenu = "foodgerator";
 
     }
-this.showFoodgeratorListPage = function()
-{       $(".page").hide();
+    this.showFoodgeratorListPage = function() {
+        $(".page").hide();
 
         $('.foodgrator_page').show();
         $('.recipes_list_Results').show();
+        $(".foodgrator_instructions").hide();
         $('.food_list').hide();
         $('.foodgrator_text_background').hide();
         if(isIpad()) {
             $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //ipad
         }
-        else{
-            $('.Gesture_btn').css({"background-position":"-59px 50%"}); //iphone
+        else {
+            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //iphone
         }
         $('.Terminology_singel_page').hide();
 
         this.backPosition = this.pagePosition;
         this.pagePosition = "foodgeratorList";
         //this.subMenu = "foodgerator";
-}
+    }
 this.showTimerPage = function() {
     $(".page").hide();
 

@@ -24,6 +24,25 @@
     overflow: hidden;
 }
 
+
+
+.delete .inside_information {
+    width: 379px;
+}
+
+.delete .recipes_small_pic_border {
+    margin: 0 0 0 100px;
+}
+
+.delete .cover_delete {
+    left: 63px;
+    width: 90%;
+}
+
+.delete .recipes_second_title {
+    display: none;
+}
+
 .inside_information {
     height: 5.5em;
     line-height: 1.35em;
@@ -33,7 +52,7 @@
 .recipes_look_inside_btn {
     right: 15px;
     width: 3%;
-    top: 93px;
+    top: 64px;
 }
 
 .recipes_footer {
@@ -91,6 +110,7 @@
 .recipes_background_what_to_do .recipes_middel_pic {
     height: 720px;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .one_recipe_page_what_to_do, .recipes_middel_window {
@@ -426,11 +446,12 @@
     margin-left: 24px;
     height: 9em;
     width: 71%;
+    position: relative;
 }
 
 .recipes_footer {
     height: 20px;
-    top: 9.8em;
+    top: 7.8em;
 }
 
 .recipes_small_pic {
@@ -497,6 +518,7 @@
 .favorite_delete_icon {
     width: 80px;
     height: 80px;
+    margin-top: 39px;
 }
 
 .favorite_delete_icon img {
@@ -579,6 +601,7 @@
     height: 2em;
     font-size: 22px;
     line-height: 45px;
+    text-indent: 50px;
     top: -20px;
     background-position: 9% 50%;
 }
@@ -588,7 +611,7 @@
 }
 
 .recipes_middel_pic_foodgrator {
-    top: 145px;
+    
     height: 675px;
 }
 
@@ -639,6 +662,7 @@
     height: 60px;
     top: -39px;
     position: relative;
+    margin-bottom: 0px;
 }
 
 .foodgrator_page .inside_information {
