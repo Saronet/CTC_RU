@@ -116,9 +116,16 @@
 
 .one_recipe_page_what_to_do, .recipes_middel_window {
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
+  height:766px;
 /*overflow-y: auto;*/
 }
+
+.one_recipe_page_what_to_do{
+ /*overflow-x: hidden;
+  overflow-y: hidden;*/
+}
+
 
 .clock_icon_recipes_one {
     background-size: 58px 27px;
@@ -478,7 +485,8 @@
 }
 
 .recipes_middel_window_what_u_need {
-    height: auto;
+    height: 650px;
+    overflow-y: scroll;
 }
 
 .one_recipe_bar_right {
@@ -509,8 +517,11 @@
 
 .recipes_middel_pic_what_u_need {
     top: 49px;
+    overflow: auto;
 }
-
+.one_recipe_middle_what_u_need_list{
+height :100%;
+}
 
 .second_nav_text{
     font-size: 30px;
@@ -522,9 +533,9 @@
 }
 
 .recipes_background_what_u_need {
-    height: 721px;
+    height: 764px;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 

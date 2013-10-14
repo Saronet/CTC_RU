@@ -7,7 +7,8 @@ body {
     width: 17.5%;
     margin-left: 1%;
 }
-
+#progress img {
+width:15px;}
 #main_icon {
     background-size: 70% 68%;
     background-position: 50% 41%;
@@ -65,7 +66,7 @@ border: 1px solid red;
 }
 
 .recipes_middel_pic_what_u_need {
-   
+   overflow:auto;
 }
 
 user agent stylesheetdiv {
@@ -815,13 +816,14 @@ line-height: 26px;
 
 .one_recipe_page_what_to_do {
     width: 100%;
-    overflow: visible;
+    overflow-x: hidden;
+overflow-y: scroll;
 }
 
 .recipes_middel_window {
     height: 330px;
-    /*overflow: visible;*/
-}
+    overflow-x: hidden;
+overflow-y: scroll;}
 
 .recipes_background_what_to_do {
     top: 0.6em;
@@ -1178,11 +1180,13 @@ line-height: 26px;
 }
 
 .recipes_middel_window_what_u_need {
-    /*overflow: visible;*/
+
+overflow-y: scroll;
     height: 282px;
 }
 .one_recipe_middle_what_u_need_list {
 top: 0;
+height:100%;
 }
 .one_recipe_text_discription {
     position: relative;
