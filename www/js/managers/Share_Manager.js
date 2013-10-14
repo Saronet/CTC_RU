@@ -46,37 +46,37 @@ function shareMan() {
 
     $("#browseBtn").click(function () {
 
-        navigator.camera.getPicture(shareMan_.onSuccess, shareMan_.onFail, { quality: 50,
-            destinationType: Camera.DestinationType.DATA_URL,
-            sourceType: Camera.PictureSourceType.SAVEDPHOTOALBUM,
-            targetWidth: 584
-        });
-    });
-    $("#takeAPicBtn").click(function () {
-        $('.share_position').hide();
-        $('.share_specific_pic').show();
-        navigator.camera.getPicture(shareMan_.onSuccess, shareMan_.onFail, { quality: 50,
-            destinationType: Camera.DestinationType.DATA_URL, targetWidth: 584, correctOrientation: true
-        });
-    });
-    this.onSuccess = function (imageData) {
-        //        $('.share_img').attr("src", "data:image/jpeg;base64," + imageData);
-        //      $('.share_specific_pic').show();
-        //    $('.share_position').hide();
-        //  NavigationMan_.navigate("","browse");
-        showLoading();
-        jQuery.ajax({
-            type: 'POST',
-            url: 'http://appetite.theboxsite.com/wp-content/uploads/save.php',
-            data: { 'data': 'data:image/jpeg;base64,' + imageData },
-            complete: function (data) { //do what ever needed
-                $('.share_img').attr("src", "http://appetite.theboxsite.com/wp-content/uploads/" + data.responseText);
-                if ($('.share_img').height() < $('.share_img').width()) {
-                    $('.share_img').css("width", "100%");
-                }
-                $('.share_position').hide();
-                NavigationMan_.navigate("", "browse");
-                hideLoading();
+                        navigator.camera.getPicture(shareMan_.onSuccess, shareMan_.onFail, { quality: 50,
+                                                    destinationType: Camera.DestinationType.DATA_URL,
+                                                    sourceType: Camera.PictureSourceType.SAVEDPHOTOALBUM,
+                                                    targetWidth: 584
+                                                    });                                                
+  });
+  $("#takeAPicBtn").click(function () {
+      $('.share_position').hide();
+      $('.share_specific_pic').show();
+      navigator.camera.getPicture(shareMan_.onSuccess, shareMan_.onFail, { quality: 50,
+          destinationType: Camera.DestinationType.DATA_URL, targetWidth: 584, correctOrientation: true
+      });
+  });
+  this.onSuccess = function(imageData) {
+      //        $('.share_img').attr("src", "data:image/jpeg;base64," + imageData);
+      //      $('.share_specific_pic').show();
+      //    $('.share_position').hide();
+      //  NavigationMan_.navigate("","browse");
+      showLoading();
+      jQuery.ajax({
+          type: 'POST',
+          url: 'http://appetite.theboxsite.com/wp-content/uploads/save.php',
+          data: { 'data': 'data:image/jpeg;base64,' + imageData },
+          complete: function(data) { //do what ever needed
+              $('.share_img').attr("src", "http://appetite.theboxsite.com/wp-content/uploads/" + data.responseText);
+              if($('.share_img').height() < $('.share_img').width()) {
+                  $('.share_img').css("width", "100%");
+              }
+              $('.share_position').hide();
+              NavigationMan_.navigate("", "browse");
+              hideLoading();
 
             }
         });
