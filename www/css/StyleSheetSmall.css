@@ -82,7 +82,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 }
 
 .Up_banner_background {
-    height: 4.2em;
+    height: 4.5em;
     border-bottom: 1px solid #cc0000;
 }
 
@@ -99,6 +99,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     left: 8px;
     width: 29px;
     background-size: auto 60%;
+    top: 11px;
 }
 
 .info_btn_main {
@@ -106,7 +107,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -9px;
+    top: -3px;
     right: 8px;
 }
 
@@ -115,7 +116,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -9px;
+    top: -3px;
     right: 12px;
 }
 
@@ -340,7 +341,7 @@ left: 69px;*/
     width: 46%;
     display: block;
     overflow: hidden;
-    top: 29%;
+    top: 40%;
     color: #cc0000;
     position: relative;
     text-align: center;
@@ -1068,11 +1069,9 @@ line-height: 26px;
     height: 3em;
     position: absolute;
     right: 3.1em;
-    top: 24px;
+    top: 8px;
     width: 58px;
     z-index: 4;
-    top: 0;
-    bottom: 0;
     margin: auto 0;
 }
 
