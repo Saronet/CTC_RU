@@ -60,6 +60,7 @@ border: 1px solid red;
     top: 0.4em;
     overflow-x: hidden;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     height: 100%;
 }
 
@@ -1058,7 +1059,7 @@ line-height: 26px;
     background-image: url("../images/back-button-sprite.png");
     background-repeat: no-repeat;
     background-size: auto 36%;
-    background-position: -53px 45%;
+    background-position: -51px 45%;
     cursor: pointer;
     height: 3em;
     position: absolute;
@@ -1161,6 +1162,7 @@ line-height: 26px;
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .one_recipe_text_pic {
