@@ -91,7 +91,10 @@ function FoodgrMan () {
             showLoading();
             to_search = "";
             //take the word in the text box
-             words[wordsToSearch.length] = $("#Text_search_foodgrator").val();
+            if($("#Text_search_foodgrator").val() !=""){
+                 words[wordsToSearch.length] = $("#Text_search_foodgrator").val();
+            }
+            
             //var wordsList;
             for(var i = 0; i < words.length; i++) {
                 to_search += "&slug=" + words[i];

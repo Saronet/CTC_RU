@@ -613,6 +613,10 @@ left: 69px;*/
     text-align: center;
 }
 
+.share_specific_pic.up{
+    -webkit-transition: top 0.5s; /* Safari */
+    top: -50%;
+}
 
 /******recipe page*****/
 .recipes_footer {
@@ -712,7 +716,7 @@ left: 69px;*/
 
 .one_recipe_text_discription {
     /*top: -55px;*/
-    font-size: 1em;
+    font-size: 1.5em;
     width: 88%;
     position: absolute;
     top: 162px;
