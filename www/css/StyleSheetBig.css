@@ -115,7 +115,6 @@
 .one_recipe_pic {
     clear: both;
     height: 433px;
-    ;
 }
 
 #videoRecipePage {
@@ -599,7 +598,7 @@
 
 .food_name {
     font-size: 28px;
-    top: 48px;
+    top: 20px;
 }
 
 .foodgrator_text_background {
@@ -620,7 +619,7 @@
 .food_list ul li {
     width: 700px;
     left: 0px;
-    height: 22px;
+    height: 45px;
 }
 
 .message_no_Results {
@@ -648,10 +647,8 @@
 }
 
 .delete_btn_foodgator {
-    top: 17px;
     line-height: 30px;
     left: 600px;
-    bottom: -55px;
     z-index: 600;
     height: 30px;
     width: 91px;

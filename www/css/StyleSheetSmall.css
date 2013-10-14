@@ -1195,9 +1195,9 @@ ire_icon_recipes {
 }
 
 .recipes_background_foodgrator {
-    float: right;
+    /*float: right;*/
     height: 471px;
-    top: 148px;
+    /*top: 148px;*/
     width: 100%;
 }
 
@@ -1207,7 +1207,7 @@ ire_icon_recipes {
 .foodgrator_text_background {
     height: 27px;
     top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 93%;
     border-radius: 6px;
     position: relative;
@@ -1237,7 +1237,7 @@ ire_icon_recipes {
 
 .food_name {
     font-size: 13px;
-    top: 23px;
+    top: 7px;
     line-height: 6px;
     display: block;
     width: 207px;
