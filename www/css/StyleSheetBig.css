@@ -290,7 +290,7 @@
     font-size: 32px;
 }
 
-.share_specific_pic.up{
+.share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
     top: -50%;
 }
@@ -381,13 +381,16 @@
 }
 
 .title_pic_white {
-    font-size: 3.3em;
+    font-size: 3em;
     left: 20px;
     top: 15px;
+    height: 105px;
+    overflow: hidden;
 }
 
 .title_pic_text {
     font-size: 1.9em;
+    top: 85px;
 }
 
 .time_pic_white {
@@ -614,7 +617,6 @@
 }
 
 .recipes_middel_pic_foodgrator {
-    
     height: 675px;
 }
 
