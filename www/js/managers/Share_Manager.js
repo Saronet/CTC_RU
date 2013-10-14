@@ -53,10 +53,12 @@ function shareMan () {
                                                     targetWidth: 584
                                                     });                                                
   });
-  $("#takeAPicBtn").click(function(){
-                          navigator.camera.getPicture(shareMan_.onSuccess, shareMan_.onFail, { quality: 50,
-                                                      destinationType: Camera.DestinationType.DATA_URL, targetWidth: 584,correctOrientation: true
-                                                      });
+  $("#takeAPicBtn").click(function () {
+      $('.share_position').hide();
+      $('.share_specific_pic').show();
+      navigator.camera.getPicture(shareMan_.onSuccess, shareMan_.onFail, { quality: 50,
+          destinationType: Camera.DestinationType.DATA_URL, targetWidth: 584, correctOrientation: true
+      });
   });
   this.onSuccess = function(imageData) {
       //        $('.share_img').attr("src", "data:image/jpeg;base64," + imageData);
