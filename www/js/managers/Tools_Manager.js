@@ -14,10 +14,10 @@ tools_Manager = function() {
 
     this.start = function() {
     
-        this.setShoppingCounter();
-        this.setTimersCounter();
+     //   this.setShoppingCounter();
+     //   this.setTimersCounter();
 
-        NavigationMan_.navigate(NavigationMan_.pagePosition, "tools");
+     //   NavigationMan_.navigate(NavigationMan_.pagePosition, "tools");
         
 
     }
