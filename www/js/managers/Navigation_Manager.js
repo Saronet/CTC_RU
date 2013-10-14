@@ -480,6 +480,7 @@ function NavigationMan() {
         
        
         $('.foodgrator_page').show();
+        $('.foodgrator_page .one_recipe_back_btn').show();
         $('.foodgrator_text_background').hide();
         $('.recipes_list_Results').hide();
         $('.food_list').show();

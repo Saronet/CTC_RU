@@ -24,7 +24,7 @@ function searchMan() {
         $(".search_text").val("");
 		if(isIpad())
              {
-                $(".search_text").css("font-size", "59px");
+                $(".search_text").css("font-size", "25px");
                 }
             else
             {

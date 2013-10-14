@@ -85,7 +85,7 @@
 .recipes_footer_text {
     height: 1em;
     line-height: 1.5em;
-    width: 39%;
+    width: 25%;
 }
 /*=================.middel_pic_gesture---heand=====================*/
 .middel_pic_gesture {
@@ -671,7 +671,7 @@ height :100%;
 }
 
 .recipes_middel_window_foodgrator {
-    width: 800px;
+    width: 100%;
     height: 663px;
 }
 
@@ -687,7 +687,7 @@ height :100%;
 }
 
 .message_no_Results {
-    font-size: 35px;
+    font-size: 33px;
 }
 
 #Text_search_foodgrator {
