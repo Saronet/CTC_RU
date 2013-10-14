@@ -574,7 +574,7 @@ left: 69px;*/
     font-weight: bold;
     text-align: center;
     left: -2px;
-    top: 49px;
+    top: 40px;
     position: relative;
 }
 
@@ -592,10 +592,10 @@ left: 69px;*/
     background-color: #FFFFFF;
     border: 6px solid #FFFFFF;
     border-radius: 4px;
-    height: 50px;
+    height: 60px;
     margin: auto;
     position: relative;
-    top: 70px;
+    top: 57px;
     width: 280px;
 }
 
@@ -605,7 +605,7 @@ left: 69px;*/
     border-radius: 1px;
     bottom: -7px;
     height: 188px;
-    top: 56px;
+    top: 45px;
     margin: auto;
     position: relative;
     width: 280px;
