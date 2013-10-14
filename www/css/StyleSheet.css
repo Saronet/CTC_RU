@@ -811,10 +811,10 @@ a {
 }
 
 .recipes_background_foodgrator {
-    float: left;
+    /*float: left;*/
     height: 611px;
-    position: absolute;
-    top: 173px;
+    position: relative;
+    /*top: 173px;*/
     width: 100%;
     display: none;
 }
@@ -1814,6 +1814,7 @@ a {
     font-size: 22px;
     text-shadow: 1px 2px white;
     color: #540A24;
+    margin-top: 15px;
 }
 
 .message_no_Results_term {
@@ -1886,12 +1887,12 @@ a {
 }
 
 .food_list ul li {
-    border-bottom: 1px solid #8F9CA2;
+    border-top: 1px solid #8F9CA2;
     left: 13px;
     list-style-type: none;
     position: relative;
     width: 559px;
-    padding-bottom: 12px;
+    height: 25px;
 }
 
 .food_name_shopping {
@@ -2162,7 +2163,7 @@ a {
     color: #fff;
     margin: auto;
     text-align: center;
-    top: -19px;
+    top: -54px;
     line-height: 16px;
     display: block;
     cursor: pointer;
@@ -3618,9 +3619,9 @@ a {
 }
 
 .recipes_background_foodgrator {
-    float: right;
+    /*float: right;*/
     height: 471px;
-    top: 148px;
+    /*top: 148px;*/
     width: 100%;
 }
 
@@ -3630,7 +3631,7 @@ a {
 .foodgrator_text_background {
     height: 27px;
     top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 93%;
     border-radius: 6px;
     position: relative;
@@ -3695,4 +3696,9 @@ a {
 .second_nav_text {
     font-size: 2.5em;
     line-height: 1.5em;
+}
+
+#food_list {
+    top: 18px;
+    position: relative;
 }
