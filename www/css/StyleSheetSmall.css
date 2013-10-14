@@ -59,13 +59,13 @@ border: 1px solid red;
 .recipes_background_what_u_need {
     top: 0.4em;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     height: 100%;
 }
 
 .recipes_middel_pic_what_u_need {
-    top: 2em;
+   
 }
 
 user agent stylesheetdiv {
@@ -818,8 +818,8 @@ line-height: 26px;
 }
 
 .recipes_middel_window {
-    height: 371px;
-    overflow: visible;
+    height: 330px;
+    /*overflow: visible;*/
 }
 
 .recipes_background_what_to_do {
@@ -1179,9 +1179,12 @@ line-height: 26px;
 }
 
 .recipes_middel_window_what_u_need {
-    overflow: visible;
+    /*overflow: visible;*/
+    height: 282px;
 }
-
+.one_recipe_middle_what_u_need_list {
+top: 0;
+}
 .one_recipe_text_discription {
     position: relative;
     top: 12px;
