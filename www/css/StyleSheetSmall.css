@@ -348,11 +348,8 @@ left: 69px;*/
 }
 
 .recipes_middel_pic_recipres_page, recipes_middel_pic_search, .recipes_middel_pic_favorite {
-    top: 0px;
-}
-.recipes_middel_pic_recipres_page
-{
-    top: 9px;
+    
+     top: 9px;
 }
 .recipes_list ul {
     padding-top: 0px;
@@ -993,7 +990,7 @@ line-height: 26px;
 #recipes_list_favorite li {
     /*height: 50px;*/
     margin-bottom: 0 !important;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .one_recipe_back_btn {
@@ -1291,7 +1288,7 @@ ire_icon_recipes {
     margin-left: -14px;
 }
 
-.foodgrator_instruction_text_right {
+.foodgrator_instruction_text_right{
     display: block;
     color: #484F57;
     font-size: 11px;
@@ -1308,28 +1305,28 @@ ire_icon_recipes {
     margin-left: -37px;
 }
 
-#one {
+#one{
     position: absolute;
     top: 69px;
     left: -21px;
-    color: #484F57;
+    color: #484F57; 
 }
 
-#two {
+#two{
     position: absolute;
     top: 68px;
     left: -21px;
     color: #484F57;
 }
 
-#three {
+#three{
     position: absolute;
     top: 41px;
     left: -47px;
     color: #484F57;
 }
 
-#text_bottom {
+#text_bottom{
     color: red;
     font-size: 16px;
     line-height: 10px;
@@ -1338,3 +1335,4 @@ ire_icon_recipes {
     top: 73px;
     position: absolute;
 }
+
