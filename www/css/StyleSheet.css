@@ -771,7 +771,7 @@ a {
     margin-left: -81px;
 }
 
-.foodgrator_instruction_text_right{
+.foodgrator_instruction_text_right {
     display: block;
     color: #484F57;
     font-size: 24px;
@@ -828,28 +828,28 @@ a {
     display: none;
 }
 
-#one{
-    position: absolute;
-    top: 76px;
-    left: -21px;
-    color: #484F57; 
-}
-
-#two{
+#one {
     position: absolute;
     top: 76px;
     left: -21px;
     color: #484F57;
 }
 
-#three{
+#two {
     position: absolute;
     top: 76px;
     left: -21px;
     color: #484F57;
 }
 
-#text_bottom{
+#three {
+    position: absolute;
+    top: 76px;
+    left: -21px;
+    color: #484F57;
+}
+
+#text_bottom {
     color: red;
     font-size: 16px;
     line-height: 10px;
@@ -3184,8 +3184,22 @@ a {
     cursor: pointer;
     position: relative;
     text-align: center;
+    background-image: url('../images/facebook-icon.png');
+    background-color: #3a589b;
     top: 43px;
+    width: 410px;
+    height: 70px;
+    color: white;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    line-height: 73px;
+    font-size: 23px;
+    background-position: 55px;
+    margin: auto;
+    border-radius: 13px;
+    text-indent: 64px;
 }
+
 
 .share_img {
     height: 378px;
