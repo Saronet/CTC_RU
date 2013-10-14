@@ -2164,7 +2164,7 @@ a {
     text-align: center;
     top: -19px;
     line-height: 16px;
-    display: block;
+    display: none;
     cursor: pointer;
     position: absolute;
     left: 226px;
@@ -3647,7 +3647,7 @@ a {
     line-height: 1em;
     font-size: 1.4em;
     width: 80%;
-    display: inherit;
+    display: block !important;
     overflow: hidden;
 }
 

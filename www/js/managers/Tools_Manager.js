@@ -13,15 +13,12 @@ tools_Manager = function() {
     }
 
     this.start = function() {
-      //  $("#tools_icon").removeClass("icon_touch_start");
+    
+       // this.setShoppingCounter();
+       // this.setTimersCounter();
 
-        this.setShoppingCounter();
-        this.setTimersCounter();
-
-        NavigationMan_.navigate(NavigationMan_.pagePosition, "tools");
+      //  NavigationMan_.navigate(NavigationMan_.pagePosition, "tools");
         
-
-
 
     }
 
