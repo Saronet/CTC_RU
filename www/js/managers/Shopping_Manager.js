@@ -29,7 +29,7 @@ function shoppingMan() {
                 if($("#Text_search_shopping").val() != "") {
                     $("#shopping_list").prepend("<li>" +
                                         "<span class=\"food_name_shopping\">" + $("#Text_search_shopping").val() + "</span>" +
-                                        "<span class=\"delete_btn_foodgator\"><img alt=\"\" src=\"" + deleteImage + "\" onclick=\"shoppingMan_.deleteLine(this)\" /></span>" +
+                                        "<span class=\"delete_btn_foodgator\">Удалить</span>" +
                                     "</li>");
 
                     shoppingMan_.stringToMail += $("#Text_search_shopping").val() + "%0D%0A";

@@ -1937,7 +1937,7 @@ a {
     font-style: italic;
     font-weight: bold;
     position: relative;
-    top: 8px;
+    top: -6px;
     line-height: 40px;
     display: block;
     width: 558px;
@@ -2190,7 +2190,6 @@ a {
     height: 70px;
     position: relative;
     width: 100%;
-    border-bottom: 1px solid #ababab;
 }
 
 .delete_btn_foodgator {
@@ -2201,7 +2200,7 @@ a {
     text-align: center;
     top: -54px;
     line-height: 16px;
-    display: none;
+    /* display: none; */
     cursor: pointer;
     position: absolute;
     left: 226px;
@@ -2698,21 +2697,23 @@ a {
 }
 
 .recipes_background_shopping {
-    float: left;
-    height: 689px;
-    position: absolute;
-    top: 63px;
-    width: 626px;
+    height: inherit;
+    position: relative;
+    top: 84px;
+    width: 90%;
+    left: 0px;
+    margin-left: 37px;
+    background-color: white;
 }
 
 .recipes_middel_pic_shopping {
     background-image: url("../images/recipes_middel_pic.png");
     background-repeat: repeat-y;
-    height: 554px;
+    height: 636px;
     margin-left: 15px;
     overflow: hidden;
     position: relative;
-    width: 608px;
+    width: 676px;
 }
 
 .tree_btn_shopping_position {
@@ -2722,28 +2723,59 @@ a {
     width: 100%;
     height: 62px;
     z-index: 2;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #ababab;
 }
 
 .shopping_btn {
     cursor: pointer;
-    margin-right: 2px;
+    margin-right: 16px;
+    height: 40px;
+    width: 190px;
+    position: relative;
+    margin-left: 0%;
+    display: inline-block;
+    top: 4px;
+    background-color: #cc0000;
+    border-radius: 10px;
+    text-indent: 36px;
+    font-size: 18px;
+    line-height: 43px;
+    color: white;
 }
 
 #send {
+    background-image: url("../images/send.png");
+    background-repeat: no-repeat;
+    background-size: 18% 61%;
+    background-position-x: 25px;
+    background-position-y: 9px;
 }
 
 #clear {
+    background-image: url("../images/trash-white.png");
+    background-repeat: no-repeat;
+    background-size: 14% 68%;
+    background-position-x: 28px;
+    background-position-y: 6px;
 }
 
 #add {
+    background-image: url("../images/foodgerator-add.png");
+    background-repeat: no-repeat;
+    background-size: 17% 68%;
+    background-position-x: 35px;
+    background-position-y: 8px;
 }
+
+.shopping_page .shopping_text_background{
+    margin-bottom: 25px;
+} 
 
 .shopping_list {
     height: 410px;
     margin: 0px 0 0 -26px;
     position: relative;
-    top: -18px;
+    top: -10px;
 }
 
 .shopping_list ul {
@@ -2756,7 +2788,8 @@ a {
     list-style-type: none;
     margin-bottom: 17px;
     position: relative;
-    width: 559px;
+    width: 669px;
+    top: 18px;
 }
 
 #Text_search_shopping {
@@ -2766,8 +2799,8 @@ a {
     height: 27px;
     left: 7px;
     position: relative;
-    top: 3px;
-    width: 507px;
+    top: 9px;
+    width: 495px;
 }
 
 .white_term {
@@ -2815,12 +2848,13 @@ a {
 }
 
 .shopping_middel_window {
-    height: 428px;
-    overflow-x: hidden;
+    height: 679px;
     overflow-y: auto;
     position: relative;
-    width: 603px;
-    top: 125px;
+    width: 661px;
+    top: 21px;
+    left: 22px;
+    text-indent: 17px;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -2843,12 +2877,12 @@ a {
 
 .shopping_text_background {
     background-color: white;
-    border: 1px solid gray;
     border-radius: 11px 11px 11px 11px;
     height: 49px;
     position: relative;
-    top: 12px;
-    width: 560px;
+    top: 94px;
+    left: -1px;
+    width: 687px;
     z-index: 5;
     margin: auto;
 }
@@ -3753,7 +3787,7 @@ a {
 
 .second_nav_text {
     font-size: 2.5em;
-    line-height: 1.5em;
+    line-height: 2.5em;
 }
 
 #food_list {

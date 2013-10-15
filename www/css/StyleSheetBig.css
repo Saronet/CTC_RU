@@ -115,19 +115,17 @@
 }
 
 .one_recipe_page_what_to_do, .recipes_middel_window {
-
-  overflow-x: hidden;
-  overflow-y: scroll;
-  height:766px;
-/*overflow-y: auto;*/
-
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 766px;
+    /*overflow-y: auto;*/
     overflow-x: hidden;
     overflow-y: auto;
     /*overflow-y: auto;*/
 }
 
-.one_recipe_page_what_to_do{
- /*overflow-x: hidden;
+.one_recipe_page_what_to_do {
+    /*overflow-x: hidden;
   overflow-y: hidden;*/
 }
 
@@ -535,8 +533,9 @@
     top: 49px;
     overflow: auto;
 }
-.one_recipe_middle_what_u_need_list{
-height :100%;
+
+.one_recipe_middle_what_u_need_list {
+    height: 100%;
 }
 
 
@@ -712,12 +711,14 @@ height :100%;
 }
 
 .delete_btn_foodgator {
-    line-height: 30px;
-    left: 600px;
+    line-height: 33px;
+    left: 560px;
     z-index: 600;
-    height: 30px;
-    width: 91px;
-    font-size: 20px;
+    height: 36px;
+    width: 100px;
+    top: -72px;
+    font-size: 18px;
+    text-indent: 0px;
 }
 
 .foodgrator_arrow_plus {
