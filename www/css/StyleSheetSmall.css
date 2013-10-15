@@ -570,7 +570,7 @@ height :388px;
 
 .share_facebook_btn {
     width: 193px;
-    top: 353px;
+    top: 347px;
     height: 35px;
     left: 66px;
     background-size: 21px 21px;
@@ -619,7 +619,7 @@ width: 290px;
 height: 71px;
 z-index: 100;
 position: absolute;
-top: 269px;
+top: 263px;
 left: 15px;
 }
 .share_spcific_pic {
@@ -637,7 +637,7 @@ left: 15px;
 
 .share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
-    top: -50%;
+    top: -52%;
 }
 
 /******recipe page*****/
