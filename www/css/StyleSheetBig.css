@@ -316,7 +316,7 @@
 
 .share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
-    top: -50%;
+    top: -250px;
 }
 
 .Up_banner_background {
@@ -824,4 +824,8 @@
 
 .clock_side_footer, .fire_side_footer {
     width: 28%;
+}
+
+#TextArea_share {
+    max-height: 148px;
 }

@@ -140,13 +140,13 @@ a {
     width: 100%;
 }
 
-.up {
+/*.up {
     background-image: url("../images/up.jpg");
     background-repeat: no-repeat;
     height: 55px;
     width: 100%;
     display: none;
-}
+}*/
 
 .Up_banner_background {
     /*background-image: url("images/up_bammer_background.png");
@@ -2382,6 +2382,7 @@ a {
 
 .one_recipe_middle_what_u_need_list ul {
     padding-left: 0px;
+    overflow: hidden;
 }
 
 .one_recipe_middle_what_u_need_list ul li {
@@ -2411,6 +2412,7 @@ a {
     left: 12px;
     position: relative;
     top: 9px;
+    width: 95%;
 }
 
 .amount_need {
@@ -3213,6 +3215,14 @@ a {
     top: 27px;
     width: 92%;
 }
+#text-area-cover{
+width: 92%;
+height: 150px;
+z-index: 100;
+position: absolute;
+top: 496px;
+left: 32px;
+}
 
 #TextArea_share {
     background-color: Transparent;
@@ -3220,7 +3230,8 @@ a {
     font-size: 27px;
     -webkit-user-select: auto;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
+    max-height: 58px;
 }
 
 .share_facebook_btn {

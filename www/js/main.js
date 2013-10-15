@@ -296,3 +296,12 @@ function getRecipeNumberById( id,type)
     
    }
 
+function keyboardUpEvent(){
+    $("input[type=text]").focus(function(){
+        $(".down_menu_background").hide();
+    });
+
+     $("input[type=text]").blur(function(){
+        $(".down_menu_background").show();
+    });
+}
