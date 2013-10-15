@@ -97,11 +97,11 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 }
 
 .search_btn {
-    height: 29px;
+    height: 30px;
     left: 8px;
     width: 29px;
     background-size: auto 60%;
-    top: 11px;
+    top: 13px;
 }
 
 .info_btn_main {
@@ -109,7 +109,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -3px;
+    top: -1px;
     right: 8px;
 }
 
@@ -118,7 +118,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -3px;
+    top: -1px;
     right: 12px;
 }
 
@@ -343,7 +343,7 @@ left: 69px;*/
     width: 46%;
     display: block;
     overflow: hidden;
-    top: 40%;
+    top: 43%;
     color: #cc0000;
     position: relative;
     text-align: center;
@@ -431,6 +431,10 @@ left: 69px;*/
     padding-bottom: 12px;
 }
 
+.recipes_list_search .inside_information{
+    width: 205px;
+    float: left;
+}
 .recipes_footer_text {
     font-size: 0.8em;
     margin-left: 2px;
@@ -803,7 +807,9 @@ height :388px;
     background-position: 0px 29%;
     top: -2px;
 }
-
+.recipes_middel_window_favorite{
+    height: 386px;
+}
 
 .favorite_delete_icon {
     margin-top: 17px;
