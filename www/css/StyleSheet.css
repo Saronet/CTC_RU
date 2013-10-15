@@ -140,13 +140,13 @@ a {
     width: 100%;
 }
 
-.up {
+/*.up {
     background-image: url("../images/up.jpg");
     background-repeat: no-repeat;
     height: 55px;
     width: 100%;
     display: none;
-}
+}*/
 
 .Up_banner_background {
     /*background-image: url("images/up_bammer_background.png");
@@ -3178,6 +3178,14 @@ a {
     position: relative;
     top: 27px;
     width: 92%;
+}
+#text-area-cover{
+width: 92%;
+height: 150px;
+z-index: 100;
+position: absolute;
+top: 496px;
+left: 32px;
 }
 
 #TextArea_share {
