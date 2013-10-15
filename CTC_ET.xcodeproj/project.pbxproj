@@ -140,6 +140,8 @@
 		AAB1308516CCE306007241DB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		AAC385B616CD6C1F0094BA6E /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		AAC385B816CD6CEB0094BA6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C2AF9178180BDDC600FDB29B /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_114.png; path = ../../../Downloads/icon_114.png; sourceTree = "<group>"; };
+		C2AF9179180BDDDB00FDB29B /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_72.png; path = ../../../Downloads/icon_72.png; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CTC_ET/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,6 +216,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF9179180BDDDB00FDB29B /* icon_72.png */,
+				C2AF9178180BDDC600FDB29B /* icon_114.png */,
 				AAC385B816CD6CEB0094BA6E /* Default-568h@2x.png */,
 				AAC385B616CD6C1F0094BA6E /* icon-72@2x.png */,
 				5977DB3916C9113F00BEAC42 /* libIOS_SDK.a */,
@@ -383,6 +387,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = ABYN6C4927;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CTC_ET" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -542,6 +551,8 @@
 				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -574,6 +585,7 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = CTC_ET;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -585,8 +597,8 @@
 				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: THE BOX LTD.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE BOX LTD.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTC_ET/CTC_ET-Prefix.pch";
@@ -617,8 +629,8 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = CTC_ET;
-				PROVISIONING_PROFILE = "90788496-3C2E-47FF-B767-2FCC121CA5EF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90788496-3C2E-47FF-B767-2FCC121CA5EF";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "15AA46FB-2F27-41A0-8A07-CF6D107DE2E2";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -627,7 +639,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer: David Salzer (94C8GL23Q7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Salzer (44WTK38D3J)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
@@ -650,7 +662,7 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				PROVISIONING_PROFILE = "7540E3F0-7237-4160-81B4-8175080D7A2A";
+				PROVISIONING_PROFILE = "0F762D66-DC33-4802-9EC3-19B3095CDA6C";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -662,8 +674,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: THE BOX LTD.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE BOX LTD.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: THE BOX LTD. (ABYN6C4927)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE BOX LTD. (ABYN6C4927)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_THUMB_SUPPORT = NO;
@@ -686,8 +698,8 @@
 					"-all_load",
 					"-Obj-C",
 				);
-				PROVISIONING_PROFILE = "A62C7082-441F-41B7-AAD2-7AD8959F6D4E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A62C7082-441F-41B7-AAD2-7AD8959F6D4E";
+				PROVISIONING_PROFILE = "0F762D66-DC33-4802-9EC3-19B3095CDA6C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0F762D66-DC33-4802-9EC3-19B3095CDA6C";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";

@@ -85,7 +85,7 @@
 .recipes_footer_text {
     height: 1em;
     line-height: 1.5em;
-    width: 21%;
+    width: 25%;
 }
 /*=================.middel_pic_gesture---heand=====================*/
 .middel_pic_gesture {
@@ -108,14 +108,29 @@
 }
 
 .recipes_background_what_to_do .recipes_middel_pic {
-    height: 720px;
-    overflow: auto;
+    height: 100%;
+    overflow: hidden;
+    /*overflow-x: hidden;*/
     -webkit-overflow-scrolling: touch;
 }
 
 .one_recipe_page_what_to_do, .recipes_middel_window {
-    overflow: visible;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height:766px;
+/*overflow-y: auto;*/
+
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*overflow-y: auto;*/
 }
+
+.one_recipe_page_what_to_do{
+ /*overflow-x: hidden;
+  overflow-y: hidden;*/
+}
+
 
 .clock_icon_recipes_one {
     background-size: 58px 27px;
@@ -170,10 +185,11 @@
 
 #search_text_searchpage_3 {
     width: 80%;
-    height: 1em;
-    line-height: 23px;
-    font-size: 35px;
+    font-size: 25px;
+    line-height: 50px;
+    height: 40px;
 }
+
 
 .recipes_middel_window_favorite {
     height: 780px;
@@ -286,11 +302,21 @@
     top: 50px;
 }
 /*********share page*************/
+
+.share_up_description, .share_down_description {
+    font-size: 2.2em;
+}
+
+#browseBtn {
+    background-image: url(../images/browseBtn.png);
+    bottom: 28px;
+}
+
 .share_btn_text {
     font-size: 32px;
 }
 
-.share_specific_pic.up{
+.share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
     top: -50%;
 }
@@ -305,7 +331,7 @@
     width: 46%;
     display: block;
     overflow: hidden;
-    top: 29%;
+    top: 32%;
     color: #cc0000;
     position: relative;
     text-align: center;
@@ -381,13 +407,16 @@
 }
 
 .title_pic_white {
-    font-size: 3.3em;
+    font-size: 3em;
     left: 20px;
     top: 15px;
+    height: 100px;
+    overflow: hidden;
 }
 
 .title_pic_text {
     font-size: 1.9em;
+    top: 85px;
 }
 
 .time_pic_white {
@@ -468,10 +497,12 @@
 /******recipe page*****/
 .recipes_background_what_u_need {
     height: 100%;
+    top: 1em;
 }
 
 .recipes_middel_window_what_u_need {
-    height: auto;
+    height: 650px;
+    overflow-y: scroll;
 }
 
 .one_recipe_bar_right {
@@ -502,8 +533,16 @@
 
 .recipes_middel_pic_what_u_need {
     top: 49px;
+    overflow: auto;
+}
+.one_recipe_middle_what_u_need_list{
+height :100%;
 }
 
+
+.second_nav_text {
+    font-size: 30px;
+}
 
 /********gesture page*********/
 .background_term {
@@ -511,9 +550,9 @@
 }
 
 .recipes_background_what_u_need {
-    height: 721px;
+    height: 764px;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 
@@ -614,7 +653,6 @@
 }
 
 .recipes_middel_pic_foodgrator {
-    
     height: 675px;
 }
 
@@ -633,7 +671,7 @@
 }
 
 .recipes_middel_window_foodgrator {
-    width: 800px;
+    width: 100%;
     height: 663px;
 }
 
@@ -649,7 +687,7 @@
 }
 
 .message_no_Results {
-    font-size: 35px;
+    font-size: 33px;
 }
 
 #Text_search_foodgrator {
@@ -762,6 +800,8 @@
     top: 170px;
     position: absolute;
 }
+
+
 /******************share facebook**************/
 
 .share_facebook_btn {
@@ -773,4 +813,14 @@
 
 .share_spcific_pic {
     height: 430px;
+}
+
+.search_page .recipes_footer_search {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.clock_side_footer, .fire_side_footer {
+    width: 28%;
 }

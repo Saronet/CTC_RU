@@ -7,7 +7,8 @@ body {
     width: 17.5%;
     margin-left: 1%;
 }
-
+#progress img {
+width:15px;}
 #main_icon {
     background-size: 70% 68%;
     background-position: 50% 41%;
@@ -59,13 +60,14 @@ border: 1px solid red;
 .recipes_background_what_u_need {
     top: 0.4em;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     height: 100%;
 }
 
 .recipes_middel_pic_what_u_need {
-    top: 2em;
+
+   overflow:auto;
 }
 
 user agent stylesheetdiv {
@@ -82,7 +84,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 }
 
 .Up_banner_background {
-    height: 4.2em;
+    height: 4.5em;
     border-bottom: 1px solid #cc0000;
 }
 
@@ -99,6 +101,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     left: 8px;
     width: 29px;
     background-size: auto 60%;
+    top: 11px;
 }
 
 .info_btn_main {
@@ -106,7 +109,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -9px;
+    top: -3px;
     right: 8px;
 }
 
@@ -115,7 +118,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -9px;
+    top: -3px;
     right: 12px;
 }
 
@@ -229,11 +232,11 @@ left: 96px;*/
 }
 
 .dots_position ul li {
-   background-image: url('../images/point_all.png');
-width: 9px;
-height: 9px;
-margin-left: 3px;
-background-size: 200% 100%;
+    background-image: url('../images/point_all.png');
+    width: 9px;
+    height: 9px;
+    margin-left: 3px;
+    background-size: 200% 100%;
 }
 
 
@@ -284,7 +287,7 @@ background-size: 200% 100%;
     top: 1px;
     line-height: 1em;
     font-size: 1em;
-    width: 80%;
+    width: 86%;
 }
 /******categories list********/
 .all_categories ul li {
@@ -340,7 +343,7 @@ left: 69px;*/
     width: 46%;
     display: block;
     overflow: hidden;
-    top: 29%;
+    top: 40%;
     color: #cc0000;
     position: relative;
     text-align: center;
@@ -349,9 +352,9 @@ left: 69px;*/
 }
 
 .recipes_middel_pic_recipres_page, recipes_middel_pic_search, .recipes_middel_pic_favorite {
-    
-     top: 9px;
+    top: 9px;
 }
+
 .recipes_list ul {
     padding-top: 0px;
     width: 100%;
@@ -371,8 +374,8 @@ left: 69px;*/
 .inside_information {
     display: block;
     height: 66px;
-    width: 216px;
-    float: left;
+    width: 211px;
+    float: right;
     margin-left: 5px;
     position: relative;
     font-size: 1.15em;
@@ -444,7 +447,9 @@ left: 69px;*/
     margin-bottom: 15px;
 }
 
-
+.recipes_middel_window_recipres_page{
+height :388px;
+}
 .fire_icon_recipes {
     background-size: 200% 100%;
     width: 14px;
@@ -504,7 +509,7 @@ left: 69px;*/
 
 .share_position {
     margin-top: 1%;
-    padding-top: 22px;
+    padding-top: 37px;
     top: 10px;
 }
 
@@ -518,6 +523,10 @@ left: 69px;*/
     height: 31px;
 }
 
+#browseBtn {
+    bottom: -9px;
+}
+
 .second_nav_text {
     margin: auto;
     text-align: center;
@@ -528,12 +537,14 @@ left: 69px;*/
 
 .share_up_description, .share_down_description {
     font-size: 17px;
+    margin-bottom: 16%;
 }
 
 .share_down_description {
-    margin-top: 48px;
     padding-bottom: 30px;
     line-height: 100px;
+    bottom: 8px;
+    position: relative;
 }
 
 .share_btn {
@@ -613,7 +624,7 @@ left: 69px;*/
     text-align: center;
 }
 
-.share_specific_pic.up{
+.share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
     top: -50%;
 }
@@ -723,26 +734,26 @@ left: 69px;*/
 }
 
 .add_to_cart_btn {
-   border-radius: 6px;
-background-image: url("../images/add_to_cart_btn.png");
-background-size: auto 70%;
-background-position: 4% 50%;
-background-color: #cc0000;
-background-repeat: no-repeat;
-border-radius: 5px;
-color: #fff;
-cursor: pointer;
-height: 2em;
-margin: auto;
-position: relative;
-top: 2em;
-width: 89%;
-left: 0;
-right: 0;
-font-size: 12px;
-text-align: center;
-margin-top: -5.5px;
-line-height: 26px;
+    border-radius: 6px;
+    background-image: url("../images/add_to_cart_btn.png");
+    background-size: auto 70%;
+    background-position: 4% 50%;
+    background-color: #cc0000;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    height: 2em;
+    margin: auto;
+    position: relative;
+    top: 2em;
+    width: 89%;
+    left: 0;
+    right: 0;
+    font-size: 12px;
+    text-align: center;
+    margin-top: -5.5px;
+    line-height: 26px;
 }
 
 #add_to_cart_txt {
@@ -814,13 +825,14 @@ line-height: 26px;
 
 .one_recipe_page_what_to_do {
     width: 100%;
-    overflow: visible;
+    overflow-x: hidden;
+overflow-y: scroll;
 }
 
 .recipes_middel_window {
-    height: 371px;
-    overflow: visible;
-}
+    height: 330px;
+    overflow-x: hidden;
+overflow-y: scroll;}
 
 .recipes_background_what_to_do {
     top: 0.6em;
@@ -872,7 +884,7 @@ line-height: 26px;
 }
 
 #recipePage_what_to_do_text ol li {
-     padding-left: 0%;
+    padding-left: 0%;
     font-size: 12px;
 }
 
@@ -1068,11 +1080,9 @@ line-height: 26px;
     height: 3em;
     position: absolute;
     right: 3.1em;
-    top: 24px;
+    top: 8px;
     width: 58px;
     z-index: 4;
-    top: 0;
-    bottom: 0;
     margin: auto 0;
 }
 
@@ -1179,7 +1189,14 @@ line-height: 26px;
 }
 
 .recipes_middel_window_what_u_need {
-    overflow: visible;
+
+overflow-y: scroll;
+    height: 282px;
+}
+
+.one_recipe_middle_what_u_need_list {
+    top: 0;
+height:100%;
 }
 
 .one_recipe_text_discription {
@@ -1355,7 +1372,7 @@ ire_icon_recipes {
     margin-left: -14px;
 }
 
-.foodgrator_instruction_text_right{
+.foodgrator_instruction_text_right {
     display: block;
     color: #484F57;
     font-size: 11px;
@@ -1372,28 +1389,28 @@ ire_icon_recipes {
     margin-left: -37px;
 }
 
-#one{
+#one {
     position: absolute;
     top: 69px;
     left: -21px;
-    color: #484F57; 
+    color: #484F57;
 }
 
-#two{
+#two {
     position: absolute;
     top: 68px;
     left: -21px;
     color: #484F57;
 }
 
-#three{
+#three {
     position: absolute;
     top: 41px;
     left: -47px;
     color: #484F57;
 }
 
-#text_bottom{
+#text_bottom {
     color: red;
     font-size: 16px;
     line-height: 10px;
@@ -1403,3 +1420,8 @@ ire_icon_recipes {
     position: absolute;
 }
 
+.search_page .recipes_footer_search {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
