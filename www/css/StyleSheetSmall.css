@@ -1521,6 +1521,10 @@ ire_icon_recipes {
     position: relative;
 }
 
+.recipes_list_Results .inside_information{
+    float: left;
+}
+
 .recipes_list_Results ul li {
     height: 87px;
     margin-bottom: 0px;
