@@ -94,7 +94,7 @@ function shareMan() {
           complete: function(data) { //do what ever needed
               $('.share_img').attr("src", "http://appetite.theboxsite.com/wp-content/uploads/" + data.responseText);
               if($('.share_img').height() < $('.share_img').width()) {
-                  $('.share_img').css("width", "100%");
+                  $('.share_img').css("width", "99%");
               }
               $('.share_position').hide();
               NavigationMan_.navigate("", "browse");

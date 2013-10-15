@@ -301,6 +301,11 @@ function keyboardUpEvent(){
         $(".down_menu_background").hide();
     });
 
+     $("textarea").focus(function(){
+        $(".down_menu_background").hide();
+    });
+
+
      $("input[type=text]").blur(function(){
         $(".down_menu_background").show();
     });
