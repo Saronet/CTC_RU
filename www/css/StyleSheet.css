@@ -720,7 +720,11 @@ a {
 }
 
 #tools_icon {
-    background-image: url(../images_ipad/tools_icon.png);
+    background-image: url(../images/tools_icon_x.png);
+}
+
+#tools_icon_x{
+    color: #b0b0b0
 }
 
 .inside_information {
@@ -869,6 +873,7 @@ a {
     margin: 64px 0 0 -29px;
     position: relative;
 }
+
 
 .recipes_list ul {
     list-style-type: none;
@@ -2072,7 +2077,12 @@ a {
 #timer_list_middel_window {
     overflow-x: hidden;
     overflow-y: auto;
-    height: 500px;
+    height: 130px;
+    top: 135px;
+    width: 700px;
+    left: -45px;
+    background-color: white;
+    position: relative;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -2716,6 +2726,7 @@ a {
     overflow: hidden;
     position: relative;
     width: 676px;
+    background-color: white;
 }
 
 .tree_btn_shopping_position {
@@ -2770,7 +2781,13 @@ a {
 }
 
 .shopping_page .shopping_text_background{
+    background-image: url("../images_ipad/search_btn_icon.png");
+    background-repeat: no-repeat;
+    background-size: 40% 40%;
+    background-position-x: 10px;
+    background-position-y: 10px;
     margin-bottom: 25px;
+    
 } 
 
 .shopping_list {
@@ -3412,20 +3429,26 @@ left: 32px;
 }
 
 .timer_list_background {
-    z-index: 3;
+    z-index: 3;a
     position: absolute;
     top: 55px;
 }
 
 .add_timer_btn {
-    background-image: url("../images/add_timer_btn_2.png");
+    background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
+    background-position-x: 125px;
+    background-position-y: 12px;
+    background-size: 8% 70%;
     cursor: pointer;
-    height: 98px;
+    height: 72px;
     position: relative;
-    width: 608px;
-    z-index: 4;
+    width: 628px;
+    top: 28px;
+    left: 36px;
     margin-top: 0px;
+    background-color: #edeeef;
+    border-radius: 15px;
 }
 
 .new_timer {
@@ -3798,7 +3821,7 @@ left: 32px;
 
 .second_nav_text {
     font-size: 2.5em;
-    line-height: 2.5em;
+    line-height: 1.5em;
 }
 
 #food_list {

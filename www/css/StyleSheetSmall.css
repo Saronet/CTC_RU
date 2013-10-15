@@ -7,8 +7,11 @@ body {
     width: 17.5%;
     margin-left: 1%;
 }
+
 #progress img {
-width:15px;}
+    width: 15px;
+}
+
 #main_icon {
     background-size: 70% 68%;
     background-position: 50% 41%;
@@ -66,8 +69,7 @@ border: 1px solid red;
 }
 
 .recipes_middel_pic_what_u_need {
-
-   overflow:auto;
+    overflow: auto;
 }
 
 user agent stylesheetdiv {
@@ -431,10 +433,11 @@ left: 69px;*/
     padding-bottom: 12px;
 }
 
-.recipes_list_search .inside_information{
+.recipes_list_search .inside_information {
     width: 205px;
     float: left;
 }
+
 .recipes_footer_text {
     font-size: 0.8em;
     margin-left: 2px;
@@ -451,9 +454,10 @@ left: 69px;*/
     margin-bottom: 15px;
 }
 
-.recipes_middel_window_recipres_page{
-height :388px;
+.recipes_middel_window_recipres_page {
+    height: 388px;
 }
+
 .fire_icon_recipes {
     background-size: 200% 100%;
     width: 14px;
@@ -536,7 +540,7 @@ height :388px;
     text-align: center;
     font-size: 14px;
     width: 100%;
-    top: 5px;
+    top: 0px;
 }
 
 .share_up_description, .share_down_description {
@@ -614,14 +618,17 @@ height :388px;
     top: 57px;
     width: 280px;
 }
-#text-area-cover{
-width: 290px;
-height: 71px;
-z-index: 100;
-position: absolute;
-top: 263px;
-left: 15px;
+
+
+#text-area-cover {
+    width: 290px;
+    height: 71px;
+    z-index: 100;
+    position: absolute;
+    top: 263px;
+    left: 15px;
 }
+
 .share_spcific_pic {
     background-color: #fff;
     border: 6px solid #FFFFFF;
@@ -814,7 +821,8 @@ left: 15px;
     background-position: 0px 29%;
     top: -2px;
 }
-.recipes_middel_window_favorite{
+
+.recipes_middel_window_favorite {
     height: 386px;
 }
 
@@ -839,13 +847,14 @@ left: 15px;
 .one_recipe_page_what_to_do {
     width: 100%;
     overflow-x: hidden;
-overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 .recipes_middel_window {
     height: 330px;
     overflow-x: hidden;
-overflow-y: scroll;}
+    overflow-y: scroll;
+}
 
 .recipes_background_what_to_do {
     top: 0.6em;
@@ -1065,6 +1074,169 @@ overflow-y: scroll;}
     background-position-x: 7px;
 }
 
+.recipes_background_shopping {
+    height: inherit;
+    position: relative;
+    top: 36px;
+    width: 90%;
+    left: -20px;
+    margin-left: 37px;
+    background-color: white;
+}
+
+.recipes_middel_pic_shopping {
+    background-image: url("../images/recipes_middel_pic.png");
+    background-repeat: repeat-y;
+    height: 636px;
+    margin-left: 15px;
+    overflow: hidden;
+    position: relative;
+    width: 286px;
+    left: -12px;
+}
+
+.tree_btn_shopping_position {
+    position: absolute;
+    text-align: center;
+    top: 84px;
+    width: 100%;
+    height: 26px;
+    z-index: 2;
+    border-bottom: 1px solid #ababab;
+}
+
+.shopping_btn {
+    cursor: pointer;
+    margin-right: 16px;
+    height: 21px;
+    width: 88px;
+    position: relative;
+    margin-left: -2%;
+    display: inline-block;
+    top: -2px;
+    background-color: #cc0000;
+    border-radius: 4px;
+    text-indent: 24px;
+    font-size: 9px;
+    line-height: 22px;
+    left: 11px;
+    color: white;
+}
+
+#send {
+    background-image: url("../images/send.png");
+    background-repeat: no-repeat;
+    background-size: 18% 61%;
+    background-position-x: 14px;
+    background-position-y: 5px;
+}
+
+#clear {
+    background-image: url("../images/trash-white.png");
+    background-repeat: no-repeat;
+    background-size: 14% 68%;
+    background-position-x: 14px;
+    background-position-y: 4px;
+}
+
+#add {
+    background-image: url("../images/foodgerator-add.png");
+    background-repeat: no-repeat;
+    background-size: 17% 68%;
+    background-position-x: 19px;
+    background-position-y: 4px;
+}
+
+.shopping_page .shopping_text_background {
+    background-image: url("../images_ipad/search_btn_icon.png");
+    background-repeat: no-repeat;
+    background-size: 10% 100%;
+    background-position-x: 250px;
+    background-position-y: 0px;
+    margin-bottom: 15px;
+    width: 289px;
+    height: 28px;
+    left: 1px;
+    top: 41px;
+    border-radius: 7px;
+}
+
+.shopping_list {
+    height: 410px;
+    margin: 0px 0 0 -26px;
+    position: relative;
+    top: -10px;
+}
+
+.shopping_list ul {
+    list-style-type: none;
+}
+
+.shopping_list ul li {
+    border-bottom: 1px solid #8F9CA2;
+    left: 13px;
+    list-style-type: none;
+    margin-bottom: 17px;
+    position: relative;
+    width: 669px;
+    top: 22px;
+}
+
+#Text_search_shopping {
+    -webkit-user-select: auto;
+    border-color: transparent;
+    font-size: 15px;
+    height: 15px;
+    left: 10px;
+    position: relative;
+    top: 5px;
+    width: 236px;
+}
+
+.food_name_shopping {
+    color: #484F57;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    top: -6px;
+    line-height: 9px;
+    display: block;
+    width: 558px;
+    left: -4px;
+}
+
+.delete_btn_foodgator {
+    background-color: #cc0000;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    top: -71px;
+    line-height: 16px;
+    /* display: none; */
+    cursor: pointer;
+    position: absolute;
+    left: 226px;
+    bottom: -55px;
+    z-index: 600;
+    height: 15px;
+    width: 52px;
+    text-indent: 2px;
+}
+
+.shopping_middel_window {
+    height: 679px;
+    overflow-y: auto;
+    position: relative;
+    width: 290px;
+    top: 12px;
+    left: 9px;
+    text-indent: 17px;
+    -webkit-overflow-scrolling: touch;
+}
+
+
 
 /*******favorite page*******/
 .favorite_category_background {
@@ -1202,14 +1374,13 @@ overflow-y: scroll;}
 }
 
 .recipes_middel_window_what_u_need {
-
-overflow-y: scroll;
+    overflow-y: scroll;
     height: 282px;
 }
 
 .one_recipe_middle_what_u_need_list {
     top: 0;
-height:100%;
+    height: 100%;
 }
 
 .one_recipe_text_discription {
@@ -1348,6 +1519,10 @@ ire_icon_recipes {
 .recipes_list_Results {
     margin: auto;
     position: relative;
+}
+
+.recipes_list_Results .inside_information{
+    float: left;
 }
 
 .recipes_list_Results ul li {
