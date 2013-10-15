@@ -115,19 +115,17 @@
 }
 
 .one_recipe_page_what_to_do, .recipes_middel_window {
-
-  overflow-x: hidden;
-  overflow-y: scroll;
-  height:766px;
-/*overflow-y: auto;*/
-
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 766px;
+    /*overflow-y: auto;*/
     overflow-x: hidden;
     overflow-y: auto;
     /*overflow-y: auto;*/
 }
 
-.one_recipe_page_what_to_do{
- /*overflow-x: hidden;
+.one_recipe_page_what_to_do {
+    /*overflow-x: hidden;
   overflow-y: hidden;*/
 }
 
@@ -535,8 +533,9 @@
     top: 49px;
     overflow: auto;
 }
-.one_recipe_middle_what_u_need_list{
-height :100%;
+
+.one_recipe_middle_what_u_need_list {
+    height: 100%;
 }
 
 
@@ -823,4 +822,8 @@ height :100%;
 
 .clock_side_footer, .fire_side_footer {
     width: 28%;
+}
+
+#TextArea_share {
+    max-height: 148px;
 }
