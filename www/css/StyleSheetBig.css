@@ -836,5 +836,10 @@
 }
 
 #TextArea_share {
-    max-height: 148px;
+    max-height: 60px;
+}
+
+.screenz_logo {
+    top: -9px;
+    height: 113%;
 }

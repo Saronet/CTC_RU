@@ -574,7 +574,7 @@ left: 69px;*/
 
 .share_facebook_btn {
     width: 193px;
-    top: 353px;
+    top: 347px;
     height: 35px;
     left: 66px;
     background-size: 21px 21px;
@@ -618,14 +618,15 @@ left: 69px;*/
     top: 57px;
     width: 280px;
 }
+}
 
-#text-area-cover {
-    width: 290px;
-    height: 71px;
-    z-index: 100;
-    position: absolute;
-    top: 269px;
-    left: 15px;
+#text-area-cover{
+width: 290px;
+height: 71px;
+z-index: 100;
+position: absolute;
+top: 263px;
+left: 15px;
 }
 
 .share_spcific_pic {
@@ -976,7 +977,7 @@ left: 69px;*/
 }
 
 .screenz_logo {
-    top: 17px;
+    top: 1px;
     background-size: 100px;
     right: 0em;
     width: 112px;
@@ -1607,4 +1608,8 @@ ire_icon_recipes {
     bottom: 0px;
     position: absolute;
     width: 100%;
+}
+
+#TextArea_share {
+    font-size: 16px;
 }
