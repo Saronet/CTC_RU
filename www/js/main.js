@@ -309,4 +309,8 @@ function keyboardUpEvent(){
      $("input[type=text]").blur(function(){
         $(".down_menu_background").show();
     });
+
+    $("textarea").blur(function(){
+        $(".down_menu_background").show();
+    });
 }
