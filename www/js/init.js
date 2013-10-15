@@ -52,8 +52,8 @@ var init = {
         mainMan_.initFeatures();
         mainMan_.initSearch();
         mainMan_.initGesture();
-		searchMan_ = new searchMan();
-		searchMan_.attachEvents();
+        searchMan_ = new searchMan();
+        searchMan_.attachEvents();
         gestureMan_ = new gestureMan();
         //gestureMan_.initGesture();
 
@@ -79,6 +79,9 @@ var init = {
         if(browser != "isGt2" && browser != "isGt3") {
             facebookMan_ = new FacebookMan();
         }
+
+        //when the keyboard is up - hide the footer
+        keyboardUpEvent();
 
         //first time user
         var isFirstTime;

@@ -2383,6 +2383,7 @@ a {
 
 .one_recipe_middle_what_u_need_list ul {
     padding-left: 0px;
+    overflow: hidden;
 }
 
 .one_recipe_middle_what_u_need_list ul li {
@@ -2412,6 +2413,7 @@ a {
     left: 12px;
     position: relative;
     top: 9px;
+    width: 95%;
 }
 
 .amount_need {
