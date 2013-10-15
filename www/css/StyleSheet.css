@@ -2716,6 +2716,7 @@ a {
     overflow: hidden;
     position: relative;
     width: 676px;
+    background-color: white;
 }
 
 .tree_btn_shopping_position {
@@ -2770,7 +2771,13 @@ a {
 }
 
 .shopping_page .shopping_text_background{
+    background-image: url("../images_ipad/search_btn_icon.png");
+    background-repeat: no-repeat;
+    background-size: 40% 40%;
+    background-position-x: 10px;
+    background-position-y: 10px;
     margin-bottom: 25px;
+    
 } 
 
 .shopping_list {
