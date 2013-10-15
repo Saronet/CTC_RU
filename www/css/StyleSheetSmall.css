@@ -549,10 +549,11 @@ left: 69px;*/
 }
 
 .share_down_description {
-    padding-bottom: 30px;
-    line-height: 100px;
-    bottom: 8px;
+    padding-bottom: 163px;
+    line-height: 13px;
+    bottom: -95px;
     position: relative;
+    padding-top: 0;
 }
 
 .share_btn {
@@ -599,13 +600,15 @@ left: 69px;*/
 }
 
 .share_img {
-    height: 190px;
+    /*height: 190px;*/
+    height: 99%;
     width: 114px;
     margin: auto;
     position: relative;
-    width: 285px;
+    /*width: 285px;*/
     left: -3px;
     top: -2px;
+    width: auto;
 }
 
 .share_text_area {
