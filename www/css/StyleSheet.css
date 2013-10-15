@@ -723,8 +723,8 @@ a {
     background-image: url(../images/tools_icon_x.png);
 }
 
-#tools_icon_x{
-    color: #b0b0b0
+#tools_icon_x {
+    color: #b0b0b0;
 }
 
 .inside_information {
@@ -2210,7 +2210,7 @@ a {
     text-align: center;
     top: -54px;
     line-height: 16px;
-    /* display: none; */
+    display: none;
     cursor: pointer;
     position: absolute;
     left: 226px;
@@ -2780,15 +2780,14 @@ a {
     background-position-y: 8px;
 }
 
-.shopping_page .shopping_text_background{
+.shopping_page .shopping_text_background {
     background-image: url("../images_ipad/search_btn_icon.png");
     background-repeat: no-repeat;
     background-size: 40% 40%;
     background-position-x: 10px;
     background-position-y: 10px;
     margin-bottom: 25px;
-    
-} 
+}
 
 .shopping_list {
     height: 410px;
@@ -3232,13 +3231,14 @@ a {
     top: 27px;
     width: 92%;
 }
-#text-area-cover{
-width: 92%;
-height: 150px;
-z-index: 100;
-position: absolute;
-top: 496px;
-left: 32px;
+
+#text-area-cover {
+    width: 92%;
+    height: 150px;
+    z-index: 100;
+    position: absolute;
+    top: 496px;
+    left: 32px;
 }
 
 #TextArea_share {
@@ -3429,15 +3429,15 @@ left: 32px;
 }
 
 .timer_list_background {
-    z-index: 3;a
-    position: absolute;
+    z-index: 3;
+    a position: absolute;
     top: 55px;
 }
 
 .add_timer_btn {
     background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
-    background-position-x: 125px;
+    background-position-x: 100px;
     background-position-y: 12px;
     background-size: 8% 70%;
     cursor: pointer;
@@ -3449,6 +3449,10 @@ left: 32px;
     margin-top: 0px;
     background-color: #edeeef;
     border-radius: 15px;
+    text-indent: 172px;
+    line-height: 70px;
+    font-size: 42px;
+    color: #4d555f;
 }
 
 .new_timer {
