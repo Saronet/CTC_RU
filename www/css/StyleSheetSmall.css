@@ -618,15 +618,15 @@ left: 69px;*/
     top: 57px;
     width: 280px;
 }
-}
 
-#text-area-cover{
-width: 290px;
-height: 71px;
-z-index: 100;
-position: absolute;
-top: 263px;
-left: 15px;
+
+#text-area-cover {
+    width: 290px;
+    height: 71px;
+    z-index: 100;
+    position: absolute;
+    top: 263px;
+    left: 15px;
 }
 
 .share_spcific_pic {
