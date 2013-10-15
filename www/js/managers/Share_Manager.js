@@ -1,6 +1,22 @@
 function shareMan() {
 
     this.initShare = function () {
+        
+        
+        $("#text-area-cover").click(function(){
+                                    $("#text-area-cover").hide();
+                                    if(!$(".share_specific_pic").hasClass("up")){
+                                        $(".share_specific_pic").addClass("up");
+                                    }
+                                   
+                                    $("#TextArea_share").focus();
+                                    });
+        
+        $("#TextArea_share").blur(function(){
+                                  $("#text-area-cover").show();
+                                  $(".share_specific_pic").removeClass("up");
+                                  });
+        
         try {
             jsonMan_.get_share("ipad", "shareMan_.initShareCB");
             return sswsd;
@@ -34,16 +50,20 @@ function shareMan() {
         NavigationMan_.navigate("tools", "share");
 
         $(".share_position").show();
-
-        $('#TextArea_share').focus(function() {
+        
+       
+     //   $(".share_text_area").click(function() {
             //  $(".share_specific_pic").animate({ "top": "-50%" }, 500);
-            $(".share_specific_pic").addClass("up");
-        })
+      //                             alert("NP");
+      //                             $(".share_specific_pic").addClass("up");
+      //  });
+         //  alert("12");
 
-        $('#TextArea_share').blur(function() {
+       // $(".share_text_area").blur(function() {
            // $(".share_specific_pic").animate({ "top": "-59px" }, 500);
-           $(".share_specific_pic").removeClass("up");
-        });
+      //     $(".share_specific_pic").removeClass("up");
+      //  });
+         //  alert("13");
     }
 
     $("#browseBtn").click(function () {

@@ -316,7 +316,7 @@
 
 .share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
-    top: -50%;
+    top: -250px;
 }
 
 .Up_banner_background {
