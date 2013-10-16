@@ -16,6 +16,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>icon_120</string>
+				<string>icon_120x120</string>
 				<string>icon_114</string>
 				<string>icon.png</string>
 				<string>icon@2x.png</string>
@@ -32,6 +34,7 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>Default</string>
 				<string>icon_72</string>
 				<string>icon_114</string>
 				<string>icon.png</string>
