@@ -1672,23 +1672,24 @@ a {
 }
 
 .timer_middel {
-    background-image: url("../images/timer_menu_background.png");
-    background-repeat: no-repeat;
-    height: 541px;
-    left: 3%;
+    background-color: white;
+    height: 33%;
+    left: 4%;
     position: absolute;
-    top: 106px;
-    width: 603px;
+    top: 10%;
+    width: 92%;
 }
 
 .timer_name_recipe {
-    color: #FFFFFF;
+    background-color: #edeeef;
+    border-radius: 15px;
     font-size: 41px;
     margin-left: 44px;
     position: relative;
-    top: 47px;
-    height: 56px;
-    width: 513px;
+    top: 5%;
+    height: 11%;
+    left: -2%;
+    width: 91%;
 }
 
 .timer_time {
@@ -1725,10 +1726,8 @@ a {
 }
 
 .timer_cancel_btn {
-    background-image: url('../images/timer_cancel_gray.png');
     width: 146px;
     height: 99px;
-    background-repeat: no-repeat;
     float: left;
     line-height: 42px;
     position: relative;
@@ -1738,38 +1737,39 @@ a {
 }
 
 .timer_cancel_btn_text {
+    background-color: #fcbf14;
+    border-radius: 15px;
     color: #BBB;
     float: left;
     line-height: 97px;
     font-size: 35px;
     font-family: Conv_PlumbMed;
-    width: 100%;
+    width: 162%;
+    height: 76px;
+    position: relative;
+    top: 77px;
     text-align: center;
 }
 
 .timer_cancel_btn.orange {
-    background-image: url('../images/timer_cancel_orange.png');
 }
 
 .timer_small_border {
-    background-image: url("../images/timer_small_border_gray.png");
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 99px;
+    background-color: #fcbf14;
+    border-radius: 15px;
+    width: 92px;
+    height: 76px;
     position: relative;
     float: left;
-    left: 65px;
-    top: -35px;
+    left: 29%;
+    top: 46px;
     margin-left: 20px;
 }
 
 .timer_small_border_orange {
-    background-image: url("../images/timer_small_border_orange.png");
 }
 
 .timer_border_start {
-    background-image: url('../images/timer_start_gray.png');
-    background-repeat: no-repeat;
     width: 543px;
     height: 90px;
     position: relative;
@@ -1778,7 +1778,6 @@ a {
 }
 
 .timer_border_start_green {
-    background-image: url('../images/timer_start_green.png');
 }
 
 .timer_hour {
@@ -1873,13 +1872,18 @@ a {
 }
 
 .timer_Start_btn {
+    background-color: #cc0000;
     color: #BBB;
+    height: 82%;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 51px;
     line-height: 96px;
     position: absolute;
     text-align: center;
-    width: 562px;
+    width: 118%;
+    left: -9%;
+    top: 104%;
     font-family: Conv_PlumbMed;
 }
 
@@ -2079,8 +2083,8 @@ a {
     overflow-y: auto;
     height: 130px;
     top: 135px;
-    width: 700px;
-    left: -45px;
+    width: 115%;
+    left: -7.5%;
     background-color: white;
     position: relative;
     -webkit-overflow-scrolling: touch;
@@ -3437,21 +3441,21 @@ a {
 .add_timer_btn {
     background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
-    background-position-x: 100px;
-    background-position-y: 12px;
+    background-position-x: 18%;
+    background-position-y: 47%;
     background-size: 8% 70%;
     cursor: pointer;
-    height: 72px;
+    height: 56%;
     position: relative;
-    width: 628px;
-    top: 28px;
-    left: 36px;
-    margin-top: 0px;
+    width: 90%;
+    top: 22%;
+    left: 5%;
+    margin-top: 0%;
     background-color: #edeeef;
     border-radius: 15px;
-    text-indent: 172px;
-    line-height: 70px;
-    font-size: 42px;
+    text-indent: 25%;
+    line-height: 170%;
+    font-size: 262%;
     color: #4d555f;
 }
 

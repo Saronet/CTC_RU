@@ -1240,6 +1240,39 @@ left: 69px;*/
     -webkit-overflow-scrolling: touch;
 }
 
+#timer_list_middel_window {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 54px;
+    top: 79px;
+    width: 48%;
+    left: 2.2%;
+    background-color: white;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.add_timer_btn {
+    background-image: url("../images/add-gray.png");
+    background-repeat: no-repeat;
+    background-position-x: 18%;
+    background-position-y: 47%;
+    background-size: 8% 70%;
+    cursor: pointer;
+    height: 56%;
+    position: relative;
+    width: 90%;
+    top: 22%;
+    left: 5%;
+    margin-top: 0%;
+    background-color: #edeeef;
+    border-radius: 5px;
+    text-indent: 25%;
+    line-height: 170%;
+    font-size: 194%;
+    color: #4d555f;
+}
 
 
 /*******favorite page*******/
@@ -1621,5 +1654,3 @@ ire_icon_recipes {
 #TextArea_share {
     font-size: 16px;
 }
-
-
