@@ -1654,3 +1654,53 @@ ire_icon_recipes {
 #TextArea_share {
     font-size: 16px;
 }
+
+/**********************tools page**********************/
+
+.timer_middel {
+    background-color: white;
+    height: 270px;
+    left: 4.2%;
+    position: absolute;
+    top: 81px;
+    width: 92%;
+}
+
+.timer_name_recipe {
+    background-color: #edeeef;
+    border-radius: 5px;
+    font-size: 41px;
+    margin-left: 44px;
+    position: relative;
+    top: 5%;
+    height: 11%;
+    left: -10%;
+    width: 90%;
+}
+
+.timer_name_recipe_input {
+    -webkit-user-select: auto;
+    font-size: 15px;
+    color: #BBB;
+    background-color: transparent;
+    border: none;
+    line-height: 2%;
+    text-indent: 3%;
+    width: 95%;
+    left: 1%;
+    top: 1px;
+    height: 25px;
+    text-align: left;
+    position: absolute;
+}
+
+.timer_time {
+    color: #4E555F;
+    font-size: 85px;
+    left: -133px;
+    position: relative;
+    text-align: center;
+    top: 28px;
+    font-weight: 900;
+    width: 560px;
+}
