@@ -2592,37 +2592,13 @@ a {
     width: 100%;
 }
 
-#term_search {
-    border-color: transparent;
-    font-size: 26px;
-    height: 2em;
-    left: 7px;
-    position: relative;
-    top: 3px;
-    width: 100%;
-    -webkit-user-select: auto;
-}
 
-.term_list {
-    height: 510px;
-    margin: 25px 0 0 -26px;
-    position: relative;
-}
 
 .term_list ul {
     list-style-type: none;
 }
 
-.term_list ul li {
-    border-bottom: 1px solid #8F9CA2;
-    height: 36px;
-    left: 13px;
-    list-style-type: none;
-    padding-bottom: 14px;
-    position: relative;
-    width: 553px;
-    cursor: pointer;
-}
+
 
 .term_name {
     color: #484F57;
@@ -2640,16 +2616,7 @@ a {
     top: 10px;
 }
 
-.middel_pic_term {
-    background-color: #fff;
-    height: 598px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 80%;
-}
+
 /*.term_middel_window
  {
  height: 628px;
@@ -3835,4 +3802,50 @@ a {
 #food_list {
     top: 18px;
     position: relative;
+}
+
+
+
+
+/************** TOOLS - NEW DESIGN *****************/
+
+
+.middel_pic_term {
+    background-color: #fff;
+    height: 598px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+}
+
+
+#term_search {
+border-color: transparent;
+font-size: 26px;
+height: 0.5em;
+left: 7px;
+position: relative;
+top: 3px;
+width: 90%;
+-webkit-user-select: auto;
+}
+
+.term_list {
+    height: 510px;
+  
+    position: relative;
+}
+
+.term_list ul li {
+border-bottom: 1px solid #8F9CA2;
+height: 36px;
+left: 13px;
+list-style-type: none;
+padding-bottom: 14px;
+position: relative;
+width: 90%;
+cursor: pointer;
 }

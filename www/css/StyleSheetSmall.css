@@ -931,9 +931,6 @@ left: 69px;*/
     background-size: 100%;
 }
 
-.background_term {
-    top: 40px;
-}
 
 /*********info page*********/
 .about_all_text {
@@ -1653,4 +1650,13 @@ ire_icon_recipes {
 
 #TextArea_share {
     font-size: 16px;
+}
+
+
+
+
+/************* TOOLS - NEW DESIGN ********************/
+
+.background_term {
+top: 45px;
 }
