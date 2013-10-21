@@ -1673,10 +1673,10 @@ a {
 
 .timer_middel {
     background-color: white;
-    height: 33%;
-    left: 4%;
+    height: 622px;
+    left: 4.2%;
     position: absolute;
-    top: 10%;
+    top: 176px;
     width: 92%;
 }
 
@@ -1693,14 +1693,14 @@ a {
 }
 
 .timer_time {
-    color: #BBB;
-    font-size: 131px;
-    /*left: 22px;*/
+    color: #4E555F;
+    font-size: 187px;
+    left: 75px;
     position: relative;
     text-align: center;
-    top: 71px;
-    /*width: 560px;*/
-    font-family: Conv_PlumbReg;
+    top: 80px;
+    font-weight: 900;
+    width: 560px;
 }
 
 .timer_down_position {
@@ -1710,17 +1710,15 @@ a {
     position: relative;
     top: 111px;
     color: #bbbbbb;
-    font-family: Conv_PlumbMed;
 }
 
 .timer_name_recipe_input {
     -webkit-user-select: auto;
-    font-family: Conv_PlumbMed;
     font-size: 32px;
     color: #BBB;
     background-color: transparent;
     border: none;
-    line-height: 51px;
+    line-height: 62px;
     width: 513px;
     text-align: center;
 }
@@ -1737,17 +1735,17 @@ a {
 }
 
 .timer_cancel_btn_text {
-    background-color: #fcbf14;
+    background-color: #FFCB01;
     border-radius: 15px;
-    color: #BBB;
+    color: #4E555F;
     float: left;
-    line-height: 97px;
-    font-size: 35px;
-    font-family: Conv_PlumbMed;
+    line-height: 80px;
+    text-indent: -1px;
+    font-size: 43px;
     width: 162%;
     height: 76px;
     position: relative;
-    top: 77px;
+    top: 45px;
     text-align: center;
 }
 
@@ -1755,14 +1753,14 @@ a {
 }
 
 .timer_small_border {
-    background-color: #fcbf14;
+    background-color: #FFCB01;
     border-radius: 15px;
     width: 92px;
     height: 76px;
     position: relative;
     float: left;
-    left: 29%;
-    top: 46px;
+    left: 29.3%;
+    top: 13px;
     margin-left: 20px;
 }
 
@@ -1770,36 +1768,55 @@ a {
 }
 
 .timer_border_start {
-    width: 543px;
+    width: 707px;
     height: 90px;
     position: relative;
     margin: auto;
-    top: 195px;
+    top: 143px;
+    border-bottom: 1px solid #BBB;
+}
+
 }
 
 .timer_border_start_green {
 }
 
 .timer_hour {
-    color: #BBB;
+    color: #4E555F;
     float: left;
     left: 15px;
     position: relative;
     text-align: center;
     width: 76px;
     cursor: pointer;
-    top: 22px;
-    line-height: 28px;
+    top: 15px;
+    line-height: 35px;
+    font-size: 45px;
+    text-indent: -13px;
 }
 
 .timer_text {
-    color: #bbbbbb;
+    color: #4E555F;
     position: relative;
-    top: 5px;
+    top: -11px;
+    left: -7px;
+    font-size: 23px;
+}
+
+#timer_text_2 {
+    font-size: 23px;
+    top: -3px;
+    left: 3px;
+}
+
+#timer_text_3 {
+    font-size: 23px;
+    top: -4px;
+    left: 1px;
 }
 
 .timer_min {
-    color: #BBB;
+    color: #4E555F;
     float: left;
     height: 85px;
     left: 15px;
@@ -1807,20 +1824,23 @@ a {
     text-align: center;
     width: 76px;
     cursor: pointer;
-    top: 22px;
+    top: 19px;
+    font-size: 45px;
+    left: 6px;
     line-height: 28px;
 }
 
 .timer_sec {
-    color: #bbbbbb;
+    color: #4E555F;
     float: left;
     height: 85px;
-    left: 13px;
+    left: 8px;
     cursor: pointer;
+    font-size: 44px;
     position: relative;
     text-align: center;
     width: 76px;
-    top: 22px;
+    top: 19px;
     line-height: 28px;
 }
 
@@ -1881,10 +1901,9 @@ a {
     line-height: 96px;
     position: absolute;
     text-align: center;
-    width: 118%;
-    left: -9%;
-    top: 104%;
-    font-family: Conv_PlumbMed;
+    width: 91%;
+    left: 4.4%;
+    top: 130%;
 }
 
 .two_btn_foodgrator_position {
