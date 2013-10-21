@@ -2619,15 +2619,6 @@ a {
 
 
 
-.term_name {
-    color: #484F57;
-    font-size: 28px;
-    font-style: italic;
-    font-weight: bold;
-    position: relative;
-    top: 20px;
-}
-
 .get_information_term {
     cursor: pointer;
     position: absolute;
@@ -2843,17 +2834,6 @@ a {
     height: 96px;
 }
 
-.term_middel_window {
-    height: 581px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    width: 94%;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
 
 .shopping_middel_window {
     height: 679px;
@@ -3853,18 +3833,40 @@ width: 90%;
 }
 
 .term_list {
-    height: 510px;
-  
-    position: relative;
+height: 510px;
+position: relative;
+margin-top: 2em;
 }
+
 
 .term_list ul li {
 border-bottom: 1px solid #8F9CA2;
-height: 36px;
+height: 17px;
 left: 13px;
 list-style-type: none;
 padding-bottom: 14px;
 position: relative;
 width: 90%;
 cursor: pointer;
+}
+
+.term_name {
+color: #484F57;
+font-size: 1.7em;
+font-style: italic;
+font-weight: bold;
+position: relative;
+top: 0.8em;
+}
+
+.term_middel_window {
+height: 66%;
+overflow-x: hidden;
+overflow-y: auto;
+position: relative;
+-webkit-overflow-scrolling: touch;
+width: 94%;
+left: 0;
+right: 0;
+margin: auto;
 }
