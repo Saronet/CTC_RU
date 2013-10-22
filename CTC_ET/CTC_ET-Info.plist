@@ -34,6 +34,9 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>icon_152</string>
+				<string>icon_76</string>
+				<string>icon_144</string>
 				<string>Default</string>
 				<string>icon_72</string>
 				<string>icon_114</string>
@@ -57,7 +60,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.3</string>
+	<string>1.8</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMainNibFile</key>

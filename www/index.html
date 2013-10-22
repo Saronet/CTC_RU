@@ -484,24 +484,25 @@
                         <div class="timer_middel">
                             <div id="timer_name_recipe" class="timer_name_recipe"><input class="timer_name_recipe_input" value="The Name" id="timerName" type="text" /></div>
                             <div id="timeEdit" class="timer_time">07:03</div>
-
-                            <div id="timer_cancel_btn" class="timer_cancel_btn" ontouchstart="timerMan_.orange_on('')" ontouchend="timerMan_.orange_off('')">
-                                <span class="timer_cancel_btn_text">сброс</span>
-                            </div>
-                            <div class="timer_down_position">
-                                <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
-                                    <div id="timer_hour" class="timer_hour">10 </br> мин
-                                        <!--<span class="timer_text">мин</span>-->
-                                    </div>
+                            <div class="timer_yellow_buttons">
+                                <div id="timer_cancel_btn" class="timer_cancel_btn" ontouchstart="timerMan_.orange_on('')" ontouchend="timerMan_.orange_off('')">
+                                    <span class="timer_cancel_btn_text">Cброс</span>
                                 </div>
-                                <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
-                                    <div id="timer_min" class="timer_min">1 </br> мин
-                                        <!--<span class="timer_text">мин</span>-->
+                                <div class="timer_down_position">
+                                    <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
+                                        <div id="timer_hour" class="timer_hour">+10 
+                                           <span class="timer_text">мин</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
-                                    <div id="timer_sec" class="timer_sec">10 </br> сек
-                                        <!--<span class="timer_text">сек</span>-->
+                                    <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
+                                        <div id="timer_min" class="timer_min">+1 
+                                            <span id="timer_text_2" class="timer_text">мин</span>
+                                        </div>
+                                    </div>
+                                    <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
+                                        <div id="timer_sec" class="timer_sec">+10
+                                            <span id="timer_text_3" class="timer_text">сек</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -966,7 +967,7 @@
                         <!--<div class="text_icon_position_hover">Refriginator</div>-->
                         <div class="text_icon_position_hover">рецептор</div>
                     </div>
-                    <div id="tools_icon" class="icon"> <!--ontouchstart="toolsMan_.start_touch(event)" ontouchend="toolsMan_.start()">-->
+                    <div id="tools_icon" class="icon" ontouchstart="toolsMan_.start_touch(event)" ontouchend="toolsMan_.start()">
                         <div class="img_icon_posotion">
                         </div>
                         <!-- <div class="text_icon_position_tools">Tools</div>-->

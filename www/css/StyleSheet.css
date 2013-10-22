@@ -1672,135 +1672,151 @@ a {
 }
 
 .timer_middel {
-    background-image: url("../images/timer_menu_background.png");
-    background-repeat: no-repeat;
-    height: 541px;
-    left: 3%;
+    background-color: white;
+    height: 622px;
+    left: 4.2%;
     position: absolute;
-    top: 106px;
-    width: 603px;
+    top: 176px;
+    width: 92%;
 }
 
 .timer_name_recipe {
-    color: #FFFFFF;
+    background-color: #edeeef;
+    border-radius: 15px;
     font-size: 41px;
     margin-left: 44px;
     position: relative;
-    top: 47px;
-    height: 56px;
-    width: 513px;
+    top: 5%;
+    height: 11%;
+    left: -2%;
+    width: 91%;
 }
 
 .timer_time {
-    color: #BBB;
-    font-size: 131px;
-    /*left: 22px;*/
+    color: #4E555F;
+    font-size: 187px;
+    left: 75px;
     position: relative;
     text-align: center;
-    top: 71px;
-    /*width: 560px;*/
-    font-family: Conv_PlumbReg;
+    top: 80px;
+    font-weight: 900;
+    width: 560px;
 }
 
 .timer_down_position {
-    font-size: 35px;
+    /*font-size: 35px;
     margin-left: 60px;
     line-height: 21px;
     position: relative;
-    top: 111px;
+    top: 111px;*/
     color: #bbbbbb;
-    font-family: Conv_PlumbMed;
 }
 
 .timer_name_recipe_input {
     -webkit-user-select: auto;
-    font-family: Conv_PlumbMed;
-    font-size: 32px;
+    /*font-size: 32px;*/
     color: #BBB;
     background-color: transparent;
     border: none;
-    line-height: 51px;
-    width: 513px;
+    /*line-height: 62px;
+    width: 513px;*/
     text-align: center;
 }
 
 .timer_cancel_btn {
-    background-image: url('../images/timer_cancel_gray.png');
-    width: 146px;
-    height: 99px;
-    background-repeat: no-repeat;
+    /*width: 146px;
+    height: 99px;*/
     float: left;
-    line-height: 42px;
+    /*line-height: 42px;*/
     position: relative;
     cursor: pointer;
-    left: 31px;
-    top: 80px;
+    /*left: 31px;
+    top: 80px;*/
 }
 
 .timer_cancel_btn_text {
-    color: #BBB;
+    background-color: #FFCB01;
+    border-radius: 15px;
+    color: #4E555F;
     float: left;
-    line-height: 97px;
-    font-size: 35px;
-    font-family: Conv_PlumbMed;
-    width: 100%;
+    line-height: 80px;
+    text-indent: -1px;
+    font-size: 43px;
+    width: 162%;
+    height: 76px;
+    position: relative;
+    top: 45px;
     text-align: center;
 }
 
 .timer_cancel_btn.orange {
-    background-image: url('../images/timer_cancel_orange.png');
 }
 
 .timer_small_border {
-    background-image: url("../images/timer_small_border_gray.png");
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 99px;
+    background-color: #FFCB01;
+    border-radius: 15px;
+    width: 92px;
+    height: 76px;
     position: relative;
     float: left;
-    left: 65px;
-    top: -35px;
+    left: 29.3%;
+    top: 13px;
     margin-left: 20px;
 }
 
 .timer_small_border_orange {
-    background-image: url("../images/timer_small_border_orange.png");
 }
 
 .timer_border_start {
-    background-image: url('../images/timer_start_gray.png');
-    background-repeat: no-repeat;
-    width: 543px;
+    width: 707px;
     height: 90px;
     position: relative;
     margin: auto;
-    top: 195px;
+    top: 143px;
+    border-bottom: 1px solid #BBB;
+}
+
 }
 
 .timer_border_start_green {
-    background-image: url('../images/timer_start_green.png');
 }
 
 .timer_hour {
-    color: #BBB;
+    color: #4E555F;
     float: left;
     left: 15px;
     position: relative;
     text-align: center;
     width: 76px;
     cursor: pointer;
-    top: 22px;
-    line-height: 28px;
+    top: 15px;
+    line-height: 35px;
+    font-size: 45px;
+    text-indent: -13px;
 }
 
 .timer_text {
-    color: #bbbbbb;
+    color: #4E555F;
     position: relative;
-    top: 5px;
+    top: -11px;
+    left: -7px;
+    font-size: 23px;
+}
+
+#timer_text_2 {
+    font-size: 23px;
+    top: -3px;
+    left: 3px;
+}
+
+#timer_text_3 {
+    font-size: 23px;
+    top: -4px;
+    left: 1px;
 }
 
 .timer_min {
-    color: #BBB;
+    color: #4E555F;
     float: left;
     height: 85px;
     left: 15px;
@@ -1808,20 +1824,23 @@ a {
     text-align: center;
     width: 76px;
     cursor: pointer;
-    top: 22px;
+    top: 19px;
+    font-size: 45px;
+    left: 6px;
     line-height: 28px;
 }
 
 .timer_sec {
-    color: #bbbbbb;
+    color: #4E555F;
     float: left;
     height: 85px;
-    left: 13px;
+    left: 8px;
     cursor: pointer;
+    font-size: 44px;
     position: relative;
     text-align: center;
     width: 76px;
-    top: 22px;
+    top: 19px;
     line-height: 28px;
 }
 
@@ -1873,14 +1892,18 @@ a {
 }
 
 .timer_Start_btn {
+    background-color: #cc0000;
     color: #BBB;
+    height: 82%;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 51px;
     line-height: 96px;
     position: absolute;
     text-align: center;
-    width: 562px;
-    font-family: Conv_PlumbMed;
+    width: 91%;
+    left: 4.4%;
+    top: 130%;
 }
 
 .two_btn_foodgrator_position {
@@ -2079,8 +2102,8 @@ a {
     overflow-y: auto;
     height: 130px;
     top: 135px;
-    width: 700px;
-    left: -45px;
+    width: 115%;
+    left: -7.5%;
     background-color: white;
     position: relative;
     -webkit-overflow-scrolling: touch;
@@ -2588,37 +2611,13 @@ a {
     width: 100%;
 }
 
-#term_search {
-    border-color: transparent;
-    font-size: 26px;
-    height: 2em;
-    left: 7px;
-    position: relative;
-    top: 3px;
-    width: 100%;
-    -webkit-user-select: auto;
-}
 
-.term_list {
-    height: 510px;
-    margin: 25px 0 0 -26px;
-    position: relative;
-}
 
 .term_list ul {
     list-style-type: none;
 }
 
-.term_list ul li {
-    border-bottom: 1px solid #8F9CA2;
-    height: 36px;
-    left: 13px;
-    list-style-type: none;
-    padding-bottom: 14px;
-    position: relative;
-    width: 553px;
-    cursor: pointer;
-}
+
 
 .term_name {
     color: #484F57;
@@ -2636,16 +2635,7 @@ a {
     top: 10px;
 }
 
-.middel_pic_term {
-    background-color: #fff;
-    height: 598px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 80%;
-}
+
 /*.term_middel_window
  {
  height: 628px;
@@ -3437,21 +3427,21 @@ a {
 .add_timer_btn {
     background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
-    background-position-x: 100px;
-    background-position-y: 12px;
+    background-position-x: 18%;
+    background-position-y: 47%;
     background-size: 8% 70%;
     cursor: pointer;
-    height: 72px;
+    height: 56%;
     position: relative;
-    width: 628px;
-    top: 28px;
-    left: 36px;
-    margin-top: 0px;
+    width: 90%;
+    top: 22%;
+    left: 5%;
+    margin-top: 0%;
     background-color: #edeeef;
     border-radius: 15px;
-    text-indent: 172px;
-    line-height: 70px;
-    font-size: 42px;
+    text-indent: 25%;
+    line-height: 170%;
+    font-size: 262%;
     color: #4d555f;
 }
 
@@ -3831,4 +3821,50 @@ a {
 #food_list {
     top: 18px;
     position: relative;
+}
+
+
+
+
+/************** TOOLS - NEW DESIGN *****************/
+
+
+.middel_pic_term {
+    background-color: #fff;
+    height: 598px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+}
+
+
+#term_search {
+border-color: transparent;
+font-size: 26px;
+height: 0.5em;
+left: 7px;
+position: relative;
+top: 3px;
+width: 90%;
+-webkit-user-select: auto;
+}
+
+.term_list {
+    height: 510px;
+  
+    position: relative;
+}
+
+.term_list ul li {
+border-bottom: 1px solid #8F9CA2;
+height: 36px;
+left: 13px;
+list-style-type: none;
+padding-bottom: 14px;
+position: relative;
+width: 90%;
+cursor: pointer;
 }

@@ -931,9 +931,6 @@ left: 69px;*/
     background-size: 100%;
 }
 
-.background_term {
-    top: 40px;
-}
 
 /*********info page*********/
 .about_all_text {
@@ -1240,6 +1237,39 @@ left: 69px;*/
     -webkit-overflow-scrolling: touch;
 }
 
+#timer_list_middel_window {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 54px;
+    top: 79px;
+    width: 48%;
+    left: 2.2%;
+    background-color: white;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.add_timer_btn {
+    background-image: url("../images/add-gray.png");
+    background-repeat: no-repeat;
+    background-position-x: 18%;
+    background-position-y: 47%;
+    background-size: 8% 70%;
+    cursor: pointer;
+    height: 56%;
+    position: relative;
+    width: 90%;
+    top: 22%;
+    left: 5%;
+    margin-top: 0%;
+    background-color: #edeeef;
+    border-radius: 5px;
+    text-indent: 25%;
+    line-height: 170%;
+    font-size: 194%;
+    color: #4d555f;
+}
 
 
 /*******favorite page*******/
@@ -1622,4 +1652,70 @@ ire_icon_recipes {
     font-size: 16px;
 }
 
+/**********************tools page**********************/
 
+.timer_middel {
+    background-color: white;
+    height: 270px;
+    left: 4.2%;
+    position: absolute;
+    top: 81px;
+    width: 92%;
+}
+
+.timer_name_recipe {
+    background-color: #edeeef;
+    position: relative;
+    top: 5%;
+}
+
+.timer_yellow_buttons, .timer_name_recipe, .timer_border_start {
+    width: 90%;
+    height: 11%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 41px;
+}
+
+.timer_name_recipe_input {
+    -webkit-user-select: auto;
+    font-size: 15px;
+    color: #BBB;
+    background-color: transparent;
+    border: none;
+    line-height: 2%;
+    text-indent: 3%;
+    width: 95%;
+    left: 1%;
+    top: 1px;
+    height: 25px;
+    text-align: left;
+    position: absolute;
+}
+
+.timer_time {
+    color: #4E555F;
+    font-size: 85px;
+    left: -133px;
+    position: relative;
+    text-align: center;
+    top: 28px;
+    font-weight: 900;
+    width: 560px;
+}
+timer_cancel_btn_text {
+}
+timer_down_position{
+    
+}
+timer_small_border{
+    
+}
+
+/************* TOOLS - NEW DESIGN ********************/
+
+.background_term {
+top: 45px;
+}
