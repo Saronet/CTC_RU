@@ -2105,12 +2105,15 @@ a {
 #timer_list_middel_window {
     overflow-x: hidden;
     overflow-y: auto;
-    height: 130px;
-    top: 135px;
+    height: auto;
+    max-height: 700px;
+    top: 87px;
     width: 115%;
     left: -7.5%;
     background-color: white;
     position: relative;
+    padding-top: 1.5em;
+    padding-bottom: 0em;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -3421,7 +3424,7 @@ a {
     width: 90%;
     top: 22%;
     left: 5%;
-    margin-top: 0%;
+    margin-bottom: 5%;
     background-color: #edeeef;
     border-radius: 15px;
     text-indent: 25%;
