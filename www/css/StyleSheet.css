@@ -1704,34 +1704,34 @@ a {
 }
 
 .timer_down_position {
-    /*font-size: 35px;
+    font-size: 35px;
     margin-left: 60px;
     line-height: 21px;
     position: relative;
-    top: 111px;*/
+    top: 111px;
     color: #bbbbbb;
 }
 
 .timer_name_recipe_input {
     -webkit-user-select: auto;
-    /*font-size: 32px;*/
+    font-size: 32px;
     color: #BBB;
     background-color: transparent;
     border: none;
-    /*line-height: 62px;
-    width: 513px;*/
+    line-height: 62px;
+    width: 513px;
     text-align: center;
 }
 
 .timer_cancel_btn {
-    /*width: 146px;
-    height: 99px;*/
+    width: 146px;
+    height: 99px;
     float: left;
-    /*line-height: 42px;*/
+    line-height: 42px;
     position: relative;
     cursor: pointer;
-    /*left: 31px;
-    top: 80px;*/
+    left: 31px;
+    top: 80px;
 }
 
 .timer_cancel_btn_text {
@@ -2619,15 +2619,6 @@ a {
 
 
 
-.term_name {
-    color: #484F57;
-    font-size: 28px;
-    font-style: italic;
-    font-weight: bold;
-    position: relative;
-    top: 20px;
-}
-
 .get_information_term {
     cursor: pointer;
     position: absolute;
@@ -2843,17 +2834,6 @@ a {
     height: 96px;
 }
 
-.term_middel_window {
-    height: 581px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    width: 94%;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
 
 .shopping_middel_window {
     height: 679px;
@@ -3853,18 +3833,40 @@ width: 90%;
 }
 
 .term_list {
-    height: 510px;
-  
-    position: relative;
+height: 510px;
+position: relative;
+margin-top: 2em;
 }
+
 
 .term_list ul li {
 border-bottom: 1px solid #8F9CA2;
-height: 36px;
+height: 17px;
 left: 13px;
 list-style-type: none;
 padding-bottom: 14px;
 position: relative;
 width: 90%;
 cursor: pointer;
+}
+
+.term_name {
+color: #484F57;
+font-size: 1.7em;
+font-style: italic;
+font-weight: bold;
+position: relative;
+top: 0.8em;
+}
+
+.term_middel_window {
+height: 66%;
+overflow-x: hidden;
+overflow-y: auto;
+position: relative;
+-webkit-overflow-scrolling: touch;
+width: 94%;
+left: 0;
+right: 0;
+margin: auto;
 }

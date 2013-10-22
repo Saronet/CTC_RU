@@ -1665,18 +1665,14 @@ ire_icon_recipes {
 
 .timer_name_recipe {
     background-color: #edeeef;
-    position: relative;
-    top: 5%;
-}
-
-.timer_yellow_buttons, .timer_name_recipe, .timer_border_start {
-    width: 90%;
-    height: 11%;
-    left: 0;
-    right: 0;
-    margin: auto;
     border-radius: 5px;
     font-size: 41px;
+    margin-left: 44px;
+    position: relative;
+    top: 5%;
+    height: 11%;
+    left: -10%;
+    width: 90%;
 }
 
 .timer_name_recipe_input {
@@ -1705,14 +1701,9 @@ ire_icon_recipes {
     font-weight: 900;
     width: 560px;
 }
-timer_cancel_btn_text {
-}
-timer_down_position{
-    
-}
-timer_small_border{
-    
-}
+
+
+
 
 /************* TOOLS - NEW DESIGN ********************/
 
