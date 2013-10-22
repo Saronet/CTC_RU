@@ -484,9 +484,15 @@
                         <div class="timer_middel">
                             <div id="timer_name_recipe" class="timer_name_recipe"><input class="timer_name_recipe_input" value="The Name" id="timerName" type="text" /></div>
                             <div id="timeEdit" class="timer_time">07:03</div>
-                            <div class="timer_yellow_buttons">
-                                <div id="timer_cancel_btn" class="timer_cancel_btn" ontouchstart="timerMan_.orange_on('')" ontouchend="timerMan_.orange_off('')">
-                                    <span class="timer_cancel_btn_text">Cброс</span>
+
+                            <div id="timer_cancel_btn" class="timer_cancel_btn" ontouchstart="timerMan_.orange_on('')" ontouchend="timerMan_.orange_off('')">
+                                <span class="timer_cancel_btn_text">Cброс</span>
+                            </div>
+                            <div class="timer_down_position">
+                                <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
+                                    <div id="timer_hour" class="timer_hour">+10 
+                                       <span id="timer_text_1" class="timer_text">мин</span>
+                                    </div>
                                 </div>
                                 <div class="timer_down_position">
                                     <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
@@ -705,7 +711,7 @@
                                 <div class="term_middel_window_singel">
                                     <div class="one_recipe_middle">
                                         <div class="one_recipe_page_description_recipe">
-                                            <div class="one_term_pic"><img id="termImg" width="1265px" height="836px" alt="" src="images/one_recipe_pic.jpg" />
+                                            <div class="one_term_pic"><img id="termImg" width="100%" height="100%" alt="" src="images/one_recipe_pic.jpg" />
 
                                                 <div class="white_term"><span class="one_recipe_text_pic_term" id="one_recipe_text_pic_term">торт закусочный блинчатый</span></div>
                                             </div>
