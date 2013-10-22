@@ -1776,7 +1776,6 @@ a {
     border-bottom: 1px solid #BBB;
 }
 
-}
 
 .timer_border_start_green {
 }
@@ -1801,6 +1800,12 @@ a {
     top: -11px;
     left: -7px;
     font-size: 23px;
+}
+
+#timer_text_1 {
+    font-size: 23px;
+    top: -3px;
+    left: 3px;
 }
 
 #timer_text_2 {
@@ -3453,7 +3458,7 @@ a {
 
 .timer_list_background {
     z-index: 3;
-    a position: absolute;
+    position: absolute;
     top: 55px;
 }
 
