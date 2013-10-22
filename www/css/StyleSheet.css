@@ -2869,7 +2869,6 @@ a {
 .term_middel_window_singel {
     height: 47em;
     background-color: white;
-    overflow-x: hidden;
     position: relative;
     left: -2%;
     width: 694px;
