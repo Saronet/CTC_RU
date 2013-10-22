@@ -1842,5 +1842,90 @@ ire_icon_recipes {
 /************* TOOLS - NEW DESIGN ********************/
 
 .background_term {
-top: 45px;
+    top: 45px;
+}
+
+.background_sigel_term {
+    position: relative;
+    top: -11px;
+}
+
+.term_middel_pic {
+    background-image: url("../images/recipes_middel_pic.png");
+    background-repeat: repeat-y;
+    background-color: white;
+    height: 38em;
+    margin: auto;
+    left: 0;
+    top: 11px;
+    right: 0;
+    overflow: hidden;
+    position: relative;
+    width: 93%;
+}
+
+.term_middel_window_singel {
+    height: 40em;
+    background-color: white;
+    overflow-x: hidden;
+    position: relative;
+    left: -2%;
+    width: 694px;
+    top: 3%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+}
+
+.one_recipe_middle {
+    position: relative;
+    top: 5px;
+    height: 28em;
+}
+
+.one_recipe_page_description_recipe {
+    height: 100%;
+    top: 0;
+}
+
+.one_term_pic {
+    height: 20em;
+    left: 19px;
+    position: relative;
+    top: -3px;
+    width: 28.3em;
+}
+
+.white_term {
+    background-color: white;
+    height: 5em;
+    left: 0;
+    opacity: 0.8;
+    position: relative;
+    text-align: center;
+    top: -5em;
+    width: 646px;
+    z-index: 4;
+}
+
+.one_recipe_text_pic_term {
+    color: #4D555F;
+    font-size: 2.2em;
+    margin-left: 9px;
+    position: relative;
+    z-index: 9;
+    top: -0.2em;
+    line-height: 2.7em;
+    width: 100%;
+    display: block;
+    text-align: left;
+    height: 116px;
+}
+
+.one_recipe_text_discription_term {
+    color: #4D555F;
+    font-size: 1.3em;
+    left: 20px;
+    position: relative;
+    top: -4.5em;
+    width: 39%;
 }
