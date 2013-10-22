@@ -931,9 +931,6 @@ left: 69px;*/
     background-size: 100%;
 }
 
-.background_term {
-    top: 40px;
-}
 
 /*********info page*********/
 .about_all_text {
@@ -1834,4 +1831,13 @@ ire_icon_recipes {
     width: 91%;
     left: 4.4%;
     top: 112%;
+}
+
+
+
+
+/************* TOOLS - NEW DESIGN ********************/
+
+.background_term {
+top: 45px;
 }

@@ -2616,46 +2616,13 @@ a {
     width: 100%;
 }
 
-#term_search {
-    border-color: transparent;
-    font-size: 26px;
-    height: 2em;
-    left: 7px;
-    position: relative;
-    top: 3px;
-    width: 100%;
-    -webkit-user-select: auto;
-}
 
-.term_list {
-    height: 510px;
-    margin: 25px 0 0 -26px;
-    position: relative;
-}
 
 .term_list ul {
     list-style-type: none;
 }
 
-.term_list ul li {
-    border-bottom: 1px solid #8F9CA2;
-    height: 36px;
-    left: 13px;
-    list-style-type: none;
-    padding-bottom: 14px;
-    position: relative;
-    width: 553px;
-    cursor: pointer;
-}
 
-.term_name {
-    color: #484F57;
-    font-size: 28px;
-    font-style: italic;
-    font-weight: bold;
-    position: relative;
-    top: 20px;
-}
 
 .get_information_term {
     cursor: pointer;
@@ -2664,16 +2631,7 @@ a {
     top: 10px;
 }
 
-.middel_pic_term {
-    background-color: #fff;
-    height: 598px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 80%;
-}
+
 /*.term_middel_window
  {
  height: 628px;
@@ -2881,17 +2839,6 @@ a {
     height: 96px;
 }
 
-.term_middel_window {
-    height: 581px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    width: 94%;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
 
 .shopping_middel_window {
     height: 679px;
@@ -3859,4 +3806,72 @@ a {
 #food_list {
     top: 18px;
     position: relative;
+}
+
+
+
+
+/************** TOOLS - NEW DESIGN *****************/
+
+
+.middel_pic_term {
+    background-color: #fff;
+    height: 598px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+}
+
+
+#term_search {
+border-color: transparent;
+font-size: 26px;
+height: 0.5em;
+left: 7px;
+position: relative;
+top: 3px;
+width: 90%;
+-webkit-user-select: auto;
+}
+
+.term_list {
+height: 510px;
+position: relative;
+margin-top: 2em;
+}
+
+
+.term_list ul li {
+border-bottom: 1px solid #8F9CA2;
+height: 17px;
+left: 13px;
+list-style-type: none;
+padding-bottom: 14px;
+position: relative;
+width: 90%;
+cursor: pointer;
+}
+
+.term_name {
+color: #484F57;
+font-size: 1.7em;
+font-style: italic;
+font-weight: bold;
+position: relative;
+top: 0.8em;
+}
+
+.term_middel_window {
+height: 66%;
+overflow-x: hidden;
+overflow-y: auto;
+position: relative;
+-webkit-overflow-scrolling: touch;
+width: 94%;
+left: 0;
+right: 0;
+margin: auto;
 }
