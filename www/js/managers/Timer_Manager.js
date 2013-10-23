@@ -166,8 +166,8 @@ this.orange_off=function()
     this.setTimerList = function() {
 
         if(isIpad()) {
-            timerMan_.image_start = "images_ipad/timer_start_btni.png";
-            timerMan_.image_reset = "images_ipad/timer_reset_btni.png";
+            timerMan_.image_start = "images_ipad/timer_pause_btni.png";
+            timerMan_.image_reset = "images_ipad/timer_play_btni.png";
             timerMan_.image_delete = "<img class=\"timer_delete_btn\" onclick=\"timerMan_.deleteTimer(this)\" alt=\"\" src=\"images_ipad/timer_delete_btn.png\" />";
             timerMan_.image_finish = "<img class=\"finish_background\" alt=\"\" src=\"images_ipad/timer_finished_background.png\" />";
 

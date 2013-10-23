@@ -199,7 +199,6 @@ left: 96px;*/
     height: 100%;
 }*/
 #btn_txt_1 {
-    font-size: 8px;
     letter-spacing: 0.2px;
     bottom: 0;
     top: 0;
@@ -210,7 +209,7 @@ left: 96px;*/
     color: #fff;
     margin-left: 3%;
     margin-top: 7%;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 #btn_txt_2 {
@@ -225,12 +224,12 @@ left: 96px;*/
     color: #fff;
     margin-left: 13%;
     margin-top: 8%;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .white_background {
     height: 9em;
-    background: rgba(225,225,225,.6);
+    background: rgba(225,225,225,.8);
 }
 
 .dots_position ul li {
@@ -977,10 +976,6 @@ left: 69px;*/
 }
 
 .screenz_logo {
-    top: 17px;
-    background-size: 100px;
-    right: 0em;
-    width: 112px;
 }
 
 .about_text {
@@ -1260,7 +1255,6 @@ left: 69px;*/
     background-position-y: 47%;
     background-size: 8% 70%;
     cursor: pointer;
-    height: 56%;
     position: relative;
     width: 90%;
     top: 22%;
