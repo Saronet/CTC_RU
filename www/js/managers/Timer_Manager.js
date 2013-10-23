@@ -5,7 +5,7 @@ function TimerMan() {
     this.image_start = "images/timer_start_btni.png";
     this.image_reset = "images/timer_recet_btn.png";
     this.image_delete = "<img class=\"timer_delete_btn\" ontouchstart=\"timerMan_.deleteTimer(this)\" alt=\"\" src=\"images/timer_delete_btn.png\" />";
-    this.image_finish="<img class=\"finish_background\" alt=\"\" src=\"images/timer_finished_background.png\" />";
+    //this.image_finish="<img class=\"finish_background\" alt=\"\" src=\"images/timer_finished_background.png\" />";
     this.showPage = function() {
 		try{snd = new Media( '/android_asset/www/voice/ding.wav' );}catch(err){};
         NavigationMan_.navigate("tools", "timer");

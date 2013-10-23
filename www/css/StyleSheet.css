@@ -2005,17 +2005,19 @@ a {
     position: absolute;
     width: 100%;
     z-index: 10;
-    top: 126px;
+    top: 28%;
     display: none;
 }
 
 .timer_all_background_black {
     /*background-color: Black;*/
-    height: 890px;
+    height: 250px;
     opacity: 0.72;
     position: absolute;
-    top: -182px;
-    width: 640px;
+    width: 60%;
+    right: 0;   
+    left: 0;
+    margin: auto;
 }
 
 .finish_background {
@@ -2038,7 +2040,6 @@ a {
 .timer_finish_all_position {
     position: absolute;
     width: 100%;
-    top: 125px;
     margin: auto;
 }
 
@@ -2099,7 +2100,7 @@ a {
 .timer_list {
     margin: auto;
     position: relative;
-    width: 610px;
+    width: 100%;
     top: -36px;
 }
 
@@ -2109,7 +2110,7 @@ a {
     height: auto;
     max-height: 700px;
     top: 87px;
-    width: 115%;
+    width: 100%;
     left: -7.5%;
     background-color: white;
     position: relative;
@@ -3400,10 +3401,7 @@ a {
 }
 
 #timer_list_middel {
-    background-image: url('../images/timer_list_midde_3.png');
-    background-repeat: repeat-y;
-    width: 608px;
-    /*height:98px;*/
+    width: 100%;
     position: relative;
 }
 
@@ -3420,6 +3418,7 @@ a {
     z-index: 3;
     position: absolute;
     top: 55px;
+    width: 100%;
 }
 
 .add_timer_btn {
@@ -3446,13 +3445,16 @@ a {
 .new_timer {
     background-image: url("../images/new-timer_background_3.png");
     background-repeat: no-repeat;
+    background-size: 100% auto;
     height: 95px;
-    margin-left: 42px;
     position: relative;
     top: 0px;
-    width: 515px;
+    width: 90%;
     line-height: 90px;
     margin-bottom: 3px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 3px auto;
 }
 
 .timer_name {
