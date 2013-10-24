@@ -220,7 +220,7 @@ this.orange_off=function()
                    
                     if(isIpad()) {
                         checkHtml($(currentTimer).children(".timer_name"), 94);
-                         $(".add_timer_btn").css("margin-top", "-23px");
+                         $(".add_timer_btn").css("margin-top", "32px");
                     }
                     else {
                         checkHtml($(currentTimer).children(".timer_name"), 94); 
@@ -328,7 +328,7 @@ this.orange_off=function()
         
         timerMan_.updateTimersStorage(timersArray);
         if(isIpad()) {
-            $(".add_timer_btn").css("margin-top", "-23px");
+            $(".add_timer_btn").css("margin-top", "32px");
         }
         else {
             $(".add_timer_btn").css("margin-top", "-3px");
@@ -346,7 +346,7 @@ this.orange_off=function()
             }
             else {
                 if(isIpad()) {
-                    $(".add_timer_btn").css("margin-top", "-23px");
+                    $(".add_timer_btn").css("margin-top", "32px");
                 }
                 else {
                     $(".add_timer_btn").css("margin-top", "-3px");
@@ -551,7 +551,7 @@ this.orange_off=function()
 
         if(isIpad()) {
             checkHtml(currentT.children(".timer_name"), 94);
-            $(".add_timer_btn").css("margin-top", "-23px");
+            $(".add_timer_btn").css("margin-top", "32px");
         }
         else {
             checkHtml(currentT.children(".timer_name"), 94);
