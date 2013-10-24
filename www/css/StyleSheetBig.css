@@ -848,5 +848,88 @@
 
 
 .middel_pic_term {
-    height: 866px;
+    background-color: #fff;
+    height: 95%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+}
+
+.term_middel_window {
+    height: 99%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    width: 94%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.term_text_background {
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    border-radius: 11px;
+    height: 3.5em;
+    left: 1em;
+    position: relative;
+    top: 1em;
+    width: 90%;
+}
+
+#term_search {
+    border-color: transparent;
+    font-size: 160%;
+    height: 1.5em;
+    left: 7px;
+    position: relative;
+    text-indent: 2%;
+    top: 8px;
+    width: 97%;
+    -webkit-user-select: auto;
+}
+
+.term_list {
+    height: 510px;
+    position: relative;
+    margin-top: 2em;
+}
+
+.message_no_Results_term {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    text-align: center;
+    font-family: Conv_PlumbMed;
+    font-size: 28px;
+    text-shadow: 1px 2px white;
+    color: #540A24;
+    margin-top: 40px;
+    margin-left: 16px;
+}
+
+.term_list ul li {
+    border-bottom: 1px solid #8F9CA2;
+    height: 39px;
+    left: 13px;
+    list-style-type: none;
+    padding-bottom: 14px;
+    position: relative;
+    width: 90%;
+    cursor: pointer;
+}
+
+.term_name {
+    color: #484F57;
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 0em;
+    position: relative;
+    top: 0.8em;
 }

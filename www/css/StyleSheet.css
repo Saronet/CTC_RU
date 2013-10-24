@@ -563,7 +563,7 @@ a {
 .white_background {
     background-color: White;
     height: 33%;
-    opacity: 0.7;
+    opacity: 0.8;
     position: absolute;
     top: 67%;
     width: 100%;
@@ -1980,7 +1980,7 @@ a {
 #Text_search_foodgrator {
     -webkit-user-select: auto;
     border: 0 none;
-    font-family: georgia;
+    font-family: arial;
     font-size: 30px;
     height: 29px;
     left: 7px;
@@ -2005,17 +2005,19 @@ a {
     position: absolute;
     width: 100%;
     z-index: 10;
-    top: 126px;
+    top: 28%;
     display: none;
 }
 
 .timer_all_background_black {
     /*background-color: Black;*/
-    height: 890px;
+    height: 250px;
     opacity: 0.72;
     position: absolute;
-    top: -182px;
-    width: 640px;
+    width: 60%;
+    right: 0;   
+    left: 0;
+    margin: auto;
 }
 
 .finish_background {
@@ -2038,7 +2040,6 @@ a {
 .timer_finish_all_position {
     position: absolute;
     width: 100%;
-    top: 125px;
     margin: auto;
 }
 
@@ -2099,7 +2100,7 @@ a {
 .timer_list {
     margin: auto;
     position: relative;
-    width: 610px;
+    width: 100%;
     top: -36px;
 }
 
@@ -2109,7 +2110,7 @@ a {
     height: auto;
     max-height: 700px;
     top: 87px;
-    width: 115%;
+    width: 100%;
     left: -7.5%;
     background-color: white;
     position: relative;
@@ -2869,7 +2870,6 @@ a {
 .term_middel_window_singel {
     height: 47em;
     background-color: white;
-    overflow-x: hidden;
     position: relative;
     left: -2%;
     width: 694px;
@@ -3293,30 +3293,49 @@ a {
     overflow-y: hidden;
     color: #484F57;
 }
-
+.about_title {
+float: left;
+margin-top: 15px;
+margin-left: 17px;
+}
 .about_text_title {
-    font-size: 1.5em;
+    /*font-size: 1.5em;
     font-weight: bold;
     position: relative;
     color: #484F57;
-    line-height: 2em;
+    line-height: 2em;*/
+    line-height: 0.5em;
+font-size: 14px;
+top: -6px;
+letter-spacing: 0em;
 }
 
 .about_text_credits {
-    font-size: 1em;
-    position: relative;
+    line-height: 1em;
+font-size: 11px;
+bottom: 0px;
+letter-spacing: 0em;
 }
 
 .about_decoration {
 }
+.about_icon {
+float: left;
+}
 
 .about_text {
     color: #484F57;
-    font-size: 1.5em;
-    padding-left: 10%;
-    line-height: 2em;
+font-size: 1.6em;
+font-weight: bold;
+padding-left: 10%;
+line-height: 2em;
 }
-
+.abut_desc {
+clear: both;
+font-size: 1.2em;
+padding-top: 1.2em;
+padding-bottom: 1em;
+}
 .about_text_position {
     width: 80%;
     padding: 3% 10%;
@@ -3331,10 +3350,8 @@ a {
 }
 
 .screenz_logo {
-    background-image: url("../images_ipad/logo_screenz_new.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    float: right;
+    top: 1.2em;
+margin-left: 10%;
 }
 
 .reshat_logo, .screenz_logo {
@@ -3401,10 +3418,7 @@ a {
 }
 
 #timer_list_middel {
-    background-image: url('../images/timer_list_midde_3.png');
-    background-repeat: repeat-y;
-    width: 608px;
-    /*height:98px;*/
+    width: 100%;
     position: relative;
 }
 
@@ -3421,8 +3435,11 @@ a {
     z-index: 3;
     position: absolute;
     top: 55px;
+    width: 100%;
 }
-
+.add_timer_btn {
+    height: 47px;
+}
 .add_timer_btn {
     background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
@@ -3430,7 +3447,6 @@ a {
     background-position-y: 47%;
     background-size: 8% 70%;
     cursor: pointer;
-    height: 56%;
     position: relative;
     width: 90%;
     top: 22%;
@@ -3447,13 +3463,15 @@ a {
 .new_timer {
     background-image: url("../images/new-timer_background_3.png");
     background-repeat: no-repeat;
-    height: 95px;
-    margin-left: 42px;
+    background-size: auto 100% ;
+    height: 47px;
     position: relative;
     top: 0px;
-    width: 515px;
-    line-height: 90px;
+    width: 90%;
     margin-bottom: 3px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 15px auto;
 }
 
 .timer_name {

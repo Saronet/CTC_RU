@@ -21,7 +21,8 @@ favorite_Manager = function() {
         catch(ex) { }
 
         if(tempFavoriteList != null && tempFavoriteList != "") {
-
+            //if there is 
+            $(".favorite_page .recipes_text_down").hide();
             favoriteMan_.clearResultsListPage();
             // jQuery.parseJSON(jsonString);
             $(tempFavoriteList).each(function(i) {
@@ -133,6 +134,11 @@ favorite_Manager = function() {
 
                 }
             });
+        }
+        //if there is no favorite recipe
+        else {
+            //Вы пока не добавили ни одного рецепта в избранное
+            $(".favorite_page .recipes_text_down").show();
         }
 
         NavigationMan_.navigate(NavigationMan_.pagePosition, "favorite");
