@@ -2,8 +2,8 @@ var snd;
 function TimerMan() {
     $('.timer_cancel_btn').css("color","#BBB");//כפתור כתום
     $('.timer_Start_btn').css("color","#BBB");//כפתור ירוק
-    this.image_start = "images/timer_start_btni.png";
-    this.image_reset = "images/timer_recet_btn.png";
+    this.image_start = "images/timer_pause_btni.png";
+    this.image_reset = "images/timer_play_btni.png";
     this.image_delete = "<img class=\"timer_delete_btn\" ontouchstart=\"timerMan_.deleteTimer(this)\" alt=\"\" src=\"images/timer_delete_btn.png\" />";
     //this.image_finish="<img class=\"finish_background\" alt=\"\" src=\"images/timer_finished_background.png\" />";
     this.showPage = function() {
@@ -204,10 +204,10 @@ this.orange_off=function()
                     timerMan_.updateStatusInLocal(name, isPlay);
 
                     $("#timer_list_middel").append("<div class=\"new_timer\">" +
-                                    "<div class=\"timer_name\">" + nameToDisplay + "</div>" +
                                     "<div class=\"timer_toPic_position\"><span class=\"timer_clock\">" + timeToDisplay + " </span>" +
-                                    "<img class=\"timer_recet_btn\" ontouchstart=\"timerMan_.initOrStart(this)\" alt=\"\" src=" + timerMan_.image_start + " />"
-                                      + timerMan_.image_delete +
+                                    "<img class=\"timer_recet_btn\" ontouchstart=\"timerMan_.initOrStart(this)\" alt=\"\" src=" + timerMan_.image_start + " />" +
+                                    "<div class=\"timer_name\">" + nameToDisplay + "</div>" +
+                                       timerMan_.image_delete +
                                     "</div>" +
                                 "</div>");
 

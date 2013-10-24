@@ -1852,7 +1852,9 @@ a {
 
 .timer_toPic_position {
     position: absolute;
-    right: 16px;
+    left: 4%;
+    height: 100%;
+    width: 100%
 }
 
 .message_no_internet {
@@ -3504,40 +3506,51 @@ a {
 }
 
 .timer_name {
-    color: #BBB;
-    float: left;
-    font-size: 39px;
-    margin-left: 23px;
-    position: relative;
-    display: block;
-    width: 169px;
-    line-height: 90px;
-    overflow: hidden;
+color: #4d555f;
+float: left;
+font-size: 2em;
+margin-left: 2%;
+position: relative;
+display: block;
+width: 40%;
+line-height: 2.5em;
+overflow: hidden;
+height: 100%;
+white-space: nowrap;
+text-overflow: ellipsis;
 }
 
 .timer_clock {
-    color: #BBB;
+    color: #4d555f;
     float: left;
-    font-size: 39px;
+    font-size: 2.3em;
     position: relative;
-    margin-right: 21px;
+    margin-right: 2%;
+    top: 24%;
+    width: 22%;
 }
 
 .timer_recet_btn {
     cursor: pointer;
-    float: left;
-    position: relative;
-    top: 13px;
-    width: 133px;
-    height: 60px;
+float: left;
+padding: 3% 5%;   /*for play: 3% 3% 3% 4%*/
+position: relative;
+top: 14%;
+width: 5%;
+background-color: #ffcc00;
+border: none;
+border-radius: 8px;
 }
 
 .timer_delete_btn {
     cursor: pointer;
-    float: left;
-    margin-left: 19px;
-    position: relative;
-    top: 13px;
+float: left;
+right: 9%;
+position: absolute;
+top: 0;
+width: 5%;
+bottom: 0;
+margin: auto;
 }
 
 .uploader_video_text {
