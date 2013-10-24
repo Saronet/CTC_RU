@@ -938,48 +938,112 @@ left: 69px;*/
 }
 
 .about_two_logos {
-    height: 66px;
-    padding: 2% 10%;
+    width: 80%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 3% 2% 3% 10%;
+    border-bottom: 1px solid #ababab;
+    height: 50px;
 }
 
 .about_text_red {
     line-height: 2.5em;
     font-size: 15px;
     letter-spacing: 0em;
-    top: -3px;
+    top: 9px;
     position: relative;
 }
 
 .about_text_position {
-    padding: 6% 10%;
+    width: 80%;
+    height: 42%;
+    padding: 6% 2% 6% 10%;
+    margin-left: 4%;
+    margin-right: 2%;
+    border-bottom: 1px solid #ababab;
+}
+
+.about_icon {
+    float: left;
+    width: 25%;
+    top: 1.3em;
+    position: relative;
+}
+
+.about_all_text {
+    letter-spacing: 0.3px;
+    line-height: 1.4em;
+    text-align: left;
+    color: #484F57;
+}
+
+.about_title {
+    float: left;
+    margin-top: 15px;
+    margin-left: 17px;
 }
 
 .about_text_title {
     line-height: 1em;
-    font-size: 14px;
-    top: -11px;
+    font-size: 23px;
+    top: 0px;
+    position: relative;
+    left: -6px;
     letter-spacing: 0em;
 }
 
 .about_text_credits {
     line-height: 1.1em;
-    font-size: 11px;
+    font-size: 14px;
     bottom: 0px;
+    left: -5px;
+    top: 6px;
     letter-spacing: 0em;
 }
 
+.abut_desc {
+    clear: both;
+    font-size: 11px;
+    float: left;
+    top: 17%;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+    position: relative;
+    width: 95%;
+    display: block;
+}
+
 .reshat_logo {
-    top: 17px;
+    top: 8px;
     background-size: 90px;
     left: 0em;
     width: 102px;
 }
 
-.screenz_logo {
+#screenz_logo {
+    top: -49px;
+    margin-left: 62%;
+    position: relative;
+    height: 46px;
+}
+
+#about_text_copyright_red {
+    color: #cc0000;
+    font-size: 1.2em;
+    padding-left: 14%;
+    position: relative;
+    top: 23px;
 }
 
 .about_text {
-    font-size: 13px;
+    color: #484F57;
+    font-size: 14.5px;
+    top: 19px;
+    font-weight: bold;
+    padding-left: 10%;
+    position: relative;
+    line-height: 1em;
+    left: 4%;
 }
 
 .text_red_about {
@@ -991,8 +1055,8 @@ left: 69px;*/
 }
 
 .about_text_copyright {
-    font-size: 12px;
-    top: -6px;
+    font-size: 8px;
+    top: 21px;
     position: relative;
 }
 
