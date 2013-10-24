@@ -1248,7 +1248,7 @@ left: 69px;*/
     height: 15px;
     left: 10px;
     position: relative;
-    top: 5px;
+    top: 4px;
     width: 236px;
 }
 
@@ -2082,11 +2082,12 @@ ire_icon_recipes {
 
 #term_search {
     border-color: transparent;
-    font-size: 2em;
-    height: 0.9em;
+    font-size: 1em;
+    height: 1.7em;
     left: 7px;
     position: relative;
     text-indent: 2%;
+    line-height: 0em;
     top: 1px;
     width: 90%;
     -webkit-user-select: auto;
