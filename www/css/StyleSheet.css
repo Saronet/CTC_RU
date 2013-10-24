@@ -2015,7 +2015,7 @@ a {
     opacity: 0.72;
     position: absolute;
     width: 60%;
-    right: 0;   
+    right: 0;
     left: 0;
     margin: auto;
 }
@@ -3282,63 +3282,83 @@ a {
 }
 
 .about_all_text {
-    letter-spacing: 0.7px;
+    letter-spacing: 0.5px;
     line-height: 2em;
     margin: auto;
     position: relative;
+    height: 100%;
     text-align: left;
-    top: 45px;
-    width: 94%;
+    width: 100%;
     background-color: #fff;
     overflow-y: hidden;
     color: #484F57;
+    display: block;
 }
+
 .about_title {
-float: left;
-margin-top: 15px;
-margin-left: 17px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 17px;
 }
+
 .about_text_title {
-    /*font-size: 1.5em;
+    line-height: 2.5em;
+    font-size: 50px;
     font-weight: bold;
-    position: relative;
-    color: #484F57;
-    line-height: 2em;*/
-    line-height: 0.5em;
-font-size: 14px;
-top: -6px;
-letter-spacing: 0em;
+    color: #cc0000;
+    top: -6px;
+    letter-spacing: 0em;
 }
 
 .about_text_credits {
-    line-height: 1em;
-font-size: 11px;
-bottom: 0px;
-letter-spacing: 0em;
+    line-height: 0em;
+    font-size: 29px;
+    bottom: 0px;
+    font-weight: bold;
+    letter-spacing: 0em;
+    position: relative;
+    top: -16px;
 }
 
 .about_decoration {
 }
+
 .about_icon {
-float: left;
+    float: left;
+    width: 23%;
+    top: 3em;
+    position: relative;
 }
 
 .about_text {
     color: #484F57;
-font-size: 1.6em;
-font-weight: bold;
-padding-left: 10%;
-line-height: 2em;
+    font-size: 2em;
+    top: 47px;
+    font-weight: bold;
+    padding-left: 10%;
+    position: relative;
+    line-height: 1em;
+    left: 4%;
 }
+
 .abut_desc {
-clear: both;
-font-size: 1.2em;
-padding-top: 1.2em;
-padding-bottom: 1em;
+    clear: both;
+    font-size: 1.5em;
+    float: left;
+    top: 9%;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+    position: relative;
+    width: 95%;
+    display: block;
 }
+
 .about_text_position {
     width: 80%;
-    padding: 3% 10%;
+    height: 22%;
+    padding: 3% 2% 3% 10%;
+    margin-left: 4%;
+    margin-right: 2%;
     border-bottom: 1px solid #ababab;
 }
 
@@ -3347,11 +3367,14 @@ padding-bottom: 1em;
     background-repeat: no-repeat;
     background-size: 100% auto;
     float: left;
+    top: 14%;
 }
 
-.screenz_logo {
-    top: 1.2em;
-margin-left: 10%;
+#screenz_logo {
+    top: -4px;
+    margin-left: 28%;
+    position: relative;
+    height: 100px;
 }
 
 .reshat_logo, .screenz_logo {
@@ -3366,18 +3389,21 @@ margin-left: 10%;
 
 .about_two_logos {
     width: 80%;
-    padding: 3% 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 3% 2% 3% 10%;
     border-bottom: 1px solid #ababab;
-    height: 100px; /*SARA*/
+    height: 100px;
 }
 
 .about_text_red {
     color: #cc0000;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.9em;
     text-decoration: underline;
     padding-left: 10%;
-    line-height: 2.5em;
+    line-height: 4.2em;
+    position: relative;
+    left: 4%;
 }
 
 .text_red_about {
@@ -3385,15 +3411,16 @@ margin-left: 10%;
     font-size: 1.5em;
 }
 
-.about_text_copyright_red {
+#about_text_copyright_red {
     color: #cc0000;
-    font-size: 1.2em;
-    padding-left: 10%;
+    font-size: 1.5em;
+    padding-left: 14%;
 }
 
 .about_text_copyright, .about_text_copyright_red {
-    font-size: 1.2em;
-    padding-left: 10%;
+    font-size: 1.1em;
+    padding-left: 14.3%;
+    line-height: 15px;
 }
 
 .search_page {
@@ -3437,9 +3464,11 @@ margin-left: 10%;
     top: 55px;
     width: 100%;
 }
+
 .add_timer_btn {
     height: 47px;
 }
+
 .add_timer_btn {
     background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
@@ -3463,7 +3492,7 @@ margin-left: 10%;
 .new_timer {
     background-image: url("../images/new-timer_background_3.png");
     background-repeat: no-repeat;
-    background-size: auto 100% ;
+    background-size: auto 100%;
     height: 47px;
     position: relative;
     top: 0px;
