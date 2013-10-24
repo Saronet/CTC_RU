@@ -214,6 +214,32 @@
     z-index: 21;
 }
 
+.add_timer_btn {
+    background-image: url("../images/add-gray.png");
+    background-repeat: no-repeat;
+    background-position-x: 18%;
+    background-position-y: 47%;
+    background-size: 8% 70%;
+    cursor: pointer;
+    position: relative;
+    width: 89%;
+    top: 4px;
+    left: 37px;
+    height: 0%;
+    margin-bottom: 5%;
+    background-color: #edeeef;
+    border-radius: 15px;
+    text-indent: 25%;
+    line-height: 170%;
+    font-size: 262%;
+    color: #4d555f;
+}
+
+#timer_list_middel_window {
+    width: 90%;
+    left: 4.9%;
+}
+
 .addToShopping {
     position: absolute;
     width: 641px;
