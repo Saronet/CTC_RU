@@ -1249,23 +1249,23 @@ left: 69px;*/
 
 
 .add_timer_btn {
-    background-image: url("../images/add-gray.png");
-    background-repeat: no-repeat;
-    background-position-x: 18%;
-    background-position-y: 47%;
-    background-size: 8% 70%;
-    cursor: pointer;
-    position: relative;
-    width: 90%;
-    top: 22%;
-    left: 5%;
-    margin-bottom: 5%;
-    background-color: #edeeef;
-    border-radius: 5px;
-    text-indent: 25%;
-    line-height: 170%;
-    font-size: 194%;
-    color: #4d555f;
+   background-image: url("../images/add-gray.png");
+background-repeat: no-repeat;
+background-position-x: 21%;
+background-position-y: 47%;
+background-size: 12% 70%;
+cursor: pointer;
+height: 47px;
+position: relative;
+width: 90%;
+top: 22%;
+left: 5%;
+margin-bottom: 5%;
+background-color: #edeeef;
+border-radius: 5px;
+text-indent: 31%;
+line-height: 2.5em;
+font-size: 195%;
 }
 
 
