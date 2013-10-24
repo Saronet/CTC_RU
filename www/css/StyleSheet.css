@@ -1854,7 +1854,7 @@ a {
     position: absolute;
     left: 4%;
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 
 .message_no_internet {
@@ -2116,8 +2116,19 @@ a {
     left: -7.5%;
     background-color: white;
     position: relative;
+    padding-top: 1.5em;
     padding-bottom: 0em;
     -webkit-overflow-scrolling: touch;
+}
+
+#timer_cancel_btn{
+    
+}
+
+.term_name_arrow {
+    height: 31px;
+    position: relative;
+    top: 0px;
 }
 
 .cat_pic {
@@ -3502,18 +3513,18 @@ a {
 }
 
 .timer_name {
-color: #4d555f;
-float: left;
-font-size: 2em;
-margin-left: 2%;
-position: relative;
-display: block;
-width: 40%;
-line-height: 2.5em;
-overflow: hidden;
-height: 100%;
-white-space: nowrap;
-text-overflow: ellipsis;
+    color: #4d555f;
+    float: left;
+    font-size: 2em;
+    margin-left: 2%;
+    position: relative;
+    display: block;
+    width: 40%;
+    line-height: 2.5em;
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .timer_clock {
@@ -3528,25 +3539,25 @@ text-overflow: ellipsis;
 
 .timer_recet_btn {
     cursor: pointer;
-float: left;
-padding: 3% 5%;   /*for play: 3% 3% 3% 4%*/
-position: relative;
-top: 14%;
-width: 5%;
-background-color: #ffcc00;
-border: none;
-border-radius: 8px;
+    float: left;
+    padding: 3% 5%; /*for play: 3% 3% 3% 4%*/
+    position: relative;
+    top: 14%;
+    width: 5%;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 8px;
 }
 
 .timer_delete_btn {
     cursor: pointer;
-float: left;
-right: 9%;
-position: absolute;
-top: 0;
-width: 5%;
-bottom: 0;
-margin: auto;
+    float: left;
+    right: 9%;
+    position: absolute;
+    top: 0;
+    width: 5%;
+    bottom: 0;
+    margin: auto;
 }
 
 .uploader_video_text {
