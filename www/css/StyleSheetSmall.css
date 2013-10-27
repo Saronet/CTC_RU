@@ -1248,7 +1248,7 @@ left: 69px;*/
     height: 15px;
     left: 10px;
     position: relative;
-    top: 5px;
+    top: 4px;
     width: 236px;
 }
 
@@ -1301,8 +1301,8 @@ left: 69px;*/
     overflow-y: auto;
     height: auto;
     top: 27px;
-    width: 100%;
-    left: 2.2%;
+    width: 92%;
+    left: 4%;
     max-height: 300px;
     background-color: white;
     position: relative;
@@ -1311,27 +1311,86 @@ left: 69px;*/
     -webkit-overflow-scrolling: touch;
 }
 
-
-.add_timer_btn {
-   background-image: url("../images/add-gray.png");
-background-repeat: no-repeat;
-background-position-x: 21%;
-background-position-y: 47%;
-background-size: 12% 70%;
-cursor: pointer;
-height: 47px;
-position: relative;
-width: 90%;
-top: 22%;
-left: 5%;
-margin-bottom: 5%;
-background-color: #edeeef;
-border-radius: 5px;
-text-indent: 31%;
-line-height: 2.5em;
-font-size: 195%;
+.new_timer {
+    height: 47px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    margin-bottom: 3px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 15px auto;
+    border-bottom: 1px solid #D9D9D9;
 }
 
+.timer_clock {
+    color: #4d555f;
+    float: left;
+    font-size: 2.3em;
+    position: relative;
+    margin-right: 2%;
+    top: 12%;
+    width: 22%;
+}
+
+.timer_recet_btn {
+    cursor: pointer;
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+    top: -5%;
+    width: 5%;
+    left: -2%;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 8px;
+}
+
+.timer_name {
+    color: #4d555f;
+    float: left;
+    font-size: 2em;
+    margin-left: 2%;
+    position: relative;
+    display: block;
+    width: 40%;
+    line-height: 1.9em;
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.timer_delete_btn {
+    cursor: pointer;
+    float: left;
+    right: 9%;
+    position: absolute;
+    top: 0;
+    width: 5%;
+    bottom: 14px;
+    margin: auto;
+}
+
+.add_timer_btn {
+    background-image: url("../images/add-gray.png");
+    background-repeat: no-repeat;
+    background-position-x: 18%;
+    background-position-y: 47%;
+    background-size: 10% 64%;
+    cursor: pointer;
+    height: 37px;
+    position: relative;
+    width: 90%;
+    top: 25%;
+    left: 5%;
+    margin-bottom: 5%;
+    background-color: #edeeef;
+    border-radius: 5px;
+    text-indent: 27%;
+    line-height: 37px;
+    font-size: 195%;
+}
 
 /*******favorite page*******/
 .favorite_category_background {
@@ -1758,9 +1817,20 @@ ire_icon_recipes {
     left: -133px;
     position: relative;
     text-align: center;
-    top: 32px;
+    top: 37px;
     font-weight: 900;
     width: 560px;
+}
+
+.timer_cancel_btn {
+    width: 103px;
+    height: 32px;
+    float: left;
+    line-height: 42px;
+    position: relative;
+    cursor: pointer;
+    left: 13px;
+    top: 67px;
 }
 
 .timer_cancel_btn_text {
@@ -1770,12 +1840,10 @@ ire_icon_recipes {
     float: left;
     line-height: 162%;
     text-indent: -1px;
-    font-size: 210%;
-    width: 70%;
-    height: 32%;
+    font-size: 75%;
+    width: 100%;
+    height: 100%;
     position: relative;
-    top: -26%;
-    left: -11%;
     text-align: center;
 }
 
@@ -1786,61 +1854,55 @@ ire_icon_recipes {
     height: 1.15em;
     position: relative;
     float: left;
-    left: 8.3%;
-    top: -1.83em;
+    left: 11.3%;
+    top: 2.4em;
     margin-left: 9px;
 }
 
 .timer_hour {
     color: #4E555F;
     float: left;
-    left: 4px;
     position: relative;
     text-align: center;
-    width: 76px;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
-    top: 13px;
-    line-height: 0px;
+    line-height: 30px;
     font-size: 20px;
-    text-indent: -24px;
+    text-indent: 0px;
 }
 
 .timer_min {
     color: #4E555F;
     float: left;
-    height: 85px;
-    left: -7px;
+    height: 100%;
     position: relative;
     text-align: center;
-    width: 76px;
+    width: 100%;
     cursor: pointer;
-    top: -0.5px;
     font-size: 20px;
-    line-height: 28px;
+    text-indent: 2px;
+    line-height: 30px;
 }
 
 .timer_sec {
     color: #4E555F;
     float: left;
-    height: 85px;
-    left: -8px;
+    height: 100%;
     cursor: pointer;
     font-size: 20px;
     position: relative;
     text-align: center;
-    width: 76px;
-    top: 0px;
-    line-height: 28px;
+    width: 100%;
+    line-height: 30px;
 }
 
 .timer_down_position {
     font-size: 28px;
-    margin-left: 81px;
     line-height: 21px;
     position: relative;
-    width: 144%;
-    top: 105px;
-    left: -16%;
+    width: 100%;
+    top: -11px;
     color: #bbbbbb;
 }
 
@@ -1853,45 +1915,42 @@ ire_icon_recipes {
 }
 
 #timer_text_1 {
-    font-size: 11px;
-    top: 10px;
-    left: -27px;
+    font-size: 9px;
+    top: -21px;
+    left: 0px;
 }
 
 #timer_text_2 {
-    font-size: 11px;
-    top: 10px;
-    left: -22px;
+    font-size: 9px;
+    top: -21px;
+    left: 0px;
 }
 
 #timer_text_3 {
-    font-size: 11px;
-    top: 10px;
-    left: -27px;
+    font-size: 9px;
+    top: -21px;
+    left: 0px;
 }
 
 .timer_border_start {
-    width: 294px;
-    height: 90px;
+    width: 270px;
+    height: 33px;
     position: relative;
     margin: auto;
-    top: 7px;
-    border-bottom: 1px solid #BBB;
+    top: -2px;
 }
 
 .timer_Start_btn {
     background-color: #cc0000;
     color: #BBB;
-    height: 36%;
+    height: 100%;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
     line-height: 37px;
     position: absolute;
     text-align: center;
-    width: 91%;
-    left: 4.4%;
-    top: 112%;
+    width: 100%;
 }
 
 
@@ -2023,11 +2082,12 @@ ire_icon_recipes {
 
 #term_search {
     border-color: transparent;
-    font-size: 2em;
-    height: 0.9em;
+    font-size: 1em;
+    height: 1.7em;
     left: 7px;
     position: relative;
     text-indent: 2%;
+    line-height: 0em;
     top: 1px;
     width: 90%;
     -webkit-user-select: auto;

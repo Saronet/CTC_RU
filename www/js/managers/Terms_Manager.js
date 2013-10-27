@@ -48,7 +48,7 @@ function termsMan () {
             var termItemDetails = $(this).attr("custom_fields");
             $("#terms_list").append("<li onclick=\"termSingle_Manager_.showPage(this)\">" +
                                         "<span class=\"term_name\">" + $(termItemDetails).attr("wpcf-term_name") + "</span>" +
-                                        "<span class=\"get_information_term\" ><img alt=\"\" src=\""+infoImage+"\" /></span>" +
+                                        "<span class=\"get_information_term\" ><img alt=\"\" class=\"term_name_arrow\" src=\""+infoImage+"\" /></span>" +
                                     "</li>");
             var termItemLI = $("#terms_list li")[i];
             $(termItemLI).data("details", termItemDetails);

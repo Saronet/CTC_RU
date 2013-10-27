@@ -2,8 +2,8 @@ var snd;
 function TimerMan() {
     $('.timer_cancel_btn').css("color","#BBB");//כפתור כתום
     $('.timer_Start_btn').css("color","#BBB");//כפתור ירוק
-    this.image_start = "images/timer_pause_btni.png";
-    this.image_reset = "images/timer_play_btni.png";
+    this.image_start = "images/timer_play_btni.png";
+    this.image_reset = "images/timer_pause_btni.png";
     this.image_delete = "<img class=\"timer_delete_btn\" ontouchstart=\"timerMan_.deleteTimer(this)\" alt=\"\" src=\"images/timer_delete_btn.png\" />";
     //this.image_finish="<img class=\"finish_background\" alt=\"\" src=\"images/timer_finished_background.png\" />";
     this.showPage = function() {
@@ -166,8 +166,8 @@ this.orange_off=function()
     this.setTimerList = function() {
 
         if(isIpad()) {
-            timerMan_.image_start = "images/timer_pause_btni.png";
-            timerMan_.image_reset = "images/timer_play_btni.png";
+            timerMan_.image_start = "images/timer_play_btni.png";
+            timerMan_.image_reset = "images/timer_pause_btni.png";
             timerMan_.image_delete = "<img class=\"timer_delete_btn\" onclick=\"timerMan_.deleteTimer(this)\" alt=\"\" src=\"images/timer_delete_btn.png\" />";
             timerMan_.image_finish = "<img class=\"finish_background\" alt=\"\" src=\"images_ipad/timer_finished_background.png\" />";
 
@@ -219,11 +219,11 @@ this.orange_off=function()
                     $(currentTimer).data("name", name);
                    
                     if(isIpad()) {
-                        checkHtml($(currentTimer).children(".timer_name"), 94);
-                         $(".add_timer_btn").css("margin-top", "-23px");
+                      //  checkHtml($(currentTimer).children(".timer_name"), 94);
+                         $(".add_timer_btn").css("margin-top", "32px");
                     }
                     else {
-                        checkHtml($(currentTimer).children(".timer_name"), 94); 
+                     //   checkHtml($(currentTimer).children(".timer_name"), 94); 
                          $(".add_timer_btn").css("margin-top", "-3px");
                         
                     }
@@ -328,7 +328,7 @@ this.orange_off=function()
         
         timerMan_.updateTimersStorage(timersArray);
         if(isIpad()) {
-            $(".add_timer_btn").css("margin-top", "-23px");
+            $(".add_timer_btn").css("margin-top", "32px");
         }
         else {
             $(".add_timer_btn").css("margin-top", "-3px");
@@ -346,7 +346,7 @@ this.orange_off=function()
             }
             else {
                 if(isIpad()) {
-                    $(".add_timer_btn").css("margin-top", "-23px");
+                    $(".add_timer_btn").css("margin-top", "32px");
                 }
                 else {
                     $(".add_timer_btn").css("margin-top", "-3px");
@@ -427,10 +427,10 @@ this.orange_off=function()
                         $(timer_name).text(nameToDisplay);
 
                         if(browser == "ipad") {
-                            checkHtml($(timer_name), 136);
+                            //checkHtml($(timer_name), 136);
                         }
                         else {
-                            checkHtml($(timer_name), 70);
+                           // checkHtml($(timer_name), 70);
                         }
 
 
@@ -550,11 +550,11 @@ this.orange_off=function()
         currentT.data("nameToDisplay", $("#timerName").val());
 
         if(isIpad()) {
-            checkHtml(currentT.children(".timer_name"), 94);
-            $(".add_timer_btn").css("margin-top", "-23px");
+          //  checkHtml(currentT.children(".timer_name"), 94);
+            $(".add_timer_btn").css("margin-top", "32px");
         }
         else {
-            checkHtml(currentT.children(".timer_name"), 94);
+         //   checkHtml(currentT.children(".timer_name"), 94);
             $(".add_timer_btn").css("margin-top", "-3px");
         }
         
