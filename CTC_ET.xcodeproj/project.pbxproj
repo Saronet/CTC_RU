@@ -603,8 +603,8 @@
 				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Screenz Cross Media LTD.  (4D6HNJ2Z98)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Screenz Cross Media LTD.  (4D6HNJ2Z98)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTC_ET/CTC_ET-Prefix.pch";
@@ -635,7 +635,7 @@
 					"-Obj-C",
 				);
 				PRODUCT_NAME = CTC_ET;
-				PROVISIONING_PROFILE = "1D043139-C95F-49D0-9BB1-0FA2E228E63A";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D043139-C95F-49D0-9BB1-0FA2E228E63A";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
