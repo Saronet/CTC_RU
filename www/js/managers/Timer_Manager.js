@@ -219,11 +219,11 @@ this.orange_off=function()
                     $(currentTimer).data("name", name);
                    
                     if(isIpad()) {
-                        checkHtml($(currentTimer).children(".timer_name"), 94);
+                      //  checkHtml($(currentTimer).children(".timer_name"), 94);
                          $(".add_timer_btn").css("margin-top", "32px");
                     }
                     else {
-                        checkHtml($(currentTimer).children(".timer_name"), 94); 
+                     //   checkHtml($(currentTimer).children(".timer_name"), 94); 
                          $(".add_timer_btn").css("margin-top", "-3px");
                         
                     }
@@ -427,10 +427,10 @@ this.orange_off=function()
                         $(timer_name).text(nameToDisplay);
 
                         if(browser == "ipad") {
-                            checkHtml($(timer_name), 136);
+                            //checkHtml($(timer_name), 136);
                         }
                         else {
-                            checkHtml($(timer_name), 70);
+                           // checkHtml($(timer_name), 70);
                         }
 
 
@@ -550,11 +550,11 @@ this.orange_off=function()
         currentT.data("nameToDisplay", $("#timerName").val());
 
         if(isIpad()) {
-            checkHtml(currentT.children(".timer_name"), 94);
+          //  checkHtml(currentT.children(".timer_name"), 94);
             $(".add_timer_btn").css("margin-top", "32px");
         }
         else {
-            checkHtml(currentT.children(".timer_name"), 94);
+         //   checkHtml(currentT.children(".timer_name"), 94);
             $(".add_timer_btn").css("margin-top", "-3px");
         }
         
