@@ -3450,6 +3450,7 @@ a {
 #timer_list_middel {
     width: 100%;
     position: relative;
+    top: -24px;
 }
 
 .timer_list_footer {
