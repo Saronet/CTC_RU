@@ -543,6 +543,8 @@ this.showTimerPage = function() {
         $(".page").hide();
 
         $('.Terminology_page').show();
+         $('.Terminology_page .one_recipe_back_btn').show();
+         $('.Terminology_page').show();
         this.backPosition = this.pagePosition;
         this.pagePosition = "terms";
         
@@ -614,7 +616,8 @@ this.showTimerPage = function() {
          $(".page").hide();
 
          $('.Terminology_singel_page').show();
-         $('.Terminology_page').hide();
+         $('.Terminology_singel_page .one_recipe_back_btn').show();
+         
          $('.Gesture_page').hide();
          $('.share_page').hide();
          $('.about_us_page').hide();
