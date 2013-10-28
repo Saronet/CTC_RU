@@ -807,16 +807,6 @@
     width: 70%;
 }
 
-.delete_btn_foodgator {
-    line-height: 33px;
-    left: 560px;
-    z-index: 600;
-    height: 36px;
-    width: 100px;
-    top: -55px;
-    font-size: 18px;
-    text-indent: 0px;
-}
 
 .foodgrator_arrow_plus {
     width: 125px;
@@ -1020,4 +1010,16 @@
     line-height: 0em;
     position: relative;
     top: 0.8em;
+}
+
+
+.delete_btn_foodgator {
+    line-height: 33px;
+    left: 560px;
+    z-index: 600;
+    height: 36px;
+    width: 100px;
+    top: 0;
+    font-size: 18px;
+    text-indent: 0px;
 }
