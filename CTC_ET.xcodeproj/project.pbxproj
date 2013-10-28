@@ -59,6 +59,11 @@
 		C2AF918D180D980500FDB29B /* icon_152.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AF918A180D980500FDB29B /* icon_152.png */; };
 		C2AF918E180D980500FDB29B /* icon_76.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AF918B180D980500FDB29B /* icon_76.png */; };
 		C2AF9190180D993A00FDB29B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AF918F180D993A00FDB29B /* Default-568h@2x.png */; };
+		C2AF919A181DD0C400FDB29B /* AppoxeeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2AF9193181DD0C300FDB29B /* AppoxeeResources.bundle */; };
+		C2AF919B181DD0C400FDB29B /* libAppoxee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AF9194181DD0C300FDB29B /* libAppoxee.a */; };
+		C2AF919C181DD0C400FDB29B /* AppoxeeSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C2AF9199181DD0C400FDB29B /* AppoxeeSound.wav */; };
+		C2AF919E181DD1DB00FDB29B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AF919D181DD1DB00FDB29B /* libxml2.dylib */; };
+		C2AF91A3181DD7B800FDB29B /* libIOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AF91A2181DD7B800FDB29B /* libIOS_SDK.a */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +151,17 @@
 		C2AF918A180D980500FDB29B /* icon_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_152.png; sourceTree = "<group>"; };
 		C2AF918B180D980500FDB29B /* icon_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_76.png; sourceTree = "<group>"; };
 		C2AF918F180D993A00FDB29B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C2AF9193181DD0C300FDB29B /* AppoxeeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppoxeeResources.bundle; sourceTree = "<group>"; };
+		C2AF9194181DD0C300FDB29B /* libAppoxee.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppoxee.a; sourceTree = "<group>"; };
+		C2AF9195181DD0C400FDB29B /* AppoxeeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppoxeeDelegate.h; sourceTree = "<group>"; };
+		C2AF9196181DD0C400FDB29B /* AppoxeeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppoxeeManager.h; sourceTree = "<group>"; };
+		C2AF9197181DD0C400FDB29B /* Appoxee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appoxee.h; sourceTree = "<group>"; };
+		C2AF9198181DD0C400FDB29B /* AppoxeeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppoxeeMessage.h; sourceTree = "<group>"; };
+		C2AF9199181DD0C400FDB29B /* AppoxeeSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AppoxeeSound.wav; sourceTree = "<group>"; };
+		C2AF919D181DD1DB00FDB29B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C2AF91A0181DD7B800FDB29B /* EyeSightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeSightDelegate.h; sourceTree = "<group>"; };
+		C2AF91A1181DD7B800FDB29B /* IOS5_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS5_SDK.h; sourceTree = "<group>"; };
+		C2AF91A2181DD7B800FDB29B /* libIOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIOS_SDK.a; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CTC_ET/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2AF919E181DD1DB00FDB29B /* libxml2.dylib in Frameworks */,
 				5977DB2916C8F77E00BEAC42 /* CoreFoundation.framework in Frameworks */,
 				5977DB2716C8F63E00BEAC42 /* CoreVideo.framework in Frameworks */,
 				5977DB2516C8F59C00BEAC42 /* libstdc++.dylib in Frameworks */,
@@ -166,8 +183,10 @@
 				301BF5B9109A6A2B0062928A /* AudioToolbox.framework in Frameworks */,
 				301BF5BB109A6A2B0062928A /* AVFoundation.framework in Frameworks */,
 				301BF5BD109A6A2B0062928A /* CFNetwork.framework in Frameworks */,
+				C2AF919B181DD0C400FDB29B /* libAppoxee.a in Frameworks */,
 				301BF5BF109A6A2B0062928A /* CoreLocation.framework in Frameworks */,
 				301BF5C1109A6A2B0062928A /* MediaPlayer.framework in Frameworks */,
+				C2AF91A3181DD7B800FDB29B /* libIOS_SDK.a in Frameworks */,
 				301BF5C3109A6A2B0062928A /* QuartzCore.framework in Frameworks */,
 				301BF5C5109A6A2B0062928A /* SystemConfiguration.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
@@ -219,6 +238,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF919F181DD7B800FDB29B /* IOS_SDK */,
 				C2AF918F180D993A00FDB29B /* Default-568h@2x.png */,
 				C2AF9184180D957100FDB29B /* icon_120.png */,
 				5977DB3916C9113F00BEAC42 /* libIOS_SDK.a */,
@@ -251,6 +271,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF9193181DD0C300FDB29B /* AppoxeeResources.bundle */,
+				C2AF9194181DD0C300FDB29B /* libAppoxee.a */,
+				C2AF9195181DD0C400FDB29B /* AppoxeeDelegate.h */,
+				C2AF9196181DD0C400FDB29B /* AppoxeeManager.h */,
+				C2AF9197181DD0C400FDB29B /* Appoxee.h */,
+				C2AF9198181DD0C400FDB29B /* AppoxeeMessage.h */,
+				C2AF9199181DD0C400FDB29B /* AppoxeeSound.wav */,
 				30A0434214DC770100060A13 /* de.lproj */,
 				30A0434514DC770100060A13 /* se.lproj */,
 				1F766FDB13BBADB100FB74C0 /* en.lproj */,
@@ -267,6 +294,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF919D181DD1DB00FDB29B /* libxml2.dylib */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -361,6 +389,16 @@
 			path = se.lproj;
 			sourceTree = "<group>";
 		};
+		C2AF919F181DD7B800FDB29B /* IOS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF91A0181DD7B800FDB29B /* EyeSightDelegate.h */,
+				C2AF91A1181DD7B800FDB29B /* IOS5_SDK.h */,
+				C2AF91A2181DD7B800FDB29B /* libIOS_SDK.a */,
+			);
+			path = IOS_SDK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -442,12 +480,14 @@
 			files = (
 				F840E1F1165FE0F500CFE078 /* config.xml in Resources */,
 				301BF570109A69640062928A /* www in Resources */,
+				C2AF919A181DD0C400FDB29B /* AppoxeeResources.bundle in Resources */,
 				308D05371370CCF300D202BF /* icon-72.png in Resources */,
 				308D05381370CCF300D202BF /* icon.png in Resources */,
 				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
 				3072F99713A8081B00425683 /* Capture.bundle in Resources */,
 				1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */,
 				C2AF9188180D978000FDB29B /* icon_120.png in Resources */,
+				C2AF919C181DD0C400FDB29B /* AppoxeeSound.wav in Resources */,
 				1F766FE213BBADB100FB74C0 /* Localizable.strings in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				C2AF918D180D980500FDB29B /* icon_152.png in Resources */,
@@ -567,14 +607,17 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/IOS_SDK\"",
 					"$(OBJROOT)/UninstalledProducts/include",
+					"$(SRCROOT)/IOS_SDK",
+					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = "CTC_ET/CTC_ET-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/IOS_SDK\"",
+					"\\\"$(SRCROOT)/IOS_SDK\\\"",
+					/Users/davidsalzer/Documents/Projects/CTC_RU/CTC_ET/Resources,
+					/Users/davidsalzer/Documents/Projects/CTC_RU/IOS_SDK,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -606,19 +649,23 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTC_ET/CTC_ET-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/IOS_SDK\"",
 					"$(OBJROOT)/UninstalledProducts/include",
+					"$(SRCROOT)/IOS_SDK",
+					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = "CTC_ET/CTC_ET-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/IOS_SDK\"",
+					"\\\"$(SRCROOT)/IOS_SDK\\\"",
+					/Users/davidsalzer/Documents/Projects/CTC_RU/CTC_ET/Resources,
+					/Users/davidsalzer/Documents/Projects/CTC_RU/IOS_SDK,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (

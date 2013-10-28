@@ -69,9 +69,113 @@
 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    //Start the Appoxee client and make sure that this your first line of code in this method.
+    [[AppoxeeManager sharedManager] initManagerWithDelegate:self andOptions:NULL];
+    
+    //Ask Apple for your push token
+    
+    //Replacing this code with the method [self appNeedsToRegisterForPush];
+    //[[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | //UIRemoteNotificationTypeAlert)];
+    //[window makeKeyAndVisible];
+    
+    [self appNeedsToRegisterForPush]; //Must be Added
+    //After you created your views, ask AppoxeeManager to start its action.
+    //You must pass the launchOptions dictionary to the manager so it can handle app activation from push.
+    //This method will check the launchOption for Push values.
+    //If the app was launched from a push message it will be handled by Appoxxe.
+    
+    //Make sure you call this method after loading any splash screens you might have.
+    [[AppoxeeManager sharedManager] managerParseLaunchOptions:launchOptions];
 
     return YES;
 }
+
+-(void)appNeedsToRegisterForPush
+{
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
+}
+
+- (NSString *) AppoxeeDelegateAppSDKID
+{
+    //Replace the "xxx" with your SDK key.
+    //Copy the SDK key as it was generated when you added a new app.
+    //You can now find it under App Settings
+    return @"526d9513b397e5.93416907";
+}
+- (NSString *) AppoxeeDelegateAppSecret
+{
+    //Replace the "xxx" with your SDK Secret key.
+    //Copy the SDK Secret key as it was generated when you added a new app.
+    //You can now find it under App Settings
+    return @"526d9513b399f4.57468614";
+}
+- (void) AppoxeeNeedsToUpdateBadge:(int)badgeNum hasNumberChanged:(BOOL)hasNumberChanged
+{
+    //Here you should update your display to let the user know about the unread messages.
+    //Here's an example code which uses Appoxee's inherent badge view:
+    NSString *badgeText = NULL;
+    if(badgeNum > 0)
+    {
+        badgeText = [NSString stringWithFormat:@"%d",badgeNum];
+    }
+    
+    //Use the Appoxee "helper" method to display the badge on a button.
+    //Make sure the button is not null (meaning that your view's nib file is already loaded).
+    
+    //If your Appoxxe delegate receives this method prior to loading of the UIView on which the
+    //badge will be display (in this case 'AppoxeeButton') then please save the badgeNum and
+    //put it on the view after it finished loading.
+    
+    //Please note that you can modify the location of the badge on your UIView using the
+    //badgeLoaction param. In this case we put the badge at the top left most corner of
+    //AppoxeeButton view.
+    
+    //Here for example we use the badgeNum to update the external app badge.
+    [UIApplication sharedApplication].applicationIconBadgeNumber = badgeNum;
+}
+- (void) AppoxeeDelegateReciveAppoxeeClosed
+{
+    //Implement your own code.
+    //This method is called when the Appoxee client has been closed.
+    //This method will only be fired while the Appoxee is in modal operation mode.
+}
+- (void) AppoxeeDelegateReciveAppoxeeRequestFocus
+{
+    //Implement your own code.
+    //This method is called when the Appoxee client wants to show. It is used mostly when
+    //activating Appoxee in a non-modal operation.
+}
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    // Forward the call to the AppoxeeManager
+    if([[AppoxeeManager sharedManager] didReceiveRemoteNotification:userInfo])
+    {
+        // If the manager handled the event.. return
+        return;
+    }
+    //Otherwise do what you want because the push didn't came from Appoxee.
+}
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)token
+{
+    // Forward the call to the AppoxeeManager
+    [[AppoxeeManager sharedManager] didRegisterForRemoteNotificationsWithDeviceToken:token];
+}
+
+//Call this method to make Appoxee appear, usually this method is called as a result from button press.
+- (void)showAppoxee
+{
+    //Ask the Appoxee to appear (only for modal mode)
+    [[AppoxeeManager sharedManager] show];
+}
+
+-(BOOL)shouldAppoxeeRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+    //Return YES to any orientation you wish appoxee to rotate
+    
+}
+
+
 
 // this happens while we are running ( in the background, or from within our own app )
 // only valid if CTC_ET-Info.plist specifies a protocol to handle

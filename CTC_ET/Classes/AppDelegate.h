@@ -29,7 +29,14 @@
 
 #import <Cordova/CDVViewController.h>
 
-@interface AppDelegate : NSObject <UIApplicationDelegate>{}
+#import "Appoxee.h"
+
+@interface AppDelegate : NSObject <UIApplicationDelegate,AppoxeeDelegate>
+{
+    
+}
+
+-(void)appNeedsToRegisterForPush; //Must be Added
 
 // invoke string is passed to your app on launch, this is only valid if you
 // edit CTC_ET-Info.plist to add a protocol
@@ -38,5 +45,7 @@
 
 @property (nonatomic, strong) IBOutlet UIWindow* window;
 @property (nonatomic, strong) IBOutlet CDVViewController* viewController;
+
+
 
 @end
