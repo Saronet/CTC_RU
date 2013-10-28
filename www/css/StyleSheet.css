@@ -2785,7 +2785,6 @@ a {
 
 .shopping_list ul li {
     border-bottom: 1px solid #8F9CA2;
-    left: 13px;
     list-style-type: none;
     margin-bottom: 17px;
     position: relative;
@@ -3942,6 +3941,7 @@ width: 75%;
 .shopping_middel_window {
     height: 679px;
     overflow-y: auto;
+    overflow-x: hidden;
     position: relative;
     width: 100%;
     top: 21px;
