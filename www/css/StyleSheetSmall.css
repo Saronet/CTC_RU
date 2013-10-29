@@ -469,12 +469,12 @@ left: 69px;*/
 }
 
 .recipes_look_inside_btn {
-   right: 1px;
-top: 31px;
-position: absolute;
-font-size: 1.5em;
-width: 5px;
-height: 12px;
+    right: 1px;
+    top: 31px;
+    position: absolute;
+    font-size: 1.5em;
+    width: 5px;
+    height: 12px;
 }
 
 .btn_background_down {
@@ -1216,7 +1216,7 @@ height: 12px;
     left: 10px;
     position: relative;
     top: 4px;
-    width: 236px;
+    width: 75%;
 }
 
 
@@ -1930,7 +1930,6 @@ ire_icon_recipes {
 }
 
 .term_middel_window_singel {
-     
     top: 3%;
 }
 
@@ -1947,33 +1946,23 @@ ire_icon_recipes {
 
 .one_term_pic {
     height: 20em;
-   
 }
 
 .white_term {
-  
     height: 5em;
-   
     top: -5em;
-  
 }
 
 .one_recipe_text_pic_term {
-  
     font-size: 2.2em;
     margin-left: 9px;
-    
     line-height: 2.7em;
-    
-   
 }
 
 .one_recipe_text_discription_term {
-    
     font-size: 1.3em;
     top: 10px;
     /*top: -4.5em;*/
-   
 }
 
 .middel_pic_term {
@@ -2013,12 +2002,12 @@ ire_icon_recipes {
 #term_search {
     border-color: transparent;
     font-size: 1em;
-    height: 1.7em;
-    left: 7px;
+    height: 1.2em;
+    left: 9px;
     position: relative;
     text-indent: 2%;
     line-height: 0em;
-    top: 1px;
+    top: 3px;
     width: 90%;
     -webkit-user-select: auto;
 }
