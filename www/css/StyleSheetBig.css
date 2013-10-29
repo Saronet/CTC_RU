@@ -941,18 +941,6 @@
     width: 90%;
 }
 
-#term_search {
-    border-color: transparent;
-    font-size: 160%;
-    height: 1.5em;
-    left: 7px;
-    position: relative;
-    text-indent: 2%;
-    top: 8px;
-    width: 97%;
-    -webkit-user-select: auto;
-}
-
 .term_list {
     height: 510px;
     position: relative;
@@ -1030,6 +1018,18 @@
     z-index: 21;
 }
 
-.one_recipe_text_discription_term{
+.one_recipe_text_discription_term {
     top: 20px;
+}
+
+#term_search {
+    border-color: transparent;
+    font-size: 160%;
+    height: 1.2em;
+    left: 16px;
+    position: relative;
+    text-indent: 2%;
+    top: 11px;
+    width: 94%;
+    -webkit-user-select: auto;
 }
