@@ -721,11 +721,11 @@ a {
 }
 
 #tools_icon {
-    background-image: url(../images_ipad/tools_icon.png);
+    background-image: url(../images/bottom-menu-silverware.png);
 }
 
 #tools_icon_x {
-    color: #b0b0b0;
+    /*color: #b0b0b0;*/
 }
 
 .inside_information {

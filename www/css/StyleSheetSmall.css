@@ -469,12 +469,12 @@ left: 69px;*/
 }
 
 .recipes_look_inside_btn {
-   right: 1px;
-top: 31px;
-position: absolute;
-font-size: 1.5em;
-width: 5px;
-height: 12px;
+    right: 1px;
+    top: 31px;
+    position: absolute;
+    font-size: 1.5em;
+    width: 5px;
+    height: 12px;
 }
 
 .btn_background_down {
@@ -1216,7 +1216,7 @@ height: 12px;
     left: 10px;
     position: relative;
     top: 4px;
-    width: 236px;
+    width: 75%;
 }
 
 
@@ -1361,13 +1361,35 @@ height: 12px;
 }
 
 /*******unplaced************/
+.timer_finish_all_position{
+    top: 30%;
+}
+
 .finish_background {
     width: 86%;
     left: 21px;
-    top: 200px;
+    top: 0;
+}
+
+.timer_finish_title{
+    top: 20px;
+font-size: 14px;
 }
 
 
+.timer_finish_finish_text{
+    top: 73px;
+}
+
+.timer_ok_border{
+    top: 100px;
+width: 31%;
+height: 39px;
+}
+.timer_finish_recipe_name{
+    top: 45px;
+font-size: 25px;
+}
 .addToShoppingText {
     color: white;
     font-size: 19px;
@@ -1908,7 +1930,6 @@ ire_icon_recipes {
 }
 
 .term_middel_window_singel {
-     
     top: 3%;
 }
 
@@ -1925,33 +1946,23 @@ ire_icon_recipes {
 
 .one_term_pic {
     height: 20em;
-   
 }
 
 .white_term {
-  
     height: 5em;
-   
     top: -5em;
-  
 }
 
 .one_recipe_text_pic_term {
-  
     font-size: 2.2em;
     margin-left: 9px;
-    
     line-height: 2.7em;
-    
-   
 }
 
 .one_recipe_text_discription_term {
-    
     font-size: 1.3em;
     top: 10px;
     /*top: -4.5em;*/
-   
 }
 
 .middel_pic_term {
@@ -1991,12 +2002,12 @@ ire_icon_recipes {
 #term_search {
     border-color: transparent;
     font-size: 1em;
-    height: 1.7em;
-    left: 7px;
+    height: 1.2em;
+    left: 9px;
     position: relative;
     text-indent: 2%;
     line-height: 0em;
-    top: 1px;
+    top: 3px;
     width: 90%;
     -webkit-user-select: auto;
 }
@@ -2169,4 +2180,16 @@ ire_icon_recipes {
     height: 17px;
     position: relative;
     top: -2px;
+}
+
+.timer_finish{
+    height: 111%;
+top: 0;
+
+}
+
+.timer_all_background_black{
+   top: 0;
+height: 100%;
+width: 100%;
 }
