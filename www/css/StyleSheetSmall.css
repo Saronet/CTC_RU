@@ -541,6 +541,7 @@ left: 69px;*/
     font-size: 14px;
     width: 100%;
     top: 0px;
+    line-height: 1.9em;
 }
 
 .share_up_description, .share_down_description {
@@ -620,6 +621,7 @@ left: 69px;*/
     position: relative;
     top: 57px;
     width: 280px;
+   
 }
 
 
@@ -1190,8 +1192,8 @@ left: 69px;*/
 }
 
 .shopping_page .shopping_text_background {
-    background-image: url("../images_ipad/search_btn_icon.png");
-    background-repeat: no-repeat;
+    /*background-image: url("../images_ipad/search_btn_icon.png");
+    background-repeat: no-repeat;*/
     background-size: 10% 100%;
     background-position-x: 250px;
     background-position-y: 0px;
@@ -1502,6 +1504,13 @@ font-size: 25px;
     height: 100%;
 }
 
+.addToShopping .timer_all_background_black{
+    top: 34%;
+}
+
+.addToShopping .addToShoppingText{
+    top: 40%;
+}
 /*---*/
 .recipes_footer_search {
     max-height: 17px;
@@ -1957,9 +1966,11 @@ ire_icon_recipes {
 }
 
 .one_recipe_text_pic_term {
-    font-size: 2.2em;
+    font-size: 2em;
     margin-left: 9px;
     line-height: 2.7em;
+    
+     
 }
 
 .one_recipe_text_discription_term {
@@ -2195,4 +2206,11 @@ top: 0;
    top: 0;
 height: 100%;
 width: 100%;
+}
+
+
+.shopping_mail_backgroung{
+    height: 44%;
+background-size: 92% 100%;
+top: 27%;
 }

@@ -1389,7 +1389,10 @@ a {
     /*height: 88px;*/
     text-align: left;
     left: 7PX;
-    white-space: normal;
+    
+     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .one_recipe_text_discription {
@@ -2775,8 +2778,8 @@ a {
 }
 
 .shopping_page .shopping_text_background {
-    background-image: url("../images_ipad/search_btn_icon.png");
-    background-repeat: no-repeat;
+    /*background-image: url("../images_ipad/search_btn_icon.png");
+    background-repeat: no-repeat;*/
     background-size: 40% 40%;
     background-position-x: 10px;
     background-position-y: 10px;
@@ -3968,38 +3971,43 @@ a {
     right: 0;
     top: 65%;
     text-align: center;
+    
+    width: 70%;
 }
 
 .yes_no {
-    height: 45%;
-    width: 66%;
-    position: relative;
-    text-align: center;
-    top: 86%;
-    left: 0;
-    right: 0;
-    margin: auto;
+   height: 45%;
+width: 30%;
+position: relative;
+text-align: center;
+top: 30%;
+left: 0;
+right: 0;
+margin: auto;
 }
 
 .shopping_mail_backgroung {
-    background-image: url("../images/shopping_list_mail_background.png");
+    background-image: url("../images_ipad/timer_finished_background.png");
     background-repeat: no-repeat;
     height: 20%;
     margin: auto;
     position: relative;
     width: 100%;
+    
+    top: 17%;
+    background-size: 80% 100%;
+    background-position: center;
 }
 
 #yesDeleteShoppingList {
-    height: 100%;
+   
     width: 100%;
 }
 
 #noDeleteShoppingList {
-    height: 100%;
+  
     width: 100%;
-    position: relative;
-    top: 20%;
+    margin-top: 6%;
 }
 
 

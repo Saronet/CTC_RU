@@ -3,7 +3,7 @@ function termsMan () {
     this.page = 1;
     this.showPage = function() {
         NavigationMan_.navigate("tools", "terms");        
-        $("#term_search").focus();
+        //$("#term_search").focus();
         if($("#terms_list li").length==0){            
             this.createList();
         }

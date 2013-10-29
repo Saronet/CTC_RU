@@ -613,6 +613,7 @@
 
 .second_nav_text {
     font-size: 30px;
+     line-height: 1.7em;
 }
 
 /********gesture page*********/
@@ -709,8 +710,8 @@
 }
 
 .shopping_page .shopping_text_background {
-    background-image: url("../images_ipad/search_btn_icon.png");
-    background-repeat: no-repeat;
+    /*background-image: url("../images_ipad/search_btn_icon.png");
+    background-repeat: no-repeat;*/
     background-size: 9% 99%;
     background-position-x: 609px;
     background-position-y: 0px;
