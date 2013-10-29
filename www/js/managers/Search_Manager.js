@@ -118,7 +118,7 @@ function searchMan() {
                                           "<div class=\"inside_information\">" +
                                              "<span class=\"recipes_first_title\">" + val.posts[i].custom_fields["wpcf-recipe_name"] + "</span>" +
                                              "<span class=\"recipes_second_title\">" + val.posts[i].custom_fields["wpcf-short_describtion"] + "</span>" +
-                                             "<span class=\"recipes_look_inside_btn\" >\></span>" +
+                                             "<span class=\"recipes_look_inside_btn\" ></span>" +
                                              "<div class=\"recipes_footer_search\">" +
                                                 "<div class=\"clock_side_footer\">" +
                                                     "<span class=\"clock_icon_recipes\"> </span>" +
@@ -128,7 +128,7 @@ function searchMan() {
                                                 //"<span class=\"recipes_line\">|</span>" +
                                                 "<div class=\"fire_side_footer\">" +
                                                     "<span class=\"fire_icon_recipes\"></span>" +
-                                                    "<span class=\"recipes_footer_text\"> сложно</span>" +
+                                                    "<span class=\"recipes_footer_text\"> " + val.posts[i].custom_fields["wpcf-complexity_level"] + "</span>" +
                                                 "</div>" +
                                                 "<span class=\"recipes_line\">|</span> " +
                                                 "<div  class=\"searchFavoriteBtnOuter\" id=\"searchFavoriteF" + id + "\" onclick=\"searchMan_.addToFavorite(this)\"><span class=\"star_icon_recipes\" ></span> " +

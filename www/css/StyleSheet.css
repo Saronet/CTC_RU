@@ -987,8 +987,8 @@ a {
 }
 
 .recipes_look_inside_btn {
-    /*background-image:url('images/recipes_look_btn_all.png');
-	background-repeat:no-repeat;*/
+     background-image:url('../images/goto_information_btn.png');
+	background-repeat:no-repeat;
     width: 20px;
     height: 34px;
     position: absolute;
@@ -996,6 +996,7 @@ a {
     top: 40px;
     cursor: pointer;
     font-size: 2em;
+  background-size: 100% 100%;
 }
 
 .ui-loader {
@@ -1303,8 +1304,8 @@ a {
 
 .one_recipe_middle {
     position: relative;
-    top: 5px;
-    height: 28em;
+    /*top: 5px;*/
+    /*height: 28em;*/
 }
 
 .one_recipe_small_up_icons {
@@ -1356,9 +1357,9 @@ a {
 
 .one_term_pic {
     height: 27em;
-    left: 47px;
+   
     position: relative;
-    top: -3px;
+    margin: auto;
     width: 93%;
 }
 
@@ -2812,17 +2813,18 @@ a {
     position: relative;
     text-align: center;
     top: -104px;
-    width: 646px;
+    width: 100%;
     z-index: 4;
 }
 
 .one_recipe_text_discription_term {
+    margin: auto;
     color: #4D555F;
     font-size: 25px;
-    left: 46px;
+    
     position: relative;
-    top: 35px;
-    width: 523px;
+    /*top: 35px;*/
+    width: 95%;
 }
 
 .one_recipe_text_pic_term {
@@ -2832,10 +2834,10 @@ a {
     position: relative;
     z-index: 9;
     line-height: 2.7em;
-    width: 100%;
+    width: 90%;
     display: block;
     text-align: left;
-    height: 96px;
+    height: 100%;
 }
 
 
@@ -2844,16 +2846,6 @@ a {
     -webkit-transform: translate3d(0, 0, 0);
 }
 
-.term_middel_window_singel {
-    height: 47em;
-    background-color: white;
-    position: relative;
-    left: -2%;
-    width: 694px;
-    top: 3%;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: auto;
-}
 
 .term_middel_window_singel ul li {
     -webkit-transform: translate3d(0, 0, 0);
@@ -3978,4 +3970,16 @@ width: 75%;
 
 .red{
     color: #E76A06;
+}
+
+
+.term_middel_window_singel {
+    height: 95%;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    top: 3%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    overflow-x: hidden;
 }

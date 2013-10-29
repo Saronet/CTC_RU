@@ -65,20 +65,23 @@ function RecipeMan () {
         var exist = false;
         list = $(list).attr("list");
         var indexInList = -1;
-        $.each(list, function(index, record) {
-            if(index == id) {
-                indexInList = id;
-                $.each(record, function(index2, sub_record) {
-                    //console.log( index2, sub_record );
-                    if(index2 == "custom_fields") {
+        if(list != undefined){
+             $.each(list, function(index, record) {
+                if(index == id) {
+                    indexInList = id;
+                    $.each(record, function(index2, sub_record) {
+                        //console.log( index2, sub_record );
+                        if(index2 == "custom_fields") {
 
-                        if($(this).attr("wpcf-instructions") != undefined)
-                        { exist = true; }
+                            if($(this).attr("wpcf-instructions") != undefined)
+                            { exist = true; }
 
-                    }
-                });
-            }
-        });
+                        }
+                    });
+                }
+            });
+        }
+       
         if(exist == true) {
             exist = list[indexInList];
         }
