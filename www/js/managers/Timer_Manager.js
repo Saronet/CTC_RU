@@ -29,18 +29,18 @@ this.orange_font=function(obj)
 this.orange_text_on=function(obj)
 {
    $(obj).addClass("timer_small_border_orange");
-   $(obj).children(".timer_hour").css("color","#E76A06");
-       $(obj).children(".timer_min").css("color","#E76A06");
-       $(obj).children(".timer_sec").css("color","#E76A06");
-   $(obj).children().children(".timer_text").css("color","#E76A06");
+   $(obj).children(".timer_hour").addClass("red");
+       $(obj).children(".timer_min").addClass("red");
+       $(obj).children(".timer_sec").addClass("red");
+  $(obj).children().children(".timer_text").addClass("red");
 } 
 this.orange_text_off=function(obj)
 {
    $(obj).removeClass("timer_small_border_orange");
-   $(obj).children(".timer_hour").css("color","#BBB");
-    $(obj).children(".timer_min").css("color","#BBB");
-    $(obj).children(".timer_sec").css("color","#BBB");
-   $(obj).children().children(".timer_text").css("color","#BBB");
+   $(obj).children(".timer_hour").removeClass("red");
+    $(obj).children(".timer_min").removeClass("red");
+    $(obj).children(".timer_sec").removeClass("red");
+   $(obj).children().children(".timer_text").removeClass("red");
 } 
 this.green_on=function()
 {
@@ -52,15 +52,13 @@ this.green_off=function()
 }
 this.orange_on=function()
 {
-    $('.timer_cancel_btn_text').css("color","#E76A06");//כפתור כתום
-    $('.timer_cancel_btn').addClass("orange");
-    $('.timer_cancel_btn').css("background-image","url(images_ipad/timer_cancel_orange.png);");
+    $('.timer_cancel_btn_text').addClass("red")//כפתור כתום
+    
 }
 this.orange_off=function()
 {
-    $('.timer_cancel_btn_text').css("color","#BBB");//כפתור אפור
-    $('.timer_cancel_btn').removeClass("orange");
-    $('.timer_cancel_btn').css("background-image","url(images_ipad/timer_cancel_gray.png);");
+    $('.timer_cancel_btn_text').removeClass("red")//כפתור אפור
+    
 }
     this.attachEvents = function() {
         
@@ -533,9 +531,10 @@ this.orange_off=function()
     this.addTimerToList = function(name) {
 
         $("#timer_list_middel").append("<div class=\"new_timer\">" +
-                                "<div class=\"timer_name\">" + $("#timerName").val() + "</div>" +
+                                
                                 "<div class=\"timer_toPic_position\"><span class=\"timer_clock\">" + $("#timeEdit").text() + "</span>" +
                                 "<img class=\"timer_recet_btn\" ontouchstart=\"timerMan_.initOrStart(this)\" alt=\"\" src=" + timerMan_.image_reset + " />"
+                                      +"<div class=\"timer_name\">" + $("#timerName").val() + "</div>" 
                                       + timerMan_.image_delete +
                                 "</div>" +
                             "</div>");
