@@ -1030,6 +1030,17 @@
     position: relative;
     text-indent: 2%;
     top: 11px;
-    width: 94%;
+    width: 80%;
     -webkit-user-select: auto;
+}
+
+#Text_search_shopping {
+    -webkit-user-select: auto;
+    border-color: transparent;
+    font-size: 1.5em;
+    height: 55%;
+    left: 3%;
+    position: relative;
+    top: 9px;
+    width: 495px;
 }
