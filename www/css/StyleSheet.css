@@ -554,6 +554,7 @@ a {
     width: 90%;
     display: none;
     -webkit-user-select: auto;
+    font-family: arial;
 }
 
 .search_text:focus {
@@ -563,7 +564,7 @@ a {
 .white_background {
     background-color: White;
     height: 33%;
-    opacity: 0.8;
+    opacity: 0.9;
     position: absolute;
     top: 67%;
     width: 100%;
@@ -987,8 +988,8 @@ a {
 }
 
 .recipes_look_inside_btn {
-    /*background-image:url('images/recipes_look_btn_all.png');
-	background-repeat:no-repeat;*/
+    background-image:url('../images/goto_information_btn.png');
+	background-repeat:no-repeat;
     width: 20px;
     height: 34px;
     position: absolute;
@@ -996,6 +997,9 @@ a {
     top: 40px;
     cursor: pointer;
     font-size: 2em;
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .ui-loader {
