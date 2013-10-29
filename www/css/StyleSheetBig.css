@@ -205,15 +205,6 @@
     top: 48px;
 }
 
-.timer_all_background_black {
-    height: 1050px;
-    opacity: 0.72;
-    position: absolute;
-    top: -226px;
-    width: 800px;
-    z-index: 21;
-}
-
 .add_timer_btn {
     background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
@@ -307,15 +298,6 @@
     width: 641px;
     z-index: 22;
     top: 218px;
-}
-
-.finish_background {
-    left: 66px;
-    position: absolute;
-    top: -15px;
-    cursor: pointer;
-    width: 100%;
-    z-index: 21;
 }
 
 .addToShoppingText {
@@ -713,7 +695,7 @@
 .tools_share_text {
     color: #4D555F;
     font-family: PlumbMed;
-    font-size: 23px;
+    font-size: 22px;
     left: 29px;
     line-height: 2em;
     position: relative;
@@ -1022,6 +1004,30 @@
     top: 0;
     font-size: 18px;
     text-indent: 0px;
+}
+
+/*********************TOOLS***********************/
+
+.tools_middel_element:hover {
+    background-color: #fcbf14;
+    border-radius: 17px;
+}
+
+.finish_background {
+    left: 0em;
+    position: absolute;
+    top: -21em;
+    cursor: pointer;
+    width: 100%;
+}
+
+.timer_all_background_black {
+    height: 1050px;
+    opacity: 0.72;
+    position: absolute;
+    top: -33em;
+    width: 800px;
+    z-index: 21;
 }
 
 .one_recipe_text_discription_term{
