@@ -1026,3 +1026,7 @@
 
 /*********************TOOLS***********************/
 
+.tools_middel_element:hover {
+    background-color: #fcbf14;
+    border-radius: 17px;
+}

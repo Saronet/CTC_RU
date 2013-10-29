@@ -2067,54 +2067,54 @@ ire_icon_recipes {
 
 
 .food_name_shopping {
-   color: #484F57;
-font-size: 17px;
-font-style: italic;
-font-weight: bold;
-position: relative;
-top: 12px;
-line-height: 17px;
-display: block;
-width: 70%;
-left: -4px;
+    color: #484F57;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    top: 12px;
+    line-height: 17px;
+    display: block;
+    width: 70%;
+    left: -4px;
 }
 
 .shopping_list ul li {
     border-bottom: 1px solid #8F9CA2;
-top: 0;
-height: 30px;
-margin-bottom: 3px;
+    top: 0;
+    height: 30px;
+    margin-bottom: 3px;
 }
 
 
 
 .delete_btn_foodgator {
-   background-color: #cc0000;
-border-radius: 5px;
-color: #fff;
-margin: auto;
-text-align: center;
-top: 11px;
-line-height: 16px;
-display: none;
-cursor: pointer;
-position: absolute;
-left: 226px;
-line-height: 16px;
-z-index: 600;
-height: 16px;
-width: 52px;
-text-indent: 2px;
+    background-color: #cc0000;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    top: 11px;
+    line-height: 16px;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 226px;
+    line-height: 16px;
+    z-index: 600;
+    height: 16px;
+    width: 52px;
+    text-indent: 2px;
 }
 
 
 .recipes_background_shopping {
- height: inherit;
-position: relative;
-top: 36px;
-width: 95%;
-background-color: white;
-margin: auto;
+    height: inherit;
+    position: relative;
+    top: 36px;
+    width: 95%;
+    background-color: white;
+    margin: auto;
 }
 
 
@@ -2123,11 +2123,9 @@ margin: auto;
     background-image: url("../images/recipes_middel_pic.png");
     background-repeat: repeat-y;
     height: 636px;
-     overflow: hidden;
-
+    overflow: hidden;
     position: relative;
     width: 100%;
-   
 }
 
 
@@ -2136,9 +2134,7 @@ margin: auto;
     height: 679px;
     overflow-y: auto;
     position: relative;
-   
     top: 12px;
-   
     text-indent: 17px;
     -webkit-overflow-scrolling: touch;
 }
@@ -2151,10 +2147,43 @@ margin: auto;
 
 #yesDeleteShoppingList {
     height: 100%;
-    width: 100%; 
+    width: 100%;
 }
 
 #noDeleteShoppingList {
     height: 100%;
-    width: 100%; 
+    width: 100%;
+}
+
+.yes_no {
+    height: 85%;
+    width: 66%;
+    position: relative;
+    text-align: center;
+    top: 190%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.mail_text {
+    color: #fff;
+    font-size: 175%;
+    line-height: 180%;
+    margin: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 135%;
+    text-align: center;
+}
+
+.all_background_black {
+    height: 112%;
+}
+
+.term_name_arrow {
+    height: 17px;
+    position: relative;
+    top: -2px;
 }

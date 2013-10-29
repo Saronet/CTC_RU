@@ -2992,16 +2992,6 @@ a {
     position: relative;
 }
 
-.mail_text {
-    color: #fff;
-    font-size: 39px;
-    line-height: 70px;
-    margin: auto;
-    position: relative;
-    text-align: center;
-    top: 68px;
-}
-
 .mail_text_delete {
     color: #fff;
     font-size: 39px;
@@ -3019,21 +3009,6 @@ a {
     text-align: center;
     top: 94px;
     width: 640px;
-}
-
-.all_background_black {
-    background-color: Black;
-    height: 795px;
-    opacity: 0.72;
-    position: absolute;
-    top: -187px;
-    width: 640px;
-}
-
-.yes_no {
-    position: relative;
-    text-align: center;
-    top: 141px;
 }
 
 .delete_pop {
