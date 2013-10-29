@@ -2001,7 +2001,7 @@ a {
 .timer_finish {
     position: absolute;
     width: 100%;
-    z-index: 10;
+    z-index: 21;
     top: 28%;
     display: none;
 }
@@ -2030,7 +2030,7 @@ a {
     margin: auto;
     position: absolute;
     text-align: center;
-    top: 13px;
+    top: -7.5em;
     width: 100%;
 }
 
@@ -2038,6 +2038,7 @@ a {
     position: absolute;
     width: 100%;
     margin: auto;
+    z-index: 21;
 }
 
 .timer_finish_recipe_name {
@@ -2045,7 +2046,7 @@ a {
     font-size: 47px;
     position: absolute;
     text-align: center;
-    top: 83px;
+    top: -4.5em;
     width: 100%;
     overflow: hidden;
 }
@@ -2055,7 +2056,7 @@ a {
     font-size: 22px;
     position: absolute;
     text-align: center;
-    top: 150px;
+    top: -6.5em;
     width: 100%;
 }
 
@@ -2063,7 +2064,8 @@ a {
     color: white;
     font-size: 45px;
     height: 85px;
-    left: 35%;
+    left: 25%;
+    right: 0;
     line-height: 77px;
     margin: auto;
     position: relative;
@@ -2075,11 +2077,15 @@ a {
     background-repeat: no-repeat;
     cursor: pointer;
     height: 77px;
-    left: 31%;
+    left: 0;
+    right: 0;
     margin: auto;
     position: absolute;
-    top: 211px;
-    width: 243px;
+    top: -4em;
+    width: 16%;
+    border: 1px solid white;
+    border-radius: 14px;
+    z-index: 21;
 }
 
 .shopping_ok_border {
