@@ -1361,13 +1361,35 @@ height: 12px;
 }
 
 /*******unplaced************/
+.timer_finish_all_position{
+    top: 30%;
+}
+
 .finish_background {
     width: 86%;
     left: 21px;
-    top: 200px;
+    top: 0;
+}
+
+.timer_finish_title{
+    top: 20px;
+font-size: 14px;
 }
 
 
+.timer_finish_finish_text{
+    top: 73px;
+}
+
+.timer_ok_border{
+    top: 100px;
+width: 31%;
+height: 39px;
+}
+.timer_finish_recipe_name{
+    top: 45px;
+font-size: 25px;
+}
 .addToShoppingText {
     color: white;
     font-size: 19px;
@@ -2169,4 +2191,16 @@ ire_icon_recipes {
     height: 17px;
     position: relative;
     top: -2px;
+}
+
+.timer_finish{
+    height: 111%;
+top: 0;
+
+}
+
+.timer_all_background_black{
+   top: 0;
+height: 100%;
+width: 100%;
 }
