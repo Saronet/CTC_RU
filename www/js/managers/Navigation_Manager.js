@@ -440,10 +440,10 @@ function NavigationMan() {
        
 
         //set the gesture page divs
-        $(".gesture_list ul  li").hide();
-        $(".gesture_list #gestureUp").show();
-        $(".gesture_list #gestureDown").show();
-        $(".gesture_list #gestureSelect").show();
+        //$(".gesture_list ul  li").hide();
+        //$(".gesture_list #gestureUp").show();
+        //$(".gesture_list #gestureDown").show();
+        //$(".gesture_list #gestureSelect").show();
 
         
         
