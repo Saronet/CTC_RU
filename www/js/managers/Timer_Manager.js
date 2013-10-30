@@ -550,11 +550,11 @@ this.orange_off=function()
 
         if(isIpad()) {
           //  checkHtml(currentT.children(".timer_name"), 94);
-            $(".add_timer_btn").css("margin-top", "32px");
+            $(".add_timer_btn").css("margin-top", "2.5%px");
         }
         else {
          //   checkHtml(currentT.children(".timer_name"), 94);
-            $(".add_timer_btn").css("margin-top", "-3px");
+            $(".add_timer_btn").css("margin-top", "2.5%px");
         }
         
         $("#timerName").val("");
