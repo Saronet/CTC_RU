@@ -385,7 +385,7 @@ function NavigationMan() {
 
     this.showFavoritePage = function() {
         $(".page").hide();
-        gestureMan_.gestureStart("UD");
+      //  gestureMan_.gestureStart("UD");
         $("#recipes_list_favorite li").each(function(){
                                             var $this=$(this);
                                             if($this.hasClass("recipes_hover")){
@@ -633,9 +633,6 @@ this.showTimerPage = function() {
         $('.search_page').show();
         $(".search_text_background").show();
          
-
-        this.backPosition = this.pagePosition;
-        this.pagePosition = "search";
 
     }
     this.showAboutPage = function() {

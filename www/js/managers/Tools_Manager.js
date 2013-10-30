@@ -1,29 +1,35 @@
 tools_Manager = function() {
     this.numOfShopItems = 0;
     this.numOfTimersItems = 0;
-    
+
+    this.attachEvent = function() {
+        $("#webLink").click(function(){
+            navigator.app.loadUrl("http://www.domashniy.ru/", { openExternal:true });
+            return false;
+        });
+    }
+
     this.start_touch = function(e) {
-		try{
+        try {
             e.preventDefault();
         }
-        catch(e){}
-       // $("#tools_icon").addClass("icon_touch_start");
-       
+        catch(e) { }
+        // $("#tools_icon").addClass("icon_touch_start");
+
 
     }
 
     this.start = function() {
-    
+
         this.setShoppingCounter();
         this.setTimersCounter();
 
         NavigationMan_.navigate(NavigationMan_.pagePosition, "tools");
-        
+
 
     }
 
-    this.updateCounters = function()
-    {
+    this.updateCounters = function() {
         this.setShoppingCounter();
         this.setTimersCounter();
     }
@@ -53,12 +59,12 @@ tools_Manager = function() {
         //toolsMan_.numOfShopItems = 0;
         $("#timer_list_middel .new_timer").each(function() {
             if($(this).css("display") != "none") {
-                if($(this).data("status")=="play"){//check if is play now
+                if($(this).data("status") == "play") {//check if is play now
                     ++toolsMan_.numOfTimersItems;
-                }//++toolsMan_.numOfTimersItems;
+                } //++toolsMan_.numOfTimersItems;
 
             }
-            
+
 
         });
         if(toolsMan_.numOfTimersItems == 0) {
@@ -71,7 +77,7 @@ tools_Manager = function() {
 
     }
 
-    this.goToSite=function(){
-        
+    this.goToSite = function() {
+
     }
 }
