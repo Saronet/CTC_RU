@@ -1365,15 +1365,12 @@ left: 69px;*/
 /*******unplaced************/
 .timer_finish_all_position{
     top: 30%;
-    width: 80%;
 }
 
 .finish_background {
-width: 100%;
-left: 0;
-top: 0;
-right: 0;
-margin: auto;
+    width: 86%;
+    left: 21px;
+    top: 0;
 }
 .addToShopping .finish_background{
     top: 36%;
@@ -1394,8 +1391,6 @@ font-size: 14px;
 width: 68px;
 height: 39px;
 border-radius: 6px;
-top: 70px;
-left: 36%;
 }
 .timer_finish_recipe_name{
     top: 45px;
@@ -1420,7 +1415,6 @@ font-size: 25px;
     font-size: 23px;
 display: block;
 margin-top: 8px;
-left: 0;
 }
 
 .favorite_recipe_name {
@@ -1729,7 +1723,6 @@ ire_icon_recipes {
     position: absolute;
     top: 81px;
     width: 92%;*/
-
 }
 
 .timer_name_recipe {

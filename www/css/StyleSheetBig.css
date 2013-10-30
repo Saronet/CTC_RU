@@ -240,6 +240,7 @@ left: 0;
 right: 0;
 border-bottom: 1px solid #D9D9D9;
 }
+
 .timer_clock {
     /*color: #4d555f;
     float: left;
@@ -1020,6 +1021,7 @@ border-bottom: 1px solid #D9D9D9;
 }
 
 .timer_ok_border{
+    top: 234px;
 }
 
 .addToShopping .finish_background {
@@ -1030,7 +1032,7 @@ border-bottom: 1px solid #D9D9D9;
     top: 0%;
 }
 .timer_finish_all_position{
-    top: 200px;
+    top: 13%;
 }
 
 .timer_finish_OK{
@@ -1042,17 +1044,16 @@ margin-top: 7%;
 }
 
 .timer_all_background_black {
-background-color: black;
-height: 1024px;
-opacity: 0.72;
-position: absolute;
-width: 100%;
-right: 0;
-left: 0;
-margin: auto;
+    height: 100%;
+    opacity: 0.72;
+    position: absolute;
+    top: -33em;
+    width: 100%;
+    z-index: 21;
 }
+
 .one_recipe_text_discription_term {
-    top: 45px;
+    top: 20px;
 }
 
 #term_search {

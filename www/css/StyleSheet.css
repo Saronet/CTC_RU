@@ -49,6 +49,8 @@ a {
 }
 
 .App_posotion {
+    /*height: 920px;
+     margin: auto;*/
     position: relative;
     /*top: 130px;
      width: 640px;*/
@@ -563,7 +565,7 @@ a {
     height: 33%;
     opacity: 0.8;
     position: absolute;
-    top: 67%;
+    top: 68%;
     width: 100%;
 }
 
@@ -1995,22 +1997,31 @@ width: 100%;
     z-index: 21;
     top: 28%;
     display: none;
+    height: 100%;
 }
 
 .timer_all_background_black {
-background-color: black;
-height: 960px;
-opacity: 0.72;
-position: absolute;
-width: 100%;
-right: 0;
-left: 0;
-margin: auto;
+    /*background-color: Black;*/
+    height: 100%;
+    opacity: 0.72;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
+
 .finish_background {
     left: 17px;
     position: absolute;
     top: -15px;
+    cursor: pointer;
+}
+
+.addToShopping .finish_background {
+  
+    position: absolute;
+    top:0;
     cursor: pointer;
 }
 
@@ -2028,8 +2039,9 @@ width: 100%;
 position: absolute;
 width: 70%;
 left: 0;
-margin: auto;
 right: 0;
+margin: auto;
+z-index: 21;
 }
 
 .timer_finish_recipe_name {
@@ -2055,34 +2067,38 @@ overflow: hidden;
     color: white;
     font-size: 45px;
     height: 85px;
-    left: 35%;
-    line-height: 77px;
+   
     margin: auto;
     position: relative;
     text-align: center;
 }
 
 .timer_ok_border {
-    background-image: url("../images/timer_border_ok.png");
-    background-repeat: no-repeat;
-    cursor: pointer;
-    height: 77px;
-    left: 43%;
-    margin: auto;
-    position: absolute;
-    top: 211px;
+  
+cursor: pointer;
+height: 77px;
+margin: auto;
+position: relative;
+top: 211px;
+width: 243px;
+border: 1px solid white;
+border-radius: 13px;
+display: block;
 }
 
 .shopping_ok_border {
     background-image: url("../images/timer_border_ok.png");
     background-repeat: no-repeat;
     cursor: pointer;
-    height: 77px;
-    left: 31%;
+    
     margin: auto;
-    position: absolute;
+    position: relative;
     top: 211px;
     width: 243px;
+    display: block;
+    z-index: 24;
+    border: 1px solid white;
+border-radius: 14px;
 }
 
 .timer_list {
@@ -2483,6 +2499,7 @@ padding-bottom: 0em;
 .one_recipe_page_what_to_do {
     /*height: 540px;*/
     margin: auto;
+    margin-top: 10px;
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
@@ -2801,7 +2818,7 @@ padding-bottom: 0em;
     list-style-type: none;
     margin-bottom: 17px;
     position: relative;
-    width: 669px;
+   width: 100%;
     top: 18px;
 }
 
@@ -2834,7 +2851,7 @@ padding-bottom: 0em;
     font-size: 25px;
     
     position: relative;
-    top: 35px;
+    /*top: 35px;*/
     width: 95%;
 }
 
@@ -2896,11 +2913,20 @@ padding-bottom: 0em;
 }
 
 .middel_pic_gesture {
-    background-image: url("../images/textWithAlotOfHands_5.png");
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    margin: auto;
+background-image: url("../images/textWithAlotOfHands_5.png");
+width: 111%;
+background-repeat: no-repeat;
+margin: auto;
+background-size: 100% 100%;
+background-position: -30px 0px;
+}
+
+.background_gesture{
+ height: 91%;
+position: relative;
+width: 100%;
+overflow-x: hidden;
+overflow-y: auto;
 }
 
 .text_explanation_gesture {
@@ -3439,6 +3465,7 @@ width: 98%;
 margin-left: 2%;
 position: relative;
 }
+
 .timer_list_footer {
     background-image: url('../images/timer_list_footer_1.png');
     background-repeat: no-repeat;
@@ -3724,7 +3751,8 @@ width: 96%;
 
 .addToShopping {
     position: absolute;
-    width: 640px;
+    width:100%;
+    height: 100%;
     z-index: 10;
     top: 226px;
 }
@@ -3732,11 +3760,14 @@ width: 96%;
 .addToShoppingText {
     color: white;
     font-size: 40px;
-    position: absolute;
+   
     text-align: center;
     top: 37px;
     width: 60%;
-    left: 20%;
+    
+    z-index: 23;
+     margin: auto;
+    position: relative;
 }
 
 
@@ -4020,10 +4051,22 @@ width: 96%;
     position: relative;
     left: 0;
     right: 0;
-    top: 15%;
+    top: 65%;
     text-align: center;
     
     width: 70%;
+}
+
+.delete_pop .mail_text {
+
+top: 13%;
+
+}
+
+.delete_pop .yes_no {
+
+top: 18%;
+
 }
 
 .yes_no {
@@ -4031,7 +4074,7 @@ width: 96%;
 width: 30%;
 position: relative;
 text-align: center;
-top: 20%;
+top: 30%;
 left: 0;
 right: 0;
 margin: auto;
