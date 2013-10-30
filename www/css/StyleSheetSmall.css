@@ -470,10 +470,11 @@ left: 69px;*/
 
 .recipes_look_inside_btn {
     right: 1px;
-    top: 10px;
+    top: 31px;
     position: absolute;
     font-size: 1.5em;
-    width: 9px;
+    width: 5px;
+    height: 12px;
 }
 
 .btn_background_down {
@@ -505,7 +506,7 @@ left: 69px;*/
 }
 
 .recipes_small_pic {
-    border-radius: 6px;
+    border-radius: 12px;
 }
 
 .one_recipe_small_up_icons {
@@ -540,6 +541,7 @@ left: 69px;*/
     font-size: 14px;
     width: 100%;
     top: 0px;
+    line-height: 1.9em;
 }
 
 .share_up_description, .share_down_description {
@@ -619,6 +621,7 @@ left: 69px;*/
     position: relative;
     top: 57px;
     width: 280px;
+   
 }
 
 
@@ -928,6 +931,9 @@ left: 69px;*/
 /*********gesture page********/
 .middel_pic_gesture {
     background-size: 100%;
+    background-position-x: -10.7em;
+    width: 150%;
+    height: 128%;
 }
 
 
@@ -1186,8 +1192,8 @@ left: 69px;*/
 }
 
 .shopping_page .shopping_text_background {
-    background-image: url("../images_ipad/search_btn_icon.png");
-    background-repeat: no-repeat;
+    /*background-image: url("../images_ipad/search_btn_icon.png");
+    background-repeat: no-repeat;*/
     background-size: 10% 100%;
     background-position-x: 250px;
     background-position-y: 0px;
@@ -1211,11 +1217,11 @@ left: 69px;*/
     -webkit-user-select: auto;
     border-color: transparent;
     font-size: 15px;
-    height: 15px;
+    height: 50%;
     left: 10px;
     position: relative;
     top: 4px;
-    width: 236px;
+    width: 75%;
 }
 
 
@@ -1360,13 +1366,35 @@ left: 69px;*/
 }
 
 /*******unplaced************/
+.timer_finish_all_position{
+    top: 30%;
+}
+
 .finish_background {
     width: 86%;
     left: 21px;
-    top: 200px;
+    top: 0;
+}
+
+.timer_finish_title{
+    top: 20px;
+font-size: 14px;
 }
 
 
+.timer_finish_finish_text{
+    top: 73px;
+}
+
+.timer_ok_border{
+    top: 100px;
+width: 31%;
+height: 39px;
+}
+.timer_finish_recipe_name{
+    top: 45px;
+font-size: 25px;
+}
 .addToShoppingText {
     color: white;
     font-size: 19px;
@@ -1476,6 +1504,13 @@ left: 69px;*/
     height: 100%;
 }
 
+.addToShopping .timer_all_background_black{
+    top: 34%;
+}
+
+.addToShopping .addToShoppingText{
+    top: 40%;
+}
 /*---*/
 .recipes_footer_search {
     max-height: 17px;
@@ -1907,20 +1942,13 @@ ire_icon_recipes {
 }
 
 .term_middel_window_singel {
-    height: 40em;
-    background-color: white;
-    position: relative;
-    left: -2%;
-    width: 694px;
     top: 3%;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: auto;
 }
 
 .one_recipe_middle {
     position: relative;
-    top: 5px;
-    height: 28em;
+    /*top: 5px;*/
+    /*height: 28em;*/
 }
 
 .one_recipe_page_description_recipe {
@@ -1930,45 +1958,25 @@ ire_icon_recipes {
 
 .one_term_pic {
     height: 20em;
-    left: 19px;
-    position: relative;
-    top: -3px;
-    width: 28.3em;
 }
 
 .white_term {
-    background-color: white;
     height: 5em;
-    left: 0;
-    opacity: 0.8;
-    position: relative;
-    text-align: center;
     top: -5em;
-    width: 646px;
-    z-index: 4;
 }
 
 .one_recipe_text_pic_term {
-    color: #4D555F;
-    font-size: 2.2em;
+    font-size: 2em;
     margin-left: 9px;
-    position: relative;
-    z-index: 9;
-    top: -0.2em;
     line-height: 2.7em;
-    width: 100%;
-    display: block;
-    text-align: left;
-    height: 116px;
+    
+     
 }
 
 .one_recipe_text_discription_term {
-    color: #4D555F;
     font-size: 1.3em;
-    left: 20px;
-    position: relative;
-    top: -4.5em;
-    width: 39%;
+    top: 10px;
+    /*top: -4.5em;*/
 }
 
 .middel_pic_term {
@@ -2008,13 +2016,13 @@ ire_icon_recipes {
 #term_search {
     border-color: transparent;
     font-size: 1em;
-    height: 1.7em;
-    left: 7px;
+    height: 1.2em;
+    left: 9px;
     position: relative;
     text-indent: 2%;
     line-height: 0em;
-    top: 1px;
-    width: 90%;
+    top: 3px;
+    width: 80%;
     -webkit-user-select: auto;
 }
 
@@ -2186,4 +2194,23 @@ ire_icon_recipes {
     height: 17px;
     position: relative;
     top: -2px;
+}
+
+.timer_finish{
+    height: 111%;
+top: 0;
+
+}
+
+.timer_all_background_black{
+   top: 0;
+height: 100%;
+width: 100%;
+}
+
+
+.shopping_mail_backgroung{
+    height: 44%;
+background-size: 92% 100%;
+top: 27%;
 }

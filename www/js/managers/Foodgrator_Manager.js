@@ -142,13 +142,13 @@ function FoodgrMan () {
                                      "<div class=\"inside_information\">" +
                                      "<span class=\"recipes_first_title\">" + val.posts[i].custom_fields["wpcf-recipe_name"] + "</span>" +
                                      "<span class=\"recipes_second_title\">" + val.posts[i].custom_fields["wpcf-short_describtion"] + "</span>" +
-                                     "<span class=\"recipes_look_inside_btn\" >></span>" +
+                                     "<span class=\"recipes_look_inside_btn\" ></span>" +
                                      "<div class=\"recipes_footer\">" +
                                      "<span class=\"clock_icon_recipes\"> </span>" +
                                      "<span class=\"recipes_footer_text\">" + val.posts[i].custom_fields["wpcf-total_time"] + " мин. </span>" +
                 //"<span class=\"recipes_line\">|</span>" +
                                      "<span class=\"fire_icon_recipes\"></span>" +
-                                     "<span class=\"recipes_footer_text\"> сложно</span>" +
+                                     "<span class=\"recipes_footer_text\"> " + val.posts[i].custom_fields["wpcf-complexity_level"] + "</span>" +
                 //"<span class=\"recipes_line\">|</span> " +
                 //"<div  class=\"foodFavoriteBtnOuter\" id=\"favoriteF" + id + "\" onclick=\"foodgrMan_.addToFavorite(this)\"><span class=\"star_icon_recipes\" ></span> " +
                 //"<span class=\"recipes_footer_text\"> в избранное </span></div>" +

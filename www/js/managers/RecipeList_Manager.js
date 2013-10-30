@@ -154,7 +154,7 @@
                               "<div class=\"inside_information\">" +
                                   "<span class=\"recipes_first_title\">" + $(line).attr("custom_fields")["wpcf-recipe_name"][0] + "</span>" +
                                   "<span class=\"recipes_second_title\">" + $(line).attr("custom_fields")["wpcf-short_describtion"][0] + "</span>" +
-                                  "<span class=\"recipes_look_inside_btn\">\></span> " +
+                                  "<span class=\"recipes_look_inside_btn\"></span> " +
                                   "<div class=\"recipes_footer\">" +
                                     "<span class=\"clock_icon_recipes\"> </span>" +
                                               "<span class=\"recipes_footer_text\"> " + $(line).attr("custom_fields")["wpcf-total_time"][0] + " мин. </span>" +
