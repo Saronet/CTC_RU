@@ -649,7 +649,7 @@ this.orange_off=function()
                                             });
 
        }
-       catch(ex){}
+       catch(ex){alert(plugins.localNotification)}
     }
 
     this.notificationStop = function(time, name) {

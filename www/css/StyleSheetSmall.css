@@ -1368,9 +1368,9 @@ left: 69px;*/
 }
 
 .finish_background {
-    width: 86%;
-    left: 21px;
-    top: 0;
+    width: 100%;
+top: 0;
+height: 173px;
 }
 .addToShopping .finish_background{
     top: 36%;
@@ -1715,7 +1715,13 @@ ire_icon_recipes {
 }
 
 /**********************tools page**********************/
-
+.tools_two_btn_down_position{
+    top: 34%;
+}
+.tools_middel_element_footer
+{  
+height: 40px;
+}
 .timer_middel {
     /*background-color: white;
     height: 270px;
@@ -1723,7 +1729,6 @@ ire_icon_recipes {
     position: absolute;
     top: 81px;
     width: 92%;*/
-
 }
 
 .timer_name_recipe {
@@ -2117,6 +2122,7 @@ ire_icon_recipes {
     overflow: hidden;
     position: relative;
     width: 100%;
+    margin-left:0px;
 }
 
 
@@ -2134,6 +2140,7 @@ ire_icon_recipes {
     height: 410px;
     position: relative;
     top: -10px;
+    margin :0;
 }
 
 #yesDeleteShoppingList {

@@ -4,7 +4,10 @@ tools_Manager = function() {
 
     this.attachEvent = function() {
         $("#webLink").click(function(){
-            navigator.app.loadUrl("http://www.domashniy.ru/", { openExternal:true });
+          //  navigator.app.loadUrl("http://www.domashniy.ru/", { openExternal:true });
+                         alert("!");
+                        var ref = window.open('http://www.domashniy.ru/', '_system', 'location=yes');
+                          
             return false;
         });
     }

@@ -48,7 +48,6 @@
 
         <!--<script type="text/javascript" src="js/JScript.js"></script>-->
         <!--<script type="text/javascript" src="cordova-2.3.0.js"></script>-->
-        <script type="text/javascript" src="js/plugins/LocalNotification.js"></script>
 
 
         <script type="text/javascript">
@@ -429,9 +428,9 @@
                                     <a href="" class="tools_share">
                                         <div class="tools_share_text">Поделиться с друзьями</div>
                                     </a>
-                                   <!-- <a class="tools_website" href="http://www.domashniy.ru/" target="_blank">-->
-                                        <div id="webLink" class="tools_share_text">www.domashniy.ru</div>
-                                   <!-- </a>-->
+                                   <a class="tools_website" href="http://www.domashniy.ru/" target="_blank"	onclick="window.open(this.href,'_system'); return false;">
+                                        <div class="tools_share_text">www.domashniy.ru</div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -708,7 +707,7 @@
                         <div class="tree_btn_shopping_position">
                             <a href="" ontouchend="shoppingMan_.pop_mail_page()"><span id="send" class="shopping_btn">Отправить</span></a>
                             <span id="clear" class="shopping_btn" onclick="shoppingMan_.pop_delete_page()">Удалить все</span>
-                            <span id="add" class="shopping_btn" <!--onclick="shoppingMan_.text_open(e)"-->>добавить</span>
+                            <span id="add" class="shopping_btn" <!--onclick="shoppingMan_.text_open(e)"-->добавить</span>
 
                         </div>
                         <div class="shopping_text_background">
@@ -838,7 +837,7 @@
                             </div>
                             <div class="about_two_logos">
                                 <div class="reshat_logo"></div>
-                                <div><a href="http://www.scrnz.com/" target="_blank"><img id="screenz_logo" src="images_ipad/logo_screenz_new.png" alt="" /></a></div>
+                                <div><a href="http://www.scrnz.com/" target="_blank" onclick="window.open(this.href,'_system'); return false;"><img id="screenz_logo" src="images_ipad/logo_screenz_new.png" alt="" /></a></div>
                             </div>
                             <span class="about_text">Контакты:<br /></span>
                             <a href="mailto:web@ctc.ru" class="about_text_red">электронная почта</a>
@@ -962,6 +961,8 @@
                 });
             });
         </script>
+        <script type="text/javascript" src="js/plugins/LocalNotification.js"></script>
+
     </body>
 
 </html>
