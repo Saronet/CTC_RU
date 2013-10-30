@@ -1715,7 +1715,13 @@ ire_icon_recipes {
 }
 
 /**********************tools page**********************/
-
+.tools_two_btn_down_position{
+    top: 34%;
+}
+.tools_middel_element_footer
+{  
+height: 40px;
+}
 .timer_middel {
     /*background-color: white;
     height: 270px;
