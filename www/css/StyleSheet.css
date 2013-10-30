@@ -2038,6 +2038,7 @@ width: 100%;
 position: absolute;
 width: 100%;
 margin: auto;
+z-index: 21;
 }
 
 .timer_finish_recipe_name {
@@ -2070,15 +2071,16 @@ overflow: hidden;
 }
 
 .timer_ok_border {
-    background-image: url("../images/timer_border_ok.png");
-    background-repeat: no-repeat;
-    cursor: pointer;
-    height: 77px;
-    left: 31%;
-    margin: auto;
-    position: absolute;
-    top: 211px;
-    width: 243px;
+  
+cursor: pointer;
+height: 77px;
+margin: auto;
+position: relative;
+top: 211px;
+width: 243px;
+border: 1px solid white;
+border-radius: 13px;
+display: block;
 }
 
 .shopping_ok_border {
@@ -2495,6 +2497,7 @@ padding-bottom: 0em;
 .one_recipe_page_what_to_do {
     /*height: 540px;*/
     margin: auto;
+    margin-top: 10px;
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;

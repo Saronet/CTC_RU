@@ -1390,9 +1390,10 @@ font-size: 14px;
 }
 
 .timer_ok_border{
-    top: 100px;
-width: 31%;
+   top: 100px;
+width: 68px;
 height: 39px;
+border-radius: 6px;
 }
 .timer_finish_recipe_name{
     top: 45px;
@@ -1407,16 +1408,16 @@ font-size: 25px;
 
 .shopping_ok_border {
          height: 38px;
-   top: 235px;
+   top: 222px;
     width: 34%;
     border-radius: 8px;
   
 }
 
 .timer_finish_OK {
-    /*font-size: 22px;
-    left: 35%;
-    line-height: 41px;*/
+    font-size: 23px;
+display: block;
+margin-top: 8px;
 }
 
 .favorite_recipe_name {

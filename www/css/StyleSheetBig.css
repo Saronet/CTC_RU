@@ -996,15 +996,34 @@
 .finish_background {
     left: 0em;
     position: absolute;
-    top: -21em;
+   top: 0;
     cursor: pointer;
     width: 100%;
 }
+.timer_finish_title{
+    top: 41px;
+}
+.timer_finish_recipe_name{
+    top: 98px;
+}
 
+.timer_finish_finish_text{
+    top: 159px;
+}
+
+.timer_ok_border{
+    top: 234px;
+}
 
 .addToShopping .finish_background {
      top: 0;
      z-index: 22;
+}
+.timer_finish{
+    top: 0%;
+}
+.timer_finish_all_position{
+    top: 13%;
 }
 
 .timer_finish_OK{
