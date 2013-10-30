@@ -232,15 +232,14 @@ background-position: -106px 0px;
 }
 
 .new_timer {
-    height: 100px;
-    position: relative;
-    top: -10%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    border-bottom: 1px solid #D9D9D9;
+height: 100px;
+position: relative;
+top: -10%;
+width: 96%;
+left: 0;
+right: 0;
+border-bottom: 1px solid #D9D9D9;
 }
-
 .timer_clock {
     /*color: #4d555f;
     float: left;

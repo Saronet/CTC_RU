@@ -1643,6 +1643,7 @@ width: 100%;
     line-height: 2em;
     position: relative;
     width: 205px;
+    float: left;
 }
 
 .tools_share_text:hover {
@@ -3435,10 +3436,10 @@ padding-bottom: 0em;
 }
 
 #timer_list_middel {
-    width: 100%;
-    position: relative;
+width: 98%;
+margin-left: 2%;
+position: relative;
 }
-
 .timer_list_footer {
     background-image: url('../images/timer_list_footer_1.png');
     background-repeat: no-repeat;
@@ -3483,7 +3484,8 @@ font-size: 2em;
     height: 47px;
     position: relative;
     top: 0px;
-    width: 100%;
+width: 96%;
+/*padding: 0 2%;*/
     margin-bottom: 3px;
     left: 0;
     right: 0;
