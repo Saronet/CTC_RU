@@ -1395,7 +1395,7 @@ width: 68px;
 height: 39px;
 border-radius: 6px;
 top: 70px;
-left: 40%;
+left: 36%;
 }
 .timer_finish_recipe_name{
     top: 45px;
@@ -1420,6 +1420,7 @@ font-size: 25px;
     font-size: 23px;
 display: block;
 margin-top: 8px;
+left: 0;
 }
 
 .favorite_recipe_name {
