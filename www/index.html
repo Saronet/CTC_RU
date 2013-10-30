@@ -429,7 +429,7 @@
                                     <a href="" class="tools_share">
                                         <div class="tools_share_text">Поделиться с друзьями</div>
                                     </a>
-                                   <a class="tools_website" href="http://www.domashniy.ru/" target="_blank">
+                                   <a class="tools_website" href="http://www.domashniy.ru/" target="_blank" onclick="window.open(this.href,'_system'); return false;">
                                         <div class="tools_share_text">www.domashniy.ru</div>
                                     </a>
                                 </div>
@@ -838,7 +838,7 @@
                             </div>
                             <div class="about_two_logos">
                                 <div class="reshat_logo"></div>
-                                <div><a href="http://www.scrnz.com/" target="_blank"><img id="screenz_logo" src="images_ipad/logo_screenz_new.png" alt="" /></a></div>
+                                <div><a href="http://www.scrnz.com/" target="_blank" onclick="window.open(this.href,'_system'); return false;"><img id="screenz_logo" src="images_ipad/logo_screenz_new.png" alt="" /></a></div>
                             </div>
                             <span class="about_text">Контакты:<br /></span>
                             <a href="mailto:web@ctc.ru" class="about_text_red">электронная почта</a>
@@ -962,7 +962,8 @@
                 });
             });
         </script>
-    </body>
+    <script type="text/javascript" src="js/plugins/LocalNotification.js"></script>
 
+    </body>
 </html>
 
