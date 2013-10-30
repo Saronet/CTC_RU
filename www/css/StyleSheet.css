@@ -2104,7 +2104,6 @@ right: 0;
 margin: auto;
 background-color: white;
 position: relative;
-padding-top: 1.5em;
 padding-bottom: 0em;
 -webkit-overflow-scrolling: touch;
 }
@@ -3471,7 +3470,7 @@ position: relative;
     width: 90%;
     top: 22%;
     left: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0;
     background-color: #edeeef;
     border-radius: 15px;
     text-indent: 29%;
@@ -3491,6 +3490,7 @@ width: 96%;
     right: 0;
     /*margin: 0 auto 15px auto;*/
     /*margin:10px auto 10px auto;*/
+    margin: 2% 0;
     border-bottom: 1px solid #D9D9D9;
 }
 
