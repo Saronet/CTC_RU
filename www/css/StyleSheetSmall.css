@@ -1368,9 +1368,9 @@ left: 69px;*/
 }
 
 .finish_background {
-    width: 86%;
-    left: 21px;
-    top: 0;
+    width: 100%;
+top: 0;
+height: 173px;
 }
 .addToShopping .finish_background{
     top: 36%;
