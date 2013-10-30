@@ -1073,8 +1073,8 @@ left: 69px;*/
 }
 /*******tools page*****/
 .tools_middel {
-    height: 63%;
-    margin: 12% auto;
+    /*height: 63%;
+    margin: 12% auto;*/
 }
 
 .tools_middel_element:hover {
@@ -1228,7 +1228,7 @@ left: 69px;*/
 
 
 #timer_list_middel_window {
-    overflow-x: hidden;
+    /*overflow-x: hidden;
     overflow-y: auto;
     height: auto;
     top: 27px;
@@ -1239,11 +1239,11 @@ left: 69px;*/
     position: relative;
     padding-top: 1.5em;
     padding-bottom: 0em;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;*/
 }
 
 .new_timer {
-    height: 47px;
+    /*height: 47px;
     position: relative;
     top: 0px;
     width: 100%;
@@ -1251,21 +1251,21 @@ left: 69px;*/
     left: 0;
     right: 0;
     margin: 0 auto 15px auto;
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;*/
 }
 
 .timer_clock {
-    color: #4d555f;
+    /*color: #4d555f;
     float: left;
     font-size: 2.3em;
     position: relative;
     margin-right: 2%;
     top: 12%;
-    width: 22%;
+    width: 22%;*/
 }
 
 .timer_recet_btn {
-    cursor: pointer;
+    /*cursor: pointer;
     float: left;
     padding: 3% 5%;
     position: relative;
@@ -1274,11 +1274,11 @@ left: 69px;*/
     left: -2%;
     background-color: #ffcc00;
     border: none;
-    border-radius: 8px;
+    border-radius: 8px;*/
 }
 
 .timer_name {
-    color: #4d555f;
+    /*color: #4d555f;
     float: left;
     font-size: 2em;
     margin-left: 2%;
@@ -1289,22 +1289,22 @@ left: 69px;*/
     overflow: hidden;
     height: 100%;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis;*/
 }
 
 .timer_delete_btn {
-    cursor: pointer;
+    /*cursor: pointer;
     float: left;
     right: 9%;
     position: absolute;
     top: 0;
     width: 5%;
     bottom: 14px;
-    margin: auto;
+    margin: auto;*/
 }
 
 .add_timer_btn {
-    background-image: url("../images/add-gray.png");
+    /*background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
     background-position-x: 18%;
     background-position-y: 47%;
@@ -1320,7 +1320,7 @@ left: 69px;*/
     border-radius: 5px;
     text-indent: 27%;
     line-height: 37px;
-    font-size: 195%;
+    font-size: 195%;*/
 }
 
 /*******favorite page*******/
@@ -1414,9 +1414,9 @@ font-size: 25px;
 }
 
 .timer_finish_OK {
-    font-size: 22px;
+    /*font-size: 22px;
     left: 35%;
-    line-height: 41px;
+    line-height: 41px;*/
 }
 
 .favorite_recipe_name {
@@ -1719,16 +1719,16 @@ ire_icon_recipes {
 /**********************tools page**********************/
 
 .timer_middel {
-    background-color: white;
+    /*background-color: white;
     height: 270px;
     left: 4.2%;
     position: absolute;
     top: 81px;
-    width: 92%;
+    width: 92%;*/
 }
 
 .timer_name_recipe {
-    background-color: #edeeef;
+    /*background-color: #edeeef;
     border-radius: 5px;
     font-size: 41px;
     margin-left: 44px;
@@ -1736,11 +1736,11 @@ ire_icon_recipes {
     top: 5%;
     height: 11%;
     left: -10%;
-    width: 90%;
+    width: 90%;*/
 }
 
 .timer_name_recipe_input {
-    -webkit-user-select: auto;
+    /*-webkit-user-select: auto;
     font-size: 15px;
     color: #BBB;
     background-color: transparent;
@@ -1752,33 +1752,33 @@ ire_icon_recipes {
     top: 1px;
     height: 25px;
     text-align: left;
-    position: absolute;
+    position: absolute;*/
 }
 
 .timer_time {
-    color: #4E555F;
+    /*color: #4E555F;
     font-size: 85px;
     left: -133px;
     position: relative;
     text-align: center;
     top: 37px;
     font-weight: 900;
-    width: 560px;
+    width: 560px;*/
 }
 
 .timer_cancel_btn {
-    width: 103px;
+    /*width: 103px;
     height: 32px;
     float: left;
     line-height: 42px;
     position: relative;
     cursor: pointer;
     left: 13px;
-    top: 67px;
+    top: 67px;*/
 }
 
 .timer_cancel_btn_text {
-    background-color: #FFCB01;
+    /*background-color: #FFCB01;
     border-radius: 5px;
     color: #4E555F;
     float: left;
@@ -1788,11 +1788,11 @@ ire_icon_recipes {
     width: 100%;
     height: 100%;
     position: relative;
-    text-align: center;
+    text-align: center;*/
 }
 
 .timer_small_border {
-    background-color: #FFCB01;
+    /*background-color: #FFCB01;
     border-radius: 5px;
     width: 1.4em;
     height: 1.15em;
@@ -1800,11 +1800,11 @@ ire_icon_recipes {
     float: left;
     left: 11.3%;
     top: 2.4em;
-    margin-left: 9px;
+    margin-left: 9px;*/
 }
 
 .timer_hour {
-    color: #4E555F;
+    /*color: #4E555F;
     float: left;
     position: relative;
     text-align: center;
@@ -1813,11 +1813,11 @@ ire_icon_recipes {
     cursor: pointer;
     line-height: 30px;
     font-size: 20px;
-    text-indent: 0px;
+    text-indent: 0px;*/
 }
 
 .timer_min {
-    color: #4E555F;
+    /*color: #4E555F;
     float: left;
     height: 100%;
     position: relative;
@@ -1826,11 +1826,11 @@ ire_icon_recipes {
     cursor: pointer;
     font-size: 20px;
     text-indent: 2px;
-    line-height: 30px;
+    line-height: 30px;*/
 }
 
 .timer_sec {
-    color: #4E555F;
+    /*color: #4E555F;
     float: left;
     height: 100%;
     cursor: pointer;
@@ -1838,54 +1838,54 @@ ire_icon_recipes {
     position: relative;
     text-align: center;
     width: 100%;
-    line-height: 30px;
+    line-height: 30px;*/
 }
 
 .timer_down_position {
-    font-size: 28px;
+    /*font-size: 28px;
     line-height: 21px;
     position: relative;
     width: 100%;
     top: -11px;
-    color: #bbbbbb;
+    color: #bbbbbb;*/
 }
 
 .timer_text {
-    color: #4E555F;
+    /*color: #4E555F;
     position: relative;
     top: -11px;
     left: -7px;
-    font-size: 23px;
+    font-size: 23px;*/
 }
 
 #timer_text_1 {
-    font-size: 9px;
+    /*font-size: 9px;
     top: -21px;
-    left: 0px;
+    left: 0px;*/
 }
 
 #timer_text_2 {
-    font-size: 9px;
+    /*font-size: 9px;
     top: -21px;
-    left: 0px;
+    left: 0px;*/
 }
 
 #timer_text_3 {
-    font-size: 9px;
+    /*font-size: 9px;
     top: -21px;
-    left: 0px;
+    left: 0px;*/
 }
 
 .timer_border_start {
-    width: 270px;
+    /*width: 270px;
     height: 33px;
     position: relative;
     margin: auto;
-    top: -2px;
+    top: -2px;*/
 }
 
 .timer_Start_btn {
-    background-color: #cc0000;
+    /*background-color: #cc0000;
     color: #BBB;
     height: 100%;
     border-radius: 5px;
@@ -1894,7 +1894,7 @@ ire_icon_recipes {
     line-height: 37px;
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: 100%;*/
 }
 
 
