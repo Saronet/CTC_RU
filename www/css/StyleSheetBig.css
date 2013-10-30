@@ -208,7 +208,7 @@
 }
 
 .add_timer_btn {
-    background-image: url("../images/add-gray.png");
+    /*background-image: url("../images/add-gray.png");
     background-repeat: no-repeat;
     background-position-x: 18%;
     background-position-y: 47%;
@@ -225,13 +225,15 @@
     text-indent: 25%;
     line-height: 170%;
     font-size: 262%;
-    color: #4d555f;
+    color: #4d555f;*/
+    height: 65px;
+    line-height: 2.2em;
 }
 
 .new_timer {
-    height: 126px;
+    height: 80px;
     position: relative;
-    top: 9px;
+    top: -10%;
     width: 100%;
     left: 0;
     right: 0;
@@ -239,18 +241,19 @@
 }
 
 .timer_clock {
-    color: #4d555f;
+    /*color: #4d555f;
     float: left;
     font-size: 3em;
     position: relative;
     margin-right: 2%;
     top: 30%;
     left: 11px;
-    width: 17%;
+    width: 17%;*/
+    top: 35%;
 }
 
 .timer_recet_btn {
-    cursor: pointer;
+    /*cursor: pointer;
     float: left;
     padding: 2% 3.5%;
     position: relative;
@@ -260,11 +263,12 @@
     left: 20px;
     background-color: #ffcc00;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px;*/
+    top: -5%;
 }
 
 .timer_name {
-    color: #4d555f;
+    /*color: #4d555f;
     float: left;
     font-size: 2.6em;
     margin-left: 2%;
@@ -276,23 +280,27 @@
     overflow: hidden;
     height: 100%;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis;*/
+    top: 7%;
+    margin-left: 5%;
 }
 
 .timer_delete_btn {
-    cursor: pointer;
+    /*cursor: pointer;
     float: left;
     right: 9%;
     position: absolute;
     top: 0;
     bottom: 0;
     width: 3.5%;
-    margin: auto;
+    margin: auto;*/
+    top: 5%;
 }
 
 #timer_list_middel_window {
-    width: 90%;
-    left: 4.9%;
+    /*width: 90%;
+    left: 4.9%;*/
+    max-height: 700px;
 }
 
 .addToShopping {
@@ -1046,4 +1054,25 @@
     position: relative;
     top: 9px;
     width: 495px;
+}
+.timer_hour, .timer_sec, .timer_min {
+line-height: 1.5em;
+font-size: 1em;
+text-indent: 2%;
+}
+.timer_min {
+text-indent: 24%;
+}
+#timer_text_1, #timer_text_2, #timer_text_3 {
+top: -2em;
+left: 3%;
+}
+.timer_middel {
+height: 27%;
+left: 4%;
+top: 10%;
+width: 92%;
+}
+.timer_border_start {
+top: 15%;
 }
