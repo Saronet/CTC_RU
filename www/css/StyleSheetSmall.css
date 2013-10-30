@@ -1365,12 +1365,15 @@ left: 69px;*/
 /*******unplaced************/
 .timer_finish_all_position{
     top: 30%;
+    width: 80%;
 }
 
 .finish_background {
-    width: 86%;
-    left: 21px;
-    top: 0;
+width: 100%;
+left: 0;
+top: 0;
+right: 0;
+margin: auto;
 }
 .addToShopping .finish_background{
     top: 36%;
@@ -1391,6 +1394,8 @@ font-size: 14px;
 width: 68px;
 height: 39px;
 border-radius: 6px;
+top: 70px;
+left: 40%;
 }
 .timer_finish_recipe_name{
     top: 45px;
