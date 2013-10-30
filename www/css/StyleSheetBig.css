@@ -297,33 +297,22 @@
 
 .addToShopping {
     position: absolute;
-    width: 641px;
-    z-index: 22;
     top: 218px;
 }
 
 .addToShoppingText {
-    color: white;
     font-size: 40px;
-    position: absolute;
-    text-align: center;
-    top: 37px;
+    top: 77px;
     width: 60%;
-    left: 28%;
-    z-index: 21;
+    
+   
+    
 }
 
 .shopping_ok_border {
-    background-image: url("../images/timer_border_ok.png");
-    background-repeat: no-repeat;
-    cursor: pointer;
-    height: 77px;
-    left: 40%;
-    margin: auto;
-    position: absolute;
-    top: 211px;
+   
     width: 243px;
-    z-index: 21;
+  
 }
 /*------------------------------genaeral=========================*/
 .one_recipe_back_btn {
@@ -339,7 +328,7 @@
     top: 1.1em;
     bottom: 0;
     margin: auto 0;
-    display: none;
+    /*display: none;*/
     background-repeat: no-repeat;
 }
 
@@ -1012,12 +1001,26 @@
     width: 100%;
 }
 
+
+.addToShopping .finish_background {
+     top: 0;
+     z-index: 22;
+}
+
+.timer_finish_OK{
+  font-size: 45px;
+height: 56px;
+margin: auto;
+display: block;
+margin-top: 7%;
+}
+
 .timer_all_background_black {
-    height: 1050px;
+    height: 100%;
     opacity: 0.72;
     position: absolute;
     top: -33em;
-    width: 800px;
+    width: 100%;
     z-index: 21;
 }
 

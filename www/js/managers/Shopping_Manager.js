@@ -1,3 +1,5 @@
+var clickAddToShop;
+
 function shoppingMan() {
 
     this.stringToMail = "mailto:?Subject=Список%20покупок&body=%0D%0A";
@@ -19,6 +21,11 @@ function shoppingMan() {
 
     }
     this.attachEvents = function() {
+        $("#add").click(function(e) {
+          //  $(".down_menu_background").hide();
+            shoppingMan_.text_open(e);
+        });
+
         var deleteImage = "images/delete_btn_foodgator.png";
         if(isIpad()) {
             deleteImage = "images_ipad/delete_btn_foodgator.png";
@@ -74,7 +81,8 @@ function shoppingMan() {
 
     }
 
-    this.text_open = function() {
+    this.text_open = function(e) {
+        clickAddToShop = $(e.target);;
         $('.foodgrator_text_background').show();
         $("#Text_search_shopping").focus();
     }

@@ -306,8 +306,33 @@ function keyboardUpEvent(){
     });
 
 
-     $("input[type=text]").blur(function(){
-        $(".down_menu_background").show();
+    $("input[type=text]").blur(function() {
+
+        ////if the target that cause the blur is add to shopping list- dont show the footer
+        //if(clickAddToShop == undefined || clickAddToShop != "") {
+
+        //    if(clickAddToShop != undefined && clickAddToShop.attr("id") == "add") {
+        //        clickAddToShop = "";
+        //    }
+        //    clickAddToShop = "";
+
+        //}
+        //else {
+
+        //if($(this).attr("id") == "Text_search_shopping") {
+        //    setTimeout(function(){
+        //         $(".down_menu_background").show();
+        //    },300);
+        //}
+        //else {
+            $(".down_menu_background").show();
+     //   }
+        //    }
+
+
+
+
+
     });
 
     $("textarea").blur(function(){

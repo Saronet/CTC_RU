@@ -708,7 +708,7 @@
                         <div class="tree_btn_shopping_position">
                             <a href="" ontouchend="shoppingMan_.pop_mail_page()"><span id="send" class="shopping_btn">Отправить</span></a>
                             <span id="clear" class="shopping_btn" onclick="shoppingMan_.pop_delete_page()">Удалить все</span>
-                            <span id="add" class="shopping_btn" onclick="shoppingMan_.text_open()">добавить</span>
+                            <span id="add" class="shopping_btn" <!--onclick="shoppingMan_.text_open(e)"-->>добавить</span>
 
                         </div>
                         <div class="shopping_text_background">
@@ -857,7 +857,7 @@
                     <div class="search_page page">
                         <div class="Up_banner_background">
                             <div class="search_btn" style="display:none"></div>
-                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block"></div>
+                            <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" style="display:block"></div>
                             <span class="title_up_one_recipe">Избранное</span>
                             <div class="Gesture_btn_main no_Gesture" ontouchend="gestureMan_.showPage()"></div>
                         </div>

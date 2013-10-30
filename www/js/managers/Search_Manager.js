@@ -76,7 +76,7 @@ function searchMan() {
 		var listWords = words.split(" ");
         jsonMan_.search(listWords, "searchMan_.createSearchListCB");
         $(".search_page input.search_text").val(words);
-		searchMan_.attachEvents();
+		//searchMan_.attachEvents();
     }
 
     this.createSearchListCB = function(val) {
