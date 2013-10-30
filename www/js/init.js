@@ -66,7 +66,7 @@ var init = {
         //init foodgerator manager
         foodgrMan_ = new FoodgrMan();
         toolsMan_ = new tools_Manager();
-
+        toolsMan_.attachEvent();
         recipeMan_ = new RecipeMan();
 
         CategoriesRecipeListMan_ = new CategoriesRecipeList_Manager();

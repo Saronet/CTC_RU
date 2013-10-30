@@ -89,13 +89,14 @@
 }
 /*=================.middel_pic_gesture---heand=====================*/
 .middel_pic_gesture {
-    background-color: #fff;
-    background-size: 100% 100%;
-    background-position-x: -15.7em;
-    height: 150%;
-    width: 150%;
+    height: 1192px;
+  width: 122%;
+background-size: 100% 100%;
+background-position: -106px 0px;
 }
-
+.background_gesture{
+    height: 46%;
+}
 .background_term {
     height: 48%;
 }

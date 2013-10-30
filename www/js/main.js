@@ -325,9 +325,22 @@ function keyboardUpEvent(){
         //    },300);
         //}
         //else {
-            $(".down_menu_background").show();
-     //   }
+        //$(".down_menu_background").show();
+        //   }
         //    }
+        if($(this).attr("id") == "Text_search_shopping") {
+            setTimeout(function() {
+                if($("#Text_search_shopping").is(":focus")) {
+                    $(".down_menu_background").hide();
+                }
+                else {
+                    $(".down_menu_background").show();
+                }
+            }, 500);
+        }
+        else {
+                    $(".down_menu_background").show();
+                }
 
 
 

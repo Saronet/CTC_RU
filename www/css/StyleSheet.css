@@ -2911,11 +2911,20 @@ padding-bottom: 0em;
 }
 
 .middel_pic_gesture {
-    background-image: url("../images/textWithAlotOfHands_5.png");
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    margin: auto;
+background-image: url("../images/textWithAlotOfHands_5.png");
+width: 111%;
+background-repeat: no-repeat;
+margin: auto;
+background-size: 100% 100%;
+background-position: -30px 0px;
+}
+
+.background_gesture{
+ height: 91%;
+position: relative;
+width: 100%;
+overflow-x: hidden;
+overflow-y: auto;
 }
 
 .text_explanation_gesture {
