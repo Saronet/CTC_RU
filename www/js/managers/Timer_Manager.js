@@ -218,11 +218,11 @@ this.orange_off=function()
                    
                     if(isIpad()) {
                       //  checkHtml($(currentTimer).children(".timer_name"), 94);
-                         $(".add_timer_btn").css("margin-top", "2.5%");
+                         $(".add_timer_btn").css("margin-top", "4.5%");
                     }
                     else {
                      //   checkHtml($(currentTimer).children(".timer_name"), 94); 
-                         $(".add_timer_btn").css("margin-top", "2.5%");
+                         $(".add_timer_btn").css("margin-top", "3.5%");
                         
                     }
                     
@@ -550,11 +550,11 @@ this.orange_off=function()
 
         if(isIpad()) {
           //  checkHtml(currentT.children(".timer_name"), 94);
-            $(".add_timer_btn").css("margin-top", "2.5%px");
+            $(".add_timer_btn").css("margin-top", "4.5%px");
         }
         else {
          //   checkHtml(currentT.children(".timer_name"), 94);
-            $(".add_timer_btn").css("margin-top", "2.5%px");
+            $(".add_timer_btn").css("margin-top", "3.5%px");
         }
         
         $("#timerName").val("");

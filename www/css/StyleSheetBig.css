@@ -232,7 +232,7 @@ background-position: -106px 0px;
 }
 
 .new_timer {
-    height: 80px;
+    height: 100px;
     position: relative;
     top: -10%;
     width: 100%;
@@ -265,7 +265,7 @@ background-position: -106px 0px;
     background-color: #ffcc00;
     border: none;
     border-radius: 10px;*/
-    top: -5%;
+    top: 8%;
 }
 
 .timer_name {
@@ -282,7 +282,7 @@ background-position: -106px 0px;
     height: 100%;
     white-space: nowrap;
     text-overflow: ellipsis;*/
-    top: 7%;
+    top: 11%;
     margin-left: 5%;
 }
 
@@ -295,7 +295,7 @@ background-position: -106px 0px;
     bottom: 0;
     width: 3.5%;
     margin: auto;*/
-    top: 5%;
+    top: -5%;
 }
 
 #timer_list_middel_window {
@@ -990,7 +990,7 @@ background-position: -106px 0px;
     z-index: 600;
     height: 36px;
     width: 100px;
-    top: 0;
+    top: -150%;
     font-size: 18px;
     text-indent: 0px;
 }
