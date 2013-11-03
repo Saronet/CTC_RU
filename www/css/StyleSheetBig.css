@@ -89,14 +89,16 @@
 }
 /*=================.middel_pic_gesture---heand=====================*/
 .middel_pic_gesture {
-    height: 1192px;
-  width: 122%;
-background-size: 100% 100%;
-background-position: -106px 0px;
+    height: 150%;
+    width: 150%;
+    background-size: 100% 100%;
+    background-position: -15em 0px;
 }
-.background_gesture{
-    height: 46%;
+
+.background_gesture {
+    height: 54em;
 }
+
 .background_term {
     height: 48%;
 }
@@ -232,13 +234,13 @@ background-position: -106px 0px;
 }
 
 .new_timer {
-height: 100px;
-position: relative;
-top: -10%;
-width: 96%;
-left: 0;
-right: 0;
-border-bottom: 1px solid #D9D9D9;
+    height: 100px;
+    position: relative;
+    top: -10%;
+    width: 96%;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #D9D9D9;
 }
 
 .timer_clock {
@@ -313,15 +315,10 @@ border-bottom: 1px solid #D9D9D9;
     font-size: 40px;
     top: 77px;
     width: 60%;
-    
-   
-    
 }
 
 .shopping_ok_border {
-   
     width: 243px;
-  
 }
 /*------------------------------genaeral=========================*/
 .one_recipe_back_btn {
@@ -611,7 +608,7 @@ border-bottom: 1px solid #D9D9D9;
 
 .second_nav_text {
     font-size: 30px;
-     line-height: 1.7em;
+    line-height: 1.7em;
 }
 
 /********gesture page*********/
@@ -1003,45 +1000,48 @@ border-bottom: 1px solid #D9D9D9;
 }
 
 .finish_background {
-   
     position: absolute;
-   top: 0;
+    top: 0;
     cursor: pointer;
     width: 100%;
-    height: 391px
+    height: 391px;
 }
-.timer_finish_title{
+
+.timer_finish_title {
     top: 41px;
 }
-.timer_finish_recipe_name{
+
+.timer_finish_recipe_name {
     top: 98px;
 }
 
-.timer_finish_finish_text{
+.timer_finish_finish_text {
     top: 159px;
 }
 
-.timer_ok_border{
+.timer_ok_border {
     top: 234px;
 }
 
 .addToShopping .finish_background {
-     top: 0;
-     z-index: 22;
+    top: 0;
+    z-index: 22;
 }
-.timer_finish{
+
+.timer_finish {
     top: 0%;
 }
-.timer_finish_all_position{
+
+.timer_finish_all_position {
     top: 13%;
 }
 
-.timer_finish_OK{
-  font-size: 45px;
-height: 56px;
-margin: auto;
-display: block;
-margin-top: 7%;
+.timer_finish_OK {
+    font-size: 45px;
+    height: 56px;
+    margin: auto;
+    display: block;
+    margin-top: 7%;
 }
 
 .timer_all_background_black {
@@ -1079,24 +1079,38 @@ margin-top: 7%;
     top: 9px;
     width: 495px;
 }
+
 .timer_hour, .timer_sec, .timer_min {
-line-height: 1.5em;
-font-size: 1em;
-text-indent: 2%;
+    line-height: 1.5em;
+    font-size: 1em;
+    text-indent: 2%;
 }
+
 .timer_min {
-text-indent: 24%;
+    text-indent: 24%;
 }
+
 #timer_text_1, #timer_text_2, #timer_text_3 {
-top: -2em;
-left: 3%;
+    top: -2em;
+    left: 3%;
 }
+
 .timer_middel {
-height: 27%;
-left: 4%;
-top: 10%;
-width: 92%;
+    height: 27%;
+    left: 4%;
+    top: 10%;
+    width: 92%;
 }
+
 .timer_border_start {
-top: 15%;
+    top: 15%;
 }
+
+.food_name_shopping{
+    padding-bottom: 5%;
+    padding-left: 4%;
+    line-height: 33px;
+    top: 0.4em;
+}
+
+
