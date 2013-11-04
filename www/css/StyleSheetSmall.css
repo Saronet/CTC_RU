@@ -37,24 +37,6 @@ body {
     background-position: 50% 38%;
     background-size: 40% 65%;
 }
-/*#recipes_icon, #favorite_icon, #main_icon, #foodgrator_icon, #tools_icon {
-background-repeat: no-repeat;
-background-size: auto 69%;
-background-position-x: 50%;
-background-position-y: 28%;
-}
-.icon {
-background-color: transparent;
-cursor: pointer;
-float: left;
-height: 89px;
-letter-spacing: 1px;
-margin-left: 9px;
-width: 20%;
-height: 100%;
-position: relative;
-border: 1px solid red;
-}*/
 * {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -188,16 +170,6 @@ left: 96px;*/
     top: 54%;
     left: 13%;
 }
-/*
-.midddel_main_pic
-{
-    height: 485px
-    
-}
-.midddel_main_pic_item img
-{
-    height: 100%;
-}*/
 #btn_txt_1 {
     letter-spacing: 0.2px;
     bottom: 0;
@@ -321,11 +293,6 @@ left: 96px;*/
 }
 
 .title_up_main_categories {
-    /*font-size: 1.5em;
-width: 186px;
-display: block;
-overflow: hidden;
-left: 69px;*/
 }
 
 .category-title {
@@ -621,6 +588,7 @@ left: 69px;*/
     position: relative;
     top: 57px;
     width: 280px;
+   
 }
 
 
@@ -928,7 +896,9 @@ left: 69px;*/
     padding-bottom: 5%;
 }
 /*********gesture page********/
-
+.middel_pic_gesture {
+    height: 557px;
+}
 
 
 /*********info page*********/
@@ -1222,99 +1192,24 @@ left: 69px;*/
 
 
 #timer_list_middel_window {
-    /*overflow-x: hidden;
-    overflow-y: auto;
-    height: auto;
-    top: 27px;
-    width: 92%;
-    left: 4%;
-    max-height: 300px;
-    background-color: white;
-    position: relative;
-    padding-top: 1.5em;
-    padding-bottom: 0em;
-    -webkit-overflow-scrolling: touch;*/
 }
 
 .new_timer {
-    /*height: 47px;
-    position: relative;
-    top: 0px;
-    width: 100%;
-    margin-bottom: 3px;
-    left: 0;
-    right: 0;
-    margin: 0 auto 15px auto;
-    border-bottom: 1px solid #D9D9D9;*/
 }
 
 .timer_clock {
-    /*color: #4d555f;
-    float: left;
-    font-size: 2.3em;
-    position: relative;
-    margin-right: 2%;
-    top: 12%;
-    width: 22%;*/
 }
 
 .timer_recet_btn {
-    /*cursor: pointer;
-    float: left;
-    padding: 3% 5%;
-    position: relative;
-    top: -5%;
-    width: 5%;
-    left: -2%;
-    background-color: #ffcc00;
-    border: none;
-    border-radius: 8px;*/
 }
 
 .timer_name {
-    /*color: #4d555f;
-    float: left;
-    font-size: 2em;
-    margin-left: 2%;
-    position: relative;
-    display: block;
-    width: 40%;
-    line-height: 1.9em;
-    overflow: hidden;
-    height: 100%;
-    white-space: nowrap;
-    text-overflow: ellipsis;*/
 }
 
 .timer_delete_btn {
-    /*cursor: pointer;
-    float: left;
-    right: 9%;
-    position: absolute;
-    top: 0;
-    width: 5%;
-    bottom: 14px;
-    margin: auto;*/
 }
 
 .add_timer_btn {
-    /*background-image: url("../images/add-gray.png");
-    background-repeat: no-repeat;
-    background-position-x: 18%;
-    background-position-y: 47%;
-    background-size: 10% 64%;
-    cursor: pointer;
-    height: 37px;
-    position: relative;
-    width: 90%;
-    top: 25%;
-    left: 5%;
-    margin-bottom: 5%;
-    background-color: #edeeef;
-    border-radius: 5px;
-    text-indent: 27%;
-    line-height: 37px;
-    font-size: 195%;*/
 }
 
 /*******favorite page*******/
@@ -1360,59 +1255,58 @@ left: 69px;*/
 }
 
 /*******unplaced************/
-.timer_finish_all_position {
+.timer_finish_all_position{
     top: 30%;
 }
 
 .finish_background {
-    width: 100%;
+    width: 86%;
+    left: 21px;
     top: 0;
-    height: 173px;
 }
-
-.addToShopping .finish_background {
+.addToShopping .finish_background{
     top: 36%;
 }
 
-.timer_finish_title {
+.timer_finish_title{
     top: 20px;
-    font-size: 14px;
+font-size: 14px;
 }
 
 
-.timer_finish_finish_text {
+.timer_finish_finish_text{
     top: 73px;
 }
 
-.timer_ok_border {
-    top: 100px;
-    width: 68px;
-    height: 39px;
-    border-radius: 6px;
+.timer_ok_border{
+   top: 100px;
+width: 68px;
+height: 39px;
+border-radius: 6px;
 }
-
-.timer_finish_recipe_name {
+.timer_finish_recipe_name{
     top: 45px;
-    font-size: 25px;
+font-size: 25px;
 }
-
 .addToShoppingText {
     font-size: 19px;
-    top: 236px;
+      top: 236px;
     width: 60%;
+   
 }
 
 .shopping_ok_border {
-    height: 38px;
-    top: 222px;
+         height: 38px;
+   top: 222px;
     width: 34%;
     border-radius: 8px;
+  
 }
 
 .timer_finish_OK {
     font-size: 23px;
-    display: block;
-    margin-top: 8px;
+display: block;
+margin-top: 8px;
 }
 
 .favorite_recipe_name {
@@ -1478,15 +1372,17 @@ left: 69px;*/
 
 
 .addToShopping {
+   
     height: 111%;
     top: 0;
+   
 }
 
-.addToShopping .timer_all_background_black {
+.addToShopping .timer_all_background_black{
     top: 0%;
 }
 
-.addToShopping .addToShoppingText {
+.addToShopping .addToShoppingText{
     top: 40%;
 }
 /*---*/
@@ -1711,194 +1607,6 @@ ire_icon_recipes {
 }
 
 /**********************tools page**********************/
-.tools_two_btn_down_position {
-    top: 34%;
-}
-
-.tools_middel_element_footer {
-    height: 40px;
-}
-
-.timer_middel {
-    /*background-color: white;
-    height: 270px;
-    left: 4.2%;
-    position: absolute;
-    top: 81px;
-    width: 92%;*/
-}
-
-.timer_name_recipe {
-    /*background-color: #edeeef;
-    border-radius: 5px;
-    font-size: 41px;
-    margin-left: 44px;
-    position: relative;
-    top: 5%;
-    height: 11%;
-    left: -10%;
-    width: 90%;*/
-}
-
-.timer_name_recipe_input {
-    /*-webkit-user-select: auto;
-    font-size: 15px;
-    color: #BBB;
-    background-color: transparent;
-    border: none;
-    line-height: 2%;
-    text-indent: 3%;
-    width: 95%;
-    left: 1%;
-    top: 1px;
-    height: 25px;
-    text-align: left;
-    position: absolute;*/
-}
-
-.timer_time {
-    /*color: #4E555F;
-    font-size: 85px;
-    left: -133px;
-    position: relative;
-    text-align: center;
-    top: 37px;
-    font-weight: 900;
-    width: 560px;*/
-}
-
-.timer_cancel_btn {
-    /*width: 103px;
-    height: 32px;
-    float: left;
-    line-height: 42px;
-    position: relative;
-    cursor: pointer;
-    left: 13px;
-    top: 67px;*/
-}
-
-.timer_cancel_btn_text {
-    /*background-color: #FFCB01;
-    border-radius: 5px;
-    color: #4E555F;
-    float: left;
-    line-height: 162%;
-    text-indent: -1px;
-    font-size: 75%;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    text-align: center;*/
-}
-
-.timer_small_border {
-    /*background-color: #FFCB01;
-    border-radius: 5px;
-    width: 1.4em;
-    height: 1.15em;
-    position: relative;
-    float: left;
-    left: 11.3%;
-    top: 2.4em;
-    margin-left: 9px;*/
-}
-
-.timer_hour {
-    /*color: #4E555F;
-    float: left;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    line-height: 30px;
-    font-size: 20px;
-    text-indent: 0px;*/
-}
-
-.timer_min {
-    /*color: #4E555F;
-    float: left;
-    height: 100%;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    cursor: pointer;
-    font-size: 20px;
-    text-indent: 2px;
-    line-height: 30px;*/
-}
-
-.timer_sec {
-    /*color: #4E555F;
-    float: left;
-    height: 100%;
-    cursor: pointer;
-    font-size: 20px;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    line-height: 30px;*/
-}
-
-.timer_down_position {
-    /*font-size: 28px;
-    line-height: 21px;
-    position: relative;
-    width: 100%;
-    top: -11px;
-    color: #bbbbbb;*/
-}
-
-.timer_text {
-    /*color: #4E555F;
-    position: relative;
-    top: -11px;
-    left: -7px;
-    font-size: 23px;*/
-}
-
-#timer_text_1 {
-    /*font-size: 9px;
-    top: -21px;
-    left: 0px;*/
-}
-
-#timer_text_2 {
-    /*font-size: 9px;
-    top: -21px;
-    left: 0px;*/
-}
-
-#timer_text_3 {
-    /*font-size: 9px;
-    top: -21px;
-    left: 0px;*/
-}
-
-.timer_border_start {
-    /*width: 270px;
-    height: 33px;
-    position: relative;
-    margin: auto;
-    top: -2px;*/
-}
-
-.timer_Start_btn {
-    /*background-color: #cc0000;
-    color: #BBB;
-    height: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
-    line-height: 37px;
-    position: absolute;
-    text-align: center;
-    width: 100%;*/
-}
-
-
 
 
 /************* TOOLS - NEW DESIGN ********************/
@@ -1954,6 +1662,8 @@ ire_icon_recipes {
     font-size: 2em;
     margin-left: 9px;
     line-height: 2.7em;
+    
+     
 }
 
 .one_recipe_text_discription_term {
@@ -2063,21 +1773,17 @@ ire_icon_recipes {
     font-style: italic;
     font-weight: bold;
     position: relative;
-    top: 5px;
+    top: 12px;
     line-height: 17px;
     display: block;
     width: 70%;
     left: -4px;
-    padding-bottom: 4%;
-    padding-left: 5%;
-    text-indent: 0;  
 }
 
 .shopping_list ul li {
     border-bottom: 1px solid #8F9CA2;
-    top: 0.5em;
-    min-height: 30px;
-    height: auto;
+    top: 0;
+    height: 30px;
     margin-bottom: 3px;
 }
 
@@ -2121,7 +1827,6 @@ ire_icon_recipes {
     overflow: hidden;
     position: relative;
     width: 100%;
-    margin-left: 0px;
 }
 
 
@@ -2139,7 +1844,6 @@ ire_icon_recipes {
     height: 410px;
     position: relative;
     top: -10px;
-    margin: 0;
 }
 
 #yesDeleteShoppingList {
@@ -2167,18 +1871,19 @@ ire_icon_recipes {
     color: #fff;
     margin: auto;
     position: relative;
+    
     text-align: center;
 }
 
 .delete_pop .mail_text {
     top: 8%;
-    font-size: 21px;
+font-size: 21px;
 }
 
 .delete_pop .yes_no {
-    top: 11%;
-    width: 35%;
-    height: 46%;
+   top: 11%;
+width: 35%;
+height: 46%;
 }
 
 
@@ -2192,20 +1897,21 @@ ire_icon_recipes {
     top: -2px;
 }
 
-.timer_finish {
+.timer_finish{
     height: 111%;
-    top: 0;
+top: 0;
+
 }
 
-.timer_all_background_black {
-    top: 0;
-    height: 100%;
-    width: 100%;
+.timer_all_background_black{
+   top: 0;
+height: 100%;
+width: 100%;
 }
 
 
-.shopping_mail_backgroung {
+.shopping_mail_backgroung{
     height: 44%;
-    background-size: 92% 100%;
-    top: 27%;
+background-size: 92% 100%;
+top: 27%;
 }
