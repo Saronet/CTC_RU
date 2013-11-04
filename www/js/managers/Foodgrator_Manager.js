@@ -34,9 +34,9 @@ function FoodgrMan () {
 
     }
     this.attachEvents = function() {        //enter clicked in search text box
-        var deleteImage = "images/delete_btn_foodgator.png";
+        var deleteImage = "";
         if(isIpad()) {
-            deleteImage = "images_ipad/delete_btn_foodgator.png";
+            deleteImage = "";
         }
         $("#Text_search_foodgrator").keypress(function(e) {
             if(e.keyCode == 13) {
