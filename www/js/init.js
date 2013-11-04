@@ -65,6 +65,7 @@ var init = {
         shoppingMan_.attachEvents();
         //init foodgerator manager
         foodgrMan_ = new FoodgrMan();
+        foodgrMan_.setHeightMainContent();
         toolsMan_ = new tools_Manager();
         toolsMan_.attachEvent();
         recipeMan_ = new RecipeMan();
