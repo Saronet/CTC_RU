@@ -33,6 +33,7 @@ function termsMan () {
     
     this.createList = function()
     {
+        showLoading();
          setTimeout("jsonMan_.get_terms_post('" + this.count + "','"+this.page +"'," +this.createListCB+")", 100);
 
     }
@@ -54,6 +55,8 @@ function termsMan () {
             $(termItemLI).data("details", termItemDetails);
 
         });
+        
+        hideLoading();
 
            
 

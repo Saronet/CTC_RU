@@ -987,8 +987,8 @@ a {
 }
 
 .recipes_look_inside_btn {
-     background-image:url('../images/goto_information_btn.png');
-	background-repeat:no-repeat;
+    background-image: url('../images/goto_information_btn.png');
+    background-repeat: no-repeat;
     width: 20px;
     height: 34px;
     position: absolute;
@@ -996,7 +996,7 @@ a {
     top: 40px;
     cursor: pointer;
     font-size: 2em;
-  background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
 .ui-loader {
@@ -1354,16 +1354,17 @@ a {
     width: 100%;
     height: 100%;
 }
+
 .one_term_pic {
     height: 27em;
-   
     position: relative;
     margin: auto;
     width: 93%;
 }
+
 #termImg {
-height: auto;
-width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 .one_recipe_white {
@@ -1391,8 +1392,7 @@ width: 100%;
     /*height: 88px;*/
     text-align: left;
     left: 7PX;
-    
-     overflow: hidden;
+    overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
@@ -1688,25 +1688,27 @@ width: 100%;
     top: 20%;
     width: 92%;
 }
+
 .timer_name_recipe {
-background-color: #edeeef;
-border-radius: 15px;
-font-size: 2em;
-position: relative;
-top: 5%;
-height: 2em;
-left: 0;
-width: 91%;
-right: 0;
-margin: auto;
+    background-color: #edeeef;
+    border-radius: 15px;
+    font-size: 2em;
+    position: relative;
+    top: 5%;
+    height: 2em;
+    left: 0;
+    width: 91%;
+    right: 0;
+    margin: auto;
 }
+
 .timer_time {
     color: #4E555F;
     font-size: 9em;
     width: 100%;
-left: 0;
-right: 0;
-margin: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
     position: relative;
     text-align: center;
     top: 6%;
@@ -1714,14 +1716,14 @@ margin: auto;
 }
 
 .timer_down_position {
-font-size: 3em;
-line-height: 3em;
-position: relative;
-top: 9%;
-height: 1.8em;
-color: #bbbbbb;
-border-bottom: 1px solid #BBBBBB;
-padding-bottom: 3%;
+    font-size: 3em;
+    line-height: 3em;
+    position: relative;
+    top: 9%;
+    height: 1.8em;
+    color: #bbbbbb;
+    border-bottom: 1px solid #BBBBBB;
+    padding-bottom: 3%;
 }
 
 .timer_name_recipe_input {
@@ -1737,39 +1739,39 @@ padding-bottom: 3%;
 
 .timer_cancel_btn {
     width: 33%;
-height: 1.8em;
-line-height: 1.8em;
-float: left;
-line-height: 1.8em;
-position: relative;
-cursor: pointer;
-left: 6%;
+    height: 1.8em;
+    line-height: 1.8em;
+    float: left;
+    line-height: 1.8em;
+    position: relative;
+    cursor: pointer;
+    left: 6%;
 }
 
 .timer_cancel_btn_text {
     background-color: #FFCB01;
-border-radius: 15px;
-color: #4E555F;
-width: 100%;
-height: 100%;
-position: relative;
-text-align: center;
-font-size: 0.8em;
-vertical-align: middle;
+    border-radius: 15px;
+    color: #4E555F;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 0.8em;
+    vertical-align: middle;
 }
 
 .timer_cancel_btn.orange {
 }
 
 .timer_small_border {
-background-color: #FFCB01;
-border-radius: 15px;
-width: 15%;
-height: 100%;
-position: relative;
-float: left;
-left: 10%;
-margin-left: 2%;
+    background-color: #FFCB01;
+    border-radius: 15px;
+    width: 15%;
+    height: 100%;
+    position: relative;
+    float: left;
+    left: 10%;
+    margin-left: 2%;
 }
 
 .timer_small_border_orange {
@@ -1787,16 +1789,16 @@ margin-left: 2%;
 }
 
 .timer_hour, .timer_sec, .timer_min {
-color: #4E555F;
-float: left;
-position: relative;
-text-align: center;
-cursor: pointer;
-line-height: 2em;
-top: 0em;
-height: 100%;
-font-size: 0.8em;
-text-indent: 2%;
+    color: #4E555F;
+    float: left;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    line-height: 2em;
+    top: 0em;
+    height: 100%;
+    font-size: 0.8em;
+    text-indent: 2%;
 }
 
 .timer_text {
@@ -1807,10 +1809,10 @@ text-indent: 2%;
     font-size: 23px;
 }
 
-#timer_text_1,#timer_text_2,#timer_text_3 {
+#timer_text_1, #timer_text_2, #timer_text_3 {
     font-size: 0.5em;
-top: -3em;
-left: 3%;
+    top: -3em;
+    left: 3%;
 }
 
 .timer_min {
@@ -1825,7 +1827,6 @@ left: 3%;
     line-height: 67px;
     text-indent: 10px;*/
     text-indent: 29%;
-    
 }
 
 .timer_sec {
@@ -1890,16 +1891,16 @@ left: 3%;
 }
 
 .timer_Start_btn {
-background-color: #cc0000;
-color: #BBB;
-height: 100%;
-border-radius: 15px;
-cursor: pointer;
-font-size: 2.8em;
-line-height: 1.4em;
-position: absolute;
-text-align: center;
-width: 100%;
+    background-color: #cc0000;
+    color: #BBB;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 2.8em;
+    line-height: 1.4em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
 
 .two_btn_foodgrator_position {
@@ -2012,46 +2013,44 @@ width: 100%;
 }
 
 .finish_background {
-    left: 17px;
     position: absolute;
     top: -15px;
     cursor: pointer;
 }
 
 .addToShopping .finish_background {
-  
     position: absolute;
-    top:0;
+    top: 0;
     cursor: pointer;
 }
 
 .timer_finish_title {
     color: white;
-font-size: 3em;
-margin: auto;
-position: absolute;
-text-align: center;
-top: 13px;
-width: 100%;
+    font-size: 3em;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    width: 100%;
 }
 
 .timer_finish_all_position {
-position: absolute;
-width: 70%;
-left: 0;
-right: 0;
-margin: auto;
-z-index: 21;
+    position: absolute;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 21;
 }
 
 .timer_finish_recipe_name {
-color: white;
-font-size: 3em;
-position: absolute;
-text-align: center;
-top: 83px;
-width: 100%;
-overflow: hidden;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    text-align: center;
+    top: 83px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .timer_finish_finish_text {
@@ -2067,30 +2066,27 @@ overflow: hidden;
     color: white;
     font-size: 45px;
     height: 85px;
-   
     margin: auto;
     position: relative;
     text-align: center;
 }
 
 .timer_ok_border {
-  
-cursor: pointer;
-height: 77px;
-margin: auto;
-position: relative;
-top: 211px;
-width: 243px;
-border: 1px solid white;
-border-radius: 13px;
-display: block;
+    cursor: pointer;
+    height: 77px;
+    margin: auto;
+    position: relative;
+    top: 211px;
+    width: 243px;
+    border: 1px solid white;
+    border-radius: 13px;
+    display: block;
 }
 
 .shopping_ok_border {
     background-image: url("../images/timer_border_ok.png");
     background-repeat: no-repeat;
     cursor: pointer;
-    
     margin: auto;
     position: relative;
     top: 211px;
@@ -2098,7 +2094,7 @@ display: block;
     display: block;
     z-index: 24;
     border: 1px solid white;
-border-radius: 14px;
+    border-radius: 14px;
 }
 
 .timer_list {
@@ -2110,22 +2106,21 @@ border-radius: 14px;
 
 #timer_list_middel_window {
     overflow-x: hidden;
-overflow-y: auto;
-height: auto;
-max-height: 300px;
-top: 17px;
-width: 90%;
-left: 0;
-right: 0;
-margin: auto;
-background-color: white;
-position: relative;
-padding-bottom: 0em;
--webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    height: auto;
+    max-height: 300px;
+    top: 17px;
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    padding-bottom: 0em;
+    -webkit-overflow-scrolling: touch;
 }
 
-#timer_cancel_btn{
-    
+#timer_cancel_btn {
 }
 
 .term_name_arrow {
@@ -2814,11 +2809,10 @@ padding-bottom: 0em;
 
 .shopping_list ul li {
     border-bottom: 1px solid #8F9CA2;
-    left: 13px;
     list-style-type: none;
     margin-bottom: 17px;
     position: relative;
-   width: 100%;
+    width: 100%;
     top: 18px;
 }
 
@@ -2849,7 +2843,6 @@ padding-bottom: 0em;
     margin: auto;
     color: #4D555F;
     font-size: 25px;
-    
     position: relative;
     /*top: 35px;*/
     width: 95%;
@@ -2875,7 +2868,6 @@ padding-bottom: 0em;
     position: relative;
     width: 661px;
     top: 21px;
-    left: 22px;
     text-indent: 17px;
     -webkit-overflow-scrolling: touch;
 }
@@ -2913,20 +2905,22 @@ padding-bottom: 0em;
 }
 
 .middel_pic_gesture {
-background-image: url("../images/textWithAlotOfHands_5.png");
-width: 111%;
-background-repeat: no-repeat;
-margin: auto;
-background-size: 100% 100%;
-background-position: -30px 0px;
+    background-image: url("../images/textWithAlotOfHands_5.png");
+    width: 150%;
+    height: 150%;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: 100% 100%;
+    background-position: -12em 0em;
+     -webkit-overflow-scrolling: touch;
 }
 
-.background_gesture{
- height: 91%;
-position: relative;
-width: 100%;
-overflow-x: hidden;
-overflow-y: auto;
+.background_gesture {
+    height: 91%;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .text_explanation_gesture {
@@ -3461,9 +3455,9 @@ overflow-y: auto;
 }
 
 #timer_list_middel {
-width: 98%;
-margin-left: 2%;
-position: relative;
+    width: 98%;
+    margin-left: 2%;
+    position: relative;
 }
 
 .timer_list_footer {
@@ -3501,8 +3495,8 @@ position: relative;
     background-color: #edeeef;
     border-radius: 15px;
     text-indent: 29%;
-line-height: 2.5em;
-font-size: 2em;
+    line-height: 2.5em;
+    font-size: 2em;
     color: #4d555f;
 }
 
@@ -3510,8 +3504,8 @@ font-size: 2em;
     height: 47px;
     position: relative;
     top: 0px;
-width: 96%;
-/*padding: 0 2%;*/
+    width: 96%;
+    /*padding: 0 2%;*/
     margin-bottom: 3px;
     left: 0;
     right: 0;
@@ -3751,7 +3745,7 @@ width: 96%;
 
 .addToShopping {
     position: absolute;
-    width:100%;
+    width: 100%;
     height: 100%;
     z-index: 10;
     top: 226px;
@@ -3760,13 +3754,11 @@ width: 96%;
 .addToShoppingText {
     color: white;
     font-size: 40px;
-   
     text-align: center;
     top: 37px;
     width: 60%;
-    
     z-index: 23;
-     margin: auto;
+    margin: auto;
     position: relative;
 }
 
@@ -3990,7 +3982,7 @@ width: 96%;
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
-    width: 100%;
+    width: 99%;
     top: 21px;
     text-indent: 17px;
     -webkit-overflow-scrolling: touch;
@@ -4053,31 +4045,26 @@ width: 96%;
     right: 0;
     top: 65%;
     text-align: center;
-    
     width: 70%;
 }
 
 .delete_pop .mail_text {
-
-top: 13%;
-
+    top: 13%;
 }
 
 .delete_pop .yes_no {
-
-top: 18%;
-
+    top: 18%;
 }
 
 .yes_no {
-   height: 45%;
-width: 30%;
-position: relative;
-text-align: center;
-top: 30%;
-left: 0;
-right: 0;
-margin: auto;
+    height: 45%;
+    width: 30%;
+    position: relative;
+    text-align: center;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .shopping_mail_backgroung {
@@ -4087,19 +4074,16 @@ margin: auto;
     margin: auto;
     position: relative;
     width: 100%;
-    
     top: 17%;
     background-size: 80% 100%;
     background-position: center;
 }
 
 #yesDeleteShoppingList {
-   
     width: 100%;
 }
 
 #noDeleteShoppingList {
-  
     width: 100%;
     margin-top: 6%;
 }

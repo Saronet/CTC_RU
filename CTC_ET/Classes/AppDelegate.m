@@ -87,6 +87,7 @@
     
     //Make sure you call this method after loading any splash screens you might have.
     [[AppoxeeManager sharedManager] managerParseLaunchOptions:launchOptions];
+    
 
     return YES;
 }
@@ -161,20 +162,6 @@
     // Forward the call to the AppoxeeManager
     [[AppoxeeManager sharedManager] didRegisterForRemoteNotificationsWithDeviceToken:token];
 }
-
-//Call this method to make Appoxee appear, usually this method is called as a result from button press.
-- (void)showAppoxee
-{
-    //Ask the Appoxee to appear (only for modal mode)
-    [[AppoxeeManager sharedManager] show];
-}
-
--(BOOL)shouldAppoxeeRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
-{
-    //Return YES to any orientation you wish appoxee to rotate
-    
-}
-
 
 
 // this happens while we are running ( in the background, or from within our own app )
