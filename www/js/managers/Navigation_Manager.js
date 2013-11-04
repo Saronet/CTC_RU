@@ -652,7 +652,7 @@ this.showTimerPage = function() {
 
     }
     this.showAboutPage = function() {
-        $(".about_all_text").css("height", pageHeight+'px');
+        //$(".about_all_text").css("height", pageHeight+'px');
         $('.about_us_page').show();
         $('.home_page').hide();
         $(".about_us_page .one_recipe_back_btn").show();
