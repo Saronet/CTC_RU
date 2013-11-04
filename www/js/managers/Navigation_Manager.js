@@ -607,7 +607,6 @@ this.showTimerPage = function() {
         var topStr = $("#timer_list_middel_window").css("top");
         topStr = topStr.substring(0, topStr.length - 2);
         var pageHeightTimer = pageHeight - topStr  * 2;
-        alert("pageHeight : " + pageHeightTimer);
         $("#timer_list_middel_window").css("max-height", pageHeightTimer + 'px');
         $(".timer_list").show();
         this.backPosition = this.pagePosition;
