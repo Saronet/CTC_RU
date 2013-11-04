@@ -2019,7 +2019,9 @@ width: 100%;
 }
 
 .addToShopping .finish_background {
-  
+left: 0;
+right: 0;
+margin: auto;  
     position: absolute;
     top:0;
     cursor: pointer;
