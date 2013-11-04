@@ -1,7 +1,8 @@
 var subMenu = "menu";
-var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
 
 function NavigationMan() {
+var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
+
     this.navigationArray = [];
     this.navigationArray[0] = "main";
     this.navigationArrayIndex = 0;
@@ -600,15 +601,19 @@ this.showTimerPage = function() {
         this.pagePosition = "gesture";
     }
 
-    this.showtimersListPage=function()
-    {
+    this.showtimersListPage = function () {
         $(".timer_middel").hide();
-        $(".#timer_list_middel_window").css("max-height", pageHeightTerms+'px');
+        
+        var topStr = $("#timer_list_middel_window").css("top");
+        topStr = topStr.substring(0, topStr.length - 2);
+        var pageHeightTimer = pageHeight - topStr  * 2;
+        alert("pageHeight : " + pageHeightTimer);
+        $("#timer_list_middel_window").css("max-height", pageHeightTimer + 'px');
         $(".timer_list").show();
         this.backPosition = this.pagePosition;
         this.pagePosition = "timersList";
         //$("#timeEdit").text("00:00");
-       
+
     }
 
       this.showTimerEditPage=function()
