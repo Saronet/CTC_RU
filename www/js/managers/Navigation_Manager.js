@@ -2,7 +2,7 @@ var subMenu = "menu";
 
 function NavigationMan() {
 var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
-
+var pageHeightBase = $(document).height() ;
     this.navigationArray = [];
     this.navigationArray[0] = "main";
     this.navigationArrayIndex = 0;
@@ -320,8 +320,8 @@ var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(
         $(".page").hide();
         var pageHeightShopping = pageHeight - $(".second_nav_background_papers").height() - $(".tree_btn_shopping_position").height() - $(".shopping_text_background").height() ;
         $(".recipes_middel_pic_shopping").css("height", pageHeightShopping + 'px');
-        $(".timer_all_background_black").css("height", pageHeight + 'px');
-        $(".all_background_black").css("height", pageHeight + 'px');
+        $(".timer_all_background_black").css("height", pageHeightBase + 'px');
+        $(".all_background_black").css("height", pageHeightBase + 'px');
         $('.shopping_page').show();
         //$('.tools_page').hide();
         $('.foodgrator_text_background').hide();
@@ -527,7 +527,7 @@ var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(
     }
 this.showTimerPage = function() {
     $(".page").hide();
-    $(".timer_all_background_black").css("height", pageHeight + 'px');
+    $(".timer_all_background_black").css("height", pageHeightBase + 'px');
     $('.timer_page').show();
     $('.tools_page').hide();
     $('.favorite_page').hide();
