@@ -77,7 +77,7 @@ function loadcssfile(filename) {
     $("head").append(fileref);
 
     
-    alert(filename); //temp test
+    //alert(filename); //temp test
 
 }
 

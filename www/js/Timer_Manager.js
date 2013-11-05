@@ -143,7 +143,7 @@ this.orange_off=function()
                 timerMan_.notificationStart(time, nameToDisplay);
             }
             /*else {
-            alert("ther is another timer with the same name! give another name");
+            alert("there is another timer with the same name! give another name");
             }*/
         });
 

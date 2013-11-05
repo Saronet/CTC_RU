@@ -2,7 +2,8 @@ var eyesightMan = {
     init: function() {
        // alert("ready");
         this.startEngine("echome", function(echoValue) {
-                         alert(echoValue == "echome");});
+                        // alert(echoValue == "echome");
+                         });
         
     },
     
