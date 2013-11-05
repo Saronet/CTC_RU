@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -961,3 +962,968 @@
 
 </html>
 
+=======
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>CTC-new</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <link rel="stylesheet" type="text/css" href="css/StyleSheet.css" />
+        <link rel="stylesheet" type="text/css" media="all and (max-device-width: 480px)" href="css/StyleSheetSmall.css" />
+        <link rel="stylesheet" type="text/css"  media="all and (min-device-width: 481px)" href="css/StyleSheetBig.css" />
+        <link rel="stylesheet" media="screen and (max-width:320px) and (min-height:548px)" href="css/iphone5.css?v=1" /><!--for iphone5 needs to be tested-->
+ 
+
+        <script type="text/javascript" id="myJSONPCall" src=""></script>
+        <!--<link type="text/css" rel="Stylesheet" href="StyleSheetipad.css" />-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.1.1.min.js"></script>
+        <script type="text/javascript" src="js/swipe.js"></script>
+        <script type="text/javascript" src="js/touchwipe.js"></script>
+
+        <!--<script type="text/javascript" src="js/chooseDevice.js"></script>-->
+
+        <script type="text/javascript" src="js/managers/Json_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Main_Manager.js"></script>
+
+        <script type="text/javascript" src="js/init.js"></script>
+        <script type="text/javascript" src="js/managers/Navigation_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Feartur_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Search_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Favorite_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/RecipeList_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Recipe_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Foodgrator_Manager.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/recipeArrayObj.js"></script>
+        <script type="text/javascript" src="js/managers/CategoriesRecipeList_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Shopping_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Tools_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Timer_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Terms_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Share_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/Gesture_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/TermSingle_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/FB_Manager.js"></script>
+        <script type="text/javascript" src="js/managers/EyeSight_Manager.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>
+
+        <!--<script type="text/javascript" src="js/JScript.js"></script>-->
+        <!--<script type="text/javascript" src="cordova-2.3.0.js"></script>-->
+
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+            
+                //var jsonMan;
+                // var mainMan;
+                //  var featerMan;
+                var pagePosition;
+                var termsList;
+                var shoppingList;
+                var timersList;
+                var ingradientsList;
+            
+                init.start();
+                changeCssToIpad();
+            
+            
+                //prevent scroll when keyboard open
+                $(window).scroll(function(e) {
+                    e.preventDefault();
+                    $(window).scrollTop(0);
+                    //               if(window.pageYOffset > 340) $(window).scrollTop(340);
+            
+                });
+            
+            });
+            
+            
+            
+        </script>
+    </head>
+    <body ononline="updateInternetAccess()" onoffline="updateInternetAccess()">
+        <script type="text/javascript" src="js/cordova/cordova-2.3.0.js"></script>
+        <script type="text/javascript" src="js/plugins/ChildBrowser.js"></script>
+        <script type="text/javascript" src="js/plugins/applicationPreferences.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+        <div class="App_posotion">
+            <div class="upload_app"><!--<span class="loading_text">Loading</span>--><div class="loading_backgroung"><div class="loader_img" style="border-radius:50px;"></div></div></div>
+            <div class="uploader_video" style="z-index:0">
+                <div class="uploader_video_gif"><img class="uploader_video_img" alt="" src="images/loadinfo.net.gif" /></div>
+                <!--<span class="uploader_video_text">Загрузка видео</span>-->
+            </div>
+            <div id="progress" style="display: none">
+                <!--<img src="images/progress2.gif"/>--><img src="images/uploading222.gif" />
+            </div>
+            <div class="Main_page" style="z-index:5">
+
+                <div class="main_background">
+                    <div class="start_pop_page  page">
+                        <span class="start_all_background_black"></span>
+                        <div class="start_pop_backgroung">
+                            <div class="start_pop_text_title">Добро пожаловать в «Домашний.Рецепты»!</div>
+                            <div class="start_pop_text">Обратите внимание на иконку управления приложением жестами. Эта технология поможет управлять приложением не прикасаясь к экрану во время готовки.
+                                                          Приятного апптетита!</div>
+                            <div class="start_close_btn" ontouchend="close_start_pop_window()"><img alt="" src="images_ipad/close_btn_1.png" /></div>
+                        </div>
+                    </div>
+                    <div class="home_page  page">
+                        <div class="Up_banner_background">
+                            <div id="search" class="search_btn"></div>
+                            <div id="backFromSearch" class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:none"></div><!--onclick="gotoMain()" -->
+                            <span class="title_up_one_recipe"><span class="text_bold">CTC.</span>Рецепты</span>
+                            <div class="info_btn_main" ontouchend="open_about_page()"></div>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+
+                        </div>
+                        <div class="search_text_background">
+                            <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" onclick="searchMan_.open_search_page()" />
+                            <input id="search_text_box" type="text" class="search_text" placeholder="поиск рецепта" />
+                            <!--<span class="search_text">поиск рецепта</span>-->
+                        </div>
+                                                    <!--<div class="midddel_main_pic"><img alt="" src="images/pic_1.jpg" />
+                                                                                                                                                                                                                                                                                <div class="white_background">
+                                                                                                                                                                                                                                                                                    <span class="title_pic_white">торт закусочный блинчатый</span>
+                                                                                                                                                                                                                                                                                    <span class="time_pic_white">
+                                                                                                                                                                                                                                                                                        <span class="title_pic_text">592 минут</span>
+                                                                                                                                                                                                                                                                                    </span>
+                            
+                                                                                                                                                                                                                                                                                </div>
+                            
+                                                                                                                                                                                                                                                                            </div>-->
+                        <div class="message_no_internet">Вероятно Интернет соединение прервано</div>
+                        <div id="middel_main" class="midddel_main_pic swipe">
+                            <div class="middel_main_ul1">
+                            </div>
+                        </div>
+                        <div class="dots_position">
+
+                            <ul id="dots">
+
+                                                                    <!--<li><span class="point_empty"></span></li>
+                                                                                                                                                                                                                                                                                                                                                            <li><span class="point_full"></span></li>-->
+                                                                    <!--<li><img id="playLeft" alt="" src="http://www.dynamicdrive.com/dynamicindex4/left.gif"/></img/></li>
+                                                                                                                                                                                                                                                                                                                                                            <li><img id="playRight" alt="" src="http://www.dynamicdrive.com/dynamicindex4/right.gif"/></img/></li>-->
+                            </ul>
+                        </div>
+                        <div class="main_btn_position">
+                            <span class="btn_main_1" ontouchend="shareMan_.showPage()">
+                                <div id="btn_txt_1">Поделиться
+                                </div>
+                            </span>
+                            <span class="btn_main_2" ontouchend="foodgrMan_.start()">
+                                <div id="btn_txt_2">Что вы едите?</div>
+                            </span>
+                                                            <!--<span class="btn_main_1"></span>
+                                                                                                                                                                                                                                                                                                                         <span class="btn_main_2"></span>-->
+                        </div>
+                        <div class="pic_in_background"></div>
+                    </div>
+                    <div class="recipres_page page">
+                        <div class="Up_banner_background">
+                            <div class="search_btn" onclick="open_search()"></div>
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('categories')" style="display:block"></div>
+                            <span class="title_up_recipes">Рецепты</span>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="search_text_background">
+                            <input id="search_text_searchpage" type="text" class="search_text" />
+                        </div>
+                        <div class="recipes_background_recipres_page">
+                            <div class="recipes_header_pic"></div>
+                            <div class="recipes_middel_pic_recipres_page">
+                                <div class="recipes_middel_window_recipres_page">
+                                    <div class="titel_recipes_category_name_background">
+                                        <span class="titel_recipes_category_name">category name</span>
+                                    </div>
+                                    <div class="recipes_list">
+                                        <ul id="recipes_list">
+                                                                                            <!-- <li onmouseover="list_hover()" onmouseout="list_regular()">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <img class="recipes_small_pic" alt="" src="images/recipes_pic_1.png" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="inside_information">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <span class="recipes_first_title">Куриные котлетки с нутом и соусом из редиса</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <span class="recipes_second_title">Нежные котлетки с легким йогуртовым с оусом.</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <span class="recipes_look_inside_btn" ontouchend="goto_one_recipe()"></span>  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div class="recipes_footer">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="clock_icon_recipes"> </span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_footer_text"> 15 мин. </span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_line">|</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="fire_icon_recipes"></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_footer_text"> сложно</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_line">|</span> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="star_icon_recipes" ></span> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_footer_text"> в избранное </span>
+                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <img class="decoration_recipes" alt="" src="images_ipad/decoration_recipes.png" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="delete_recipe_btn" style="display:none;"><img class="delete_recipe_position" alt="" src="images/delete_recipe_btn.png" /></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <li onmouseover="list_hover()" onmouseout="list_regular()">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <img class="recipes_small_pic" alt="" src="images/recipes_pic_1.png" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="inside_information">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <span class="recipes_first_title">Куриные котлетки с нутом и соусом из редиса</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <span class="recipes_second_title">Нежные котлетки с легким йогуртовым с оусом.</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <span class="recipes_look_inside_btn" ontouchend="goto_one_recipe()"></span>  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div class="recipes_footer">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="clock_icon_recipes"> </span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_footer_text"> 15 мин. </span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_line">|</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="fire_icon_recipes"></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_footer_text"> сложно</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_line">|</span> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="star_icon_recipes" ></span> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <span class="recipes_footer_text"> в избранное </span>
+                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <img class="decoration_recipes" alt="" src="images_ipad/decoration_recipes.png" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="delete_recipe_btn" style="display:none;"><img class="delete_recipe_position" alt="" src="images/delete_recipe_btn.png" /></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </li>-->
+                                        </ul>
+                                        <span class="recipes_text_down" id="loadMoreRecipes" onclick="recipesListMan_.getMoreRecipes()">
+                                            <span class="btn_background_down">Нажмите, чтобы загрузить ещё </span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+                    </div>
+                    <div class="one_recipe_page page">
+                                                    <!--<div class="addToShopping" >
+                                                                                                                                                                                                                                                                                    <img alt="" src="images_ipad/timer_finished_background.png">
+                                                                                                                                                                                                                                                                                    <span class="addToShoppingText">Этот список был отправлен в корзину</span>
+                                                                                                                                                                                                                                                                                    <span class="addToShoppingOk" ontouchend="shoppingMan_.closeWindow()"><span class="timer_finish_OK">OK</span></span>
+                                                                                                                                                                                                                                                                                </div>-->
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('recipesList')"></div><!--goback_recipes_page()-->
+                            <span class="title_up_one_recipe">Рецепт<!--Appetite--></span>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="second_nav_background">
+                            <span class="second_nav_text" id="second_nav"><!--Spaghetti and MeatballsКатегория > рецепт--></span>
+                        </div>
+                        <div class="bar_one_recipe_position">
+                            <div class="one_recipe_bar_left" ontouchend="recipeMan_.description_recipe()"><span class="one_recipe_text_bar_left">Описание</span></div>
+                            <div class="one_recipe_bar_middel" ontouchend="recipeMan_.what_u_need()"><span class="one_recipe_text_bar_middel">Что нужно</span></div>
+                            <div class="one_recipe_bar_right" ontouchend="recipeMan_.what_to_do()"><span class="one_recipe_text_bar_right">Что делать</span></div>
+                        </div>
+                        <div class="recipes_background_main ">
+                            <div class="recipes_header_pic"></div>
+                            <div class="recipes_middel_pic">
+                                <div class="recipes_middel_window_main">
+                                    <div class="one_recipe_middle">
+                                        <div class="one_recipe_page_description_recipe">
+                                            <div class="one_recipe_small_up_icons">
+                                                <div class="small_icons_recipe">
+                                                    <span class="small_icons_title"><!--Preparation time-->время приготовления</span>
+                                                    <span class="clock_icon_recipes_one"></span>
+                                                    <span class="recipes_icon_text" id="totalTimeRecipePage"> 15 min. </span>
+                                                </div>
+                                                <div class="small_icons_recipe">
+                                                    <span class="small_icons_title"><!--Cooking time-->сложность приготовления</span>
+
+                                                    <span class="recipes_icon_text" id="levelRecipPage">2 hrs</span>
+                                                </div>
+                                                <div class="small_icons_recipe">
+                                                    <span class="small_icons_title"><!--Difficulty-->добавить в избранное</span>
+                                                    <span id="addFavoiteRecipe" class="star_icon_recipes_one"></span>
+                                                    <!--<span class="recipes_icon_text"> в избранное </span>-->
+                                                </div>
+                                                <div class="small_icons_recipe" id="favorited" style="display: none;">
+                                                    <span class="small_icons_title">добавлено в избранное</span>
+                                                </div>
+
+                                            </div>
+                                            <div class="one_recipe_pic">
+                                                <img id="imgRecipePage" width="1265px" height="836px" alt="" src="images/one_recipe_pic.jpg" />
+                                                <!--<video id="videoRecipePage" width="1266" height="856" controls="controls" poster=""><source src="" type="video/mp4"></video>-->
+                                                <div class="one_recipe_white"><span class="one_recipe_text_pic" id="titleRecipePage">торт закусочный блинчатый</span></div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="one_recipe_text_discription" id="descRecipePage">
+                                  Приготовить заправку: яйца, уксус, горчицу, чеснок, куркуму,
+                                  соль и перец смешать в блендере, постепенно вливая масло, пока
+                                  соус не станет густым.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+                        <div class="recipes_background_what_u_need ">
+                            <div class="what_u_need_wrap">
+                                <div id="add_to_cart_btn" class="add_to_cart_btn" onclick="recipeMan_.addToShoppingList();">Добавитьт ингредиенты в корзину</div>
+                                <div class="recipes_header_pic_what_u_need"></div>
+                                <div class="recipes_middel_pic_what_u_need">
+                                    <div class="recipes_middel_window_what_u_need">
+                                        <div class="one_recipe_middle_what_u_need_list">
+                                            <ul id="one_recipe_what_u_need_list">
+                                                                                                    <!-- <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="food_name_what_u_need_list">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="amount_need">1/2 cup</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="food_name_what_u_need_list">Сыр 200 грамм</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="amount_need">500g</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="food_name_what_u_need_list">Рыба</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="amount_need">1/3 cup</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="food_name_what_u_need_list">Зеленый лук</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="amount_need">1 1/2 cup</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="food_name_what_u_need_list">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="amount_need">600g</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </li>-->
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="recipes_footer_pic"></div>
+                            </div>
+                        </div>
+                        <div class="recipes_background_what_to_do ">
+                            <div class="recipes_header_pic"></div>
+                            <div class="recipes_middel_pic">
+                                <div class="recipes_middel_window">
+                                    <div class="one_recipe_middle">
+                                        <div class="one_recipe_page_what_to_do">
+                                            <div id="recipePage_what_to_do_title" class="what_to_do_title">торт закусочный блинчатый</div>
+                                            <div id="recipePage_what_to_do_text" class="what_to_do_text">1. Этот десерт был создан в честь танцовщицы, во время или после одного из ее гастрольных туров по Австралии и Новой Зеландии в 20-х годах прошлого столетия. <br />
+2. Из какой страны был автор рецепта - неизвестно, этот вопрос стал предметом споров и было формально решено, что автор был из Новой Зеландии.<br />
+3. Этот десерт был создан в честь танцовщицы, во время или после одного из ее гастрольных туров по Австралии и Новой Зеландии в 20-х годах прошлого столетия. <br />
+4. Из какой страны был автор рецепта - неизвестно, этот вопрос стал предметом споров и было формально решено, что автор был из Новой Зеландии.<br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+                    </div>
+                    <div class="favorite_page page">
+                        <div class="Up_banner_background">
+                            <div class="search_btn" style="display:none"></div>
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block"></div>
+                            <span class="title_up_one_recipe">Избранное</span>
+                            <div class="Gesture_btn_main no_Gesture"></div>
+                        </div>
+                                                    <!-- <div class="search_text_background">
+                                                                                                                                                                                                                                                                                     <img class="search_btn_icon" src="images/search_btn_icon.png" />
+                                                                                                                                                                                                                                                                                     <input type="text" class="search_text"/>
+                                                                                                                                                                                                                                                                                     <span class="search_text">поиск</span>
+                                                                                                                                                                                                                                                                                </div>-->
+                        <div class="recipes_background_favorite">
+                            <div class="recipes_header_pic"></div>
+                            <div class="recipes_middel_pic_favorite">
+                                <div class="recipes_middel_window_favorite">
+
+                                    <div class="recipes_list">
+                                        <!--<div class="cover_delete" ontouchstart="favoriteMan_.deleteCover()"></div>-->
+                                        <ul id="recipes_list_favorite">
+
+                                        </ul>
+                                        <span class="recipes_text_down">Вы пока не добавили ни одного рецепта в избранное</span>
+
+                                    </div>
+
+                                </div>
+                                <!-- <div class="recipes_footer_pic"></div>-->
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+                    </div>
+                    <div class="tools_page page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')"></div>
+                            <span class="title_up_one_recipe">Инструменты</span>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="tools_middel">
+                            <div id="tools_middel_element_clock" class="tools_middel_element"><!--SARA-->
+                                <div class="tools_clock" ontouchend="timerMan_.showPage()">
+                                    <!--ontouchstart="timerMan_.orange_font(this)"-->
+                                    <div class="tools_text">Таймер</div>
+                                    <div id="counterTimerWrap" class="tools_counter_timer">
+                                        <span id="counterTimer" class="tools_counter_num">7</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tools_middel_element_shopping" class="tools_middel_element">
+                                <div class="tools_Shopping_cart" ontouchend="shoppingMan_.start()"><!--goto_shopping_page() -->  <!--ontouchstart="timerMan_.orange_font(this)"-->
+                                    <div class="tools_text">
+ Список покупок
+                                    </div>
+                                    <div id="counterShoppingWrap" class="tools_counter_Shopping_cart">
+                                        <span id="counterShopping" class="tools_counter_num">2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tools_middel_element_tools" class="tools_middel_element">
+                                <div class="tools_term_list" ontouchend="termsMan_.showPage()">
+                                    <!--ontouchstart="timerMan_.orange_font(this)"-->
+                                    <div id="term_text" class="tools_text">Каталог терминов</div>
+                                </div>
+                            </div>
+                            <div id="tools_middel_element_camera" class="tools_middel_element">
+                                <div class="tools_camera" ontouchend="shareMan_.showPage()">
+                                    <!--ontouchstart="timerMan_.orange_font(this)"-->
+                                    <div class="tools_text">Поделиться блюдом</div>
+                                </div>
+                            </div>
+                            <div class="tools_middel_element_footer">
+                                <div class="tools_two_btn_down_position">
+                                    <a href="" class="tools_share">
+                                        <div class="tools_share_text">Поделиться с друзьями</div>
+                                    </a>
+                                   <a class="tools_website" href="http://www.domashniy.ru/" target="_blank"	onclick="window.open(this.href,'_system'); return false;">
+                                        <div class="tools_share_text">www.domashniy.ru</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<span class="tools_peper_pic"></span>-->
+                    </div>
+                    <div class="timer_page page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div><!--onclick="backto_toolspage()" -->
+                            <span class="title_up_one_recipe">Таймер</span>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <!-- <div class="info_btn"></div>-->
+                        </div>
+                        <div class="timer_list">
+                            <div class="timer_list_background">
+                                <!--<div class="timer_list_header"></div>-->
+                                <div id="timer_list_middel_window">
+                                    <div id="timer_list_middel">
+
+                                    </div>
+                                    <div class="add_timer_btn" ontouchend="timerMan_.open_new_timer()">Добавить таймер</div>
+                                    <!--<div class="timer_list_footer"></div>-->
+                                </div>
+                                <!--<div class="timer_list_footer"></div>-->
+                            </div>
+
+                        </div>
+                        <div class="timer_middel">
+                            <div id="timer_name_recipe" class="timer_name_recipe"><input class="timer_name_recipe_input" value="The Name" id="timerName" type="text" /></div>
+                            <div id="timeEdit" class="timer_time">07:03</div>                     
+                            <div class="timer_down_position">
+                                <div id="timer_cancel_btn" class="timer_cancel_btn" ontouchstart="timerMan_.orange_on('')" ontouchend="timerMan_.orange_off('')">
+                                    <div class="timer_cancel_btn_text">Cброс</div>
+                                </div>
+                                <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
+                                    <div id="timer_hour" class="timer_hour">+10 
+                                       <span id="timer_text_1" class="timer_text">мин</span>
+                                    </div>
+                                </div>
+                                <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
+                                    <div id="timer_min" class="timer_min">+1 
+                                        <span id="timer_text_2" class="timer_text">мин</span>
+                                    </div>
+                                </div>
+                                <div class="timer_small_border" ontouchstart="timerMan_.orange_text_on(this)" ontouchend="timerMan_.orange_text_off(this)">
+                                    <div id="timer_sec" class="timer_sec">+10
+                                        <span id="timer_text_3" class="timer_text">сек</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timer_border_start" ontouchstart="timerMan_.start_border_on('')" ontouchend="timerMan_.start_border_off('')">
+                                <div id="timer_Start_btn" class="timer_Start_btn" ontouchstart="timerMan_.green_on('')" ontouchend="timerMan_.green_off('')">СТАРТ</div>
+                            </div>
+                        </div>
+                        <div style="display:none">
+                            <audio id="timerDing" controls="controls">
+                                <source src="voice/ding.wav" type="audio/ogg">
+                                    <source src="voice/ding.wav" type="audio/mpeg">
+
+                        Your browser does not support the audio element.
+                                    </source>
+                                </source>
+                            </audio>
+                        </div>
+                        <!--<span class="tools_peper_pic"></span>    -->
+                    </div>
+                    <div class="foodgrator_page page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')"></div>
+                            <span class="title_up_one_recipe">Рецептор</span>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="second_nav_background_papers">
+                            <span class="second_nav_text">Категория</span>
+                        </div>
+                        <div class="two_btn_foodgrator_position">
+                            <span id="openTextBtnFood" class="foodgrator_btn_left foodgerator_buttons" onclick="foodgrMan_.open_Text_Btn_Food()">добавить ИНГРЕДИЕНТ</span><!--  onclick="open_foodgrator_Results_Page()" -->
+                            <span id="ResultBtnFood" class="foodgrator_btn_right foodgerator_buttons">ПОДОБРАТЬ РЕЦЕПТ</span>
+                        </div>
+                        <div class="search_text_background foodgrator_text_background">
+                            <img class="search_btn_icon" src="images_ipad/search_btn_icon.png"  />
+                            <input id="Text_search_foodgrator" type="text" class="search_text" placeholder="поиск рецепта" />
+                            <!--<span class="search_text">поиск рецепта</span>-->
+                        </div>
+
+
+                        <div class="foodgrator_instructions">
+                            <span class="foodgrator_arrow_plus">
+                                <div>
+                                    <span id="one">1.</span>
+                                    <span class="foodgrator_instruction_text_left"> Добавьте
+продукты, которые
+у вас имеются
+в холодильнике</span>
+                                </div>
+                            </span>
+
+                            <span class="foodgrator_arrow">
+                                <div>
+                                    <span id="two">2.</span>
+                                    <span class="foodgrator_instruction_text_right">  Нажмите
+кнопку и рецептор
+подберет для вас
+идеальный рецепт</span>
+                                </div>
+                            </span>
+
+                            <span class="foodgrator_smile">
+                                <div>
+                                    <span id="three">3.</span>
+                                    <span class="foodgrator_instruction_text_down">  Приготовьте вкуснейшее
+блюдо и насладитесь им.
+                                    </span><span id="text_bottom">Приятного аппетита!</span>
+                                </div></span>
+
+                        </div>
+                        <div class="recipes_background_foodgrator">
+                            <div class="recipes_header_pic"></div>
+                            <div class="recipes_middel_pic_foodgrator">
+                                <div class="recipes_middel_window_foodgrator">
+                                    <!--<div class="cover_delete" ontouchstart="foodgrMan_.deleteCover()"></div>-->
+
+
+
+                                    <!--<input type="text" id="getRecipes" value="get recipe"/>-->
+                                    <div class="food_list" id="food_listWrap" onclick="foodgrMan_.deleteCover()">
+                                        <ul id="food_list">
+                                                                                            <!--  <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="food_name">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="delete_btn_foodgator"><img alt="" src="images/delete_btn_foodgator.png" /></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="food_name">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="delete_btn_foodgator"><img alt="" src="images/delete_btn_foodgator.png" /></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="food_name">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="delete_btn_foodgator"><img alt="" src="images/delete_btn_foodgator.png" /></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </li>-->
+                                        </ul>
+                                    </div>
+                                    <div class="recipes_list_Results">
+                                        <div class="message_no_Results">Извините, по вашему запросу ничего не найдено</div>
+                                        <ul id="recipes_list_Results">
+                                                                                            <!--<li onmouseover="list_hover()" onmouseout="list_regular()">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <div class="favorite_category_background">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="favorite_recipe_name">Средиземноморская кухня</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <img class="recipes_small_pic" alt="" src="images/recipes_pic_1.png" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <div class="inside_information">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <span class="recipes_first_title">Куриные котлетки с нутом и соусом из редиса</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <span class="recipes_second_title">Нежные котлетки с легким йогуртовым с оусом.</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <span class="recipes_look_inside_btn" ></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <div class="recipes_footer">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="clock_icon_recipes"> </span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="recipes_footer_text"> 15 мин. </span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="recipes_line">|</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="fire_icon_recipes"></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="recipes_footer_text"> сложно</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="recipes_line">|</span> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="star_icon_recipes" ></span> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="recipes_footer_text"> в избранное </span>
+                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <div class="delete_recipe_btn" style="display:none;"><img class="delete_recipe_position" alt="" src="images/delete_recipe_btn.png" /></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="categories_page page">
+                        <div class="Up_banner_background">
+                            <div class="search_btn" style="display:none"></div>
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block"></div><!--onclick="mainMan_.gotoMain()"-->
+                            <span class="title_up_main_categories">Рецепты<!--Category--></span>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="search_text_background">
+                            <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" />
+                            <input id="search_text_searchpage_2" type="text" class="search_text" />
+                            <!--<span class="search_text">поиск рецепта</span>-->
+                        </div>
+                        <div class="all_categories">
+                            <ul id="allCategoriesList">
+
+                            </ul>
+                            <span class="categories_text_down"></span>
+                        </div>
+                    </div>
+                    <div class="Terminology_page page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')"></div> <!--onclick="backto_toolspage()"-->
+                            <span class="title_up_one_recipe">Каталог терминов</span>
+                            <div class="Gesture_btn_main no_Gesture"></div>
+                        </div>
+                        <div class="background_term">
+                            <div class="recipes_header_pic"></div>
+                            <div class="middel_pic_term">
+                                <div class="term_middel_window">
+                                    <div class="term_text_background">
+                                        <input id="term_search" type="text" visible="true" onkeyup="termsMan_.search(this)" onkeydown="termsMan_.search(this)" />
+                                    </div>
+                                    <div class="term_list">
+                                        <div class="message_no_Results_term">Извините, по вашему запросу ничего не найдено</div>
+                                        <ul id="terms_list">
+
+                                                                                            <!-- <li ontouchend="termSingle_Manager_.showPage()">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="term_name">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="get_information_term" ><img alt="" src="images/term_goto_information_btn.png" /></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li ontouchend="termSingle_Manager_.showPage()">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="term_name">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="get_information_term"><img alt="" src="images/term_goto_information_btn.png" /></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li ontouchend="termSingle_Manager_.showPage()">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="term_name">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="get_information_term"><img alt="" src="images/term_goto_information_btn.png" /></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+
+                    </div>
+                    <div class="Terminology_singel_page page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('terms')"></div><!--onclick="goback_terminology_page()"-->
+                            <span class="title_up_one_recipe">Каталог терминов</span>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="second_nav_background_papers">
+                            <span class="second_nav_text">term name</span>
+                        </div>
+                        <div class="background_sigel_term">
+                            <div class="recipes_header_pic"></div>
+                            <div class="term_middel_pic">
+                                <div class="term_middel_window_singel">
+                                    <div class="one_recipe_middle">
+                                        <div class="one_recipe_page_description_recipe">
+                                            <div class="one_term_pic"><img id="termImg" alt="" src="images/one_recipe_pic.jpg" />
+
+                                                <div class="white_term"><span class="one_recipe_text_pic_term" id="one_recipe_text_pic_term">торт закусочный блинчатый</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="one_recipe_text_discription_term" id="one_recipe_text_discription_term">
+                                  Приготовить заправку: яйца, уксус, горчицу, чеснок, куркуму,
+                                  соль и перец смешать в блендере, постепенно вливая масло, пока
+                                  соус не станет густым.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+                    </div>
+                    <div class="shopping_page page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div><!--onclick="backto_toolspage()"-->
+                            <span class="title_up_one_recipe">Список покупок</span>
+                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="second_nav_background_papers">
+                            <span class="second_nav_text">Категория</span>
+                        </div>
+                        <div class="tree_btn_shopping_position">
+                            <a href="" ontouchend="shoppingMan_.pop_mail_page()"><span id="send" class="shopping_btn">Отправить</span></a>
+                            <span id="clear" class="shopping_btn" onclick="shoppingMan_.pop_delete_page()">Удалить все</span>
+                            <span id="add" class="shopping_btn" <!--onclick="shoppingMan_.text_open(e)"-->добавить</span>
+
+                        </div>
+                        <div class="shopping_text_background">
+                            <input id="Text_search_shopping" type="text" visible="false" />
+                        </div>
+                        <div class="recipes_background_shopping">
+                            <div class="recipes_header_pic"></div>
+                            <div class="recipes_middel_pic_shopping">
+                                <div class="shopping_middel_window" ontouchend="shoppingMan_.RemoveFocus()">
+                                    <div class="cover_delete" ontouchstart="shoppingMan_.deleteCover()"></div>
+
+                                    <!--<input type="text" id="getRecipes" value="get recipe"/>-->
+                                    <div class="shopping_list" id="shopping_listWrap">
+                                        <ul id="shopping_list">
+                                                                                            <!-- <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="food_name">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="delete_btn_foodgator"><img alt="" src="images/delete_btn_foodgator.png" /></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="food_name">Помидоры</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="delete_btn_foodgator"><img alt="" src="images/delete_btn_foodgator.png" /></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </li>-->
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+                        <div class="mail_pop">
+                            <span class="all_background_black"></span>
+                            <div class="shopping_mail_backgroung">
+                                <div class="mail_text">Способ отправки:</div>
+                                <div class="mail_btn_send"><img alt="" src="images_ipad/shopping_mail_btn_pop.png" /></div>
+                            </div>
+
+                        </div>
+                        <div class="delete_pop">
+                            <span class="all_background_black"></span>
+                            <div class="shopping_mail_backgroung">
+                                <div class="mail_text">Удалить все данные?</div>
+                                <div class="yes_no">
+                                    <img alt="" id="yesDeleteShoppingList" src="images_ipad/tes_btn.png" style="cursor:pointer;" />
+                                    <img id="noDeleteShoppingList" alt="" src="images_ipad/no_btn.png" style="cursor:pointer;" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="Gesture_page page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div>
+                            <span class="title_up_one_recipe">Gesture</span>
+                            <div class="Gesture_btn_main no_Gesture" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="background_gesture" style="overflow-y: scroll">
+                            <div class="recipes_header_pic"></div>
+                            <div class="middel_pic_gesture">
+
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+
+                    </div>
+                    <div class="share_page page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div>
+                            <span class="title_up_one_recipe">Поделиться блюдом</span>
+                            <div class="Gesture_btn_main no_Gesture" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="second_nav_background_papers">
+                            <span class="second_nav_text">Что у Вас на столе?</span>
+                        </div>
+                        <div class="share_position">
+                            <div class="share_up_description">Загрузить фото</div>
+                            <div class="two_btn_share_position">
+                                <div class="share_btn" id="browseBtn">
+                                    <div class="share_btn_text">Из галереи</div>
+                                </div>
+                                <div class="share_btn" id="takeAPicBtn">
+                                    <div class="share_btn_text">Новый снимок</div>
+                                </div>
+                                                                    <!--<img class="share_browse_pic_position" alt="" src="images_ipad/share_browse_pic.png" />
+                                                                                                                                                                                                                                                                                                                                                           <img class="share_take_pic_position" alt="" src="images_ipad/share_take_pic_pic.png" />-->
+                            </div>
+                            <div class="share_down_description">и показать друзьям</div>
+                        </div>
+                        <div class="share_specific_pic">
+                            <div class="share_specific_title">Загрузить фото и показать друзьям</div>
+                            <div class="share_spcific_pic"><img class="share_img" alt="" src="images/012.jpg" /></div>
+                            <div id="text-area-cover"></div>
+                            <div class="share_text_area"><textarea id="TextArea_share"></textarea></div>
+                            <div class="share_facebook_btn">Поделиться в Facebook</div>
+                        </div>
+                        <div class="facebookDialog">
+                            <div id="facebook_header"></div>
+                            <div id="facebook_loginArea">
+                                <!-- If we don't have a user we will show this -->
+                                <div id="facebook_login" class="facebook_btn"></div>
+                            </div>
+                            <div id="facebook_status">
+                                <!-- if we do have a user we will show this -->
+                                <div id="facebook_statusHold" style="text-align:center; width:100%;"><img src="images/loader.gif" id="info" /></div>
+                                <textarea id="facebook_statusTXT"></textarea>
+                                <div id="facebook_statusBTN" class="facebook_btn">share</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_us_page  page">
+                        <div class="Up_banner_background">
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('main')"></div>
+                            <span class="title_up_one_recipe">Домашний</span>
+                            <div class="Gesture_btn_main no_Gesture"></div>
+                        </div>
+                        <div class="about_all_text">
+                            <div class="about_text_position">
+                                <img src="images/icon.png" class="about_icon" />
+                                <div class="about_title">
+                                    <span class="about_text_title">СТС.Рецепты</span> <br />
+                                    <span class="about_text_credits">App 1.0 </span>
+                                </div>
+                                <div class="abut_desc"><span>Приложение разработано компанией Screenz для телеканала СТС.</span><br/><br/>
+                                   <span>Технология управления жестами разработана компанией eyeSight</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="about_two_logos">
+                                <div class="reshat_logo"></div>
+                                <div><a href="http://www.scrnz.com/" target="_blank" onclick="window.open(this.href,'_system'); return false;"><img id="screenz_logo" src="images_ipad/logo_screenz_new.png" alt="" /></a></div>
+                            </div>
+                            <span class="about_text">Контакты:<br /></span>
+                            <a href="mailto:web@ctc.ru" class="about_text_red">электронная почта</a>
+
+                           <div class="about_footer">
+                               <div id="about_text_copyright_red">CTC media</div>
+                               <div class="about_text_copyright">Copyright © 2013. Все права защищены</div><br />  
+                    
+                           </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="search_page page">
+                        <div class="Up_banner_background">
+                            <div class="search_btn" style="display:none"></div>
+                            <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" style="display:block"></div>
+                            <span class="title_up_one_recipe">Избранное</span>
+                            <div class="Gesture_btn_main no_Gesture" ontouchend="gestureMan_.showPage()"></div>
+                        </div>
+                        <div class="search_text_background">
+                            <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" />
+                            <input id="search_text_searchpage_3" type="text" class="search_text" placeholder="поиск рецепта" ontouchend="searchMan_.clear()" />
+                        </div>
+                        <div class="recipes_background_search">
+                            <div class="recipes_header_pic"></div>
+                            <div class="recipes_middel_pic_search">
+                                <div class="recipes_middel_window_search">
+                                    <div class="recipes_list_search">
+                                        <ul>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <!-- <div class="recipes_footer_pic"></div>-->
+                            </div>
+                            <div class="recipes_footer_pic"></div>
+                        </div>
+
+                    </div>
+                    <div class="pop_page  page">
+                        <span class="all_background_black"></span>
+                        <div class="pop_backgroung">
+                            <div class="pop_text_title">Способ отправки:</div>
+                            <div class="pop_text">Способ отправки: Способ отправки: Способ отправки: Способ отправки:Способ отправки:</div>
+                            <div class="close_btn" ontouchend="close_pop_window()"><img alt="" src="images/close_btn.png" /></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="down_menu_background">
+                <div class="position">
+                    <div id="favorite_icon" class="icon" ontouchstart="favoriteMan_.start_touch(event)" ontouchend="favoriteMan_.showPage()"><!--onclick="favorite()"-->
+                        <div class="img_icon_posotion"></div>
+                        <!-- <div class="text_icon_position">Favorite</div>-->
+                        <div class="text_icon_position">избранное</div>
+                    </div>
+                    <div id="favorite_icon_hover" class="icon_hover">
+                        <div class="img_icon_posotion"></div>
+                        <!--<div class="text_icon_position_hover">Favorite</div>-->
+                        <div class="text_icon_position_hover">избранное</div>
+                    </div>
+                    <div id="recipes_icon" class="icon" ontouchstart="CategoriesRecipeListMan_.categories_start_touch(event)" ontouchend="CategoriesRecipeListMan_.categories_page()">
+                        <div class="img_icon_posotion"></div>
+                        <!--<div class="text_icon_position">Recipes</div>-->
+                        <div class="text_icon_position">рецепты</div>
+                    </div>
+                    <div id="recipes_icon_hover" class="icon_hover">
+                        <div class="img_icon_posotion"></div>
+                        <div class="text_icon_position_hover">рецепты</div>
+                        <!-- <div class="text_icon_position_hover">Recipes</div>-->
+                    </div>
+                    <div id="main_icon" class="icon_main" ontouchend="mainMan_.gotoMain()">
+
+                        <div class="img_icon_posotion"></div>
+                        <div class="text_main_icon_position">главная</div>
+                        <div class="main_text_background"></div>
+                    </div>
+                    <div id="foodgrator_icon" class="icon" ontouchstart="foodgrMan_.start_touch(event)" ontouchend="foodgrMan_.start()">
+                        <div class="img_icon_posotion"></div>
+                        <!--<div class="text_icon_position">Refriginator</div>-->
+                        <div class="text_icon_position">рецептор</div>
+                    </div>
+                    <div id="foodgrator_icon_hover" class="icon_hover">
+                        <div class="img_icon_posotion"></div>
+                        <!--<div class="text_icon_position_hover">Refriginator</div>-->
+                        <div class="text_icon_position_hover">рецептор</div>
+                    </div>
+                    <div id="tools_icon" class="icon" ontouchstart="toolsMan_.start_touch(event)" ontouchend="toolsMan_.start()">
+                        <div class="img_icon_posotion">
+                        </div>
+                        <!-- <div class="text_icon_position_tools">Tools</div>-->
+                        <div id="tools_icon_x" class="text_icon_position">инструменты</div>
+                    </div>
+                    <div id="tools_icon_hover" class="icon_hover">
+                        <div class="img_icon_posotion"></div>
+                        <!--<div class="text_icon_position_hover_tools">Tools</div>-->
+                        <div class="text_icon_position_hover_tools">инструменты</div>
+                    </div>
+                </div>
+            </div>
+            <div id="try"></div>
+            <div id="tryTimer" style="display: none"><div class="timer_name" style="width: 186px"></div></div>
+        </div>
+
+        <script type="text/javascript" src="js/JScript.js"></script>
+
+        <script>
+            $(document).ready(function(e) {
+                $('.one_recipe_back_btn').on('touchstart',this,function(){
+                    $(this).addClass('hover')
+                });
+                $('.one_recipe_back_btn').on('touchend',this,function(){
+                    $('.one_recipe_back_btn').removeClass('hover');
+                });
+            });
+        </script>
+        <script type="text/javascript" src="js/plugins/LocalNotification.js"></script>
+
+    </body>
+
+</html>
+
+>>>>>>> refs/remotes/origin/master
