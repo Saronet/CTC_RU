@@ -3034,18 +3034,17 @@ overflow-y: auto;
 .abut_desc {
     clear: both;
     font-size: 1.5em;
-    float: left;
     top: 9%;
     padding-top: 1.2em;
-    padding-bottom: 1em;
-    position: relative;
+    /*padding-bottom: 1em;*/
+    /*position: relative;*/
     width: 95%;
     display: block;
 }
 
 .about_text_position {
     width: 80%;
-    height: 22%;
+    /*height: 22%;*/
     padding: 3% 2% 3% 10%;
     margin-left: 4%;
     margin-right: 2%;

@@ -320,6 +320,8 @@ var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(
         $(".page").hide();
         var pageHeightShopping = pageHeight - $(".second_nav_background_papers").height() - $(".tree_btn_shopping_position").height() - $(".shopping_text_background").height() ;
         $(".recipes_middel_pic_shopping").css("height", pageHeightShopping + 'px');
+        $(".timer_all_background_black").css("height", pageHeight + 'px');
+        $(".all_background_black").css("height", pageHeight + 'px');
         $('.shopping_page').show();
         //$('.tools_page').hide();
         $('.foodgrator_text_background').hide();
@@ -525,7 +527,7 @@ var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(
     }
 this.showTimerPage = function() {
     $(".page").hide();
-
+    $(".timer_all_background_black").css("height", pageHeight + 'px');
     $('.timer_page').show();
     $('.tools_page').hide();
     $('.favorite_page').hide();
@@ -652,7 +654,7 @@ this.showTimerPage = function() {
 
     }
     this.showAboutPage = function() {
-        //$(".about_all_text").css("height", pageHeight+'px');
+        $(".about_all_text").css("height", pageHeight+16+'px');
         $('.about_us_page').show();
         $('.home_page').hide();
         $(".about_us_page .one_recipe_back_btn").show();
