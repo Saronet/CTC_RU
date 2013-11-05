@@ -1114,7 +1114,7 @@
 }
 
 .shopping_middel_window {
-    left: 3%;
+    left: 4%;
     height: 545px;
 }
 
@@ -1127,4 +1127,9 @@
 /*********************ABOUT***********************/
 .about_text_position {
     /*height: 40%;*/
+}
+
+.recipes_middel_pic_shopping{
+    margin-left: 3px;
+    width: 687px;
 }
