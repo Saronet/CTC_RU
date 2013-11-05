@@ -62,6 +62,32 @@ function FoodgrMan () {
 
 
         //get recipes
+        $("#ResultBtnFoodSearch").bind('touchend', function() {
+           // foodgrMan_.clearResultsListPage();
+
+           // foodgrMan_.createListByWords(wordsToSearch);
+
+           // NavigationMan_.navigate("", "foodgeratorList")
+
+           if($("#Text_search_foodgrator").val() != "" && $("#Text_search_foodgrator").val() != " ") {
+                    $(".recipes_list_Results").hide();
+                    $("#food_listWrap").show();
+                    $("#food_list").append("<li>" + "<div class=\"cover_delete\" ></div>" + "<div class=\"food_name_div\"><span class=\"food_name\">" + $("#Text_search_foodgrator").val() + "</span></div>" +
+                "<span class=\"delete_btn_foodgator\"  ontouchend=\"foodgrMan_.deleteLine(this)\">Удалить</span></li>");
+                    // wordsToSearch = wordsToSearch + "&" + $("#Text_search_foodgrator").val();
+                    wordsToSearch[wordsToSearch.length] = $("#Text_search_foodgrator").val();
+                    $("#Text_search_foodgrator").val("");
+                    $("#Text_search_foodgrator").focus();
+
+                    $(".food_list ul li").last().bind("swipeleft swiperight", function() {
+                        $(this).children(".delete_btn_foodgator").animate({ width: 'toggle' }, { duration: "fast" });
+                        $(".cover_delete").show();
+                    });
+                }
+                $("#Text_search_foodgrator").focus() 
+
+        });
+
         $("#ResultBtnFood").bind('touchend', function() {
             foodgrMan_.clearResultsListPage();
 
