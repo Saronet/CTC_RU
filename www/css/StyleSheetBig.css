@@ -1106,20 +1106,20 @@
     top: 15%;
 }
 
-.food_name_shopping{
+.food_name_shopping {
     padding-bottom: 5%;
-    padding-left: 4%;
+    padding-left: 1%;
     line-height: 33px;
     top: 0.4em;
+    text-indent: 0;
 }
 
-.shopping_middel_window{
-     left: 0;
-     height: 545px;
-     
+.shopping_middel_window {
+     left: 3%;
+     height: 545px;    
 }
 
-.shopping_list ul li{
+.shopping_list ul li {
     left: 0;
 }
 
