@@ -1841,6 +1841,7 @@ ire_icon_recipes {
     position: relative;
     top: 12px;
     text-indent: 17px;
+    left: 0;
     -webkit-overflow-scrolling: touch;
 }
 
