@@ -927,7 +927,6 @@ left: 96px;*/
 
 .about_text_position {
     width: 80%;
-    height: 42%;
     padding: 6% 2% 6% 10%;
     margin-left: 4%;
     margin-right: 2%;
@@ -975,10 +974,9 @@ left: 96px;*/
 .abut_desc {
     clear: both;
     font-size: 11px;
-    float: left;
     top: 17%;
-    padding-top: 1.2em;
-    padding-bottom: 1em;
+    padding-top: 2.2em;
+    padding-bottom: 0em;
     position: relative;
     width: 95%;
     display: block;
