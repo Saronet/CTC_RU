@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Conv_CTC_Splash_Rounded';
     src: url('fonts/CTC_Splash_Rounded.eot');
@@ -2912,7 +2913,7 @@ a {
     margin: auto;
     background-size: 100% 100%;
     background-position: -12em 0em;
-     -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 }
 
 .background_gesture {
@@ -3972,8 +3973,8 @@ a {
     z-index: 5;
     display: none;
     /*border: solid 1px black;*/
-    left: 0;
-    width: 75%;
+    left: 5%;
+    width: 68%;
 }
 
 

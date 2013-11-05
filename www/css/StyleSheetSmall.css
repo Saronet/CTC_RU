@@ -2070,7 +2070,7 @@ ire_icon_recipes {
     left: -4px;
     padding-bottom: 4%;
     padding-left: 5%;
-    text-indent: 0;  
+    text-indent: 0;
 }
 
 .shopping_list ul li {
@@ -2208,4 +2208,9 @@ ire_icon_recipes {
     height: 44%;
     background-size: 92% 100%;
     top: 27%;
+}
+
+.cover_delete {
+    left: 3%;
+    width: 69%;
 }
