@@ -987,7 +987,6 @@
     z-index: 600;
     height: 36px;
     width: 100px;
-    top: -150%;
     font-size: 18px;
     text-indent: 0px;
 }
@@ -1107,16 +1106,15 @@
 }
 
 .food_name_shopping {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     padding-left: 1%;
     line-height: 33px;
-    top: 0.4em;
     text-indent: 0;
 }
 
 .shopping_middel_window {
-     left: 3%;
-     height: 545px;    
+    left: 3%;
+    height: 545px;
 }
 
 .shopping_list ul li {
@@ -1126,6 +1124,6 @@
 
 
 /*********************ABOUT***********************/
-.about_text_position{
+.about_text_position {
     /*height: 40%;*/
 }
