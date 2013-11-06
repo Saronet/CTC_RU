@@ -974,6 +974,12 @@
 
 .delete_btn_foodgator {
     left: 450px;
+    line-height: 33px;
+    z-index: 600;
+    height: 36px;
+    width: 100px;
+    font-size: 18px;
+    text-indent: 0px;
 }
 
 .recipes_middel_pic_foodgrator .delete_btn_foodgator {
