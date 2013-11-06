@@ -819,8 +819,6 @@ left: 96px;*/
 
 .one_recipe_page_what_to_do {
     width: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 .recipes_middel_window {
@@ -1637,9 +1635,7 @@ ire_icon_recipes {
     width: 93%;
 }
 
-.term_middel_window_singel {
-    top: 3%;
-}
+
 
 .one_recipe_middle {
     position: relative;
@@ -1780,7 +1776,6 @@ ire_icon_recipes {
     width: 70%;
     left: 14px;
     text-indent: 0;
-    padding-bottom: 5%;
 }
 
 .delete_btn_foodgator {
@@ -1803,7 +1798,6 @@ ire_icon_recipes {
 
 
 .recipes_background_shopping {
-    height: inherit;
     position: relative;
     top: 36px;
     width: 95%;
@@ -1823,17 +1817,14 @@ ire_icon_recipes {
 }
 
 .shopping_middel_window {
-    height: 679px;
     overflow-y: auto;
     position: relative;
-    top: 12px;
     text-indent: 17px;
     left: 0;
     -webkit-overflow-scrolling: touch;
 }
 
 .shopping_list {
-    height: 410px;
     position: relative;
     top: -10px;
 }

@@ -248,71 +248,76 @@ var pageHeightBase = $(document).height() ;
     }
 
 
-    this.showRecipePage = function() {
+    this.showRecipePage = function () {
         $(".page").hide();
         gestureMan_.gestureStart("LR");
         $('.one_recipe_page').show();
         $('.one_recipe_page .one_recipe_back_btn').show();
-        
+        var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16;
+        var pageHeightRecipe = pageHeight - $(".second_nav_background").height() - 50;
+        pageHeightRecipe = pageHeightRecipe - $("#add_to_cart_btn").height() ;
+        $(".recipes_middel_window_what_u_need").css("height", pageHeightRecipe +'px');
+        pageHeightRecipe = pageHeightRecipe+ 90;
+        $(".recipes_middel_pic").css("height", pageHeightRecipe + 'px');
         //$('.text_main_icon_position').css({ "color": "#ffffff" });
         //$('#recipes_icon').hide();
         $('.main_text_background').hide();
         //$('#recipes_icon_hover').show();
         //$('#favorite_icon').show();
         //$('#favorite_icon_hover').hide();
-        
-        switch(browser){
-            case "isGt2": 
+
+        switch (browser) {
+            case "isGt2":
                 //$('#recipes_icon_hover').css({ "margin-left": "2px" });//- android      
-            break;
-            case "isGt3": 
+                break;
+            case "isGt3":
                 //$('#recipes_icon_hover').css({ "margin-left": "2px" });//- android  
-            break;
-            case "ipad": 
+                break;
+            case "ipad":
                 //$('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad 
-            break;
-            case "iphone": 
+                break;
+            case "iphone":
                 //$('#recipes_icon_hover').css({ "margin-left": "9px" });//- iphone    
-            break;
+                break;
         }
-        
-        
+
+
         /*if(isIpad()) {
-            $('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad
+        $('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad
         }
         else{
-            $('#recipes_icon_hover').css({ "margin-left": "9px" });//- iphone
+        $('#recipes_icon_hover').css({ "margin-left": "9px" });//- iphone
         }
         if(isAndroid)
         {
-             $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android
+        $('#recipes_icon_hover').css({ "margin-left": "2px" });//- android
         } */
         //$('#foodgrator_icon_hover').hide();
         //$('#foodgrator_icon').show();
         //$('#tools_icon_hover').hide();
         //$('#tools_icon').show();
-        
+
         $('.search_text_background').hide();
         $('.search_text').hide();
         $('.favorite_page').hide();
-        
+
         $('.recipes_background_main').show();
         $('.recipes_background_what_u_need').hide();
         $('.recipes_background_what_to_do').hide();
-        
-        
+
+
         recipeMan_.description_recipe();
-      
+
         //set the gesture page divs
         $(".gesture_list ul  li").hide();
         $(".gesture_list #gestureUp").show();
         $(".gesture_list #gestureDown").show();
         $(".gesture_list #gestureRight").show();
         $(".gesture_list #gestureLeft").show();
-       
 
-        
-        
+
+
+
         this.backPosition = this.pagePosition;
         this.pagePosition = "recipe";
 
@@ -558,9 +563,8 @@ this.showTimerPage = function() {
     this.showTermsPage = function() {
         $(".page").hide();
         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
-        var pageHeightTerms =  pageHeight  - $(".term_text_background").height() ;
-       $(".term_middel_window").css("height", pageHeightTerms+'px');
-       pageHeightTerms = pageHeightTerms - $(".second_nav_background_papers").height() +35 ;
+       $(".term_middel_window").css("height", pageHeight+'px');
+       var pageHeightTerms = pageHeight - $(".second_nav_background_papers").height() +16 ;
        $(".term_middel_pic").css("height", pageHeightTerms+'px');
         $('.Terminology_page').show();
          $('.Terminology_page .one_recipe_back_btn').show();

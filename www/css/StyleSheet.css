@@ -1004,7 +1004,7 @@ margin-right: 9px;
 }
 
 .recipes_middel_window {
-    /*height: 542px;*/
+    height: inherit;
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
@@ -1747,6 +1747,7 @@ margin-right: 9px;
     display: block;
     width: 71%;
     left: 18px;
+    padding: 3%
 }
 
 #Text_search_foodgrator {
@@ -2260,13 +2261,9 @@ margin-right: 9px;
 
 
 .one_recipe_page_what_to_do {
-    /*height: 540px;*/
     margin: auto;
     margin-top: 10px;
-    overflow-x: hidden;
-    overflow-y: auto;
     position: relative;
-    width: 604px;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -2414,7 +2411,6 @@ margin-right: 9px;
 }
 
 .recipes_background_shopping {
-    height: inherit;
     position: relative;
     top: 84px;
     width: 90%;
@@ -2492,8 +2488,7 @@ margin-right: 9px;
 }
 
 .shopping_list {
-    height: 410px;
-    margin: 0px 0 0 -26px;
+    margin: 0px 0 20px -26px;
     position: relative;
     top: -10px;
 }
@@ -2504,12 +2499,13 @@ margin-right: 9px;
 
 .shopping_list ul li {
     border-bottom: 1px solid #8F9CA2;
-    left: 13px;
-    list-style-type: none;
-    margin-bottom: 17px;
-    position: relative;
-    width: 100%;
-    top: 18px;
+list-style-type: none;
+position: relative;
+width: 90%;
+top: 18px;
+margin-left: auto;
+vertical-align: middle;
+margin-bottom: 2px;
 }
 
 #Text_search_shopping {
@@ -2542,6 +2538,7 @@ margin-right: 9px;
     position: relative;
     /*top: 35px;*/
     width: 95%;
+    padding-top: 2%;
 }
 
 .one_recipe_text_pic_term {
@@ -2559,12 +2556,9 @@ margin-right: 9px;
 
 
 .shopping_middel_window {
-    height: 679px;
     overflow-y: auto;
+    height: inherit;
     position: relative;
-    width: 661px;
-    top: 21px;
-    left: 22px;
     text-indent: 17px;
     -webkit-overflow-scrolling: touch;
 }
@@ -3657,19 +3651,16 @@ margin-right: 9px;
 
 
 .shopping_middel_window {
-    height: 679px;
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
     width: 100%;
-    top: 21px;
     text-indent: 17px;
     -webkit-overflow-scrolling: touch;
 }
 
 
 .shopping_list {
-    height: 410px;
     position: relative;
     top: -10px;
 }
@@ -3774,7 +3765,6 @@ margin-right: 9px;
     background-color: white;
     position: relative;
     width: 100%;
-    top: 3%;
     -webkit-overflow-scrolling: touch;
     overflow-y: auto;
     overflow-x: hidden;

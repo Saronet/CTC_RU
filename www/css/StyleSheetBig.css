@@ -119,20 +119,11 @@
     -webkit-overflow-scrolling: touch;
 }
 
-.one_recipe_page_what_to_do, .recipes_middel_window {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    height: 766px;
-    /*overflow-y: auto;*/
+ .recipes_middel_window {
     overflow-x: hidden;
     overflow-y: auto;
-    /*overflow-y: auto;*/
 }
 
-.one_recipe_page_what_to_do {
-    /*overflow-x: hidden;
-  overflow-y: hidden;*/
-}
 
 
 .clock_icon_recipes_one {
@@ -1111,15 +1102,6 @@
     padding-left: 1%;
     line-height: 33px;
     text-indent: 0;
-}
-
-.shopping_middel_window {
-    left: 4%;
-    height: 545px;
-}
-
-.shopping_list ul li {
-    left: 0;
 }
 
 
