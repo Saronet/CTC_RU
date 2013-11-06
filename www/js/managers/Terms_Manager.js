@@ -37,28 +37,29 @@ function termsMan () {
          setTimeout("jsonMan_.get_terms_post('" + this.count + "','"+this.page +"'," +this.createListCB+")", 100);
 
     }
-    this.createListCB = function(val) {
-        
-         var infoImage = "images/term_goto_information_btn.png";
-        if(isIpad()) {
+    this.createListCB = function (val) {
+
+        var infoImage = "images/term_goto_information_btn.png";
+        if (isIpad()) {
             infoImage = "images_ipad/term_goto_information_btn.png";
         }
-        $(val.posts).each(function(i) {
+        $(".message_no_Results_term").css("display", "none");
+        $(val.posts).each(function (i) {
             //wpcf-describtion  wpcf-image wpcf-term_name
             //$(this).attr("custom_fields").
             var termItemDetails = $(this).attr("custom_fields");
             $("#terms_list").append("<li onclick=\"termSingle_Manager_.showPage(this)\">" +
                                         "<span class=\"term_name\">" + $(termItemDetails).attr("wpcf-term_name") + "</span>" +
-                                        "<span class=\"get_information_term\" ><img alt=\"\" class=\"term_name_arrow\" src=\""+infoImage+"\" /></span>" +
+                                        "<span class=\"get_information_term\" ><img alt=\"\" class=\"term_name_arrow\" src=\"" + infoImage + "\" /></span>" +
                                     "</li>");
             var termItemLI = $("#terms_list li")[i];
             $(termItemLI).data("details", termItemDetails);
 
         });
-        
+
         hideLoading();
 
-           
+
 
     }
 
