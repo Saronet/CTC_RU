@@ -2,7 +2,9 @@ var subMenu = "menu";
 
 function NavigationMan() {
 var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
-
+alert($(document).height());
+alert($(".Up_banner_background").height());
+alert($(".down_menu_background").height());
     this.navigationArray = [];
     this.navigationArray[0] = "main";
     this.navigationArrayIndex = 0;
