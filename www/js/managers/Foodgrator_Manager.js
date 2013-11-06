@@ -63,12 +63,7 @@ function FoodgrMan () {
 
         //get recipes
         $("#ResultBtnFoodSearch").bind('touchend', function() {
-           // foodgrMan_.clearResultsListPage();
-
-           // foodgrMan_.createListByWords(wordsToSearch);
-
-           // NavigationMan_.navigate("", "foodgeratorList")
-
+       
            if($("#Text_search_foodgrator").val() != "" && $("#Text_search_foodgrator").val() != " ") {
                     $(".recipes_list_Results").hide();
                     $("#food_listWrap").show();

@@ -424,6 +424,11 @@ a {
     float: right;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    
+    height: 49px;
+top: 10px;
+margin-bottom: 28px;
+margin-right: 9px;
 }
 
 .search_text {
