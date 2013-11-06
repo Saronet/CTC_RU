@@ -48,6 +48,20 @@ function shoppingMan() {
         });
 
 
+        $("#ResultBtnSearch").click(function(){
+             if($("#Text_search_shopping").val() != "") {
+                    $("#shopping_list").prepend("<li>" +
+                                        "<span class=\"food_name_shopping\">" + $("#Text_search_shopping").val() + "</span>" +
+                                        "<span class=\"delete_btn_foodgator\" onclick=\"shoppingMan_.deleteLine(this)\">Удалить</span>" +
+                                    "</li>");
+
+                    shoppingMan_.stringToMail += $("#Text_search_shopping").val() + "%0D%0A";
+                    $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения «CTC. Рецепты»");
+                    $("#Text_search_shopping").val("");
+                }
+        });
+
+
         //NO to delete list clicked
         $("#noDeleteShoppingList").click(function() { $(".delete_pop").hide(); });
         $("#yesDeleteShoppingList").click(function() {
@@ -55,7 +69,7 @@ function shoppingMan() {
             $("#shopping_list").html("");
             //delete from mail
             shoppingMan_.stringToMail = "mailto:?Subject=Список%20покупок&body=%0D%0A";
-            $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения \"Домашний. Рецепты\"");
+            $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения \"CTC. Рецепты\"");
         });
 
         $("#shopping_list").delegate("li", "swipeleft swiperight", function() {
@@ -97,7 +111,7 @@ function shoppingMan() {
         var str = $(btnClicked).parents("li").slideToggle("fast").children(".food_name_shopping").text();
         str = "%0D%0A" + str + "%0D%0A";
         shoppingMan_.stringToMail = shoppingMan_.stringToMail.replace(str, "%0D%0A");
-        $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения «Домашний. Рецепты»");
+        $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения «CTC. Рецепты»");
         // var filedToDeleteFromLine = $(btnClicked).parents("li").children(".food_name").text();
 
 
@@ -114,7 +128,7 @@ function shoppingMan() {
                                     "</li>");
 
             shoppingMan_.stringToMail += $(this)[0].toString() + "%0D%0A";
-            $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения «Домашний. Рецепты»");
+            $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения «CTC. Рецепты»");
 
 
         });
