@@ -749,7 +749,7 @@
 }
 
 .food_list ul li {
-    width: 700px;
+    width: 95%;
     left: 0px;
     height: 45px;
 }
@@ -972,8 +972,11 @@
     top: 0.8em;
 }
 
-
 .delete_btn_foodgator {
+    left: 450px;
+}
+
+.recipes_middel_pic_foodgrator .delete_btn_foodgator {
     line-height: 33px;
     left: 560px;
     z-index: 600;
