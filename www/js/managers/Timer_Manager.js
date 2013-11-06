@@ -7,7 +7,7 @@ function TimerMan() {
     this.image_delete = "<img class=\"timer_delete_btn\" ontouchstart=\"timerMan_.deleteTimer(this)\" alt=\"\" src=\"images/timer_delete_btn.png\" />";
     //this.image_finish="<img class=\"finish_background\" alt=\"\" src=\"images/timer_finished_background.png\" />";
     this.showPage = function() {
-		try{snd = new Media( '/android_asset/www/voice/ding.wav' );}catch(err){};
+		//try{snd = new Media( '/android_asset/www/voice/ding.wav' );}catch(err){};
         NavigationMan_.navigate("tools", "timer");
 
         //this.setTimerList();
@@ -391,17 +391,17 @@ this.orange_off=function()
                         var timer_name = "#" + nameId + " .timer_finish_recipe_name";
                         var timer_back = "#" + nameId + " .timer_all_background_black";
 
-                        try {
-							try{
-								snd.play();
-							} catch(err) {
-								console.log('error: ' + err);
-							}
-							window.plugins.statusBarNotification.notify('CTC', nameToDisplay + ' has ended');
-                        }
-                        catch(err) {
-                            console.log('Its IOS: ' + err);
-                        }
+       //                 try {
+							//try{
+							//	snd.play();
+							//} catch(err) {
+							//	console.log('error: ' + err);
+							//}
+							//window.plugins.statusBarNotification.notify('CTC', nameToDisplay + ' has ended');
+       //                 }
+       //                 catch(err) {
+       //                     console.log('Its IOS: ' + err);
+       //                 }
 
                         $(".main_background").append("<div id=\"" + nameId + "\" class=\"timer_finish\"><span class=\"timer_all_background_black\"></span>" +"<div class=\"timer_finish_all_position\">"+ timerMan_.image_finish +
                                                         "<span class=\"timer_finish_title\">ТАЙМЕР</span><div id=\"timer_finish_recipe_name\" class=\"timer_finish_recipe_name\">ПИРОГ С КАПУСТОЙ</div>" +
