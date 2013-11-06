@@ -2419,18 +2419,15 @@ margin-right: 9px;
     top: 84px;
     width: 90%;
     left: 0px;
-    margin-left: 37px;
+    right: 0;
+    margin: auto;
     background-color: white;
 }
 
 .recipes_middel_pic_shopping {
-    background-image: url("../images/recipes_middel_pic.png");
-    background-repeat: repeat-y;
     height: 636px;
-    margin-left: 15px;
     overflow: hidden;
     position: relative;
-    width: 676px;
     background-color: white;
 }
 
