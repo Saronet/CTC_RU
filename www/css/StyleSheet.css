@@ -864,6 +864,12 @@ margin-right: 9px;
     background-position: 110% 50%;
 }
 
+.favorite_page .recipes_text_down {
+color: black;
+top: 7px;
+margin-top: 15px;
+font-family: Conv_PlumbMed;
+}
 
 .clock_side_footer, .fire_side_footer {
     width: 33%;
