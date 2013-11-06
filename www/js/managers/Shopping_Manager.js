@@ -110,7 +110,7 @@ function shoppingMan() {
         $(listToAdd).each(function() {
             $("#shopping_list").append("<li>" +
                                         "<span class=\"food_name_shopping\">" + $(this)[0].toString() + "</span>" +
-                                        "<span class=\"delete_btn_foodgator\"><img alt=\"\" src=\"" + deleteImage + "\" onclick=\"shoppingMan_.deleteLine(this)\" /></span>" +
+                                        "<span class=\"delete_btn_foodgator\"><img alt=\"\" src=\"" + deleteImage + "\" onclick=\"shoppingMan_.deleteLine(this)\" />Удалить</span>" +
                                     "</li>");
 
             shoppingMan_.stringToMail += $(this)[0].toString() + "%0D%0A";
