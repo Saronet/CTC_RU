@@ -250,14 +250,15 @@ var pageHeightBase = $(document).height() ;
 
     this.showRecipePage = function () {
         $(".page").hide();
+        
         gestureMan_.gestureStart("LR");
         $('.one_recipe_page').show();
         $('.one_recipe_page .one_recipe_back_btn').show();
         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16;
-        var pageHeightRecipe = pageHeight - $(".second_nav_background").height() - 50;
+        var pageHeightRecipe = pageHeight - $(".second_nav_background").height() *3;
         pageHeightRecipe = pageHeightRecipe - $("#add_to_cart_btn").height() ;
         $(".recipes_middel_window_what_u_need").css("height", pageHeightRecipe +'px');
-        pageHeightRecipe = pageHeightRecipe+ 90;
+        pageHeightRecipe = pageHeightRecipe+ $(".second_nav_background").height() *2;
         $(".recipes_middel_pic").css("height", pageHeightRecipe + 'px');
         //$('.text_main_icon_position').css({ "color": "#ffffff" });
         //$('#recipes_icon').hide();
@@ -266,20 +267,6 @@ var pageHeightBase = $(document).height() ;
         //$('#favorite_icon').show();
         //$('#favorite_icon_hover').hide();
 
-        switch (browser) {
-            case "isGt2":
-                //$('#recipes_icon_hover').css({ "margin-left": "2px" });//- android      
-                break;
-            case "isGt3":
-                //$('#recipes_icon_hover').css({ "margin-left": "2px" });//- android  
-                break;
-            case "ipad":
-                //$('#recipes_icon_hover').css({ "margin-left": "112px" }); //-ipad 
-                break;
-            case "iphone":
-                //$('#recipes_icon_hover').css({ "margin-left": "9px" });//- iphone    
-                break;
-        }
 
 
         /*if(isIpad()) {
@@ -564,7 +551,7 @@ this.showTimerPage = function() {
         $(".page").hide();
         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
        $(".term_middel_window").css("height", pageHeight+'px');
-       var pageHeightTerms = pageHeight - $(".second_nav_background_papers").height() +16 ;
+       var pageHeightTerms = pageHeight - $(".second_nav_background_papers").height() ;
        $(".term_middel_pic").css("height", pageHeightTerms+'px');
         $('.Terminology_page').show();
          $('.Terminology_page .one_recipe_back_btn').show();
