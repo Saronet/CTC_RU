@@ -1791,6 +1791,7 @@ font-family: Conv_PlumbMed;
 
 .timer_all_background_black {
     /*background-color: Black;*/
+    display: none;
     height: 100%;
     opacity: 0.72;
     position: absolute;
@@ -2603,16 +2604,16 @@ margin-bottom: 2px;
 
 .middel_pic_gesture {
     background-image: url("../images/textWithAlotOfHands_5.png");
-    width: 111%;
-    background-repeat: no-repeat;
-    margin: auto;
-    background-size: 100% 100%;
-    background-position: -30px 0px;
+width: 100%;
+background-repeat: no-repeat;
+margin: auto;
+background-size:  auto 90%;
+background-position: 71% 0px;
     -webkit-touch-callout: none;
 }
 
 .background_gesture {
-    height: 91%;
+    height: 100%;
     position: relative;
     width: 100%;
     overflow-x: hidden;
@@ -2765,6 +2766,7 @@ margin-bottom: 2px;
 }
 
 .all_background_black {
+    display: none;
     background-color: Black;
     height: 795px;
     opacity: 0.72;
