@@ -40,6 +40,11 @@ IOS5_SDK * eyeSightCore;
         
         
     }
+    
+    //save the light on
+    [UIApplication sharedApplication].idleTimerDisabled = NO;
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
+    
     return self;
 }
 
@@ -178,6 +183,9 @@ IOS5_SDK * eyeSightCore;
             }
         }
     }
+    
+    
+    
 }
 /* Comment out the block below to over-ride */
 
