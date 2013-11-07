@@ -2855,10 +2855,12 @@ background-position: 71% 0px;
 }
 
 /*#takeAPicBtn:hover {*/
-.share_btn:hover {
+#browseBtn:hover {
     background-color: #fcbf14;
 }
-
+#takeAPicBtn.hover{
+background-color: #fcbf14;
+}
 .share_browse_pic_position {
     position: relative;
     right: 53px;
