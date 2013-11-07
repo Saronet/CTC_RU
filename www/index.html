@@ -115,7 +115,7 @@
                             <div id="search" class="search_btn"></div>
                             <div id="backFromSearch" class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:none"></div><!--onclick="gotoMain()" -->
                             <span class="title_up_one_recipe"><span class="text_bold">CTC.</span>Рецепты</span>
-                            <div class="info_btn_main" ontouchend="open_about_page()"></div>
+                            <div class="info_btn_main" ontouchend="NavigationMan_.navigate('','about')"></div>
                             <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
 
                         </div>
@@ -388,11 +388,11 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')"></div>
                             <span class="title_up_one_recipe">Инструменты</span>
-                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <div class="Gesture_btn_main no_Gesture"></div>
                         </div>
                         <div class="tools_middel">
                             <div id="tools_middel_element_clock" class="tools_middel_element"><!--SARA-->
-                                <div class="tools_clock" ontouchend="timerMan_.showPage()">
+                                <div class="tools_clock" onclick="timerMan_.showPage()">
                                     <!--ontouchstart="timerMan_.orange_font(this)"-->
                                     <div class="tools_text">Таймер</div>
                                     <div id="counterTimerWrap" class="tools_counter_timer">
@@ -401,7 +401,7 @@
                                 </div>
                             </div>
                             <div id="tools_middel_element_shopping" class="tools_middel_element">
-                                <div class="tools_Shopping_cart" ontouchend="shoppingMan_.start()"><!--goto_shopping_page() -->  <!--ontouchstart="timerMan_.orange_font(this)"-->
+                                <div class="tools_Shopping_cart" onclick="shoppingMan_.start()"><!--goto_shopping_page() -->  <!--ontouchstart="timerMan_.orange_font(this)"-->
                                     <div class="tools_text">
  Список покупок
                                     </div>
@@ -411,7 +411,7 @@
                                 </div>
                             </div>
                             <div id="tools_middel_element_tools" class="tools_middel_element">
-                                <div class="tools_term_list" ontouchend="termsMan_.showPage()">
+                                <div class="tools_term_list" onclick="termsMan_.showPage()">
                                     <!--ontouchstart="timerMan_.orange_font(this)"-->
                                     <div id="term_text" class="tools_text">Каталог терминов</div>
                                 </div>
@@ -439,7 +439,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div><!--onclick="backto_toolspage()" -->
                             <span class="title_up_one_recipe">Таймер</span>
-                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <div class="Gesture_btn_main no_Gesture" ></div>
                             <!-- <div class="info_btn"></div>-->
                         </div>
                         <div class="timer_list">
@@ -499,7 +499,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')"></div>
                             <span class="title_up_one_recipe">Рецептор</span>
-                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <div class="Gesture_btn_main no_Gesture" ></div>
                         </div>
                         <div class="second_nav_background_papers">
                             <span class="second_nav_text">Категория</span>
@@ -694,9 +694,9 @@
                     </div>
                     <div class="shopping_page page">
                         <div class="Up_banner_background">
-                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div><!--onclick="backto_toolspage()"-->
+                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')" ></div><!--onclick="backto_toolspage()"-->
                             <span class="title_up_one_recipe">Список покупок</span>
-                            <div class="Gesture_btn_main" ontouchend="gestureMan_.showPage()"></div>
+                            <div class="Gesture_btn_main no_Gesture" ></div>
                         </div>
                         <div class="second_nav_background_papers">
                             <span class="second_nav_text">Категория</span>

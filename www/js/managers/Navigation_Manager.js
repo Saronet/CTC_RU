@@ -113,8 +113,8 @@ var pageHeightBase = $(document).height() ;
         gestureMan_.gestureStart("UD");
         //$('.one_recipe_page').hide();
        // $('.text_main_icon_position').css({ "color": "#ffffff" });
-       var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
-       $(".recipes_middel_window_recipres_page").css("height", pageHeight+'px');
+       var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() + 16;
+       $(".all_categories").css("height", pageHeight+'px');
         $('.main_menu_icon_hover').removeClass('main_menu_icon_hover');
         $('#recipes_icon').addClass('main_menu_icon_hover');
         $('.main_text_background').hide();
@@ -178,7 +178,7 @@ var pageHeightBase = $(document).height() ;
         $(".page").hide();
         gestureMan_.gestureStart("UD");
         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
-        $(".all_categories").css("height", pageHeight+'px');
+        $(".recipes_middel_window_recipres_page ").css("height", pageHeight+'px');
         $("#recipes_list li").each(function() {
             var $this = $(this);
             if($this.hasClass("recipes_hover")) {
@@ -549,7 +549,7 @@ this.showTimerPage = function() {
 
     this.showTermsPage = function() {
         $(".page").hide();
-        var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
+        var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height();
        $(".term_middel_window").css("height", pageHeight+'px');
        var pageHeightTerms = pageHeight - $(".second_nav_background_papers").height() ;
        $(".term_middel_pic").css("height", pageHeightTerms+'px');
@@ -593,6 +593,8 @@ this.showTimerPage = function() {
     this.showGesturePage = function() {
         $(".page").hide();
 
+        var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() ;
+        $(".background_gesture").css("height", pageHeight+'px');
         $('.Gesture_page').show();
         // $('.home_page').hide();
           $(".Gesture_page .one_recipe_back_btn").show();
