@@ -412,6 +412,7 @@ this.orange_off=function()
 
                         //play the 'ding' when time over
 						try{
+                        document.getElementById("timerDing").load();
                         document.getElementById("timerDing").play();
 						} catch(err){
 							console.log('android');
@@ -419,16 +420,9 @@ this.orange_off=function()
 						}
 					
 
-
                         $(timer_name).text(nameToDisplay);
 
-                        if(browser == "ipad") {
-                            //checkHtml($(timer_name), 136);
-                        }
-                        else {
-                           // checkHtml($(timer_name), 70);
-                        }
-
+                     
 
                         timer_name = "#" + nameId;
                         $(timer_name).show();
@@ -445,9 +439,7 @@ this.orange_off=function()
                     toolsMan_.setTimersCounter();
                     updated = $(this).data("duration");
 
-                    //show timer finish page 
-
-
+                    //show timer finish page
                     timerMan_.notificationStop(timerMan_.convertToMiliseconds(updated), nameToDisplay);
 
 
