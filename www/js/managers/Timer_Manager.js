@@ -631,11 +631,12 @@ this.orange_off=function()
             d = new Date(time);
         plugins.localNotification.add({
                                             date: d,
-                                            message: name + 'истекло!',
+                                            message: name + 'hi!',
                                             hasAction: true,
                                             badge: 0,
-                                            id: name + '_timer',
-                                            sound:'horn.caf'/*,
+                                            sound:'ding.caf',
+                                            id: name + '_timer'/*,
+                                            sound:'ding.caf',
                                             background:'app.background',
                                             foreground:'app.running'*/
                                             });
