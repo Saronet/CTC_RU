@@ -405,14 +405,14 @@ this.orange_off=function()
 
                         $(".main_background").append("<div id=\"" + nameId + "\" class=\"timer_finish\"><span class=\"timer_all_background_black\"></span>" +"<div class=\"timer_finish_all_position\">"+ timerMan_.image_finish +
                                                         "<span class=\"timer_finish_title\">ТАЙМЕР</span><div id=\"timer_finish_recipe_name\" class=\"timer_finish_recipe_name\">ПИРОГ С КАПУСТОЙ</div>" +
-                                                        "<div class=\"timer_finish_finish_text\">ПРИГОТОВЛЕН!</div><span class=\"timer_ok_border\" ontouchend=\"timerMan_.timer_finish(this)\"><span class=\"timer_finish_OK\">OK</span></span></div></div>");
+                                                        "<div class=\"timer_finish_finish_text\">ПРИГОТОВЛЕН!</div><span class=\"timer_ok_border\" onclick=\"timerMan_.timer_finish(this)\"><span class=\"timer_finish_OK\">OK</span></span></div></div>");
                         $(".timer_all_background_black").first().css("background-color", "black");
                         //$(timer_name).text(name);
                         //var shortName;
 
                         //play the 'ding' when time over
 						try{
-                        document.getElementById("timerDing").load();
+                        document.getElementById("timerDing").pause();
                         document.getElementById("timerDing").play();
 						} catch(err){
 							console.log('android');
