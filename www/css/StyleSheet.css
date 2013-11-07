@@ -1941,7 +1941,7 @@ font-family: Conv_PlumbMed;
 }
 
 .all_categories {
-    height: 678px;
+    height: 900px;/*may be a problem*/
     margin: auto;
     overflow-x: hidden;
     position: relative;
