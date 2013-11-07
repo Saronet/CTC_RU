@@ -87,15 +87,14 @@
     line-height: 1.5em;
     width: 25%;
 }
-/*=================.middel_pic_gesture---heand=====================*/
+/*=================heand=====================*/
 .middel_pic_gesture {
-    height: 150%;
-    width: 150%;
-    background-size: 100% 100%;
-    background-position: -15em 0px;
+    height: 1250px;
+    
 }
 
 .background_gesture {
+    height: 50%;
 }
 
 .background_term {

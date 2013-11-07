@@ -2610,6 +2610,7 @@ margin: auto;
 background-size:  auto 90%;
 background-position: 71% 0px;
     -webkit-touch-callout: none;
+    height: 100%;
 }
 
 .background_gesture {
