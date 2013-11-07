@@ -113,7 +113,7 @@ var pageHeightBase = $(document).height() ;
         gestureMan_.gestureStart("UD");
         //$('.one_recipe_page').hide();
        // $('.text_main_icon_position').css({ "color": "#ffffff" });
-       var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
+       var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() + 16;
        $(".all_categories").css("height", pageHeight+'px');
         $('.main_menu_icon_hover').removeClass('main_menu_icon_hover');
         $('#recipes_icon').addClass('main_menu_icon_hover');
@@ -593,7 +593,7 @@ this.showTimerPage = function() {
     this.showGesturePage = function() {
         $(".page").hide();
 
-        var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 16 ;
+        var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() ;
         $(".background_gesture").css("height", pageHeight+'px');
         $('.Gesture_page').show();
         // $('.home_page').hide();
