@@ -144,6 +144,7 @@
 		AAB1308316CCE306007241DB /* LocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotification.m; sourceTree = "<group>"; };
 		AAB1308416CCE306007241DB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		AAB1308516CCE306007241DB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C20D818E182F81030023AEA9 /* ding.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ding.caf; path = "IOS_SDK 2/CTC_ET/Resources/ding.caf"; sourceTree = SOURCE_ROOT; };
 		C2AF9184180D957100FDB29B /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_120.png; path = CTC_ET/Resources/icons/icon_120.png; sourceTree = "<group>"; };
 		C2AF9185180D976E00FDB29B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C2AF9187180D978000FDB29B /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
@@ -271,6 +272,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C20D818E182F81030023AEA9 /* ding.caf */,
 				C2AF9193181DD0C300FDB29B /* AppoxeeResources.bundle */,
 				C2AF9194181DD0C300FDB29B /* libAppoxee.a */,
 				C2AF9195181DD0C400FDB29B /* AppoxeeDelegate.h */,

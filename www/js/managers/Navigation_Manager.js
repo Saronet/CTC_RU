@@ -551,8 +551,8 @@ this.showTimerPage = function() {
         $(".page").hide();
         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height();
        $(".term_middel_window").css("height", pageHeight+'px');
-       var pageHeightTerms = pageHeight - $(".second_nav_background_papers").height() ;
-       $(".term_middel_pic").css("height", pageHeightTerms+'px');
+      // var pageHeightTerms = pageHeight - $(".second_nav_background_papers").height() ;
+      // $(".term_middel_pic").css("height", pageHeightTerms+'px');
         $('.Terminology_page').show();
          $('.Terminology_page .one_recipe_back_btn').show();
          $('.Terminology_page').show();
@@ -632,8 +632,8 @@ this.showTimerPage = function() {
     this.showTermSinglePage = function()
     {
          $(".page").hide();
-         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - 2 ;
-         $(".Terminology_singel_page").css("height", pageHeight+'px');
+         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - $(".second_nav_background_papers").height()/2 ;
+         $(".term_middel_window_singel").css("height", pageHeight+'px');
          $('.Terminology_singel_page').show();
          $('.Terminology_singel_page .one_recipe_back_btn').show();
          

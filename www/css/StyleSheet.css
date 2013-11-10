@@ -2383,7 +2383,7 @@ font-family: Conv_PlumbMed;
     background-image: url("../images/recipes_middel_pic.png");
     background-repeat: repeat-y;
     background-color: white;
-    height: 49em;
+   /* height: 49em;*/
     margin: auto;
     left: 0;
     top: 11px;
@@ -3587,7 +3587,7 @@ background-color: #fcbf14;
 
 .middel_pic_term {
     background-color: #fff;
-    height: 598px;
+   /* height: 598px;*/
     left: 0;
     right: 0;
     margin: auto;

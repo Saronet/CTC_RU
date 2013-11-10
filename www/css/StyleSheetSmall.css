@@ -1626,7 +1626,7 @@ ire_icon_recipes {
     background-image: url("../images/recipes_middel_pic.png");
     background-repeat: repeat-y;
     background-color: white;
-    height: 38em;
+   /* height: 38em;*/
     margin: auto;
     left: 0;
     top: 11px;
@@ -1647,6 +1647,7 @@ ire_icon_recipes {
 .one_recipe_page_description_recipe {
     height: 100%;
     top: 0;
+    margin-top:10px;	
 }
 
 .one_term_pic {
@@ -1672,7 +1673,7 @@ ire_icon_recipes {
 
 .middel_pic_term {
     background-color: #fff;
-    height: 43em;
+   /* height: 43em;*/
     left: 0;
     right: 0;
     margin: auto;
