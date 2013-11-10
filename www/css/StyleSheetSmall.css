@@ -1230,17 +1230,17 @@ left: 96px;*/
 
 .one_recipe_back_btn {
     background-image: url("../images/back-button-sprite.png");
-    background-repeat: no-repeat;
-    background-size: auto 36%;
-    background-position: -51px 45%;
-    cursor: pointer;
-    height: 3em;
-    position: absolute;
-    right: 3.1em;
-    top: 8px;
-    width: 58px;
-    z-index: 4;
-    margin: auto 0;
+background-repeat: no-repeat;
+background-size: auto 36%;
+background-position: -53px 45%;
+cursor: pointer;
+height: 3.2em;
+position: absolute;
+right: 3.1em;
+top: 14px;
+width: 58px;
+z-index: 4;
+margin: auto 0;
 }
 
 .one_recipe_back_btn.hover {
@@ -1248,8 +1248,8 @@ left: 96px;*/
 }
 
 .one_recipe_back_btn.hover {
-    background-position: 1px 45%;
-    width: 50px;
+   background-position: 0px 45%;
+width: 53px;
 }
 
 /*******unplaced************/

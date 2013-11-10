@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     //initAppSize();
-    alert('1');
+  //  alert('1');
     initBrowser();
     loadRelevantCss();
 
@@ -18,7 +18,7 @@ function initAppSize() {
 
 var browser;
 function initBrowser() {
-    alert('2');
+   // alert('2');
     var ua = navigator.userAgent.toLowerCase();
     console.log("user agent: " + ua);
     var androidSmall = false;
