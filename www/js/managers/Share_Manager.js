@@ -174,8 +174,8 @@ function shareMan() {
         // You can change
         var params = {};
         params['message'] = msg;
-        params['name'] = 'Домашний.Рецепты — приложение без прикосновения к экрану';
-        params['description'] = "Я готовлю с помощью приложения «Домашний.Рецепты» и вот, что у меня получилось";
+        params['name'] = 'CTC.Рецепты — приложение без прикосновения к экрану';
+        params['descrdoneption'] = "Я готовлю с помощью приложения «CTC.Рецепты» и вот, что у меня получилось";
         params['link'] = "http://www.domashniy.ru/article/eda/";
         params['picture'] = $('.share_img').attr("src");
         params['caption'] = 'Привет, Друзья ';

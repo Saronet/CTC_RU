@@ -1,3 +1,4 @@
-body {
-    
+.share_specific_pic.up {
+    -webkit-transition: top 0.5s; /* Safari */
+    top: -48%;
 }

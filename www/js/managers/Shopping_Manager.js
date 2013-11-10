@@ -40,7 +40,7 @@ function shoppingMan() {
                                     "</li>");
 
                     shoppingMan_.stringToMail += $("#Text_search_shopping").val() + "%0D%0A";
-                    $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения «Домашний. Рецепты»");
+                    $(".tree_btn_shopping_position a").attr("href", shoppingMan_.stringToMail + "%0D%0A" + "Отправлено с помощью приложения «CTC. Рецепты»");
                     $("#Text_search_shopping").val("");
                 }
 
