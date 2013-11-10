@@ -617,7 +617,7 @@ left: 96px;*/
 
 .share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
-    top: -52%;
+    top: -218px;
 }
 
 /******recipe page*****/
@@ -822,7 +822,7 @@ left: 96px;*/
 }
 
 .recipes_middel_window {
-    height: 330px;
+    height: 98%;
     overflow-x: hidden;
     overflow-y: scroll;
 }
