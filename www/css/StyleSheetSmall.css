@@ -91,7 +91,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 
 .info_btn_main {
     height: 27px;
-    width: 24px;
+    width: 34px;
     float: right;
     position: relative;
     top: -1px;
@@ -238,7 +238,7 @@ left: 96px;*/
 }
 
 .search_text_background {
-    height: 20px;
+    height: 28px;
     top: 10px;
     margin-bottom: 30px;
     width: 90%;
@@ -258,11 +258,11 @@ left: 96px;*/
 }
 
 .search_text {
-    height: 16px;
-    top: 1px;
-    line-height: 1em;
-    font-size: 1em;
-    width: 86%;
+    height: 25px;
+top: 1px;
+line-height: 1.1em;
+font-size: 1.1em;
+width: 86%;
 }
 /******categories list********/
 .all_categories ul li {
@@ -617,7 +617,7 @@ left: 96px;*/
 
 .share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
-    top: -218px;
+    top: -172px;
 }
 
 /******recipe page*****/

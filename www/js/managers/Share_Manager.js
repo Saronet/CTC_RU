@@ -1,27 +1,29 @@
 function shareMan() {
 
-    this.initShare = function () {
-        
-        
-        $("#text-area-cover").click(function(){
-                                    $("#text-area-cover").hide();
-                                    if(!$(".share_specific_pic").hasClass("up")){
-                                        $(".share_specific_pic").addClass("up");
-                                    }
-                                   
-                                    $("#TextArea_share").focus();
-                                    });
-        
-        $("#TextArea_share").blur(function(){
-                                  $("#text-area-cover").show();
-                                  $(".share_specific_pic").removeClass("up");
-                                  });
-        
+    this.initShare = function() {
+
+
+        $("#text-area-cover").click(function() {
+            $("#text-area-cover").hide();
+            if(!$(".share_specific_pic").hasClass("up")) {
+                $(".share_specific_pic").addClass("up");
+                $(".second_nav_background_papers").hide();
+            }
+
+            $("#TextArea_share").focus();
+        });
+
+        $("#TextArea_share").blur(function() {
+            $("#text-area-cover").show();
+            $(".share_specific_pic").removeClass("up");
+            $(".second_nav_background_papers").show();
+        });
+
         try {
             jsonMan_.get_share("ipad", "shareMan_.initShareCB");
             return sswsd;
         }
-        catch (ex) {
+        catch(ex) {
             return "";
         }
     }
