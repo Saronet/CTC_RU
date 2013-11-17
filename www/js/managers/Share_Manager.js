@@ -121,7 +121,7 @@ function shareMan() {
         //alert('Failed because: ' + message);
     }
 
-    $(".share_facebook_btn").click(function () {
+    $(".share_facebook_btn").click(function() {
         //$(".Up_banner_background").hide();
         //$(".second_nav_background_papers").hide();
         //$(".share_position").hide();
@@ -129,7 +129,7 @@ function shareMan() {
         //$(".facebookDialog").show();
 
         // First lets check to see if we have a user or not
-        if (!localStorage.getItem("fbToken")) {
+        if(!localStorage.getItem("fbToken")) {
             /*$("#facebook_loginArea").show();
             $("#facebook_status").hide();
 
@@ -144,6 +144,7 @@ function shareMan() {
             console.log("showing loged in");
             // show our info
             $("#info").show();
+            showLoading();
             shareMan_.createPost();
         }
 
@@ -183,7 +184,20 @@ function shareMan() {
         params['caption'] = 'Привет, Друзья ';
 
         // When you're ready send you request off to be processed!
-        facebookMan_.post(_fbType, params);
+        //facebook
+        //facebookMan_.post(_fbType, params);
+
+         var params = {
+            method: 'feed',
+            message: 'msg',
+            name: 'CTC.Рецепты',
+            link: applicationDownloadLink,
+            picture: str,
+            caption: 'Привет, Друзья ',
+            description: 'Друзья, я готовлю при помощи приложения «СТС.Рецепты» и вот, что у меня получилось!'
+        };
+        console.log(params);
+        FB.ui(params, function (obj) { console.log(obj); });
     };
 
 }
