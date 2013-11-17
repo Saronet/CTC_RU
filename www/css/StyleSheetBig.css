@@ -134,8 +134,9 @@
 }
 
 .star_icon_recipes_one {
-    background-size: 60px 30px;
-    width: 33px;
+    background-size: 200% 100%;
+width: 35px;
+height: 31px;
 }
 
 .one_recipe_small_up_icons {
@@ -1129,5 +1130,12 @@ font-size: 35px;
 }
 /*********************ABOUT***********************/
 #recipes_list_Results .recipes_footer_text{
-     width: 15%;
+     width: 20%;
+}
+
+.timer_name_recipe_input{
+    height: 50px;
+line-height: 50px;
+margin-top: 8px;
+width: 90%;
 }
