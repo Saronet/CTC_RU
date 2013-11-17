@@ -1636,7 +1636,7 @@ font-family: Conv_PlumbMed;
 }
 
 .message_no_internet {
-    position: absolute;
+    position: relative;
     z-index: 1;
     margin: auto;
     width: 100%;
