@@ -137,21 +137,24 @@ function shareMan() {
         //    shareMan_.createPost();
         //}
 
-         var msg = $("#TextArea_share").val();
-        var str= ($('.share_img').css("background-image"));
-        str=str.substring(4, str.length - 1);
-        
+         //var msg = $("#TextArea_share").val();
+        //var str= ($('.share_img').css("background-image"));
+       // str=str.substring(4, str.length - 1);
+                                   alert('sdf');
         var params = {
             method: 'feed',
             message: 'msg',
             name: 'CTC.Рецепты',
-            link: applicationDownloadLink,
-            picture: str,
+            link: 'kjl',
+            picture: 'dsf',
             caption: 'Привет, Друзья ',
             description: 'Друзья, я готовлю при помощи приложения «СТС.Рецепты» и вот, что у меня получилось!'
         };
-        console.log(params);
+         alert('sdf2');
+
+        //console.log(params);
         FB.ui(params, function (obj) { console.log(obj); });
+        alert('sdf3');
 
 
     });
