@@ -84,9 +84,9 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 .search_btn {
     height: 30px;
     left: 8px;
-    width: 29px;
+    width: 36px;
     background-size: auto 60%;
-    top: 13px;
+    top: 15px;
 }
 
 .info_btn_main {
@@ -94,7 +94,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 34px;
     float: right;
     position: relative;
-    top: -1px;
+    top: 1px;
     right: 8px;
 }
 
@@ -103,7 +103,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
     width: 24px;
     float: right;
     position: relative;
-    top: -1px;
+    top: 1px;
     right: 12px;
 }
 
@@ -260,8 +260,8 @@ left: 96px;*/
 .search_text {
     height: 25px;
 top: 1px;
-line-height: 1.1em;
-font-size: 1.1em;
+line-height: 1em;
+font-size: 1em;
 width: 86%;
 }
 /******categories list********/
@@ -313,7 +313,7 @@ width: 86%;
     width: 46%;
     display: block;
     overflow: hidden;
-    top: 43%;
+    top: 47%;
     color: #cc0000;
     position: relative;
     text-align: center;
@@ -545,7 +545,7 @@ width: 86%;
 
 .share_facebook_btn {
     width: 193px;
-    top: 347px;
+    top: 345px;
     height: 35px;
     left: 66px;
     background-size: 21px 21px;
@@ -588,7 +588,7 @@ width: 86%;
     height: 60px;
     margin: auto;
     position: relative;
-    top: 57px;
+    top: 53px;
     width: 280px;
 }
 
@@ -617,7 +617,7 @@ width: 86%;
 
 .share_specific_pic.up {
     -webkit-transition: top 0.5s; /* Safari */
-    top: -172px;
+    top: -140px;
 }
 
 /******recipe page*****/
