@@ -134,8 +134,9 @@
 }
 
 .star_icon_recipes_one {
-    background-size: 60px 30px;
-    width: 33px;
+    background-size: 200% 100%;
+width: 35px;
+height: 31px;
 }
 
 .one_recipe_small_up_icons {
@@ -176,6 +177,7 @@
 height: 40px;
 line-height: 40px;
 font-size: 35px;
+top:0;
 }
 
 #search_text_searchpage_3 {
@@ -686,8 +688,8 @@ font-size: 35px;
 
 .tools_share_text {
     color: #4D555F;
-    font-family: PlumbMed;
-    font-size: 22px;
+   
+    font-size: 21px;
     left: 29px;
     line-height: 2em;
     position: relative;
@@ -1128,5 +1130,12 @@ font-size: 35px;
 }
 /*********************ABOUT***********************/
 #recipes_list_Results .recipes_footer_text{
-     width: 15%;
+     width: 20%;
+}
+
+.timer_name_recipe_input{
+    height: 50px;
+line-height: 50px;
+margin-top: 8px;
+width: 90%;
 }
