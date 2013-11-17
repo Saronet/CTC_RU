@@ -321,7 +321,7 @@ width: 86%;
     margin: auto;
 }
 
-.recipes_middel_pic_recipres_page, recipes_middel_pic_search, .recipes_middel_pic_favorite {
+.recipes_middel_pic_recipres_page,  .recipes_middel_pic_favorite {
     top: 9px;
 }
 

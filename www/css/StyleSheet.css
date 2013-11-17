@@ -507,7 +507,7 @@ margin-right: 9px;
 .recipes_header_pic {
 }
 
-.recipes_middel_pic_recipres_page, recipes_middel_pic_search, .recipes_middel_pic_favorite {
+.recipes_middel_pic_recipres_page, .recipes_middel_pic_search, .recipes_middel_pic_favorite {
     background-color: white;
     overflow: hidden;
     position: relative;
@@ -515,7 +515,11 @@ margin-right: 9px;
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: 10%;
+}
+.recipes_middel_pic_search{
+    top: 0;
+    overflow-y: scroll;
+    overflow-x: auto;
 }
 
 .recipes_middel_pic_foodgrator {
@@ -523,7 +527,8 @@ margin-right: 9px;
     background-repeat: repeat-y;*/
     background-color: #fff;
     height: 80%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     position: relative;
     width: 94%;
     right: 0;
@@ -1028,7 +1033,7 @@ font-family: Conv_PlumbMed;
     -webkit-overflow-scrolling: touch;
 }
 
-.recipes_middel_window_recipres_page, .recipes_middel_window_favorite, .recipes_middel_window_search {
+.recipes_middel_window_recipres_page, .recipes_middel_window_favorite{
     height: 605px;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -1036,7 +1041,11 @@ font-family: Conv_PlumbMed;
     width: 100%;
     -webkit-overflow-scrolling: touch;
 }
-
+.recipes_middel_window_search {
+    position: relative;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
 .recipes_middel_window_recipres_page ul li {
     -webkit-transform: translate3d(0, 0, 0);
 }
@@ -1445,7 +1454,7 @@ font-family: Conv_PlumbMed;
 
 .tools_share_text {
     color: #CFCFCF;
-   
+    font-family: PlumbMed;
     font-size: 1em;
     left: 34px;
     line-height: 2em;
@@ -1534,7 +1543,7 @@ font-family: Conv_PlumbMed;
 
 .timer_name_recipe_input {
     -webkit-user-select: auto;
-    color:black;
+    color: #BBB;
     background-color: transparent;
     border: none;
     line-height: 2em;
@@ -1636,7 +1645,7 @@ font-family: Conv_PlumbMed;
 }
 
 .message_no_internet {
-    position: relative;
+    position: absolute;
     z-index: 1;
     margin: auto;
     width: 100%;
@@ -2254,11 +2263,8 @@ font-family: Conv_PlumbMed;
 }
 
 .recipes_middel_window_foodgrator {
-    height: 473px;
-    overflow-x: hidden;
-    overflow-y: auto;
     position: relative;
-    width: 603px;
+    width: 100%;
     -webkit-overflow-scrolling: touch;
 }
 
