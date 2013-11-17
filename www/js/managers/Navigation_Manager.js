@@ -647,9 +647,9 @@ this.showTimerPage = function() {
 
     this.showSearchPage = function() {
         $(".page").hide();
-        var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - $(".search_text_background").height()- $(".search_text_background").css("top").substring(0,2) *2 ;
-       $(".recipes_middel_pic_search").css("height", pageHeight + 'px');
-        //$("#recipes_icon_hover").hide();
+        
+       $(".recipes_middel_pic_search").css("height", pageHeightSearch + 'px');
+        //$("#recipes_icon_hover").hide();  
         //$("#recipes_icon").show();
         $('.search_page').show();
         $(".search_text_background").show();

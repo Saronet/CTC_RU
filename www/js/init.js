@@ -53,6 +53,7 @@ var init = {
         mainMan_.initSearch();
         mainMan_.initGesture();
         searchMan_ = new searchMan();
+        searchMan_.setHeightMainSearch();
         searchMan_.attachEvents();
         gestureMan_ = new gestureMan();
         //gestureMan_.initGesture();
