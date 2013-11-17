@@ -748,6 +748,7 @@ font-size: 35px;
 
 .recipes_list_Results ul li {
     height: 200px;
+    width: 96%;
 }
 
 .food_list ul li {
@@ -1119,5 +1120,14 @@ font-size: 35px;
     bottom: -33%;
 }
 
+.favorite_recipe_name{
+    width: 80%;
+}
 
+.recipes_list ul li, .recipes_list_search ul li, .recipes_list_Results ul li{
+    width: 97%;
+}
 /*********************ABOUT***********************/
+#recipes_list_Results .recipes_footer_text{
+     width: 15%;
+}
