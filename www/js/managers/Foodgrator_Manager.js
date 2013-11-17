@@ -62,7 +62,7 @@ function FoodgrMan () {
 
 
         //get recipes
-        $("#ResultBtnFoodSearch").bind('touchend', function() {
+        $("#ResultBtnFoodSearch").bind('click', function() {
        
            if($("#Text_search_foodgrator").val() != "" && $("#Text_search_foodgrator").val() != " ") {
                     $(".recipes_list_Results").hide();
@@ -83,7 +83,7 @@ function FoodgrMan () {
 
         });
 
-        $("#ResultBtnFood").bind('touchend', function() {
+        $("#ResultBtnFood").bind('click', function() {
             foodgrMan_.clearResultsListPage();
 
             foodgrMan_.createListByWords(wordsToSearch);
