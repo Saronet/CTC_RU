@@ -1,5 +1,5 @@
 var wordsToSearch =[];
-var pageHeightFoodList = "";
+var pageHeightFood = "";
 var pageHeightFoodList = "";
 function FoodgrMan () {
     //this.wordsToSearch = "";
@@ -289,5 +289,10 @@ function FoodgrMan () {
         topStr = topStr.substring(0, topStr.length - 2);
         pageHeightFood = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - $(".second_nav_background_papers").height() - $(".foodgrator_text_background").height() - topStr - 16;
         pageHeightFoodList = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - $(".second_nav_background_papers").height() - 16;
+         switch(browser){
+            case "ipad": 
+            pageHeightFoodList = pageHeightFoodList -30;
+            break;  
+        }
     }
 }

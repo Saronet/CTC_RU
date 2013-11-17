@@ -632,7 +632,7 @@ this.showTimerPage = function() {
     this.showTermSinglePage = function()
     {
          $(".page").hide();
-         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - $(".second_nav_background_papers").height()/2 ;
+         var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - $(".second_nav_background_papers").height();
          $(".term_middel_window_singel").css("height", pageHeight+'px');
          $('.Terminology_singel_page').show();
          $('.Terminology_singel_page .one_recipe_back_btn').show();
@@ -647,7 +647,8 @@ this.showTimerPage = function() {
 
     this.showSearchPage = function() {
         $(".page").hide();
-        $(".recipes_middel_window_search").css("height", pageHeightFood + 'px');
+        var pageHeight = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - $(".search_text_background").height()- $(".search_text_background").css("top").substring(0,2) *2 ;
+       $(".recipes_middel_pic_search").css("height", pageHeight + 'px');
         //$("#recipes_icon_hover").hide();
         //$("#recipes_icon").show();
         $('.search_page').show();
