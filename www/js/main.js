@@ -286,11 +286,13 @@ function getRecipeNumberById( id,type)
     if(navigator.onLine == false)
     {
         $(".message_no_internet").show();
+        $("#middel_main").hide();
        
     }
     else
     {
         $(".message_no_internet").hide();
+        $("#middel_main").show();
 
     }
     
