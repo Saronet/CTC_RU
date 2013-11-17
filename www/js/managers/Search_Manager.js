@@ -1,3 +1,5 @@
+var pageHeightSearch = "";
+
 function searchMan() {
     this.start = function() {        
         $(".Up_banner_background").delegate("#search", "touchend", searchMan_.showWordsBox);
@@ -209,5 +211,16 @@ function searchMan() {
         favoriteMan_.addRecipeToList(myThis);
         $(myThis).fadeOut();
         
+    }
+
+    this.setHeightMainSearch = function () {
+
+        pageHeightSearch = $(document).height() - $(".Up_banner_background").height() - $(".down_menu_background").height() - $(".search_text_background").height() - $(".search_text_background").css("top").substring(0, 2) * 2;
+        //switch(browser){
+        //    case "ipad": 
+        //    
+        //    break;  
+        //    pageHeightSearch = pageHeightSearch /2;
+        //}
     }
 }

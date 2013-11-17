@@ -121,41 +121,31 @@ function shareMan() {
         //alert('Failed because: ' + message);
     }
 
-    $(".share_facebook_btn").click(function() {
-   
-        //// First lets check to see if we have a user or not
-        //if(!localStorage.getItem("fbToken")) {
-        //     facebookMan_.init();
+    $(".share_facebook_btn").click(function () {
+        //$(".Up_banner_background").hide();
+        //$(".second_nav_background_papers").hide();
+        //$(".share_position").hide();
+        //$(".share_specific_pic").hide();
+        //$(".facebookDialog").show();
 
-        //}
+        // First lets check to see if we have a user or not
+        if (!localStorage.getItem("fbToken")) {
+            /*$("#facebook_loginArea").show();
+            $("#facebook_status").hide();
 
-        //else {
-        //    console.log("showing loged in");
-        //    // show our info
-        //    $("#info").show();
-        //    showLoading();
-        //    shareMan_.createPost();
-        //}
+            $("#facebook_login").click(function(){*/
+            facebookMan_.init();
 
-         //var msg = $("#TextArea_share").val();
-        //var str= ($('.share_img').css("background-image"));
-       // str=str.substring(4, str.length - 1);
-                                   alert('sdf');
-        var params = {
-            method: 'feed',
-            message: 'msg',
-            name: 'CTC.Рецепты',
-            link: 'kjl',
-            picture: 'dsf',
-            caption: 'Привет, Друзья ',
-            description: 'Друзья, я готовлю при помощи приложения «СТС.Рецепты» и вот, что у меня получилось!'
-        };
-         alert('sdf2');
+            //});
 
-        //console.log(params);
-        FB.ui(params, function (obj) { console.log(obj); });
-        alert('sdf3');
+        }
 
+        else {
+            console.log("showing loged in");
+            // show our info
+            $("#info").show();
+            shareMan_.createPost();
+        }
 
     });
 
@@ -193,10 +183,7 @@ function shareMan() {
         params['caption'] = 'Привет, Друзья ';
 
         // When you're ready send you request off to be processed!
-        //facebook
         facebookMan_.post(_fbType, params);
-
-        
     };
 
 }
