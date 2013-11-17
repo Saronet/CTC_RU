@@ -185,19 +185,9 @@ function shareMan() {
 
         // When you're ready send you request off to be processed!
         //facebook
-        //facebookMan_.post(_fbType, params);
+        facebookMan_.post(_fbType, params);
 
-         var params = {
-            method: 'feed',
-            message: 'msg',
-            name: 'CTC.Рецепты',
-            link: applicationDownloadLink,
-            picture: str,
-            caption: 'Привет, Друзья ',
-            description: 'Друзья, я готовлю при помощи приложения «СТС.Рецепты» и вот, что у меня получилось!'
-        };
-        console.log(params);
-        FB.ui(params, function (obj) { console.log(obj); });
+        
     };
 
 }

@@ -1454,8 +1454,7 @@ font-family: Conv_PlumbMed;
 
 .tools_share_text {
     color: #CFCFCF;
-    font-family: PlumbMed;
-    font-size: 1em;
+       font-size: 1em;
     left: 34px;
     line-height: 2em;
     position: relative;
@@ -1543,7 +1542,7 @@ font-family: Conv_PlumbMed;
 
 .timer_name_recipe_input {
     -webkit-user-select: auto;
-    color: #BBB;
+    color: black;
     background-color: transparent;
     border: none;
     line-height: 2em;
