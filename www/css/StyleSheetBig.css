@@ -85,7 +85,10 @@
 .recipes_footer_text {
     height: 1em;
     line-height: 1.5em;
-    width: 25%;
+    width: 42%;
+}
+.searchFavoriteBtnOuter .recipes_footer_text{
+    width: 21%;
 }
 /*=================heand=====================*/
 .middel_pic_gesture {
@@ -169,16 +172,16 @@
 }
 /*====================.search_text=========================*/
 #search_text_box {
-    width: 80%;
-    height: 1.7em;
-    line-height: 1em;
-    font-size: 35px;
+   width: 80%;
+height: 40px;
+line-height: 40px;
+font-size: 35px;
 }
 
 #search_text_searchpage_3 {
     width: 80%;
     font-size: 25px;
-    line-height: 50px;
+    line-height: 40px;
     height: 40px;
 }
 
@@ -484,6 +487,7 @@
     margin: auto;
     width: 93%;
     left: 0px;
+    height: 50px;
 }
 
 .search_btn {
@@ -1111,6 +1115,9 @@
     text-indent: 0;
 }
 
+.text_icon_position, .text_main_icon_position{
+    bottom: -33%;
+}
 
 
 /*********************ABOUT***********************/
