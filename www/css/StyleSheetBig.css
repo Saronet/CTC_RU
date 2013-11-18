@@ -522,6 +522,7 @@ top:0;
 /**********recipes list page*********/
 .recipes_list ul {
     width: 100%;
+    overflow:hidden;
 }
 
 .recipes_list ul li {
@@ -1126,7 +1127,7 @@ top:0;
 }
 
 .recipes_list ul li, .recipes_list_search ul li, .recipes_list_Results ul li{
-    width: 97%;
+    width: 96%;
 }
 /*********************ABOUT***********************/
 #recipes_list_Results .recipes_footer_text{
@@ -1136,7 +1137,7 @@ top:0;
     width: 37%;
 }
 .timer_name_recipe_input{
-height: 50px;
+height: 54px;
 line-height: 50px;
 margin-top: 4px;
 width: 90%;
