@@ -85,7 +85,7 @@
 .recipes_footer_text {
     height: 1em;
     line-height: 1.5em;
-    width: 78%;
+    width: 25%;
 }
 .searchFavoriteBtnOuter .recipes_footer_text{
     width: 21%;
@@ -525,7 +525,7 @@ top:0;
 }
 
 .recipes_list ul li {
-    padding: 1.5em;
+    padding: 12px;
     width: 93%;
 }
 
@@ -1132,10 +1132,17 @@ top:0;
 #recipes_list_Results .recipes_footer_text{
      width: 20%;
 }
-
+.recipes_list_search .recipes_footer_text{
+    width: 37%;
+}
 .timer_name_recipe_input{
-    height: 50px;
+height: 50px;
 line-height: 50px;
-margin-top: 8px;
+margin-top: 4px;
 width: 90%;
+margin-bottom: 4px;
+}
+
+.tools_counter_num{
+    padding-top: 10px;
 }

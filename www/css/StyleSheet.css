@@ -2106,34 +2106,34 @@ font-family: Conv_PlumbMed;
 }
 
 .tools_counter_timer {
-    background-image: url("../images/tool_counter.png");
-    background-repeat: no-repeat;
-    height: 47px;
-    left: 251px;
-    position: relative;
-    top: -46px;
-    width: 44px;
+   background-image: url("../images/tool_counter.png");
+background-repeat: no-repeat;
+height: 47px;
+position: absolute;
+top: 20px;
+right: 0;
+width: 44px;
 }
 
 .tools_counter_num {
     color: white;
     font-size: 23px;
     font-weight: bold;
-    line-height: 41px;
+    /*line-height: 41px;*/
     position: relative;
     text-align: center;
-    min-width: 40px;
+    /*min-width: 40px;*/
     display: block;
 }
 
 .tools_counter_Shopping_cart {
-    background-image: url("../images/tool_counter.png");
-    background-repeat: no-repeat;
-    height: 47px;
-    left: 422px;
-    position: relative;
-    top: -46px;
-    width: 44px;
+   background-image: url("../images/tool_counter.png");
+background-repeat: no-repeat;
+height: 47px;
+right: 0px;
+position: absolute;
+top: 20px;
+width: 44px;
 }
 
 .add_to_cart_btn {

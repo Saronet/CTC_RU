@@ -1910,7 +1910,8 @@ ire_icon_recipes {
 top: 6px;
 width: 22px;
 right: 10px;
-height: 23px
+height: 23px;
+background-size: 100% 100%;
 }
 
 .tools_counter_num {
@@ -1923,4 +1924,5 @@ top: 6px;
 width: 22px;
 right: 10px;
 height: 23px;
+background-size: 100% 100%;
 }
