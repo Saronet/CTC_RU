@@ -89,17 +89,20 @@ this.post=function(_fbType,params){
     // Our success callback
     req.onload = facebookMan_.success();
 };
-    
-this.success=function(){
+
+this.success = function() {
     $("#facebook_statusTXT").show();
     $("#facebook_statusBTN").show();
-    
+
     // hide our info
     $("#info").hide();
-    
+
     // reset our field
     $("#facebook_statusTXT").val('');
-    
+
+    //show the success message on the button
+    $(".share_facebook_btn").text("«Ваша фотография была загружена»");
+    hideLoading();
     console.log("DONE!");
     shareMan_.done();
 }

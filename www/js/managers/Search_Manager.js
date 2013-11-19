@@ -163,7 +163,7 @@ function searchMan() {
 
                 });
 
-                $("#recipeSearch" + id).bind('touchend', function() {
+                $("#recipeSearch" + id).bind('click', function() {
                     list_regular();
                     console.log("click");
                     //alert(json);

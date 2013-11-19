@@ -155,7 +155,7 @@ function FoodgrMan () {
                 if(small_imag == "") { small_imag = "images/default_pic.jpg"; }
 
                 var id = val.posts[i].id;
-                $("#recipes_list_Results").append("<li id=\"recipeGoToF" + id + "\" ontouchstart=\"list_hover(this)\" ontouchend=\"list_regular()\">" +
+                $("#recipes_list_Results").append("<li id=\"recipeGoToF" + id + "\" ontouchstart=\"list_hover(this)\" >" +
 
                                      "<div class=\"favorite_category_background\">" +
                                      "<span class=\"favorite_recipe_name\">" + categoryToDisplay + "</span>" +

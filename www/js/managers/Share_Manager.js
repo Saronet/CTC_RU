@@ -121,7 +121,7 @@ function shareMan() {
         //alert('Failed because: ' + message);
     }
 
-    $(".share_facebook_btn").click(function () {
+    $(".share_facebook_btn").click(function() {
         //$(".Up_banner_background").hide();
         //$(".second_nav_background_papers").hide();
         //$(".share_position").hide();
@@ -129,7 +129,7 @@ function shareMan() {
         //$(".facebookDialog").show();
 
         // First lets check to see if we have a user or not
-        if (!localStorage.getItem("fbToken")) {
+        if(!localStorage.getItem("fbToken")) {
             /*$("#facebook_loginArea").show();
             $("#facebook_status").hide();
 
@@ -145,6 +145,7 @@ function shareMan() {
             // show our info
             $("#info").show();
             shareMan_.createPost();
+            showLoading();
         }
 
     });

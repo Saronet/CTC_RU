@@ -569,9 +569,9 @@ this.showTimerPage = function() {
           $('.share_page .one_recipe_back_btn').show();
 
         $('.share_specific_pic').hide();
-        // $('.about_us_page').hide();
         $(".share_position").show();
         
+
         this.backPosition = this.pagePosition;
         this.pagePosition = "share";
     }
@@ -586,6 +586,9 @@ this.showTimerPage = function() {
         $('.share_specific_pic').show();
         // $('.about_us_page').hide();
         $(".share_position").hide();
+        //init the facebook btn text
+        $(".share_facebook_btn").text("Поделиться в Facebook");
+
         this.backPosition = this.pagePosition;
         this.pagePosition = "browse";
 

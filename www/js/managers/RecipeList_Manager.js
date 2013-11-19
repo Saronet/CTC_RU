@@ -214,7 +214,7 @@
 
           });
 
-          $("#recipeGoToR" + id).bind('touchend', function() {
+          $("#recipeGoToR" + id).bind('click', function() {
               list_regular();
               console.log("click");
               //alert(json);
