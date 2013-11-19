@@ -1926,3 +1926,16 @@ right: 10px;
 height: 23px;
 background-size: 100% 100%;
 }
+.timer_name_recipe_input{
+-webkit-user-select: auto;
+color: black;
+background-color: transparent;
+border: none;
+line-height: 32px;
+font-size: 24px;
+width: 100%;
+text-align: center;
+height: 32px;
+
+padding-top: 3px;
+}

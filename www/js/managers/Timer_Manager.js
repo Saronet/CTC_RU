@@ -621,7 +621,7 @@ this.orange_off=function()
             d = new Date(time);
         plugins.localNotification.add({
                                             date: d,
-                                            message: name + 'истекло!',
+                                            message: name + ' истекло!',
                                             hasAction: true,
                                             badge: 0,
                                             sound:'ding.caf',
