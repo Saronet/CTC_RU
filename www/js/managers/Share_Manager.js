@@ -26,6 +26,11 @@ function shareMan() {
         catch(ex) {
             return "";
         }
+
+
+        $("#facebookSharedOk").click(function(){
+             NavigationMan_.navigate("tools", "share");
+        });
     }
 
     this.initShareCB = function (val) {
@@ -152,14 +157,13 @@ function shareMan() {
 
 
 
-    this.done = function () {
-        //$(".Up_banner_background").show();
-        //$(".second_nav_background_papers").show();
-        //$(".share_position").show();
-        //$(".share_specific_pic").show();
-        //$(".facebookDialog").hide();
-        $('.share_specific_pic').hide();
-        $('.share_position').show();
+    this.done = function() {
+
+        $("#facebookSharedPopup").show();
+
+
+        //$('.share_specific_pic').hide();
+        //$('.share_position').show();
     };
 
 

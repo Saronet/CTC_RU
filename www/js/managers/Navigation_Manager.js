@@ -564,13 +564,14 @@ this.showTimerPage = function() {
     this.showSharePage = function() {
         $(".page").hide();
         $(".facebookDialog").hide();
+        $("#facebookSharedPopup").hide();
 
         $('.share_page').show();
-          $('.share_page .one_recipe_back_btn').show();
+        $('.share_page .one_recipe_back_btn').show();
 
         $('.share_specific_pic').hide();
         $(".share_position").show();
-        
+
 
         this.backPosition = this.pagePosition;
         this.pagePosition = "share";
