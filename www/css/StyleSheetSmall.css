@@ -558,6 +558,11 @@ width: 86%;
     position: absolute;
 }
 
+.share_facebook_btn.shared{
+background-position: 14px;
+font-size: 11px;
+}
+
 .share_specific_title {
     color: #484F57;
     font-size: 13px;

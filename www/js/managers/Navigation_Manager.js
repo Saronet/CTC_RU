@@ -588,7 +588,7 @@ this.showTimerPage = function() {
         $(".share_position").hide();
         //init the facebook btn text
         $(".share_facebook_btn").text("Поделиться в Facebook");
-
+ $(".share_facebook_btn").removeClass("shared");
         this.backPosition = this.pagePosition;
         this.pagePosition = "browse";
 

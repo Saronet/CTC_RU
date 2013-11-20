@@ -101,9 +101,10 @@ this.success = function() {
     $("#facebook_statusTXT").val('');
 
     //show the success message on the button
-    $(".share_facebook_btn").text("«Ваша фотография была загружена»");
     hideLoading();
+    $(".share_facebook_btn").text("«Ваша фотография была загружена»");
+    $(".share_facebook_btn").addClass("shared");
     console.log("DONE!");
-    shareMan_.done();
+  //  shareMan_.done();
 }
 };

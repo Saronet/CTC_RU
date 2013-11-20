@@ -2967,7 +2967,10 @@ background-color: #fcbf14;
     border-radius: 13px;
     text-indent: 64px;
 }
-
+.share_facebook_btn.shared{
+background-position: 12px;
+font-size: 19px;
+}
 
 .share_img {
     height: 99%;
