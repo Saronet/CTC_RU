@@ -26,6 +26,11 @@ function shareMan() {
         catch(ex) {
             return "";
         }
+
+
+        $("#facebookSharedOk").click(function(){
+             NavigationMan_.navigate("tools", "share");
+        });
     }
 
     this.initShareCB = function (val) {
@@ -98,7 +103,7 @@ function shareMan() {
       //      $('.share_specific_pic').show();
       //    $('.share_position').hide();
       //  NavigationMan_.navigate("","browse");
-     // showLoading();
+      showLoading();
       jQuery.ajax({
           type: 'POST',
           url: 'http://appetite.theboxsite.com/wp-content/uploads/save.php',
@@ -145,16 +150,20 @@ function shareMan() {
             // show our info
             $("#info").show();
             shareMan_.createPost();
-            //showLoading();
+            showLoading();
         }
 
     });
 
 
 
-    this.done = function () {
-        //  $('.share_specific_pic').hide();
-       // $('.share_position').show();
+    this.done = function() {
+
+        $("#facebookSharedPopup").show();
+
+
+        //$('.share_specific_pic').hide();
+        //$('.share_position').show();
     };
 
 

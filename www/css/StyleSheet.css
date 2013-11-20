@@ -2718,6 +2718,36 @@ background-position: 71% 0px;
     -webkit-transform: translate3d(0, 0, 0);
 }
 
+#facebookSharedPopup {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    top: 6%;
+    height: 100%;
+}
+
+.facebook-shared-text{
+    top: 44px;
+    font-size: 250%;
+line-height: 180%;
+margin: auto;
+position: relative;
+left: 0;
+right: 0;
+text-align: center;
+width: 70%;
+color: white;
+}
+
+#facebookSharedOk{
+    width: 200px;
+margin: auto;
+top: 56px;
+position: relative;
+border: 1px solid white;
+border-radius: 16px;
+}
 .mail_pop {
     display: none;
     position: absolute;
