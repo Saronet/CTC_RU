@@ -1,6 +1,10 @@
 function shareMan() {
 
     this.initShare = function() {
+        //alert( $("#facebookSharedOk"));
+        $("#facebookSharedOk").click(function(){
+                                     NavigationMan_.navigate("tools", "share");
+                                     });
 
 
         $("#text-area-cover").click(function() {
@@ -28,10 +32,7 @@ function shareMan() {
         }
 
 
-        $("#facebookSharedOk").click(function(){
-             NavigationMan_.navigate("tools", "share");
-        });
-    }
+            }
 
     this.initShareCB = function (val) {
 
@@ -103,7 +104,7 @@ function shareMan() {
       //      $('.share_specific_pic').show();
       //    $('.share_position').hide();
       //  NavigationMan_.navigate("","browse");
-      showLoading();
+     // showLoading();
       jQuery.ajax({
           type: 'POST',
           url: 'http://appetite.theboxsite.com/wp-content/uploads/save.php',
@@ -150,7 +151,7 @@ function shareMan() {
             // show our info
             $("#info").show();
             shareMan_.createPost();
-            showLoading();
+            //showLoading();
         }
 
     });
@@ -158,12 +159,6 @@ function shareMan() {
 
 
     this.done = function() {
-
-        $("#facebookSharedPopup").show();
-
-
-        //$('.share_specific_pic').hide();
-        //$('.share_position').show();
     };
 
 
@@ -171,7 +166,7 @@ function shareMan() {
         // Define our message!
 
         var msg = $("#TextArea_share").val();
-        if ((msg == undefined) || (msg == "")) { msg = "This is my message"; }
+        if ((msg == undefined) || (msg == "")) { msg = ""; }
         $("#TextArea_share").val("");
 
         // Define the part of the Graph you want to use.

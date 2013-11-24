@@ -102,8 +102,9 @@ this.success = function() {
 
     //show the success message on the button
     hideLoading();
-    $(".share_facebook_btn").text("«Ваша фотография была загружена»");
-    $(".share_facebook_btn").addClass("shared");
+   // alert("show");
+    $("#facebookSharedPopup").show();
+
     console.log("DONE!");
   //  shareMan_.done();
 }

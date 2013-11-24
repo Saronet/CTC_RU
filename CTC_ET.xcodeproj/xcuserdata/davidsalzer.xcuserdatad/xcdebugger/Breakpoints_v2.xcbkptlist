@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "www/js/managers/Share_Manager.js"
-            timestampString = "403515115.457052"
+            timestampString = "406653070.93895"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "initShareCB"
             landmarkType = "7">
          </BreakpointContent>

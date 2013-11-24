@@ -1944,3 +1944,19 @@ height: 32px;
 
 padding-top: 3px;
 }
+
+#facebookSharedOk{
+width: 100px;
+border-radius: 8px;
+top: 50px;
+padding-top: 4px;
+}
+
+.timer_finish_OK{
+    height: 22px;
+font-size: 20px;
+
+}
+
+.facebook-shared-text {
+top: 35px;}
