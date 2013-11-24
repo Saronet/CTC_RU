@@ -163,6 +163,11 @@ left: 96px;*/
     background-position-x: 15%;
 }
 
+.btn_main_1 {
+    background-position-x: 23%;
+}
+
+
 .title_pic_text {
     left: 5px;
 }
@@ -181,7 +186,7 @@ left: 96px;*/
     display: block;
     background-position: 50% 30%;
     color: #fff;
-    margin-left: 3%;
+    margin-left: 18%;
     margin-top: 7%;
     font-size: 1.1em;
 }
@@ -1134,27 +1139,30 @@ font-size: 11px;
 }
 
 #send {
-    background-image: url("../images/send.png");
-    background-repeat: no-repeat;
-    background-size: 18% 61%;
-    background-position-x: 14px;
-    background-position-y: 5px;
+   background-image: url("../images/send.png");
+background-repeat: no-repeat;
+background-size: 18% 61%;
+background-position-x: 11px;
+background-position-y: 5px;
+text-indent: 23px;
 }
 
 #clear {
-    background-image: url("../images/trash-white.png");
-    background-repeat: no-repeat;
-    background-size: 14% 68%;
-    background-position-x: 14px;
-    background-position-y: 4px;
+ background-image: url("../images/trash-white.png");
+background-repeat: no-repeat;
+background-size: 14% 68%;
+background-position-x: 11px;
+background-position-y: 4px;
+text-indent: 19px
 }
 
 #add {
     background-image: url("../images/foodgerator-add.png");
-    background-repeat: no-repeat;
-    background-size: 17% 68%;
-    background-position-x: 19px;
-    background-position-y: 4px;
+background-repeat: no-repeat;
+background-size: 17% 68%;
+background-position-x: 15px;
+background-position-y: 4px;
+text-indent: 22px;
 }
 
 .shopping_page .shopping_text_background {
