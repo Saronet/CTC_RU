@@ -721,6 +721,10 @@ top:0;
     background-position: 9% 50%;
 }
 
+.foodgrator_btn_left{
+  background-position: 6% 50%;
+}
+
 .foodgrator_page .second_nav_background_papers {
     height: 130px;
 }
