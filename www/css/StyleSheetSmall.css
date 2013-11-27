@@ -83,7 +83,7 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 
 .search_btn {
     height: 30px;
-    left: 8px;
+    left: 0px;
     width: 36px;
     background-size: auto 60%;
     top: 15px;
@@ -94,7 +94,7 @@ height: 27px;
 width: 30px;
 float: right;
 position: relative;
-top: 1px;
+top: -1px;
 margin-left: 0px;
 right: 0;
 background-position: 17%;
@@ -105,7 +105,7 @@ height: 27px;
 width: 30px;
 float: right;
 position: relative;
-top: 1px;
+top: -1px;
 background-position: -5%;
 }
 
@@ -1251,7 +1251,7 @@ background-position: -53px 45%;
 cursor: pointer;
 height: 3.2em;
 position: absolute;
-right: 3.1em;
+
 top: 14px;
 width: 58px;
 z-index: 4;
