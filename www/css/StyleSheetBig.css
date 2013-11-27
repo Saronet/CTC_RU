@@ -1156,3 +1156,8 @@ margin-bottom: 4px;
 #facebookSharedPopup{
     top: 2%;
 }
+
+
+.search_text_background .search_btn_icon {
+top: -16px;
+}

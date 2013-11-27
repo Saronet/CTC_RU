@@ -424,11 +424,15 @@ float: right;
 border-bottom-right-radius: 20px;
 border-top-right-radius: 20px;
 height: 49px;
-top: -16px;
+top: 0px;
 margin-bottom: 28px;
 margin-right: 9px;
 position: relative;
 clear: both;
+}
+
+.search_text_background .search_btn_icon {
+
 }
 
 .search_text {
