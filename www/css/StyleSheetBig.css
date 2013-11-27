@@ -323,7 +323,7 @@ top:0;
     cursor: pointer;
     height: 3em;
     position: absolute;
-    right: 3.1em;
+
     width: 158px;
     z-index: 4;
     top: 1.1em;
@@ -331,6 +331,7 @@ top:0;
     margin: auto 0;
     /*display: none;*/
     background-repeat: no-repeat;
+    left:1.7%;
 }
 
 .one_recipe_page.page .one_recipe_back_btn {
@@ -496,16 +497,18 @@ left: 75%;
 .search_btn {
     height: 5em;
     background-size: auto 57%;
-    left: 18px;
+    left: 10px;
 }
 
 .info_btn_main {
     height: 4em;
+    margin-left:0px;
     
 }
 
 .Gesture_btn_main {
     height: 4em;
+    margin-right:13px;
    
 }
 

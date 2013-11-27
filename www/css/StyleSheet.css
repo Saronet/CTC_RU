@@ -1117,22 +1117,13 @@ font-family: Conv_PlumbMed;
 }
 
 .one_recipe_back_btn {
-    /*background-image: url("images/back_btn.png");
-    background-repeat: no-repeat;
-    height:61px;
-    position: absolute;
-    width: 109px;
-    cursor: pointer;
-    float: left;
-    z-index:4;
-    top: 24px;
-    left:4px;*/
+
     height: 66%;
     position: absolute;
     cursor: pointer;
     float: left;
     z-index: 4;
-    left: 3%;
+    left: 2%;
     vertical-align: middle;
     text-align: center;
     margin: auto 0;
