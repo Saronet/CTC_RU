@@ -189,7 +189,7 @@ left: 81%;
     background-position: 50% 30%;
     color: #fff;
     margin-left: 18%;
-    margin-top: 7%;
+    margin-top: 8%;
     font-size: 1.1em;
 }
 
@@ -248,7 +248,7 @@ left: 81%;
 .search_text_background {
     height: 28px;
     top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     width: 90%;
     border-radius: 3px;
     position: relative;

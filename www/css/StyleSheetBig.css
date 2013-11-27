@@ -50,7 +50,7 @@
 }
 
 .recipes_look_inside_btn {
-    right: 15px;
+    right: 0;
     width: 3%;
     top: 64px;
 }
@@ -540,7 +540,7 @@ left: 75%;
     float: left;
     margin-left: 24px;
     height: 9em;
-    width: 71%;
+    width: 74%;
     position: relative;
 }
 

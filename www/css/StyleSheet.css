@@ -414,20 +414,21 @@ float: right;
 
 .search_text_background, .search_btn_icon {
     height: 72px;
-    top: 10px;
+    top: 38px;
     margin-bottom: 28px;
 }
 
 .search_btn_icon {
     cursor: pointer;
-    float: right;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    
-    height: 49px;
-top: 10px;
+float: right;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+height: 49px;
+top: -16px;
 margin-bottom: 28px;
 margin-right: 9px;
+position: relative;
+clear: both;
 }
 
 .search_text {
