@@ -480,9 +480,10 @@ top:0;
 }
 
 .time_pic_white {
-    top: 53%;
-    height: 2em;
-    width: 2em;
+   top: 53%;
+height: 2em;
+width: 2em;
+left: 75%;
 }
 
 .search_text_background {
@@ -500,12 +501,12 @@ top:0;
 
 .info_btn_main {
     height: 4em;
-    right: 18px;
+    
 }
 
 .Gesture_btn_main {
     height: 4em;
-    right: 92px;
+   
 }
 
 .dots_position ul li {

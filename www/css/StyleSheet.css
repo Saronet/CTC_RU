@@ -385,20 +385,19 @@ a {
 }
 
 .Gesture_btn_main {
-    background-image: url("../images/Gesture_btn.jpg");
-    background-repeat: no-repeat;
-    background-size: auto 75%;
-    background-position: 50%;
-    cursor: pointer;
-    height: 3em;
-    position: absolute;
-    right: 3.1em;
-    /*top: 24px;*/
-    width: 58px;
-    z-index: 4;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
+   background-image: url("../images/Gesture_btn.jpg");
+background-repeat: no-repeat;
+background-size: auto 75%;
+background-position: 50%;
+cursor: pointer;
+height: 3em;
+position: relative;
+
+width: 58px;
+z-index: 4;
+top: -19px;
+margin: auto 0;
+float: right;
 }
 
 .search_text_background {
@@ -492,7 +491,7 @@ margin-right: 9px;
     font-size: 1em;
     height: 30px;
     position: relative;
-    left: 1.2em;
+    left: 13%;
     width: 188px;
     top: 55%;
 }
@@ -1280,21 +1279,20 @@ font-family: Conv_PlumbMed;
 }
 
 .info_btn_main {
-    background-image: url("../images/info_btn.jpg");
-    background-repeat: no-repeat;
-    background-size: auto 75%;
-    background-position: 50%;
-    cursor: pointer;
-    float: left;
-    height: 3em;
-    right: 7px;
-    position: absolute;
-    /*top: 31px;*/
-    width: 58px;
-    z-index: 4;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
+   background-image: url("../images/info_btn.jpg");
+background-repeat: no-repeat;
+background-size: auto 75%;
+background-position: 50%;
+cursor: pointer;
+float: right;
+height: 3em;
+right: 7px;
+position: relative;
+width: 58px;
+z-index: 4;
+top: -19px;
+margin: auto 0;
+margin-left: 11px;
 }
 
 .recipes_footer_favorite {

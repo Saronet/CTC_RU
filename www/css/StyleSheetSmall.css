@@ -91,20 +91,19 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 
 .info_btn_main {
     height: 27px;
-    width: 34px;
-    float: right;
-    position: relative;
-    top: 1px;
-    right: 8px;
+width: 34px;
+float: right;
+position: relative;
+top: 1px;
+margin-left: 3px;
 }
 
 .Gesture_btn_main {
     height: 27px;
-    width: 24px;
-    float: right;
-    position: relative;
-    top: 1px;
-    right: 12px;
+width: 28px;
+float: right;
+position: relative;
+top: 1px;
 }
 
 .Gesture_btn_main.no_Gesture {
@@ -169,12 +168,12 @@ left: 96px;*/
 
 
 .title_pic_text {
-    left: 5px;
+    left: 17%;
 }
 
 .time_pic_white {
-    top: 54%;
-    left: 13%;
+  top: 54%;
+left: 81%;
 }
 
 #btn_txt_1 {
