@@ -90,20 +90,23 @@ Inherited from body.ui-mobile-viewport.ui-overlay-c body {
 }
 
 .info_btn_main {
-    height: 27px;
-width: 34px;
+height: 27px;
+width: 30px;
 float: right;
 position: relative;
 top: 1px;
-margin-left: 3px;
+margin-left: 0px;
+right: 0;
+background-position: 17%;
 }
 
 .Gesture_btn_main {
-    height: 27px;
-width: 28px;
+height: 27px;
+width: 30px;
 float: right;
 position: relative;
 top: 1px;
+background-position: -5%;
 }
 
 .Gesture_btn_main.no_Gesture {
@@ -159,7 +162,7 @@ left: 96px;*/
 
 .btn_main_1, .btn_main_2 {
     border-radius: 3px;
-    background-position-x: 15%;
+    background-position-x: 17%;
 }
 
 .btn_main_1 {
@@ -200,7 +203,7 @@ left: 81%;
     display: block;
     background-position: 50% 30%;
     color: #fff;
-    margin-left: 13%;
+    margin-left: 16%;
     margin-top: 8%;
     font-size: 1.1em;
 }
@@ -229,6 +232,7 @@ left: 81%;
 
 .title_pic_white {
     font-size: 2.2em;
+    left:10px;
 }
 
 
@@ -1430,7 +1434,7 @@ ire_icon_recipes {
     border-radius: 6px;
     top: 1.2em;
     background-size: auto 70%;
-    background-position: 11% 50%;
+    background-position: 13% 50%;
     background-color: #cc0000;
     background-repeat: no-repeat;
     border-radius: 5px;

@@ -431,7 +431,7 @@ top:0;
     background-size: auto 50%;
     background-position-y: 50%;
     position: absolute;
-    background-position-x: 13%;
+    background-position-x: 18%;
     background-color: #cc0000;
     border-radius: 8px;
     height: 100%;
@@ -448,7 +448,7 @@ top:0;
     display: block;
     background-position: 50% 30%;
     color: #fff;
-    margin-left: 20%;
+    margin-left: 19%;
     margin-top: 6%;
 }
 
@@ -719,7 +719,7 @@ left: 75%;
     line-height: 45px;
     text-indent: 50px;
     top: -20px;
-    background-position: 9% 50%;
+    background-position: 13% 50%;
 }
 
 .foodgrator_btn_left{
