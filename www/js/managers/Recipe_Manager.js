@@ -409,7 +409,9 @@ function RecipeMan () {
                 window = $(".recipes_middel_window_what_u_need");
             }
             else {
-                window = $(".one_recipe_page_what_to_do");
+                //window = $(".one_recipe_page_what_to_do");
+                window = $(".recipes_middel_window");
+                
             }
             var height = window.height() * 2 / 3;
             var pos = window.get(0).scrollTop;
