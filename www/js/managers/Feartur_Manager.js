@@ -184,31 +184,6 @@ function FeatureMan () {
         $(recipeObj).data("swipe", true);
     }
 
-    this.gestureMove = function(side) {
-        if(side == "left") {
-            
-            if(this.slider.getPos()<numOfFeaters-1){
-                this.slider.next();
-            }
-            //alert(this.slider.getPos());
-        }
-        else  if(side=="right"){
-            if(this.slider.getPos()>0){
-                this.slider.prev();
-   
-            }
-            //alert(this.slider.getPos());
-        }
-        else if(side=="select"){
-            //alert(this.slider.getPos());
-            //alert($(".midddel_main_pic_item").eq(this.slider.getPos()).attr("id"));
-            this.goto_one_recipe($(".midddel_main_pic_item").eq(this.slider.getPos()).get(0));
-            //();
-        }
-        
-    }
-
     
-
      
 }

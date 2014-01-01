@@ -376,29 +376,7 @@ favorite_Manager = function() {
         $(".cover_delete").hide();
     }
 
-    this.gestureMove = function(side) {
-        var window = $(".recipes_middel_window_favorite");
-        var height = $("#recipes_list_favorite li").height() + $("#recipes_list_favorite li").css("margin-bottom").substring(0, 2) / 2;
-        var pos = window.get(0).scrollTop;
-        var numRes = Math.round(pos / height);
-
-        //scroll up
-        if(side == "down") {
-            window.stop().animate({ scrollTop: (pos - height) }, 1500, function() { favoriteMan_.setHover(); });
-
-        }
-        //scroll down
-        else if(side == "up") {
-            window.stop().animate({ scrollTop: (pos + height) }, 1500, function() { favoriteMan_.setHover(); });
-
-        } else if(side == "select") {
-            //alert($("#recipes_list li").eq(numRes).attr("id"));
-            recipeMan_.showRecipePage($("#recipes_list_favorite li").eq(numRes));
-        }
-
-
-    }
-    this.setHover = function() {
+        this.setHover = function() {
         var window = $(".recipes_middel_window_favorite");
         var height = $("#recipes_list_favorite li").height() + $("#recipes_list_favorite li").css("margin-bottom").substring(0, 2) / 2;
         var pos = window.get(0).scrollTop;

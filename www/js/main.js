@@ -262,26 +262,7 @@ function getRecipeNumberById( id,type)
         $("#facebook_status").hide();
       }
 
-      function gesture(side){
-          //alert(side);
-          if($(".home_page").css("display")!="none"){
-              featureMan_.gestureMove(side);
-          }
-          else if($(".one_recipe_page").css("display")!="none"){
-              recipeMan_.gestureMove(side);
-          }
-          else if($(".categories_page").css("display")!="none"){
-              CategoriesRecipeListMan_.gestureMove(side);
-          }
-          else if($(".recipres_page").css("display")!="none"){
-              recipesListMan_.gestureMove(side);
-          }
-          else if($(".favorite_page").css("display")!="none"){
-              favoriteMan_.gestureMove(side);
-          }
-      }
-
-   //check internet
+        //check internet
    function updateInternetAccess() {
     if(navigator.onLine == false)
     {

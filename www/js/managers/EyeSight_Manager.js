@@ -1,5 +1,5 @@
 var eyesightMan = {
-    init: function() {
+    /*init: function() {
        // alert("ready");
         this.startEngine("echome", function(echoValue) {
                         // alert(echoValue == "echome");
@@ -19,7 +19,7 @@ var eyesightMan = {
     returnFunc: function(echoValue) 
     {    
         //alert(echoValue);
-        gesture(echoValue);
+        //gesture(echoValue);
     },
     
     changeDirection: function(dir){
@@ -27,5 +27,5 @@ var eyesightMan = {
                          eyesightMan.returnFunc(echoValue); // should alert true.
                          });
     
-    }
+    }*/
 };

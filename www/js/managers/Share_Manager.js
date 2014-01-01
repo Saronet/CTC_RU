@@ -107,10 +107,11 @@ function shareMan() {
      // showLoading();
       jQuery.ajax({
           type: 'POST',
-          url: 'http://appetite.theboxsite.com/wp-content/uploads/save.php',
+         // url: 'http://appetite.theboxsite.com/wp-content/uploads/save.php',
+         url: 'http://recipes.domashniy.ru/wp-content/uploads/save.php',
           data: { 'data': 'data:image/jpeg;base64,' + imageData },
           complete: function(data) { //do what ever needed
-              $('.share_img').attr("src", "http://appetite.theboxsite.com/wp-content/uploads/" + data.responseText);
+              $('.share_img').attr("src", "http://recipes.domashniy.ru/wp-content/uploads/" + data.responseText);
               if($('.share_img').height() < $('.share_img').width()) {
                   $('.share_img').css("width", "99%");
               }

@@ -51,13 +51,11 @@ var init = {
         mainMan_ = new MainMan();
         mainMan_.initFeatures();
         mainMan_.initSearch();
-        mainMan_.initGesture();
         searchMan_ = new searchMan();
         searchMan_.setHeightMainSearch();
         searchMan_.attachEvents();
-        gestureMan_ = new gestureMan();
-        //gestureMan_.initGesture();
-
+       // gestureMan_ = new gestureMan();
+       
         //init recipesList manager
         recipesListMan_ = new RecipeListMan();
 

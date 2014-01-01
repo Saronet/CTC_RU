@@ -8,12 +8,7 @@ function searchMan() {
     this.showWordsBox = function() {
         $("#search_text_box").val("");
         $('.search_text_background').show();
-        if(isIpad()) {
-            $('.Gesture_btn').css({ "background-position": "-59px 50%" });
-        }
-        else {
-            $('.Gesture_btn').css({ "background-position": "-59px 50%" }); //iphone
-        }
+        
 
 
         $('.search_text').show();

@@ -382,6 +382,8 @@ a {
     top: 0;
     bottom: 0;
     margin: auto 0;
+    
+    display:none !important;
 }
 
 .Gesture_btn_main {
@@ -398,6 +400,8 @@ z-index: 4;
 top: -19px;
 margin: auto 0;
 float: right;
+
+display:none !important;
 }
 
 .search_text_background {

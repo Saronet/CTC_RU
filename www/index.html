@@ -41,7 +41,7 @@
         <script type="text/javascript" src="js/managers/Timer_Manager.js"></script>
         <script type="text/javascript" src="js/managers/Terms_Manager.js"></script>
         <script type="text/javascript" src="js/managers/Share_Manager.js"></script>
-        <script type="text/javascript" src="js/managers/Gesture_Manager.js"></script>
+        <!--<script type="text/javascript" src="js/managers/Gesture_Manager.js"></script>-->
         <script type="text/javascript" src="js/managers/TermSingle_Manager.js"></script>
         <script type="text/javascript" src="js/managers/FB_Manager.js"></script>
         <script type="text/javascript" src="js/managers/EyeSight_Manager.js"></script>
@@ -116,7 +116,7 @@
                             <div id="backFromSearch" class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:none"></div><!--onclick="gotoMain()" -->
                             <span class="title_up_one_recipe"><span class="text_bold">CTC.</span>Рецепты</span>
                             <div class="info_btn_main" onclick="NavigationMan_.navigate('','about')"></div>
-                            <div class="Gesture_btn_main" onclick="gestureMan_.showPage()"></div>
+                            
 
                         </div>
                         <div class="search_text_background">
@@ -167,7 +167,7 @@
                             <div class="search_btn" onclick="open_search()"></div>
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('categories')" style="display:block"></div>
                             <span class="title_up_recipes">Рецепты</span>
-                            <div class="Gesture_btn_main" onclick="gestureMan_.showPage()"></div>
+                            
                         </div>
                         <div class="search_text_background">
                             <input id="search_text_searchpage" type="text" class="search_text" />
@@ -242,7 +242,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('recipesList')"></div><!--goback_recipes_page()-->
                             <span class="title_up_one_recipe">Рецепт<!--Appetite--></span>
-                            <div class="Gesture_btn_main" onclick="gestureMan_.showPage()"></div>
+                            
                         </div>
                         <div class="second_nav_background">
                             <span class="second_nav_text" id="second_nav"><!--Spaghetti and MeatballsКатегория > рецепт--></span>
@@ -357,7 +357,7 @@
                             <div class="search_btn" style="display:none"></div>
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block"></div>
                             <span class="title_up_one_recipe">Избранное</span>
-                            <div class="Gesture_btn_main no_Gesture"></div>
+                            
                         </div>
                                                     <!-- <div class="search_text_background">
                                                                                                                                                                                                                                                                                      <img class="search_btn_icon" src="images/search_btn_icon.png" />
@@ -388,8 +388,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')"></div>
                             <span class="title_up_one_recipe">Инструменты</span>
-                            <div class="Gesture_btn_main no_Gesture"></div>
-                        </div>
+                         </div>
                         <div class="tools_middel">
                             <div id="tools_middel_element_clock" class="tools_middel_element"><!--SARA-->
                                 <div class="tools_clock" onclick="timerMan_.showPage()">
@@ -441,8 +440,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div><!--onclick="backto_toolspage()" -->
                             <span class="title_up_one_recipe">Таймер</span>
-                            <div class="Gesture_btn_main no_Gesture" ></div>
-                            <!-- <div class="info_btn"></div>-->
+                             <!-- <div class="info_btn"></div>-->
                         </div>
                         <div class="timer_list">
                             <div class="timer_list_background">
@@ -501,8 +499,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')"></div>
                             <span class="title_up_one_recipe">Рецептор</span>
-                            <div class="Gesture_btn_main no_Gesture" ></div>
-                        </div>
+                         </div>
                         <div class="second_nav_background_papers">
                             <span class="second_nav_text">Категория</span>
                         </div>
@@ -612,7 +609,6 @@
                             <div class="search_btn" style="display:none"></div>
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')" style="display:block"></div><!--onclick="mainMan_.gotoMain()"-->
                             <span class="title_up_main_categories">Рецепты<!--Category--></span>
-                            <div class="Gesture_btn_main" onclick="gestureMan_.showPage()"></div>
                         </div>
                         <div class="search_text_background">
                             <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" />
@@ -630,8 +626,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('')"></div> <!--onclick="backto_toolspage()"-->
                             <span class="title_up_one_recipe">Каталог терминов</span>
-                            <div class="Gesture_btn_main no_Gesture"></div>
-                        </div>
+                         </div>
                         <div class="background_term">
                             <div class="recipes_header_pic"></div>
                             <div class="middel_pic_term">
@@ -667,8 +662,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('terms')"></div><!--onclick="goback_terminology_page()"-->
                             <span class="title_up_one_recipe">Каталог терминов</span>
-                            <div class="Gesture_btn_main no_Gesture"></div>
-                        </div>
+                         </div>
                         <div class="second_nav_background_papers">
                             <span class="second_nav_text">term name</span>
                         </div>
@@ -698,7 +692,6 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')" ></div><!--onclick="backto_toolspage()"-->
                             <span class="title_up_one_recipe">Список покупок</span>
-                            <div class="Gesture_btn_main no_Gesture" ></div>
                         </div>
                         <div class="second_nav_background_papers">
                             <span class="second_nav_text">Категория</span>
@@ -757,27 +750,12 @@
 
                         </div>
                     </div>
-                    <div class="Gesture_page page">
-                        <div class="Up_banner_background">
-                            <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div>
-                            <span class="title_up_one_recipe">Gesture</span>
-                            <div class="Gesture_btn_main no_Gesture" ></div>
-                        </div>
-                        <div class="background_gesture" style="overflow-y: scroll">
-                            <div class="recipes_header_pic"></div>
-                            <div class="middel_pic_gesture">
-
-                            </div>
-                            <div class="recipes_footer_pic"></div>
-                        </div>
-
-                    </div>
+                    
                     <div class="share_page page">
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('tools')"></div>
                             <span class="title_up_one_recipe">Поделиться блюдом</span>
-                            <div class="Gesture_btn_main no_Gesture" ></div>
-                        </div>
+                          </div>
                         <div class="second_nav_background_papers">
                             <span class="second_nav_text">Что у Вас на столе?</span>
                         </div>
@@ -833,8 +811,7 @@
                         <div class="Up_banner_background">
                             <div class="one_recipe_back_btn" ontouchend="NavigationMan_.goBack('main')"></div>
                             <span class="title_up_one_recipe">Домашний</span>
-                            <div class="Gesture_btn_main no_Gesture"></div>
-                        </div>
+                         </div>
                         <div class="about_all_text">
                             <div class="about_text_position">
                                 <img src="images/icon.png" class="about_icon" />
@@ -870,7 +847,6 @@
                             <div class="search_btn" style="display:none"></div>
                             <div class="one_recipe_back_btn"  ontouchend="NavigationMan_.goBack('tools')" style="display:block"></div>
                             <span class="title_up_one_recipe">Избранное</span>
-                            <div class="Gesture_btn_main no_Gesture"></div>
                         </div>
                         <div class="search_text_background">
                             <img class="search_btn_icon" src="images_ipad/search_btn_icon.png" />

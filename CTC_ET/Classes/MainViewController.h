@@ -29,12 +29,12 @@
 #import <Cordova/CDVCommandDelegateImpl.h>
 #import <Cordova/CDVCommandQueue.h>
 
-#import <IOS5_SDK.h>
-#import <EyeSightDelegate.h>
+//#import <IOS5_SDK.h>
+//#import <EyeSightDelegate.h>
 
-@interface MainViewController : CDVViewController<EyeSightDelegate>
+@interface MainViewController : CDVViewController
 {
-    ProducType m_sProducType;
+   // ProducType m_sProducType;
 }
 @end
 

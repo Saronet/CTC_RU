@@ -42,14 +42,11 @@
 		5977DB2516C8F59C00BEAC42 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977DB2416C8F59C00BEAC42 /* libstdc++.dylib */; };
 		5977DB2716C8F63E00BEAC42 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977DB2616C8F63E00BEAC42 /* CoreVideo.framework */; };
 		5977DB2916C8F77E00BEAC42 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977DB2816C8F77E00BEAC42 /* CoreFoundation.framework */; };
-		5977DB3A16C9113F00BEAC42 /* libIOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5977DB3916C9113F00BEAC42 /* libIOS_SDK.a */; };
 		AAB1308616CCE306007241DB /* applicationPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1307516CCE306007241DB /* applicationPreferences.m */; };
 		AAB1308716CCE306007241DB /* ChildBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAB1307616CCE306007241DB /* ChildBrowser.bundle */; };
 		AAB1308816CCE306007241DB /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1307816CCE306007241DB /* ChildBrowserCommand.m */; };
 		AAB1308916CCE306007241DB /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1307A16CCE306007241DB /* ChildBrowserViewController.m */; };
 		AAB1308A16CCE306007241DB /* ChildBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB1307B16CCE306007241DB /* ChildBrowserViewController.xib */; };
-		AAB1308B16CCE306007241DB /* EyeSight.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1307D16CCE306007241DB /* EyeSight.m */; };
-		AAB1308C16CCE306007241DB /* EyeSightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1308016CCE306007241DB /* EyeSightViewController.m */; };
 		AAB1308D16CCE306007241DB /* LocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1308316CCE306007241DB /* LocalNotification.m */; };
 		AAB1308E16CCE306007241DB /* README in Resources */ = {isa = PBXBuildFile; fileRef = AAB1308416CCE306007241DB /* README */; };
 		AAB1308F16CCE306007241DB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB1308516CCE306007241DB /* ViewController.xib */; };
@@ -63,7 +60,6 @@
 		C2AF919B181DD0C400FDB29B /* libAppoxee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AF9194181DD0C300FDB29B /* libAppoxee.a */; };
 		C2AF919C181DD0C400FDB29B /* AppoxeeSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C2AF9199181DD0C400FDB29B /* AppoxeeSound.wav */; };
 		C2AF919E181DD1DB00FDB29B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AF919D181DD1DB00FDB29B /* libxml2.dylib */; };
-		C2AF91A3181DD7B800FDB29B /* libIOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AF91A2181DD7B800FDB29B /* libIOS_SDK.a */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
 
@@ -124,7 +120,6 @@
 		5977DB2416C8F59C00BEAC42 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		5977DB2616C8F63E00BEAC42 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		5977DB2816C8F77E00BEAC42 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		5977DB3916C9113F00BEAC42 /* libIOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIOS_SDK.a; path = IOS_SDK/libIOS_SDK.a; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CTC_ET-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CTC_ET-Info.plist"; path = "../CTC_ET-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		AAB1307416CCE306007241DB /* applicationPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = applicationPreferences.h; sourceTree = "<group>"; };
 		AAB1307516CCE306007241DB /* applicationPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = applicationPreferences.m; sourceTree = "<group>"; };
@@ -134,12 +129,6 @@
 		AAB1307916CCE306007241DB /* ChildBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserViewController.h; sourceTree = "<group>"; };
 		AAB1307A16CCE306007241DB /* ChildBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserViewController.m; sourceTree = "<group>"; };
 		AAB1307B16CCE306007241DB /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildBrowserViewController.xib; sourceTree = "<group>"; };
-		AAB1307C16CCE306007241DB /* EyeSight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeSight.h; sourceTree = "<group>"; };
-		AAB1307D16CCE306007241DB /* EyeSight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyeSight.m; sourceTree = "<group>"; };
-		AAB1307E16CCE306007241DB /* EyeSightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeSightDelegate.h; sourceTree = "<group>"; };
-		AAB1307F16CCE306007241DB /* EyeSightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeSightViewController.h; sourceTree = "<group>"; };
-		AAB1308016CCE306007241DB /* EyeSightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyeSightViewController.m; sourceTree = "<group>"; };
-		AAB1308116CCE306007241DB /* IOS5_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS5_SDK.h; sourceTree = "<group>"; };
 		AAB1308216CCE306007241DB /* LocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotification.h; sourceTree = "<group>"; };
 		AAB1308316CCE306007241DB /* LocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotification.m; sourceTree = "<group>"; };
 		AAB1308416CCE306007241DB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
@@ -160,9 +149,6 @@
 		C2AF9198181DD0C400FDB29B /* AppoxeeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppoxeeMessage.h; sourceTree = "<group>"; };
 		C2AF9199181DD0C400FDB29B /* AppoxeeSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AppoxeeSound.wav; sourceTree = "<group>"; };
 		C2AF919D181DD1DB00FDB29B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		C2AF91A0181DD7B800FDB29B /* EyeSightDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeSightDelegate.h; sourceTree = "<group>"; };
-		C2AF91A1181DD7B800FDB29B /* IOS5_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS5_SDK.h; sourceTree = "<group>"; };
-		C2AF91A2181DD7B800FDB29B /* libIOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIOS_SDK.a; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CTC_ET/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,12 +173,10 @@
 				C2AF919B181DD0C400FDB29B /* libAppoxee.a in Frameworks */,
 				301BF5BF109A6A2B0062928A /* CoreLocation.framework in Frameworks */,
 				301BF5C1109A6A2B0062928A /* MediaPlayer.framework in Frameworks */,
-				C2AF91A3181DD7B800FDB29B /* libIOS_SDK.a in Frameworks */,
 				301BF5C3109A6A2B0062928A /* QuartzCore.framework in Frameworks */,
 				301BF5C5109A6A2B0062928A /* SystemConfiguration.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */,
-				5977DB3A16C9113F00BEAC42 /* libIOS_SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,10 +223,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C2AF919F181DD7B800FDB29B /* IOS_SDK */,
 				C2AF918F180D993A00FDB29B /* Default-568h@2x.png */,
 				C2AF9184180D957100FDB29B /* icon_120.png */,
-				5977DB3916C9113F00BEAC42 /* libIOS_SDK.a */,
 				5977DB2816C8F77E00BEAC42 /* CoreFoundation.framework */,
 				5977DB2616C8F63E00BEAC42 /* CoreVideo.framework */,
 				5977DB2416C8F59C00BEAC42 /* libstdc++.dylib */,
@@ -334,12 +316,6 @@
 				AAB1307916CCE306007241DB /* ChildBrowserViewController.h */,
 				AAB1307A16CCE306007241DB /* ChildBrowserViewController.m */,
 				AAB1307B16CCE306007241DB /* ChildBrowserViewController.xib */,
-				AAB1307C16CCE306007241DB /* EyeSight.h */,
-				AAB1307D16CCE306007241DB /* EyeSight.m */,
-				AAB1307E16CCE306007241DB /* EyeSightDelegate.h */,
-				AAB1307F16CCE306007241DB /* EyeSightViewController.h */,
-				AAB1308016CCE306007241DB /* EyeSightViewController.m */,
-				AAB1308116CCE306007241DB /* IOS5_SDK.h */,
 				AAB1308216CCE306007241DB /* LocalNotification.h */,
 				AAB1308316CCE306007241DB /* LocalNotification.m */,
 				AAB1308416CCE306007241DB /* README */,
@@ -389,16 +365,6 @@
 				30A0434614DC770100060A13 /* Localizable.strings */,
 			);
 			path = se.lproj;
-			sourceTree = "<group>";
-		};
-		C2AF919F181DD7B800FDB29B /* IOS_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				C2AF91A0181DD7B800FDB29B /* EyeSightDelegate.h */,
-				C2AF91A1181DD7B800FDB29B /* IOS5_SDK.h */,
-				C2AF91A2181DD7B800FDB29B /* libIOS_SDK.a */,
-			);
-			path = IOS_SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -540,8 +506,6 @@
 				AAB1308616CCE306007241DB /* applicationPreferences.m in Sources */,
 				AAB1308816CCE306007241DB /* ChildBrowserCommand.m in Sources */,
 				AAB1308916CCE306007241DB /* ChildBrowserViewController.m in Sources */,
-				AAB1308B16CCE306007241DB /* EyeSight.m in Sources */,
-				AAB1308C16CCE306007241DB /* EyeSightViewController.m in Sources */,
 				AAB1308D16CCE306007241DB /* LocalNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

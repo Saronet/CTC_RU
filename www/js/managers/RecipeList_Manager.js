@@ -277,29 +277,7 @@
         
     }
 
-    this.gestureMove=function(side){
-        var window = $(".recipes_middel_window_recipres_page");
-        var height = $("#recipes_list li").height();//window.height() * 2 / 3;
-        var pos = window.get(0).scrollTop;
-        var numRes=Math.round(pos/height);
-
-        
-        //scroll up
-        if(side == "down") {
-            window.stop().animate({scrollTop:(pos - height)},1500,function(){recipesListMan_.setHover();});
-            
-        }
-        //scroll down
-        else if(side=="up"){
-            window.stop().animate({scrollTop:(pos + height)},1500,function(){recipesListMan_.setHover();});
-            
-        }else if(side=="select"){
-                        recipeMan_.showRecipePage($("#recipes_list li").eq(numRes));
-        }
-        
-        
-    }
-      this.setHover=function(){
+          this.setHover=function(){
           var window = $(".recipes_middel_window_recipres_page");
           var height = $("#recipes_list li").height();//window.height() * 2 / 3;
           var pos = window.get(0).scrollTop;

@@ -105,7 +105,7 @@
 }
 
 .recipes_middel_pic_favorite {
-    height: 792px;
+   /* height: 792px;*/
 }
 /*=================================singel recipes==========================*/
 .recipes_middel_pic {
@@ -1162,6 +1162,10 @@ margin-bottom: 4px;
 }
 
 
+.home_page .search_text_background .search_btn_icon {
+    top: -15px;
+}
+
 .search_text_background .search_btn_icon {
-top: -16px;
+top: -39px;
 }

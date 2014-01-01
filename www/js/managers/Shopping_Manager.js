@@ -154,8 +154,7 @@ function shoppingMan() {
     }
 
     this.closeWindow = function() {
-        $('.Gesture_btn').css("background-position", "0 50%");
-        $(".addToShopping").remove();
+         $(".addToShopping").remove();
     }
 
     this.RemoveFocus = function() {

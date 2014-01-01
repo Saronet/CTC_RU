@@ -85,29 +85,7 @@
     }
 	
 
-    this.gestureMove = function(side) {
-        var window = $(".all_categories");
-        var height = $("#allCategoriesList li").height()+parseInt($("#allCategoriesList li").css("margin-bottom").split("p")[0]);
-        var pos = window.get(0).scrollTop;
-        var numCat=Math.round(pos/height);
-                
-        //scroll up
-        if(side == "down") {
-            window.stop().animate({scrollTop:(pos - height)},1500,function(){CategoriesRecipeListMan_.setHover();});
-            
-        }
-        //scroll down
-        else if(side=="up"){
-            window.stop().animate({scrollTop:(pos + height)},1500,function(){CategoriesRecipeListMan_.setHover();});
-            
-        }else if(side=="select"){
-
-            recipesListMan_.createList($(".cat_pic").eq(numCat),categoriesArray[numCat].attr("slug"));
-        }
-            
-                
-    }
-     
+   
      this.setHover=function(){
          var window = $(".all_categories");
          var height = $("#allCategoriesList li").height();

@@ -10,11 +10,7 @@ var app = {
                                                   }, function(error) {
                                                   }
                                                   );
-        window.echo = function(str, callback) {
-            cordova.exec(callback, function(err) {
-                         callback('Nothing to echo.');
-                         }, "EyeSight", "eyeSight", [str]);
-        };
+       
         window.echo("echome", function(echoValue) {
                     alert(echoValue == "echome");});
         // note that this is an event handler so the scope is that of the event

@@ -28,7 +28,7 @@
 #import "MainViewController.h"
 
 @implementation MainViewController
-IOS5_SDK * eyeSightCore;
+//IOS5_SDK * eyeSightCore;
 - (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -187,90 +187,10 @@ IOS5_SDK * eyeSightCore;
     
     
 }
-/* Comment out the block below to over-ride */
 
-/*
 
-- (void) webViewDidStartLoad:(UIWebView*)theWebView
-{
-    return [super webViewDidStartLoad:theWebView];
-}
 
-- (void) webView:(UIWebView*)theWebView didFailLoadWithError:(NSError*)error
-{
-    return [super webView:theWebView didFailLoadWithError:error];
-}
 
-- (BOOL) webView:(UIWebView*)theWebView shouldStartLoadWithRequest:(NSURLRequest*)request navigationType:(UIWebViewNavigationType)navigationType
-{
-    return [super webView:theWebView shouldStartLoadWithRequest:request navigationType:navigationType];
-}
-*/
-
-/**
- Handle the gesture recognition output when using the eyeCan Single product
- @param eyeSightOut holds the gesture recognition output
- */
--(void)HandleEyeSightOutput:(struct EyeSightSDKOutput*)eyeSightOut
-{
-    
-    switch (eyeSightOut->nEyeCanData[0].sActionType) {
-        case RIGHT:
-            NSLog(@"RIGHT");
-            
-            break;
-        case LEFT:
-            NSLog(@"LEFT");
-            
-            break;
-        case UP:
-            NSLog(@"UP");
-            
-            break;
-        case DOWN:
-            
-            NSLog(@"DOWN");
-            break;
-        case WAVE_RIGHT_LEFT:
-        case WAVE_LEFT_RIGHT:
-            
-            NSLog(@"WAVE");
-            break;
-        case SELECT:
-            
-            NSLog(@"SELECT");
-            break;
-            
-        default:
-            break;
-    }
-
-    
-}
-/**
- Handle error messages arriving from the gesture recognition engine
- @param error  - the error message code
- */
--(void)HandleEyeSightError:(enum EyeSightError)error
-{
-}
-
-/**
- Handle status messages arriving from the gesture recognition engine
- @param status - status message code
- */
--(void)HandleEyeSightStatus:(enum EyeSightStatus)status
-
-{
-}
-
-@end
-
-@implementation MainCommandDelegate
-
-/* To override the methods, uncomment the line in the init function(s)
-   in MainViewController.m
- */
 
 #pragma mark CDVCommandDelegate implementation
 

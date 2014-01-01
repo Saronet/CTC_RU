@@ -18,14 +18,7 @@ function MainMan () {
         
 
     }
-    this.initGesture = function()
-    {
-        //set the gesture page divs
-        $(".gesture_list ul  li").hide();
-        $(".gesture_list #gestureRight").show();
-        $(".gesture_list #gestureLeft").show();
-        $(".gesture_list #gestureSelect").show();
-    }
+   
     this.gotoMain = function()
     {
 		hideLoading();

@@ -211,7 +211,6 @@ function FoodgrMan () {
 
                 $("#recipeGoToF" + id).bind('click', function() {
                     console.log("click");
-                    $('.Gesture_btn').css({ "background-position": "0px" });
                     //alert(json);
                     if(!$("#recipeGoToF" + id).data("move")) {
                         // goto_one_recipe(this);
